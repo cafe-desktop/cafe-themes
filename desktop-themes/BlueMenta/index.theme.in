@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=BlueMenta
+Comment=A clean light theme with blue elements
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=BlueMenta
+MetacityTheme=BlueMenta
+IconTheme=mate
+CursorTheme=mate-black
+

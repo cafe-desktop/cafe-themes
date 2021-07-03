@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=High Contrast Inverse
+Comment=White-on-black text and icons
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=HighContrastInverse
+IconTheme=ContrastHigh
+MetacityTheme=HighContrastInverse
+CursorTheme=mate
+CursorSize=24
