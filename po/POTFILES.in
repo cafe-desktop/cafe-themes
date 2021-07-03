@@ -1,7 +1,7 @@
 # List of source files containing translatable strings.
 # Please keep this file sorted alphabetically.
 cursor-themes/cafe-black/index.theme.in
-desktop-themes/BlackMATE/index.theme.in
+desktop-themes/BlackCAFE/index.theme.in
 desktop-themes/BlueMenta/index.theme.in
 desktop-themes/Blue-Submarine/index.theme.in
 desktop-themes/ContrastHigh/index.theme.in

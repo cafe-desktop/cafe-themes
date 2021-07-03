@@ -9,7 +9,7 @@
 
 # NOTE: Uncommenting means to delete the "#" at the beginning of a line. Commenting means to add a "#" at the beginning of a line. The "#" tells the theme wether to ignore the specified line or not.
 
-# These are the defined colors for the theme, you can change them in MATE's appearance preferences.
+# These are the defined colors for the theme, you can change them in CAFE's appearance preferences.
 gtk-color-scheme = "base_color:#FFF\nfg_color:#101010\ntooltip_fg_color:#000000\nselected_bg_color:#255880\nselected_fg_color:#FFF\ntext_color:#1A1A1A\nbg_color:#CBD5D9\ntooltip_bg_color:#DBF4FF\nlink_color:#008BCC\nmenu_color:#1F2427\nbg_color_dark:#1F2427\nfg_color_dark:#cccccc\ntext_color_dark:#E6E6E6\nsidebar_background:#D2DBDF"
 
 #gtk_color_scheme = "bg_color:#CBD5D9\nselected_bg_color:#255880\nbase_color:#FFF" # Background, base.

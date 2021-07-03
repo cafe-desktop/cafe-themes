@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR MATE Desktop Environment team
+# Copyright (C) YEAR CAFE Desktop Environment team
 # This file is distributed under the same license as the cafe-themes package.
 # 
 # Translators:
@@ -13,12 +13,12 @@
 # Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
 "POT-Creation-Date: 2019-11-20 18:49+0100\n"
 "PO-Revision-Date: 2019-11-20 11:58+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
-"Language-Team: Dutch (http://www.transifex.com/cafe/MATE/language/nl/)\n"
+"Language-Team: Dutch (http://www.transifex.com/cafe/CAFE/language/nl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -26,14 +26,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: cursor-themes/cafe-black/index.theme.in:3
-msgid "MATE (Black)"
-msgstr "MATE (Zwart)"
+msgid "CAFE (Black)"
+msgstr "CAFE (Zwart)"
 
-#: desktop-themes/BlackMATE/index.theme.in:4
-msgid "BlackMATE"
-msgstr "ZwartMATE"
+#: desktop-themes/BlackCAFE/index.theme.in:4
+msgid "BlackCAFE"
+msgstr "ZwartCAFE"
 
-#: desktop-themes/BlackMATE/index.theme.in:5
+#: desktop-themes/BlackCAFE/index.theme.in:5
 msgid "A clean dark theme"
 msgstr "Een strak donker thema"
 
