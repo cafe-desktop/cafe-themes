@@ -357,7 +357,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /****************
- * Mate-Panel *
+ * Cafe-Panel *
  ****************/
 
 /* first make all transparent */
@@ -475,7 +475,7 @@ PanelSeparator {
 }
 
 /* the grid left from wnckpager and wncktasklist */
-MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
+CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -gtk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
@@ -590,39 +590,39 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
     font-weight: normal;
 }
 
-#MatePanelPopupWindow {
+#CafePanelPopupWindow {
     border-radius: 4px 4px 4px 4px;
     border-style: none;
     border-width: 0px;
     background-color: rgba(0,0,0,0.5);
 }
 
-#MatePanelPopupWindow frame {
+#CafePanelPopupWindow frame {
     background-color: transparent;
     color: @menu_fg_dark_color;
 }
 
-#MatePanelPopupWindow frame > border {
+#CafePanelPopupWindow frame > border {
     border-radius: 4px 4px 4px 4px;
     border-style: solid;
     border-width: 1px;
     border-color: shade(@theme_selected_bg_color, 1.5);
 }
 
-#MatePanelPopupWindow frame label {
+#CafePanelPopupWindow frame label {
     text-shadow: 1px 1px alpha (#000000, 0.8);
     color: @menu_fg_dark_color;
 }
 
-#MatePanelPopupWindow frame image {
+#CafePanelPopupWindow frame image {
      -gtk-icon-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
-#MatePanelPopupWindow calendar.view {
+#CafePanelPopupWindow calendar.view {
     border-color: shade(@theme_selected_bg_color, 1.5);
 }
 
-#MatePanelPopupWindow calendar .header {
+#CafePanelPopupWindow calendar .header {
     background-color:transparent;
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
@@ -630,17 +630,17 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
                                      to   (alpha(shade(@theme_bg_dark_color, 0.95) ,0.8)));
 }
 
-#MatePanelPopupWindow calendar .header {  /* month/year label */
+#CafePanelPopupWindow calendar .header {  /* month/year label */
     color: @menu_fg_dark_color;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
-#MatePanelPopupWindow calendar.button {
+#CafePanelPopupWindow calendar.button {
     color: @menu_fg_dark_color;
     -gtk-icon-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
-#MatePanelPopupWindow calendar.button:hover {
+#CafePanelPopupWindow calendar.button:hover {
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@menu_bg_dark_color, 2.03), 0.6)),
@@ -648,14 +648,14 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
     color: shade (@theme_selected_bg_color, 1.5);
 }
 
-#MatePanelPopupWindow frame button {
+#CafePanelPopupWindow frame button {
     background-color:transparent;
     background-image: none;
     color: @menu_fg_dark_color;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
-#MatePanelPopupWindow frame button:hover {
+#CafePanelPopupWindow frame button:hover {
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@menu_bg_dark_color, 2.03), 0.6)),
@@ -663,17 +663,17 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
     color: shade (@theme_selected_bg_color, 2.0);
 }
 
-#MatePanelPopupWindow frame button:hover label {
+#CafePanelPopupWindow frame button:hover label {
     color: shade (@theme_selected_bg_color, 2.0);
 }
 
-#MatePanelPopupWindow frame expander {
+#CafePanelPopupWindow frame expander {
     color: @menu_fg_dark_color;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
 /* Weird, this sets the border color of the clockmap */
-#MatePanelPopupWindow > frame > box > box > box > widget {
+#CafePanelPopupWindow > frame > box > box > box > widget {
     color: shade(@theme_selected_bg_color, 1.5);
 }
 
@@ -1012,7 +1012,7 @@ na-tray-applet > widget > box {
 }
 
 /****************
- * Mate-terminal *
+ * Cafe-terminal *
  ****************/
 
 .cafe-terminal notebook {
@@ -1203,7 +1203,7 @@ vte-terminal {
 }
 
 /***********************
- * Mate-Control-Center *
+ * Cafe-Control-Center *
  ***********************/
 
 #MyControlCenter button.flat {

@@ -330,7 +330,7 @@
 }
 
 /****************
- * Mate-Panel *
+ * Cafe-Panel *
  ****************/
 
 /* first make all transparent */
@@ -415,7 +415,7 @@ PanelSeparator {
 }
 
 /* the grid left from na-tray and wncktasklist */
-MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
+CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -gtk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
@@ -532,11 +532,11 @@ PanelApplet.wnck-applet .wnck-pager:hover {
     font-weight: normal;
 }
 
-#MatePanelPopupWindow {
+#CafePanelPopupWindow {
 	border-radius: 3px;
 }
 
-#MatePanelPopupWindow frame border {
+#CafePanelPopupWindow frame border {
     border-radius: 3px;
     border-style: solid;
     border-width: 1px;
@@ -544,7 +544,7 @@ PanelApplet.wnck-applet .wnck-pager:hover {
 }
 
 /* Weird, this sets the border color of the clockmap */
-#MatePanelPopupWindow > frame > box > box > box > widget {
+#CafePanelPopupWindow > frame > box > box > box > widget {
     color: @borders;
 }
 
@@ -663,35 +663,35 @@ na-tray-applet widget box widget {
                                       shade (@theme_bg_color, 0.96));
 }
 
-#MatePanelPopupWindow:backdrop frame box label,
-#MatePanelPopupWindow:backdrop frame box calendar {
+#CafePanelPopupWindow:backdrop frame box label,
+#CafePanelPopupWindow:backdrop frame box calendar {
    color: @theme_fg_color;
 }
 
-#MatePanelPopupWindow:backdrop frame box calendar:indeterminate {
+#CafePanelPopupWindow:backdrop frame box calendar:indeterminate {
     color: alpha(@theme_fg_color, 0.4);
 }
 
-#MatePanelPopupWindow:backdrop frame box calendar.highlight,
-#MatePanelPopupWindow:backdrop frame box calendar:selected {
+#CafePanelPopupWindow:backdrop frame box calendar.highlight,
+#CafePanelPopupWindow:backdrop frame box calendar:selected {
 	background-color: @theme_selected_bg_color;
 	color: @theme_selected_fg_color;
 }
 
-#MatePanelPopupWindow:backdrop frame box button {
+#CafePanelPopupWindow:backdrop frame box button {
 	background-image: linear-gradient(to bottom, 
 		@button_gradient_color_a,
 		@button_gradient_color_b);
 }
 
-#MatePanelPopupWindow:backdrop frame box button:hover,
-#MatePanelPopupWindow:backdrop frame box calendar.button:hover {
+#CafePanelPopupWindow:backdrop frame box button:hover,
+#CafePanelPopupWindow:backdrop frame box calendar.button:hover {
 	background-image: linear-gradient(to bottom,
 		@button_hover_gradient_color_a,
 		@button_hover_gradient_color_b);
 }
 
-#MatePanelPopupWindow:backdrop frame box button:hover:active {
+#CafePanelPopupWindow:backdrop frame box button:hover:active {
 	background-image: linear-gradient(to bottom,
 		shade (@button_active_gradient_color_a, 1.05),
 		shade (@button_active_gradient_color_b, 1.05));

@@ -27,7 +27,7 @@ msgstr ""
 
 #: cursor-themes/cafe-black/index.theme.in:3
 msgid "CAFE (Black)"
-msgstr "Mate (Preto)"
+msgstr "Cafe (Preto)"
 
 #: desktop-themes/BlackCAFE/index.theme.in:4
 msgid "BlackCAFE"

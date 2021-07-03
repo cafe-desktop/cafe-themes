@@ -153,7 +153,7 @@ widget_class "*Applet*Netstatus*"	style "theme-panel"
 widget "*WnckPager*"	    	    style "workspace-switcher"
 
 # syncronize panel menus
-widget_class "*MatePanelAppletFrameDBus*" style "applet"
+widget_class "*CafePanelAppletFrameDBus*" style "applet"
 widget "*PanelApplet*"				style "applet"
 
 # Fixes for tooltip text in some apps.

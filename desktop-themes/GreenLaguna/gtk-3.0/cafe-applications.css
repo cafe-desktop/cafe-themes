@@ -167,7 +167,7 @@
 }
 
 /****************
- * Mate-Panel *
+ * Cafe-Panel *
  ****************/
 
 /* first make all transparent */
@@ -268,12 +268,12 @@ PanelToplevel > grid > button:hover:active {
                                       shade(@button_gradient_color_b, 0.4));
 }
 
-MatePanelApplet {
+CafePanelApplet {
     border-width: 0;
 }
 
 /* the grid left from wnckpager and wncktasklist */
-MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
+CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -gtk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
@@ -429,7 +429,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 /* calendar window */
-#MatePanelPopupWindow {
+#CafePanelPopupWindow {
 	border-radius: 3px;
 }
 
@@ -501,7 +501,7 @@ na-tray-applet > widget > box {
 }
 
 /****************
- * Mate-Terminal *
+ * Cafe-Terminal *
  ****************/
 
 /* override for pavu-control */
@@ -581,7 +581,7 @@ EggToolbarEditor.vertical scrolledwindow {
 
 
 /********************
- * Mate Font Viewer *
+ * Cafe Font Viewer *
  ********************/
 
 .font-viewer notebook.frame {
