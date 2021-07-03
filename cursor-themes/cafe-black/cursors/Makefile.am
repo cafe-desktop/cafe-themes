@@ -1,4 +1,4 @@
-cursordir = $(datadir)/icons/mate-black/cursors
+cursordir = $(datadir)/icons/cafe-black/cursors
 
 cursor_DATA = \
 	00008160000006810000408080010102 \

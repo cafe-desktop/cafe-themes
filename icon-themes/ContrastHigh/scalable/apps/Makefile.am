@@ -12,8 +12,8 @@ icon_DATA= \
 	accessories-text-editor.svg \
 	atril.svg \
 	help-browser.svg \
-	mate-desktop.svg \
-	mate-invest-applet.svg \
+	cafe-desktop.svg \
+	cafe-invest-applet.svg \
 	meld.svg \
 	preferences-desktop-accessibility.svg \
 	preferences-desktop-font.svg \

@@ -1,4 +1,4 @@
-THEME_NAME=mate-black
+THEME_NAME=cafe-black
 THEME_IN_FILES=index.theme.in
 
 themedir = $(datadir)/icons/$(THEME_NAME)

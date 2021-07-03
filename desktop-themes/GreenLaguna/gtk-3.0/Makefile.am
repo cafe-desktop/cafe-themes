@@ -8,7 +8,7 @@ theme_DATA = \
 	gtk-main.css \
 	gtk-widgets.css \
 	gtk-widgets-assets.css \
-	mate-applications.css \
+	cafe-applications.css \
 	other-applications.css \
 	settings.ini \
 	unity.css \

@@ -7,8 +7,8 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=BlackMATE
 MetacityTheme=BlackMATE
-IconTheme=mate
-CursorTheme=mate
+IconTheme=cafe
+CursorTheme=cafe
 CursorSize=24
 NotificationTheme=coco
 

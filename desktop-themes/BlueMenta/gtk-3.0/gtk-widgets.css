@@ -2,7 +2,7 @@
 	padding: 0;
 	background-clip: padding-box;
 	-GtkDialog-button-spacing: 4;
-	-GtkDialog-action-area-border: 10; /* buttons mate-appearance-properties */
+	-GtkDialog-action-area-border: 10; /* buttons cafe-appearance-properties */
 	-GtkScrolledWindow-scrollbar-spacing: 0;
 	-GtkTextView-error-underline-color: @error_color;
 	-GtkToolButton-icon-spacing: 4;
@@ -129,7 +129,7 @@ tooltip,
 tooltip.background,
 .tooltip.background {
 /* FIXME, use a hardcoded color value for current eclipse version
-   see https://github.com/mate-desktop/mate-themes/issues/165
+   see https://github.com/cafe-desktop/cafe-themes/issues/165
 	background-color: @theme_tooltip_bg_color;*/
 	background-color: #F5F5B5;
     background-clip: padding-box;

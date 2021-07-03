@@ -361,9 +361,9 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
  ****************/
 
 /* first make all transparent */
-.mate-panel-menu-bar,
-.mate-panel-menu-bar menubar,
-.mate-panel-menu-bar menuitem,
+.cafe-panel-menu-bar,
+.cafe-panel-menu-bar menubar,
+.cafe-panel-menu-bar menuitem,
 #PanelPlug,
 #PanelApplet button,
 PanelToplevel.background {
@@ -377,7 +377,7 @@ PanelToplevel.background {
 /* let's started */
 /* the panel bar itself */
 #PanelPlug,
-.mate-panel-menu-bar,
+.cafe-panel-menu-bar,
 PanelToplevel.background {
     background-color: @theme_bg_dark_color;
     background-image: none;
@@ -484,33 +484,33 @@ MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
 
 /* this makes text readable with all kind of wallpapers if using a transparent panel */
 #PanelApplet label,
-.mate-panel-menu-bar menubar > menuitem {
+.cafe-panel-menu-bar menubar > menuitem {
     color: @menu_fg_dark_color;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
 /* outlines */
 window.background, /* selector where outlines are writen on GtkTrayIcon */
-.mate-panel-menu-bar menubar,
-.mate-panel-menu-bar button,
-.mate-panel-menu-bar PanelApplet {
+.cafe-panel-menu-bar menubar,
+.cafe-panel-menu-bar button,
+.cafe-panel-menu-bar PanelApplet {
     outline-style: solid;
     outline-offset: -2px;
     outline-color: shade (@theme_selected_bg_color, 1.6);
 }
 
 /* menubar */
-.mate-panel-menu-bar menu > menuitem,
-.mate-panel-menu-bar menubar > menuitem {
+.cafe-panel-menu-bar menu > menuitem,
+.cafe-panel-menu-bar menubar > menuitem {
     padding: 4px;
 }
 
-.mate-panel-menu-bar menubar > menuitem:hover {
+.cafe-panel-menu-bar menubar > menuitem:hover {
     color: shade (@theme_selected_bg_color, 1.6);
 }
 
 /* checkboxes in applet popup menu */
-.mate-panel-menu-bar menu > menuitem > box > menuitem {
+.cafe-panel-menu-bar menu > menuitem > box > menuitem {
     padding: 0px 0px 0px 4px;
 }
 
@@ -746,12 +746,12 @@ na-tray-applet > widget > box {
 }
 
 /* volume applet */
-.mate-panel-applet-slider,
-.mate-panel-applet-slider.background {
+.cafe-panel-applet-slider,
+.cafe-panel-applet-slider.background {
     background: transparent;
 }
 
-.mate-panel-applet-slider frame {
+.cafe-panel-applet-slider frame {
     background-color: rgba(0,0,0,0.5);
     padding: 1px;
     margin: 0px;
@@ -762,18 +762,18 @@ na-tray-applet > widget > box {
                 inset  0px -1px shade (@theme_selected_bg_color, 1.3);
 }
 
-.mate-panel-applet-slider frame border {
+.cafe-panel-applet-slider frame border {
     border-image: none;
     border-style: none;
 }
 
-.mate-panel-applet-slider frame frame {
+.cafe-panel-applet-slider frame frame {
     background-color:transparent;
     box-shadow: none;
 }
 
 /* brightness applet */
-.mate-panel-applet-slider frame button {
+.cafe-panel-applet-slider frame button {
     padding: 4px 0px;
     background-image: none;
     background-color: transparent;
@@ -783,11 +783,11 @@ na-tray-applet > widget > box {
     margin: 0px;
 }
 
-.mate-panel-applet-slider frame button:disabled {
+.cafe-panel-applet-slider frame button:disabled {
     box-shadow: none;
 }
 
-.mate-panel-applet-slider frame button:hover {
+.cafe-panel-applet-slider frame button:hover {
     padding: 4px 0px;
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
@@ -796,15 +796,15 @@ na-tray-applet > widget > box {
 }
 
 /* xrandr applet */
-.mate-panel-menu-bar menuitem.xrandr-applet:disabled > box > label {
+.cafe-panel-menu-bar menuitem.xrandr-applet:disabled > box > label {
 	background-color: transparent;
     color: @menu_fg_dark_color;
     border-color: transparent;
 }
 
-/* mate-menu, mintmenu */
+/* cafe-menu, mintmenu */
 #mintmenu.background,
-#mate-menu.background {
+#cafe-menu.background {
     background-color: @menu_bg_dark_color;
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
@@ -818,8 +818,8 @@ na-tray-applet > widget > box {
 
 #mintmenu.background viewport,
 #mintmenu.background > widget > box > widget > box,
-#mate-menu.background viewport,
-#mate-menu.background > widget > box > widget > box {
+#cafe-menu.background viewport,
+#cafe-menu.background > widget > box > widget > box {
     background-color: @menu_bg_dark_color;
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
@@ -829,8 +829,8 @@ na-tray-applet > widget > box {
 
 #mintmenu.background viewport,
 #mintmenu.background notebook,
-#mate-menu.background viewport,
-#mate-menu.background notebook  {
+#cafe-menu.background viewport,
+#cafe-menu.background notebook  {
     color: @menu_fg_dark_color;
     border-radius: 0px;
     border-width: 0px;
@@ -838,7 +838,7 @@ na-tray-applet > widget > box {
 }
 
 #mintmenu.background scrolledwindow,
-#mate-menu.background scrolledwindow {
+#cafe-menu.background scrolledwindow {
     border-color: shade(@menu_fg_dark_color, 0.3);
     border-width: 1px;
     border-style: solid;
@@ -846,14 +846,14 @@ na-tray-applet > widget > box {
 }
 
 #mintmenu.background label,
-#mate-menu.background label {
+#cafe-menu.background label {
     color: @menu_fg_dark_color;
 }
 
 #mintmenu.background button,
 #mintmenu.background button.flat,
-#mate-menu.background button,
-#mate-menu.background button.flat {
+#cafe-menu.background button,
+#cafe-menu.background button.flat {
     color: @menu_fg_dark_color;
     background-color: transparent;
     background-image: none;
@@ -865,20 +865,20 @@ na-tray-applet > widget > box {
 #mintmenu.background viewport button:not(.flat),
 #mintmenu.background button:hover,
 #mintmenu.background button.flat:hover,
-#mate-menu.background viewport button:not(.flat) label,
-#mate-menu.background button:hover label,
-#mate-menu.background viewport button:not(.flat),
-#mate-menu.background button:hover,
-#mate-menu.background button.flat:hover {
+#cafe-menu.background viewport button:not(.flat) label,
+#cafe-menu.background button:hover label,
+#cafe-menu.background viewport button:not(.flat),
+#cafe-menu.background button:hover,
+#cafe-menu.background button.flat:hover {
     color: shade (@theme_selected_bg_color, 2.0);
 }
 
 #mintmenu.background viewport button:not(.flat),
 #mintmenu.background button:hover,
 #mintmenu.background button.flat:hover,
-#mate-menu.background viewport button:not(.flat),
-#mate-menu.background button:hover,
-#mate-menu.background button.flat:hover {
+#cafe-menu.background viewport button:not(.flat),
+#cafe-menu.background button:hover,
+#cafe-menu.background button.flat:hover {
     background-image: -gtk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@menu_bg_dark_color, 2.03), 0.6)),
@@ -891,13 +891,13 @@ na-tray-applet > widget > box {
 
 #mintmenu.background button,
 #mintmenu.background button.flat,
-#mate-menu.background button,
-#mate-menu.background button.flat {
+#cafe-menu.background button,
+#cafe-menu.background button.flat {
     padding: 4px;
 }
 
 #mintmenu.background separator,
-#mate-menu.background separator {
+#cafe-menu.background separator {
     border-width: 1px 0px 0px 0px;
     min-height: 1px;
     background-color: shade(@menu_fg_dark_color, 0.3);
@@ -910,19 +910,19 @@ na-tray-applet > widget > box {
 }
 
 #mintmenu.background scrollbar,
-#mate-menu.background scrollbar {
+#cafe-menu.background scrollbar {
     background-image: none;
     border-style: solid;
     border-color: shade(@menu_fg_dark_color, 0.3);
 }
 
 #mintmenu.background scrollbar.vertical trough,
-#mate-menu.background scrollbar.vertical trough {
+#cafe-menu.background scrollbar.vertical trough {
     background-image: none;
 }
 
 #mintmenu.background scrollbar.vertical slider,
-#mate-menu.background scrollbar.vertical slider {
+#cafe-menu.background scrollbar.vertical slider {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@menu_bg_dark_color, 1.75)),
                                      to (shade (@menu_bg_dark_color, 1.3)));
@@ -931,8 +931,8 @@ na-tray-applet > widget > box {
 
 #mintmenu.background scrollbar.vertical slider:hover,
 #mintmenu.background scrollbar.vertical slider:hover:active,
-#mate-menu.background scrollbar.vertical slider:hover,
-#mate-menu.background scrollbar.vertical slider:hover:active {
+#cafe-menu.background scrollbar.vertical slider:hover,
+#cafe-menu.background scrollbar.vertical slider:hover:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@menu_bg_dark_color, 1.3)),
                                      to (shade (@menu_bg_dark_color, 1.75)));
@@ -941,8 +941,8 @@ na-tray-applet > widget > box {
 
 #mintmenu.background scrollbar.vertical.fine-tune slider:hover:active,
 #mintmenu.background scrollbar.vertical.fine-tune .slider:hover:active,
-#mate-menu.background scrollbar.vertical.fine-tune slider:hover:active,
-#mate-menu.background scrollbar.vertical.fine-tune .slider:hover:active {
+#cafe-menu.background scrollbar.vertical.fine-tune slider:hover:active,
+#cafe-menu.background scrollbar.vertical.fine-tune .slider:hover:active {
     background-image: url("assets/slider_fine_vertical.svg"),
                       linear-gradient(to left,
                                       shade(@menu_bg_dark_color, 1.75),
@@ -954,18 +954,18 @@ na-tray-applet > widget > box {
 }
 
 #mintmenu.background scrollbar.vertical button,
-#mate-menu.background scrollbar.vertical button {
+#cafe-menu.background scrollbar.vertical button {
     padding: 0px;
 }
 
 #mintmenu.background scrollbar.vertical button:disabled,
-#mate-menu.background scrollbar.vertical button:disabled {
+#cafe-menu.background scrollbar.vertical button:disabled {
     background-color: transparent;
     color: shade (@insensitive_fg_color, 0.6);
 }
 
 #mintmenu.background entry,
-#mate-menu.background entry {
+#cafe-menu.background entry {
     background-color: transparent;
     background-image: -gtk-gradient(linear,
                                     left top, left bottom,
@@ -978,8 +978,8 @@ na-tray-applet > widget > box {
 
 #mintmenu.background entry,
 #mintmenu.background entry:focus,
-#mate-menu.background entry,
-#mate-menu.background entry:focus {
+#cafe-menu.background entry,
+#cafe-menu.background entry:focus {
     box-shadow: inset  0px  1px shade(@menu_fg_dark_color, 0.3),
                 inset  1px  0px shade(@menu_fg_dark_color, 0.3),
                 inset -1px  0px shade(@menu_fg_dark_color, 0.3),
@@ -990,19 +990,19 @@ na-tray-applet > widget > box {
 
 #mintmenu.background entry selection,
 #mintmenu.background entry selection:focus,
-#mate-menu.background entry selection,
-#mate-menu.background entry selection:focus {
+#cafe-menu.background entry selection,
+#cafe-menu.background entry selection:focus {
     background-color: shade(@menu_fg_dark_color, 0.4);
     color: shade (@menu_fg_dark_color, 1.2);
 }
 
 #mintmenu.background entry menuitem:hover label,
-#mate-menu.background entry menuitem:hover label {
+#cafe-menu.background entry menuitem:hover label {
     color: shade (@theme_selected_bg_color, 2.0);
 }
 
 #mintmenu.background entry menuitem:disabled label,
-#mate-menu.background entry menuitem:disabled label {
+#cafe-menu.background entry menuitem:disabled label {
     color: mix (@menu_fg_dark_color, @menu_bg_dark_color, 0.4);
 }
 
@@ -1015,22 +1015,22 @@ na-tray-applet > widget > box {
  * Mate-terminal *
  ****************/
 
-.mate-terminal notebook {
+.cafe-terminal notebook {
     border-color: @menu_bg_dark_color;
 }
 
 /* override for pavu-control */
-window.background.mate-terminal > box.vertical > notebook,
-window.background.mate-terminal > box.vertical > notebook > header.top,
-window.background.mate-terminal > box.vertical > notebook > stack > box {
+window.background.cafe-terminal > box.vertical > notebook,
+window.background.cafe-terminal > box.vertical > notebook > header.top,
+window.background.cafe-terminal > box.vertical > notebook > stack > box {
     border-style: none;
     border-width: 0px;
 }
 
-window.background.mate-terminal > box.vertical > notebook > header.top tab,
-window.background.mate-terminal > box.vertical > notebook > header.top tab:hover,
-window.background.mate-terminal > box.vertical > notebook > header.top tab:checked,
-window.background.mate-terminal > box.vertical > notebook > header.top tab:checked:hover {
+window.background.cafe-terminal > box.vertical > notebook > header.top tab,
+window.background.cafe-terminal > box.vertical > notebook > header.top tab:hover,
+window.background.cafe-terminal > box.vertical > notebook > header.top tab:checked,
+window.background.cafe-terminal > box.vertical > notebook > header.top tab:checked:hover {
     margin: 0px -1px 0px -1px;
     border-width: 1px 1px 0 1px;
 }
@@ -1252,7 +1252,7 @@ EggToolbarEditor.vertical scrolledwindow viewport.frame {
 }
 
 /**************
- * mate-media *
+ * cafe-media *
  **************/
 
 GvcMixerDialog box.horizontal {
@@ -1299,7 +1299,7 @@ GvcMixerDialog notebook.frame box.vertical box.horizontal box.horizontal frame b
 }
 
 /********************************
- * mate-screensaver lock dialog *
+ * cafe-screensaver lock dialog *
  ********************************/
 
 .lock-dialog.background {
@@ -1422,7 +1422,7 @@ MsdOsdWindow.background.osd .progressbar {
     background-size: 40px auto, auto, auto;
 }
 
-/*For mate-settings-daemon noncomposited osd windows*/
+/*For cafe-settings-daemon noncomposited osd windows*/
 MsdOsdWindow.background.osd.msd-osd-window-solid {
 	border-radius: 0px;
 	border-width: 2px;
@@ -1435,10 +1435,10 @@ MsdOsdWindow.background.osd.msd-osd-window-solid progressbar trough {
 	border-radius: 3px;
 }
 
-/* mate-keyboard-layout-view, mate-keyboard-layout-chooser */
+/* cafe-keyboard-layout-view, cafe-keyboard-layout-chooser */
 /* this way it styles only the border of the keys, the bg of the map itself
    use the .view class, and use old and new selectors for a while */
-matekbd-keyboard-drawing,
+cafekbd-keyboard-drawing,
 .gswitchit-layout-view > box.dialog-vbox > box.vertical > widget,
 #xkb-layout-chooser > box.dialog-vbox > box.vertical > box.vertical > frame > widget {
     background-color: shade (@theme_bg_color, 1.0);
@@ -1449,7 +1449,7 @@ matekbd-keyboard-drawing,
 }
 
 /* fix for some maximized windows 
-   https://github.com/mate-desktop/mate-desktop/issues/291
+   https://github.com/cafe-desktop/cafe-desktop/issues/291
    FIXME Sadly pluma ignore doesn't show the maximised style class */
 
 window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal > scrolledwindow.frame,
@@ -1469,7 +1469,7 @@ window.background.maximized.caja-navigation-window notebook.caja-notebook scroll
 }
 
 /***************************
- * mate-display-properties *
+ * cafe-display-properties *
  ***************************/
 
 foo-scroll-area:selected,

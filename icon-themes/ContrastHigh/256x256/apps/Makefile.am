@@ -58,11 +58,11 @@ icon_DATA= \
 	libreoffice-math.png \
 	libreoffice-startcenter.png \
 	libreoffice-writer.png \
-	mate-brightness-applet.png \
-	mate-desktop.png \
-	mate-logo-icon-transparent.png \
-	mate-power-manager.png \
-	mate-netspeed-applet.png \
+	cafe-brightness-applet.png \
+	cafe-desktop.png \
+	cafe-logo-icon-transparent.png \
+	cafe-power-manager.png \
+	cafe-netspeed-applet.png \
 	miro.png \
 	multimedia-volume-control.png \
 	palimpsest.png \

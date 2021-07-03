@@ -89,10 +89,10 @@
 }
 
 /***************
- * mate-panel *
+ * cafe-panel *
  ***************/
 
-.mate-panel-menu-bar {
+.cafe-panel-menu-bar {
     background-color: @theme_bg_color;
     padding: 0px;
     color: @theme_fg_color;
@@ -154,9 +154,9 @@ MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
 
 /* outlines */
 window.background, /* selector where outlines are writen on GtkTrayIcon */
-.mate-panel-menu-bar menubar,
-.mate-panel-menu-bar PanelApplet,
-.mate-panel-menu-bar button,
+.cafe-panel-menu-bar menubar,
+.cafe-panel-menu-bar PanelApplet,
+.cafe-panel-menu-bar button,
 #PanelApplet > #clock-applet-button.flat.toggle,
 #PanelApplet > #showdesktop-button,
 #PanelApplet > wnck-tasklist > button,
@@ -167,7 +167,7 @@ PanelApplet.wnck-applet .wnck-pager {
     outline-width: 2px;
 }
 
-.mate-panel-menu-bar button {
+.cafe-panel-menu-bar button {
     -gtk-outline-radius: 3px;
     box-shadow: none;
     border-image: none;
@@ -175,16 +175,16 @@ PanelApplet.wnck-applet .wnck-pager {
 
 /* main menu */
 /* set normal menubar button */
-.mate-panel-menu-bar menubar {
+.cafe-panel-menu-bar menubar {
     padding: 0px;
     background-image: none;
 }
 
 /* all applets */
-.mate-panel-menu-bar #PanelApplet button,
-.mate-panel-menu-bar #PanelApplet button.flat,
-.mate-panel-menu-bar #PanelApplet button.toggle,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle {
+.cafe-panel-menu-bar #PanelApplet button,
+.cafe-panel-menu-bar #PanelApplet button.flat,
+.cafe-panel-menu-bar #PanelApplet button.toggle,
+.cafe-panel-menu-bar #PanelApplet button.flat.toggle {
     padding: 4px;
     border-radius: 3px;
     border-width: 1px;
@@ -200,18 +200,18 @@ PanelApplet.wnck-applet .wnck-pager {
                       to (@button_gradient_d));
 }
 
-.mate-panel-menu-bar #PanelApplet button:checked,
-.mate-panel-menu-bar #PanelApplet button:checked:hover,
-.mate-panel-menu-bar #PanelApplet button:hover:active,
-.mate-panel-menu-bar #PanelApplet button.flat:checked,
-.mate-panel-menu-bar #PanelApplet button.flat:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.flat:hover:active,
-.mate-panel-menu-bar #PanelApplet button.toggle:checked,
-.mate-panel-menu-bar #PanelApplet button.toggle:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.toggle:hover:active,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:checked,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:active {
+.cafe-panel-menu-bar #PanelApplet button:checked,
+.cafe-panel-menu-bar #PanelApplet button:checked:hover,
+.cafe-panel-menu-bar #PanelApplet button:hover:active,
+.cafe-panel-menu-bar #PanelApplet button.flat:checked,
+.cafe-panel-menu-bar #PanelApplet button.flat:checked:hover,
+.cafe-panel-menu-bar #PanelApplet button.flat:hover:active,
+.cafe-panel-menu-bar #PanelApplet button.toggle:checked,
+.cafe-panel-menu-bar #PanelApplet button.toggle:checked:hover,
+.cafe-panel-menu-bar #PanelApplet button.toggle:hover:active,
+.cafe-panel-menu-bar #PanelApplet button.flat.toggle:checked,
+.cafe-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
+.cafe-panel-menu-bar #PanelApplet button.flat.toggle:hover:active {
     border-style: solid;
     background-color: transparent;
     background-image: linear-gradient(to bottom,
@@ -223,10 +223,10 @@ PanelApplet.wnck-applet .wnck-pager {
                       @button_active_gradient_f);
 }
 
-.mate-panel-menu-bar #PanelApplet button:hover,
-.mate-panel-menu-bar #PanelApplet button.flat:hover,
-.mate-panel-menu-bar #PanelApplet button.toggle:hover,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:hover {
+.cafe-panel-menu-bar #PanelApplet button:hover,
+.cafe-panel-menu-bar #PanelApplet button.flat:hover,
+.cafe-panel-menu-bar #PanelApplet button.toggle:hover,
+.cafe-panel-menu-bar #PanelApplet button.flat.toggle:hover {
     border-style: solid;
     background-color: transparent;
     background-image: linear-gradient(to bottom,
@@ -236,22 +236,22 @@ PanelApplet.wnck-applet .wnck-pager {
 }
 
 /* use only outlines if focused */
-.mate-panel-menu-bar #PanelApplet button:focus {
+.cafe-panel-menu-bar #PanelApplet button:focus {
     box-shadow: none;
     border-image: none;
 }
 
 /* 1.18 changings for gtk+-3.22 warning fixes*/
-.mate-panel-menu-bar #PanelApplet #drive-button,
-.mate-panel-menu-bar #PanelApplet #drive-button:hover,
-.mate-panel-menu-bar #PanelApplet #charpick-applet-button,
-.mate-panel-menu-bar #PanelApplet #showdesktop-button:checked {
+.cafe-panel-menu-bar #PanelApplet #drive-button,
+.cafe-panel-menu-bar #PanelApplet #drive-button:hover,
+.cafe-panel-menu-bar #PanelApplet #charpick-applet-button,
+.cafe-panel-menu-bar #PanelApplet #showdesktop-button:checked {
     border-image: url("img/border.svg") 3 3 4 3 / 3px 3px 4px 3px repeat;
     border-width: 0px;
 }
 
 /* checkboxes in applet popup menu */
-.mate-panel-menu-bar menu > menuitem > box > menuitem {
+.cafe-panel-menu-bar menu > menuitem > box > menuitem {
     padding: 0px 0px 0px 4px;
 }
 
@@ -333,7 +333,7 @@ PanelApplet.wnck-applet .wnck-pager:hover {
 }
 
 /* Classic icon style */
-.mate-panel-menu-bar {
+.cafe-panel-menu-bar {
     -PanelMenuBar-icon-visible: true;
 }
 
@@ -346,11 +346,11 @@ na-tray-applet {
 }
 
 /* volume applet, brightness applet */
-.mate-panel-applet-slider {
+.cafe-panel-applet-slider {
     background: transparent;
 }
 
-.mate-panel-applet-slider frame {
+.cafe-panel-applet-slider frame {
     background-color: @theme_bg_color;
     border-image: none;
     border-style: solid;
@@ -359,30 +359,30 @@ na-tray-applet {
     margin: 0px;
 }
 
-.mate-panel-applet-slider frame frame{
+.cafe-panel-applet-slider frame frame{
     background-color:transparent;
     border-style: none;
     box-shadow: none;
 }
 
-.mate-panel-applet-slider frame button {
+.cafe-panel-applet-slider frame button {
     color: @theme_fg_color;
 }
 
 /* xrandr applet */
-.mate-panel-menu-bar menuitem.xrandr-applet:disabled > box > label {
+.cafe-panel-menu-bar menuitem.xrandr-applet:disabled > box > label {
     color: @menu_fg_color;
     text-shadow: none;
 }
 
-/* mate-menu, mintmenu fork */
-#mate-menu.background {
+/* cafe-menu, mintmenu fork */
+#cafe-menu.background {
     border-color: @border_color;
     border-style: solid;
     border-width: 1px;
 }
 
-/* mate-indicator-applet */
+/* cafe-indicator-applet */
 /* needed for a transparent panel */
 #fast-user-switch-applet > #fast-user-switch-menubar {
     background-color: transparent;
@@ -520,7 +520,7 @@ EggToolbarEditor.vertical scrolledwindow {
     border-style: none;
 }
 
-/* mate-appearance-properties, UI tab */
+/* cafe-appearance-properties, UI tab */
 
 .appearance-window > box.vertical.dialog-vbox > notebook.frame  box.vertical > box.vertical > box.horizontal > box.vertical menubar {
     border-style: solid;
@@ -571,18 +571,18 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 /*****************
- * mate-terminal *
+ * cafe-terminal *
  *****************/
 
 /* override settings for pavu-control */
-window.background.mate-terminal > box.vertical > notebook,
-window.background.mate-terminal > box.vertical > notebook > stack > box {
+window.background.cafe-terminal > box.vertical > notebook,
+window.background.cafe-terminal > box.vertical > notebook > stack > box {
     border-style: none;
     margin: 0px;
 }
 
 /* override settings for pavu-control */
-window.background.mate-terminal > box.vertical > notebook > header.top {
+window.background.cafe-terminal > box.vertical > notebook > header.top {
     border-radius: 3px 0px 0px 0px;
     margin: 0px;
     border-style: solid;
@@ -590,7 +590,7 @@ window.background.mate-terminal > box.vertical > notebook > header.top {
     border-width: 0px 0px 0px 0.1px;
 }
 
-window.background.mate-terminal > box.vertical > notebook > header.top tab {
+window.background.cafe-terminal > box.vertical > notebook > header.top tab {
     border-radius: 3px 3px 0px 0px;
     padding: 4px 2px 4px 6px;
     margin: 0px 0px 0px -1px;
@@ -599,8 +599,8 @@ window.background.mate-terminal > box.vertical > notebook > header.top tab {
     border-width: 1px;
 }
 
-window.background.mate-terminal > box.vertical > notebook > header.top tab:checked,
-window.background.mate-terminal > box.vertical > notebook > header.top tab:checked:hover {
+window.background.cafe-terminal > box.vertical > notebook > header.top tab:checked,
+window.background.cafe-terminal > box.vertical > notebook > header.top tab:checked:hover {
     border-radius: 3px 3px 0px 0px;
     padding: 4px 2px 4px 6px;
     margin: 0px 0px 0px -1px;
@@ -613,7 +613,7 @@ window.background.mate-terminal > box.vertical > notebook > header.top tab:check
 }
 
 /***********************
- * mate-volume-control *
+ * cafe-volume-control *
  ***********************/
 
 /* application notebook page */
@@ -631,17 +631,17 @@ GvcMixerDialog notebook.frame box scrolledwindow.frame {
 }
 
 /***********************
- * mate-control-center *
+ * cafe-control-center *
  ***********************/
 
 #MyControlCenter button.flat {
     outline-style: dashed;
 }
 
-/* mate-keyboard-layout-view, mate-keyboard-layout-chooser */
+/* cafe-keyboard-layout-view, cafe-keyboard-layout-chooser */
 /* this way it styles only the border of the keys, the bg of the map itself
    use the .view class, and use old and new selectors for a while */
-matekbd-keyboard-drawing,
+cafekbd-keyboard-drawing,
 .gswitchit-layout-view > box.dialog-vbox > box.vertical > widget,
 #xkb-layout-chooser > box.dialog-vbox > box.vertical > box.vertical > frame > widget {
     background-color: shade (@theme_bg_color, 1.0);
@@ -652,7 +652,7 @@ matekbd-keyboard-drawing,
 }
 
 /* fix for some maximized windows 
-   https://github.com/mate-desktop/mate-desktop/issues/291
+   https://github.com/cafe-desktop/cafe-desktop/issues/291
    FIXME Sadly pluma ignore doesn't show the maximised style class */
 
 window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal > scrolledwindow.frame,

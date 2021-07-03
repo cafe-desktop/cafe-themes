@@ -1491,7 +1491,7 @@ button {
     transition: all 400ms ease-out;
 }
 
-/* ie. mate-control-center */
+/* ie. cafe-control-center */
 button.flat {
     transition: all 400ms ease-out;
     padding: 0px;

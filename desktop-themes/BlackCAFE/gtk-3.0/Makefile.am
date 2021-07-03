@@ -10,7 +10,7 @@ theme_DATA = \
 	gtk-main-dark.css \
 	gtk-widgets.css \
 	gtk-widgets-assets-dark.css \
-	mate-applications.css \
+	cafe-applications.css \
 	other-applications.css \
 	settings.ini \
 	unity.css \

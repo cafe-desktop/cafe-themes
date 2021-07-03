@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=BlueMenta
 MetacityTheme=BlueMenta
-IconTheme=mate
-CursorTheme=mate-black
+IconTheme=cafe
+CursorTheme=cafe-black
 

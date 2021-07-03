@@ -40,8 +40,8 @@ pixmap_DATA = \
 	stock_zoom-out.png stock_yes.png stock_no.png \
 	stock_dnd.png stock_dnd_multiple.png \
 	stock_run.png stock_searchtool.png stock_lockscreen.png \
-	stock_logout.png stock_mate-logo.png stock_cde-menu.png \
-	stock_internet.png stock_mate-util.png \
+	stock_logout.png stock_cafe-logo.png stock_cde-menu.png \
+	stock_internet.png stock_cafe-util.png \
 	stock_launcher-program.png stock_multimedia.png \
 	stock_drawer.png stock_screenshot.png \
 	stock_amusements.png stock_accessories.png \
