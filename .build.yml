@@ -27,12 +27,17 @@ requires:
 
   fedora:
     # Useful URL: https://src.fedoraproject.org/cgit/rpms/cafe-themes.git
+    - autoconf
+    - automake
     - gcc
     - gdk-pixbuf2-devel
+    - gettext-devel
     - git
     - gtk2-devel
     - make
     - redhat-rpm-config
+    - which
+    - xz
 
   ubuntu:
     - git
