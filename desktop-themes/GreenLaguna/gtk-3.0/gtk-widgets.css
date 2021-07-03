@@ -436,7 +436,7 @@ textview text selection:focus {
     color: @theme_selected_fg_color;
 }
 
-/* ie. mate-appearance-properties */
+/* ie. cafe-appearance-properties */
 iconview.view {
     background-color: shade(@base_color, 1.04);
     color: @theme_text_color;
@@ -1843,7 +1843,7 @@ button.default {
     border-color: shade(@button_border, 1.1);
 }
 
-/* ie. mate-control-center */
+/* ie. cafe-control-center */
 button.flat {
     padding: 0px;
     border-color: transparent;

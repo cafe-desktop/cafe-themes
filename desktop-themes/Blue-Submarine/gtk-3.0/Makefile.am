@@ -5,7 +5,7 @@ theme_DATA = \
 	gtk.css \
 	gtk-widgets-assets.css \
 	gtk-widgets.css \
-	mate-applications.css \
+	cafe-applications.css \
 	menu.css \
 	other-applications.css \
 	scrollbar.css \

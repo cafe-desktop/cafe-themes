@@ -1,4 +1,4 @@
 SUBDIRS = \
-	mate-black \
-	mate-white
+	cafe-black \
+	cafe-white
 

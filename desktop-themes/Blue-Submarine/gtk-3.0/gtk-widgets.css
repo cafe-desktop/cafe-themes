@@ -1,6 +1,6 @@
 /*******************************************************
  * Blue-Submarine                                      *
- * Part of https://github.com/mate-desktop/mate-themes *
+ * Part of https://github.com/cafe-desktop/cafe-themes *
  * Author Wolfgang Ulbrich                             *
  *******************************************************/
  
@@ -36,13 +36,13 @@ window {
     color: @theme_fg_color;
 }
 
-/* exclude widget for mate-menu */
+/* exclude widget for cafe-menu */
 .background:not(widget) {
 	color: @theme_fg_color;
 	background-color: @theme_bg_color;
 }
 
-/* override previous setting for rubberband of mate-screenshot */
+/* override previous setting for rubberband of cafe-screenshot */
 .background.rubberband {
 	background-color: transparent;
 }
@@ -981,7 +981,7 @@ button.default {
     color: @theme_fg_color;
 }
 
-/* ie. mate-control-center */
+/* ie. cafe-control-center */
 button.flat {
     transition: all 400ms ease-out;
     border-radius: 5px;
@@ -2802,7 +2802,7 @@ toolbar separator:disabled {
     primary toolbar raised buttons
 *************************************/
 
-/* ie. cimnnamon-settings (button.raised), mate-font-viewer toolbar info button */
+/* ie. cimnnamon-settings (button.raised), cafe-font-viewer toolbar info button */
 toolbar .raised button,
 toolbar button.raised,
 toolbar button.raised:hover,
@@ -4175,14 +4175,14 @@ iconview.content-view.check:active {
 
 iconview,
 viewport {
-    /* avoid resizing theme thumbnails in mate-appearance-properties */
+    /* avoid resizing theme thumbnails in cafe-appearance-properties */
     padding: 0px;
 }
 
 iconview {
     border-width: 0px;
     border-style: none;
-    /* background view mate-appearance-properties */
+    /* background view cafe-appearance-properties */
     background-color: @base_color;
 }
 

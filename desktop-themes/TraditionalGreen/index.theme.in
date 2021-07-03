@@ -8,6 +8,6 @@ Encoding=UTF-8
 GtkTheme=TraditionalGreen
 MetacityTheme=TraditionalGreen
 IconTheme=menta
-CursorTheme=mate
+CursorTheme=cafe
 CursorSize=24
 ButtonLayout=:minimize,maximize,close

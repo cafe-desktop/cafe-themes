@@ -7,7 +7,7 @@ theme_DATA = \
 	gtk.css \
 	gtk-widgets.css \
 	gtk-widgets-img.css \
-	mate-applications.css \
+	cafe-applications.css \
 	other-applications.css \
 	settings.ini
 

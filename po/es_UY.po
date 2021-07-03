@@ -1,23 +1,23 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR MATE Desktop Environment team
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # 
 # Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: MATE Desktop Environment\n"
-"Report-Msgid-Bugs-To: https://mate-desktop.org\n"
+"Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
 "POT-Creation-Date: 2019-11-20 18:49+0100\n"
 "PO-Revision-Date: 2019-11-06 20:08+0000\n"
-"Last-Translator: Wolfgang Ulbrich <mate@raveit.de>\n"
-"Language-Team: Spanish (Uruguay) (http://www.transifex.com/mate/MATE/language/es_UY/)\n"
+"Last-Translator: Wolfgang Ulbrich <cafe@raveit.de>\n"
+"Language-Team: Spanish (Uruguay) (http://www.transifex.com/cafe/MATE/language/es_UY/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: es_UY\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: cursor-themes/mate-black/index.theme.in:3
+#: cursor-themes/cafe-black/index.theme.in:3
 msgid "MATE (Black)"
 msgstr ""
 

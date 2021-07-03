@@ -70,24 +70,24 @@ icon_DATA= \
 	libreoffice-math.png \
 	libreoffice-startcenter.png \
 	libreoffice-writer.png \
-	mate-application-generic.png \
-	mate-brightness-applet.png \
-	mate-desktop.png \
-	mate-invest-applet.png \
-	mate-logo-icon-transparent.png \
-	mate-log.png \
-	mate-netspeed-applet.png \
-	mate-notification-properties.png \
-	mate-panel-clock.png \
-	mate-panel-drawer.png \
-	mate-panel-force-quit.png \
-	mate-panel-launcher.png \
-	mate-panel-window-list.png \
-	mate-panel-window-menu.png \
-	mate-panel-workspace-switcher.png \
-	mate-power-manager.png \
-	mate-session-properties.png \
-	mate-starthere.png \
+	cafe-application-generic.png \
+	cafe-brightness-applet.png \
+	cafe-desktop.png \
+	cafe-invest-applet.png \
+	cafe-logo-icon-transparent.png \
+	cafe-log.png \
+	cafe-netspeed-applet.png \
+	cafe-notification-properties.png \
+	cafe-panel-clock.png \
+	cafe-panel-drawer.png \
+	cafe-panel-force-quit.png \
+	cafe-panel-launcher.png \
+	cafe-panel-window-list.png \
+	cafe-panel-window-menu.png \
+	cafe-panel-workspace-switcher.png \
+	cafe-power-manager.png \
+	cafe-session-properties.png \
+	cafe-starthere.png \
 	miro.png \
 	mozo.png \
 	multimedia-volume-control.png \

@@ -89,15 +89,15 @@ style "default"
   bg[SELECTED]    = "#ffffff"
   base[SELECTED]    = "#ffcccc"
 
-  stock["mate-stock-about"] =       {{ "stock_about.png" }}
-  stock["mate-stock-volume"] =      {{ "stock_volume.png" }}
-  stock["mate-stock-mic"] =         {{ "stock_mic.png" }}
-  stock["mate-stock-line-in"] =     {{ "stock_line-in.png" }}
-  stock["mate-stock-attach"] =      {{ "stock_attach.png" }}
-  stock["mate-stock-book-blue"] =   {{ "stock_book.png" }}
-  stock["mate-stock-book-green"] =  {{ "stock_book.png" }}
-  stock["mate-stock-book-red"] =    {{ "stock_book.png" }}
-  stock["mate-stock-book-yellow"] = {{ "stock_book.png" }}
+  stock["cafe-stock-about"] =       {{ "stock_about.png" }}
+  stock["cafe-stock-volume"] =      {{ "stock_volume.png" }}
+  stock["cafe-stock-mic"] =         {{ "stock_mic.png" }}
+  stock["cafe-stock-line-in"] =     {{ "stock_line-in.png" }}
+  stock["cafe-stock-attach"] =      {{ "stock_attach.png" }}
+  stock["cafe-stock-book-blue"] =   {{ "stock_book.png" }}
+  stock["cafe-stock-book-green"] =  {{ "stock_book.png" }}
+  stock["cafe-stock-book-red"] =    {{ "stock_book.png" }}
+  stock["cafe-stock-book-yellow"] = {{ "stock_book.png" }}
 
   stock["gtk-dialog-info"] =           {{ "stock_dialog_info.png" }}
   stock["gtk-dialog-question"] =       {{ "stock_dialog_question.png" }}
@@ -202,7 +202,7 @@ style "panel-icons"
         stock ["panel-screenshot"] =    {{"stock_screenshot.png"}}
         stock ["panel-lockscreen"] =    {{"stock_lockscreen.png"}}
         stock ["panel-logout"] =        {{"stock_logout.png"}}
-        stock ["panel-mate-logo"] =     {{"stock_mate-logo.png"}}
+        stock ["panel-cafe-logo"] =     {{"stock_cafe-logo.png"}}
 
         stock ["panel-cde"] =           {{"stock_cde-menu.png"}}
 #TBD    stock ["panel-debian"] =        {{""}}
@@ -214,7 +214,7 @@ style "panel-icons"
         stock ["panel-multimedia"] =    {{"stock_multimedia.png"}}
 
         stock ["panel-internet"] =      {{"stock_internet.png"}}
-        stock ["panel-utility"] =       {{"stock_mate-util.png"}}
+        stock ["panel-utility"] =       {{"stock_cafe-util.png"}}
 
 #        stock ["panel-corner-type"] =   {{"stock_corner-panel.png"}}
 #        stock ["panel-edge-type"] =     {{"stock_edge-panel.png"}}
@@ -225,7 +225,7 @@ style "panel-icons"
         stock ["panel-launcher"] =      {{"stock_launcher-program.png"}}
 
         stock ["panel-drawer"] =        {{"stock_drawer.png"}}
-#       stock ["mate-panel-applet"] =    {{""}}
+#       stock ["cafe-panel-applet"] =    {{""}}
 #       stock ["panel-desktop"] =        {{""}}
 
 #        stock ["panel-arrow-left"] =	{{"stock_panel_hide_left.png"}}

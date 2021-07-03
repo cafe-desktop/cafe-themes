@@ -1,7 +1,7 @@
 ========== af.po ==========
-# Afrikaans translation for mate-themes.
-# Copyright (C) 2010 mate-themes's COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-themes package.
+# Afrikaans translation for cafe-themes.
+# Copyright (C) 2010 cafe-themes's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cafe-themes package.
 # F Wolff <friedel@translate.org.za>, 2010.
 
 
@@ -10,7 +10,7 @@
 ========== am.po ==========
 # Translations into the Amharic Language.
 # Copyright (C) 2002 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-theme package.
+# This file is distributed under the same license as the cafe-theme package.
 # Ge'ez Frontier Foundation <locales@geez.org>, 2002.
 #
 #
@@ -19,7 +19,7 @@
 
 
 ========== ar.po ==========
-# translation of mate-themes.HEAD.ar.po to Arabic
+# translation of cafe-themes.HEAD.ar.po to Arabic
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
 # Arafat Medini <lumina@silverpen.de>, 2003.
@@ -39,9 +39,9 @@
 
 
 ========== ast.po ==========
-# Asturian translation for mate-themes
+# Asturian translation for cafe-themes
 # Copyright (c) 2008 Rosetta Contributors and Canonical Ltd 2008
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2008.
 #
 
@@ -49,9 +49,9 @@
 
 
 ========== az.po ==========
-# Translation of mate-themes.HEAD.az.po to Azerbaijani Turkish
+# Translation of cafe-themes.HEAD.az.po to Azerbaijani Turkish
 # Copyright (C) 2003 Mətin Əmirov
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Mətin Əmirov <metin@karegen.com>, 2003.
 #
 
@@ -59,7 +59,7 @@
 
 
 ========== be.po ==========
-# translation of mate-themes.HEAD.be.po to belarusian
+# translation of cafe-themes.HEAD.be.po to belarusian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2002, 2009.
@@ -71,9 +71,9 @@
 
 
 ========== be@latin.po ==========
-# Biełaruski pierakład mate-themes
+# Biełaruski pierakład cafe-themes
 # Copyright (C) 2007 Ihar Hrachyshka
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Ihar Hrachyshka <ihar.hrachyshka@gmail.com>, 2007.
 #
 
@@ -81,7 +81,7 @@
 
 
 ========== bg.po ==========
-# Bulgarian translation of mate-themes po-file
+# Bulgarian translation of cafe-themes po-file
 # Copyright (C) 2002, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
 # Alexander Shopov <ash@contact.bg>, 2002, 2005, 2006, 2007, 2008, 2009.
 # Rostislav Raykov <zbrox@i-space.org>, 2004.
@@ -92,9 +92,9 @@
 
 
 ========== bn.po ==========
-# The Bengali translation for mate-themes
+# The Bengali translation for cafe-themes
 # Copyright (C) 2002 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Jamil Ahmed <jamil@bengalinux.org>, 2003.
 # Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
 # Sadia Afroz <sadia@ankur.org.bd>, 2010.
@@ -106,9 +106,9 @@
 
 ========== bn_IN.po ==========
 # translation of bn_IN.po to Bengali INDIA
-# The Bengali India  translation for mate-themes
+# The Bengali India  translation for cafe-themes
 # Copyright (C) 2002, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Jamil Ahmed <jamil@bengalinux.org>, 2003.
 # Samia Niamatullah <mailsamia2001@yahoo.com>, 2005.
@@ -118,9 +118,9 @@
 
 
 ========== br.po ==========
-# Breton translation for mate-themes
+# Breton translation for cafe-themes
 # Copyright (c) (c) 2006 Canonical Ltd, and Rosetta Contributors 2006
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2006.
 #
 
@@ -128,7 +128,7 @@
 
 
 ========== bs.po ==========
-# translation of mate-themes.HEAD.po to Bosnian
+# translation of cafe-themes.HEAD.po to Bosnian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Kemal Sanjta <gomez@lugzdk.ba>, 2004.
@@ -138,9 +138,9 @@
 
 
 ========== ca.po ==========
-# Catalan messages for mate-themes.
+# Catalan messages for cafe-themes.
 # Copyright © 2002, 2003, 2004, 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2007.
 #
 
@@ -148,9 +148,9 @@
 
 
 ========== ca@valencia.po ==========
-# Valencian (southern Catalan) messages for mate-themes.
+# Valencian (southern Catalan) messages for cafe-themes.
 # Copyright © 2002, 2003, 2004, 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2007.
 # Miquel Esplà <miquelespla@gmail.com>, 2009 [valencian variant adaptation]
 #
@@ -159,8 +159,8 @@
 
 
 ========== crh.po ==========
-# Qırımtatarca translation of mate-themes.
-# This file is distributed under the same license as the mate-themes package.
+# Qırımtatarca translation of cafe-themes.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Reşat SABIQ <tilde.birlik@gmail.com>, 2009.
 
@@ -168,10 +168,10 @@
 
 
 ========== cs.po ==========
-# Czech translation of mate-themes.
-# Copyright (C) 2002, 2003, 2006, 2008 the author(s) of mate-themes.
+# Czech translation of cafe-themes.
+# Copyright (C) 2002, 2003, 2006, 2008 the author(s) of cafe-themes.
 # Copyright (C) 2002, 2003 Miloslav Trmac <mitr@volny.cz>.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Jakub Friedl <jfriedl@suse.cz>, 2006.
 # Pavel Šefránek <ps@pjoul.cz>, 2008.
 #
@@ -180,7 +180,7 @@
 
 
 ========== cy.po ==========
-# mate-themes yn Gymraeg.
+# cafe-themes yn Gymraeg.
 # Copyright (C) 2003 Free Software Foundation, Inc.
 # www.gyfieithu.co.uk <kyfieithu@dotmon.com>, 2003
 # and contributors.
@@ -190,9 +190,9 @@
 
 
 ========== da.po ==========
-# Danish translation of mate-themes.
+# Danish translation of cafe-themes.
 # Copyright (C) 2002, 03 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Ole Laursen <olau@hardworking.dk>, 2002, 03, 06.
 # Martin Willemoes Hansen <mwh@sysrq.dk>, 2004.
 #
@@ -201,10 +201,10 @@
 
 
 ========== de.po ==========
-# German mate-themes Translation.
+# German cafe-themes Translation.
 # Copyright (C) 2002-2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
-# Christian Neumair <chris@mate-de.org>, 2002, 2003.
+# This file is distributed under the same license as the cafe-themes package.
+# Christian Neumair <chris@cafe-de.org>, 2002, 2003.
 # Hendrik Richter <hendrikr@gnome.org>, 2004, 2005, 2006, 2007, 2008, 2009.
 #
 # Manche Themennamen sind Eigennamen. Bitte nicht übersetzen.
@@ -225,7 +225,7 @@
 ========== el.po ==========
 # translation of el.po to
 # translation of el.po to Greek
-# mate-themes.
+# cafe-themes.
 # Copyright (C) Free Software Foundation Inc. 2002,2003
 # This file is distributed under the same license as the PACKAGE package.
 # kostas:15Aug2003, ome more update
@@ -239,7 +239,7 @@
 
 
 ========== en@shaw.po ==========
-# Shavian translation for mate-themes.
+# Shavian translation for cafe-themes.
 # Copyright (C) 2009 The Mate Foundation.
 # Thomas Thurman <tthurman@gnome.org>, 2009.
 
@@ -247,9 +247,9 @@
 
 
 ========== en_CA.po ==========
-# Canadian English translation of mate-themes
+# Canadian English translation of cafe-themes
 # Copyright (C) Adam Weinberger and the MATE Foundation
-# This file is distributed under the same licence as the mate-themes package.
+# This file is distributed under the same licence as the cafe-themes package.
 # Adam Weinberger <adamw@gnome.org>, 2004.
 #
 #
@@ -260,7 +260,7 @@
 ========== en_GB.po ==========
 # English (British) translation.
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Gareth Owen <gowen72@yahoo.com>, 2004.
 #
 
@@ -268,9 +268,9 @@
 
 
 ========== es.po ==========
-# translation of mate-themes.HEAD.po to Español
+# translation of cafe-themes.HEAD.po to Español
 # Copyright © 2002 The MATE-Software Foundation
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002,2003.
 # Francisco Javier F. Serrador <serrador@arrakis.es>, 2003.
@@ -282,11 +282,11 @@
 
 ========== et.po ==========
 # Mate teemade eesti keele tõlge.
-# Estonian translation of mate-themes.
+# Estonian translation of cafe-themes.
 #
 # Copyright (C) 2003, 2004-2006 Free Software Foundation, Inc.
 # Copyright (C) 2007, 2008, The MATE Project.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Tõivo Leedjärv <toivo@linux.ee>, 2003.
 # Priit Laes <amd@store20.com>, 2005, 2006.
@@ -307,7 +307,7 @@
 
 
 ========== fa.po ==========
-# Persian translation of mate-themes.
+# Persian translation of cafe-themes.
 # Copyright (C) 2003, 2005 Sharif FarsiWeb, Inc.
 # Roozbeh Pournader <roozbeh@farsiweb.info>, 2003. 
 # Masoud Ahmadzadeh <masoud@bamdad.org>, 2005.
@@ -319,9 +319,9 @@
 
 ========== fi.po ==========
 # Mate-themes Finnish Translation.
-# Suomennos: http://mate.fi/
+# Suomennos: http://cafe.fi/
 # Copyright (C) 2003-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Sami Pesonen <sampeson@iki.fi>, 2003-2004.
 # Ilkka Tuohela, <hile@iki.fi>, 2004-2009.
 #
@@ -331,9 +331,9 @@
 
 
 ========== fr.po ==========
-# French Tranlation of mate-themes.
+# French Tranlation of cafe-themes.
 # Copyright (C) 2002-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Baptiste Mille-Mathias <bmm80@ifrance.com>, 2002.
 # Christophe Fergeau <teuf@users.sourceforge.net>, 2003.
@@ -356,9 +356,9 @@
 
 
 ========== ga.po ==========
-# Irish translations for mate-themes package.
+# Irish translations for cafe-themes package.
 # Copyright (C) 2003-2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Paul Duffy <dubhthach@frink.nuigalway.ie>, 2003.
 # Seán de Búrca <leftmostcat@gmail.com>, 2008-2009.
 #
@@ -368,7 +368,7 @@
 
 ========== gl.po ==========
 # translation of gl.po to Galego
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Copyright (C) 2002 The MATE-Software Foundation
 #
 # Ignacio Casal Quinteiro <adorador_del_heavy@hotmail.com>, 2004.
@@ -381,7 +381,7 @@
 
 
 ========== gu.po ==========
-# translation of mate-themes.master.gu.po to Gujarati
+# translation of cafe-themes.master.gu.po to Gujarati
 # MagNet <magnet@magnet-i.com>, 2004.
 # Ankit Patel <ankit@redhat.com>, 2004, 2007.
 # Ankit Patel <ankit644@yahoo.com>, 2005, 2006.
@@ -392,8 +392,8 @@
 
 
 ========== he.po ==========
-# translation of mate-themes.HEAD.he.po to Hebrew
-# translation of mate-themes.HEAD.po to Hebrew
+# translation of cafe-themes.HEAD.he.po to Hebrew
+# translation of cafe-themes.HEAD.po to Hebrew
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
 # Gil 'Dolfin' Osher <dolfin@rpg.org.il>, 2002,2003
@@ -403,10 +403,10 @@
 
 
 ========== hi.po ==========
-# translation of mate-themes.HEAD.po to Hindi
+# translation of cafe-themes.HEAD.po to Hindi
 # Mate Themes portable object (po) file
 # Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE mate-themes.
+# This file is distributed under the same license as the PACKAGE cafe-themes.
 #
 # Anand Subramanian <anand.subra@wipro.com>, 2003.
 # Rajesh Ranjan <rranjan@redhat.com>, 2005, 2006, 2009.
@@ -415,7 +415,7 @@
 
 
 ========== hr.po ==========
-# Translation of mate-themes to Croatiann
+# Translation of cafe-themes to Croatiann
 # Copyright (C) Croatiann team
 # Translators: Automatski Prijevod <>,Denis Lackovic <delacko@fly.srk.fer.hr>,
 
@@ -423,12 +423,12 @@
 
 
 ========== hu.po ==========
-# Hungarian translation of mate-themes.
+# Hungarian translation of cafe-themes.
 # Copyright (C) 2003, 2004, 2006, 2007, 2008, 2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
-# Andras Timar <timar@mate.hu>, 2003.
-# Gabor Kelemen <kelemeng@mate.hu>, 2004, 2005, 2006, 2007, 2008, 2009.
+# Andras Timar <timar@cafe.hu>, 2003.
+# Gabor Kelemen <kelemeng@cafe.hu>, 2004, 2005, 2006, 2007, 2008, 2009.
 
 
 
@@ -454,8 +454,8 @@
 
 
 ========== it.po ==========
-# mate-themes Italian translation.
-# This file is distributed under the same license as the mate-themes package.
+# cafe-themes Italian translation.
+# This file is distributed under the same license as the cafe-themes package.
 # Copyright (C) 2003, 2004, 2005, 2006, 2007, 2008, 2009 Free Software Foundation, Inc
 # Luca Ferretti <elle.uca@libero.it>, 2003, 2004, 2005, 2006, 2007, 2008, 2009.
 #
@@ -464,9 +464,9 @@
 
 
 ========== ja.po ==========
-# mate-themes ja.po.
+# cafe-themes ja.po.
 # Copyright (C) 2003-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2009.
 #
 
@@ -474,7 +474,7 @@
 
 
 ========== ka.po ==========
-# translation of mate-themes.HEAD.po to Georgian
+# translation of cafe-themes.HEAD.po to Georgian
 # Copyright (C) 2006 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Maka Eradze მაკა ერაძე <eradze@gmail.com> 2006.
@@ -484,7 +484,7 @@
 
 
 ========== kn.po ==========
-# translation of mate-themes.HEAD.po to Kannada
+# translation of cafe-themes.HEAD.po to Kannada
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -494,8 +494,8 @@
 
 
 ========== ko.po ==========
-# mate-themes korean translation
-# This file is distributed under the same license as the mate-themes package.
+# cafe-themes korean translation
+# This file is distributed under the same license as the cafe-themes package.
 # Young-Ho, Cha <ganadist@mizi.com>, 2002
 # Changwoo Ryu <cwryu@debian.org>, 2008, 2009
 #
@@ -504,9 +504,9 @@
 
 
 ========== ku.po ==========
-# Kurdish translation of mate-themes.
-# Copyright (C) 2006 THE mate-themes'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-themes package.
+# Kurdish translation of cafe-themes.
+# Copyright (C) 2006 THE cafe-themes'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cafe-themes package.
 # Erdal Ronahi <erdal.ronahi@gmail.com>, 2006.
 # 
 # 
@@ -515,7 +515,7 @@
 
 
 ========== ky.po ==========
-# Translation of mate-themes to Kirghiz
+# Translation of cafe-themes to Kirghiz
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Ilyas Bakirov <just_ilyas@yahoo.com>, 2005.
@@ -535,7 +535,7 @@
 # translation of lt.po to Lithuanian
 # Lithuanian translation of Mate-Themes.
 # Copyright (C) 2003-2005, 2006, 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 #
 # Tomas Kuliavas <tokul@users.sourceforge.net>, 2003-2005.
@@ -558,7 +558,7 @@
 
 
 ========== mai.po ==========
-# translation of mate-themes.master.po to Maithili
+# translation of cafe-themes.master.po to Maithili
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -577,8 +577,8 @@
 
 
 ========== mk.po ==========
-# translation of mate-themes.HEAD.po to Macedonian
-# translation of mate-themes.HEAD.mk.po to
+# translation of cafe-themes.HEAD.po to Macedonian
+# translation of cafe-themes.HEAD.mk.po to
 # translation of mk.po to
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2005 THE PACKAGE'S COPYRIGHT HOLDER.
@@ -595,9 +595,9 @@
 
 
 ========== ml.po ==========
-# translation of mate-themes.HEAD.ml.po to Malayalam
-# This file is distributed under the same license as the mate-themes package.
-# Copyright (C) 2003-2009 mate-themes'S COPYRIGHT HOLDER.
+# translation of cafe-themes.HEAD.ml.po to Malayalam
+# This file is distributed under the same license as the cafe-themes package.
+# Copyright (C) 2003-2009 cafe-themes'S COPYRIGHT HOLDER.
 # FSF-India <locale@gnu.org.in>, 2003.
 # Ani Peter <apeter@redhat.com>, 2006.
 # Hari Vishnu <harivishnu@gmail.com>, 2008.
@@ -607,9 +607,9 @@
 
 
 ========== mn.po ==========
-# translation of mate-themes.HEAD.po to Mongolian
-# translation of mate-themes.HEAD.mn.po to Mongolian
-# translation of mate-themes.HEAD.po to mongolian
+# translation of cafe-themes.HEAD.po to Mongolian
+# translation of cafe-themes.HEAD.mn.po to Mongolian
+# translation of cafe-themes.HEAD.po to mongolian
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Sanlig Badral <badral@chinggis.com>, 2003.
@@ -620,7 +620,7 @@
 
 
 ========== mr.po ==========
-# translation of mate-themes.HEAD.mr.po to marathi
+# translation of cafe-themes.HEAD.mr.po to marathi
 # This file is distributed under GPL.
 #
 # Sameer N. Ingole <strike@proscrutiny.com>, 2006.
@@ -631,7 +631,7 @@
 
 
 ========== ms.po ==========
-# mate-themes
+# cafe-themes
 # Jika takut risiko, Jangan bicara tentang Perjuangan
 # Hasbullah Bin Pit (sebol) <sebol@ikhlas.com>, 2002
 #
@@ -641,7 +641,7 @@
 
 ========== nb.po ==========
 # translation of nb.po to Norwegian Bokmal
-# Norwegian (bokmål) translation of mate-themes.
+# Norwegian (bokmål) translation of cafe-themes.
 # Copyright (C) 2002-2004, 2005 Free Software Foundation, Inc.
 # Kjartan Maraas <kmaraas@gnome.org>, 2002-2008.
 # Terance Edward Sola <terance@lyse.net>, 2005.
@@ -651,9 +651,9 @@
 
 
 ========== nds.po ==========
-# Low German translation for mate-themes.
-# Copyright (C) 2009 mate-themes's COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-themes package.
+# Low German translation for cafe-themes.
+# Copyright (C) 2009 cafe-themes's COPYRIGHT HOLDER
+# This file is distributed under the same license as the cafe-themes package.
 # NILS-CHRISTOPH FIEDLER <LINUX@MEDIENKOMPANIE.DE>, 2009.
 #
 
@@ -661,7 +661,7 @@
 
 
 ========== ne.po ==========
-# translation of mate-themes.HEAD.ne.po to Nepali
+# translation of cafe-themes.HEAD.ne.po to Nepali
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 #
@@ -674,7 +674,7 @@
 ========== nl.po ==========
 # Dutch translation for Mate themes
 #
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Vincent van Adrighem <V.vanAdrighem@dirck.mine.nu>, 2003
 # Reinout van Schouwen <reinout@cs.vu.nl>, 2003
@@ -687,8 +687,8 @@
 
 
 ========== nn.po ==========
-# translation of mate-themes.po to Norwegian Nynorsk
-# This file is distributed under the same license as the mate-themes package.
+# translation of cafe-themes.po to Norwegian Nynorsk
+# This file is distributed under the same license as the cafe-themes package.
 # Copyright (C) 2004, 2008, The MATE foundation
 # Åsmund Skjæveland, 2004.
 # Eskild Hustvedt, <eskildh@gnome.org>, 2008
@@ -699,9 +699,9 @@
 
 ========== oc.po ==========
 # Translation of oc.po to Occitan
-# Occitan translation of mate-themes.
+# Occitan translation of cafe-themes.
 # Copyright (C) 2002-2006, 2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008, 2010.
 
@@ -710,9 +710,9 @@
 
 ========== or.po ==========
 # translation of or.po to Oriya
-# Oriya translation of mate-themes.HEAD.pot.
+# Oriya translation of cafe-themes.HEAD.pot.
 # Copyright (C) 2006, 2008, 2009, Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # $Id: or.po,v 1.1 2006/04/03 20:44:04 gmohanty Exp $
 #
 # Gora Mohanty <gora_mohanty@yahoo.co.in>, 2006.
@@ -723,7 +723,7 @@
 
 
 ========== pa.po ==========
-# translation of mate-themes.HEAD.po to Punjabi
+# translation of cafe-themes.HEAD.po to Punjabi
 # KBST Punjab translation of punlinux.
 # Copyright (C) 2004 THE punlinux'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the punlinux package.
@@ -749,9 +749,9 @@
 
 
 ========== pt.po ==========
-# mate-themes' Portuguese translation.
-# Copyright © 2003, 2004, 2005, 2006, 2007, 2008, 2009 mate-themes
-# This file is distributed under the same license as the mate-themes package.
+# cafe-themes' Portuguese translation.
+# Copyright © 2003, 2004, 2005, 2006, 2007, 2008, 2009 cafe-themes
+# This file is distributed under the same license as the cafe-themes package.
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009.
 #
 
@@ -759,9 +759,9 @@
 
 
 ========== pt_BR.po ==========
-# Brazilian Portuguese translation of mate-themes.
+# Brazilian Portuguese translation of cafe-themes.
 # Copyright (C) 2004-2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Alexandre Folle de Menezes <afmenez@terra.com.br>, 2003,2005.
 # Evandro Fernandes Giovanini <evandrofg@ig.com.br>, 2004.
 # Og Maciel <ogmaciel@ubuntu.com>, 2006-2007.
@@ -772,7 +772,7 @@
 
 
 ========== ro.po ==========
-# Romanian translation for mate-themes
+# Romanian translation for cafe-themes
 # Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 # Mișu Moldovan <dumol@go.ro>, 2003, 2004.
 # Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
@@ -782,9 +782,9 @@
 
 
 ========== ru.po ==========
-# Russian translation for mate-themes.
+# Russian translation for cafe-themes.
 # Copyright (C) 2003-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Dmitry G. Mastrukov <dmitry@taurussoft.org>, 2003.
 # Leonid Kanter <leon@asplinux.ru>, 2006.
@@ -793,9 +793,9 @@
 
 
 ========== rw.po ==========
-# translation of mate-themes to Kinyarwanda.
+# translation of cafe-themes to Kinyarwanda.
 # Copyright (C) 2005 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Steve Murphy <murf@e-tools.com>, 2005
 # Steve performed initial rough translation from compendium built from translations provided by the following translators:
 # Philibert Ndandali  <ndandali@yahoo.fr>, 2005.
@@ -811,7 +811,7 @@
 
 
 ========== si.po ==========
-# translation of mate-themes.HEAD.po to Sinhala
+# translation of cafe-themes.HEAD.po to Sinhala
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
 # Tyronne Wickramarathne <tywickra@redhat.com>, 2006.
@@ -821,9 +821,9 @@
 
 
 ========== sk.po ==========
-# Slovak translation for mate-themes.
+# Slovak translation for cafe-themes.
 # Copyright (C) 2003, 2005, 2007, 2010 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Stanislav Visnovsky <visnovsky@kde.org>, 2003.
 # Peter Tuharsky <tuharsky@misbb.sk>, 2007.
 # Marcel Telka <marcel@telka.sk>, 2005, 2010.
@@ -833,23 +833,23 @@
 
 
 ========== sl.po ==========
-# Slovenian translation of mate-themes.
+# Slovenian translation of cafe-themes.
 # Copyright (C) 2002-2007 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Andraz Tori <andraz.tori1@guest.arnes.si>, 2006.
 # Matjaž Horvat <m@owca.info>, 2006.
 # Matic Žgur <mr.zgur@gmail.com>, 2007.
-# Matej Urbančič <mateju@svn.gnome.org> 2008 - 2010.
+# Matej Urbančič <cafeju@svn.gnome.org> 2008 - 2010.
 #
 
 
 
 
 ========== sq.po ==========
-# Përkthimi i mesazheve të mate-themes në shqip
+# Përkthimi i mesazheve të cafe-themes në shqip
 # Copyright (C) 2003, 2004, 2005, 2008 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Laurent Dhima <laurenti@alblinux.net>, 2003, 2004, 2005, 2008.
 
@@ -857,10 +857,10 @@
 
 
 ========== sr.po ==========
-# Serbian translation of mate-themes
+# Serbian translation of cafe-themes
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004.
 #
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Maintainer: Горан Ракић <grakic@devbase.net>
 # Reviewed on 2004-02-14 by Александар Урошевић <urke@users.sourceforge.net>
@@ -870,10 +870,10 @@
 
 
 ========== sr@latin.po ==========
-# Serbian translation of mate-themes
+# Serbian translation of cafe-themes
 # Courtesy of Prevod.org team (http://prevod.org/) -- 2003, 2004.
 #
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Maintainer: Goran Rakić <grakic@devbase.net>
 # Reviewed on 2004-02-14 by Aleksandar Urošević <urke@users.sourceforge.net>
@@ -883,9 +883,9 @@
 
 
 ========== sv.po ==========
-# Swedish messages for mate-themes.
+# Swedish messages for cafe-themes.
 # Copyright (C) 2002-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Christian Rose <menthos@menthos.com>, 2002, 2003, 2004, 2005.
 # Daniel Nylander <po@danielnylander.se>, 2006, 2008, 2009.
 #
@@ -896,7 +896,7 @@
 
 
 ========== ta.po ==========
-# translation of mate-themes.HEAD.ta.po to Tamil
+# translation of cafe-themes.HEAD.ta.po to Tamil
 # Tamil Translation of Mate-themes.
 # Copyright (C) 2004 zhakanini
 # This file is distributed under the same license as the PACKAGE package.
@@ -920,9 +920,9 @@
 
 
 ========== th.po ==========
-# Thai translation for mate-themes.
+# Thai translation for cafe-themes.
 # Copyright (C) 2003-2009 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Paisa Seeluangsawat <paisa@colorado.edu>, 2003.
 # Theppitak Karoonboonyanan <thep@linux.thai.net>, 2005-2009.
 #
@@ -931,9 +931,9 @@
 
 
 ========== tr.po ==========
-# Turkish translation of mate-themes.
-# Copyright (C) 2003 mate-themes' copyright holders
-# This file is distributed under the same license as the mate-themes package.
+# Turkish translation of cafe-themes.
+# Copyright (C) 2003 cafe-themes' copyright holders
+# This file is distributed under the same license as the cafe-themes package.
 #
 # Barbaros Ulutas <tebarul@yahoo.com>, 2002.
 # Görkem Çetin <gorkem@kde.org>, 2003.
@@ -943,7 +943,7 @@
 
 
 ========== ug.po ==========
-# translation of mate-themes.po to Uighur
+# translation of cafe-themes.po to Uighur
 # This file is distributed under the same license as the PACKAGE package.
 # Copyright (C) 2004 THE PACKAGE'S COPYRIGHT HOLDER
 #  Abduxukur Abdurixit <abduxukur.abdurixit@t-systems.ch> 2005
@@ -953,9 +953,9 @@
 
 
 ========== uk.po ==========
-# Ukrainian translation for mate-themes.
+# Ukrainian translation for cafe-themes.
 # Copyright (C) 2003 Free Software Foundation, Inc.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Yuriy Syrota <yuri@renome.rovno.ua>
 # Maxim Dziumanenko <dziumanenko@gmail.com>, 2003-2007.
 #
@@ -991,9 +991,9 @@
 
 
 ========== xh.po ==========
-# Xhosa translation of mate-themes
+# Xhosa translation of cafe-themes
 # Copyright (C) 2005 Canonical Ltd.
-# This file is distributed under the same license as the mate-themes package.
+# This file is distributed under the same license as the cafe-themes package.
 # Translation by Canonical Ltd <translations@canonical.com> with thanks to
 # Translation World CC in South Africa, 2005.
 #
@@ -1002,9 +1002,9 @@
 
 
 ========== zh_CN.po ==========
-# zh_CN translation for mate-themes
-# Copyright (C) 2003 THE mate-themes'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the mate-themes package.
+# zh_CN translation for cafe-themes
+# Copyright (C) 2003 THE cafe-themes'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the cafe-themes package.
 # Funda Wang <fundawang@linux.net.cn>, 2003
 # Yang Zhang <zyangmath@gmail.com>, 2009.
 #
@@ -1014,7 +1014,7 @@
 
 
 ========== zh_HK.po ==========
-# Chinese (Hong Kong) translation of mate-themes.
+# Chinese (Hong Kong) translation of cafe-themes.
 # Copyright (C) 2003-07 Free Software Foundation, Inc.
 # Abel Cheung <abel@oaka.org>, 2003-07.
 #
@@ -1023,7 +1023,7 @@
 
 
 ========== zh_TW.po ==========
-# Chinese (Taiwan) translation of mate-themes.
+# Chinese (Taiwan) translation of cafe-themes.
 # Copyright (C) 2003-07 Free Software Foundation, Inc.
 # Abel Cheung <abel@oaka.org>, 2003-07.
 #

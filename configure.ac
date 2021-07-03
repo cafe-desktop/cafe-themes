@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-AC_INIT([mate-themes], [3.22.21], [https://mate-desktop.org])
+AC_INIT([cafe-themes], [3.22.21], [https://cafe-desktop.org])
 AC_CONFIG_SRCDIR([icon-themes])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip check-news])
@@ -25,10 +25,10 @@ PKG_CHECK_MODULES(THEME_ENGINE,
 AC_CONFIG_FILES([
 Makefile
 cursor-themes/Makefile
-cursor-themes/mate-white/Makefile
-cursor-themes/mate-white/cursors/Makefile
-cursor-themes/mate-black/Makefile
-cursor-themes/mate-black/cursors/Makefile
+cursor-themes/cafe-white/Makefile
+cursor-themes/cafe-white/cursors/Makefile
+cursor-themes/cafe-black/Makefile
+cursor-themes/cafe-black/cursors/Makefile
 desktop-themes/Makefile
 desktop-themes/BlackMATE/Makefile
 desktop-themes/BlackMATE/apps/Makefile
@@ -234,7 +234,7 @@ AC_OUTPUT
 
 dnl ==========================================================================
 echo "
-mate-themes-$VERSION:
+cafe-themes-$VERSION:
 
 	Installation prefix:	${prefix}
 
