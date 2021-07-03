@@ -24,13 +24,13 @@
 
   * Translations update
   * GreenLaguna: add selectable metacity theme with borders
-  * BlackMATE: Restore 1px border metacity theme for the composited case
-  * BlackMATE: add selectable metacity theme with borders
+  * BlackCAFE: Restore 1px border metacity theme for the composited case
+  * BlackCAFE: add selectable metacity theme with borders
   * Submarine: add metacity themes with huge borders
   * Menta: add selectable metacity theme with borders
   * Change url project's website
   * GreenSubmarine: use menta icon theme
-  * BlackMATE: provide enough border to resize windows with recent changes elsewhere
+  * BlackCAFE: provide enough border to resize windows with recent changes elsewhere
   * GreenLaguna: add metacity-theme-3.xml version back
   * include GtkStock icons directly in HCI
   * all themes: adjustments for headerbars
@@ -48,7 +48,7 @@
   * add Travis-CI support
   * TOK/TG: fix menubar view for LibreOffice
   * Menta metacity: synchronize frame_geometry
-  * BlackMATE: fix invisible checkboxes in Firefox content when userChrome.css is used
+  * BlackCAFE: fix invisible checkboxes in Firefox content when userChrome.css is used
   * Trad. and Menta themes: fix menu accelerator
   * submarine: fix font-color headerbar button.default
   * Trad. and GreenLaguna: fix lightdm-gtk panel
@@ -89,8 +89,8 @@
 ### 3.22.16 (GTK 3.22)
 
   * Menta themes: use black cursor theme
-  * BlackMATE: Fix for Google Chrome/Chromium
-  * BlackMATE: Fix some runtime warnings
+  * BlackCAFE: Fix for Google Chrome/Chromium
+  * BlackCAFE: Fix some runtime warnings
   * add black cursor theme
   * cursor theme: use HIDIPI cursors
   * All themes: some improvements for WebKitGtk2
@@ -108,10 +108,10 @@
   * submarine themes: remove padding from caja-sidebar treeview
   * all themes caja: remove right-border from scrolledwindow.frame
   * Menta metacity themes: remove left/right-border for maximised windows
-  * BlackMATE: write the border on scrollbar trough
+  * BlackCAFE: write the border on scrollbar trough
   * all themes: remove right-border from scrolledwindow.frame
   * submarine themes: fix fg color of button.suggested-action in headerbars
-  * BlackMATE: Workaround for Yelp/Lireoffice/Firefox scrollbar issue
+  * BlackCAFE: Workaround for Yelp/Lireoffice/Firefox scrollbar issue
   * Revert "Gtk+-3.20 all themes: fix redraw issue with yelp"
 
 ### 3.22.14 (GTK 3.22)
@@ -148,20 +148,20 @@
   * Gtk+-3.20 BlackMate: some panel clock fixes
   * TOK/TG: caja: solid color to the notebook header border
   * Gtk+-3.20 Menta themes: use a hardcoded bg color for tooltips
-  * BlackMATE: CSD apps-match noncomposited headerbar to square window border
+  * BlackCAFE: CSD apps-match noncomposited headerbar to square window border
 
 ### 3.22.12 (GTK 3.22)
 
-  * BlackMATE: more CSD app fixes
-  * BlackMATE fixes for CSD apps
+  * BlackCAFE: more CSD app fixes
+  * BlackCAFE fixes for CSD apps
   * sync with transifex
   * Gtk+-3.20 Menta themes: change colors for panel applet buttons
   * Gtk+-3.20 Menta themes: change transition timining for menubar menuitem
   * Gtk+-3.20 Menta themes: use normal menubar menuitems styling for the panel
   * Gtk+-3.20 Menta themes: remove transition effect from menuitems
   * TOK/TG: cafe-terminal: solid color to the notebook header border
-  * Gtk+-3.20 BlackMATE: fix fontcolor in url bar of google chrome
-  * Gtk+-3.20 BlackMATE: change menuitem accelerator font color
+  * Gtk+-3.20 BlackCAFE: fix fontcolor in url bar of google chrome
+  * Gtk+-3.20 BlackCAFE: change menuitem accelerator font color
   * TOK/TG: xfce4-terminal: solid color to the notebook header border
   * TOK/TG: Remove gradient from notebook header
   * Restore Polish translation credits from GNOME
@@ -172,9 +172,9 @@
 ### 3.22.11 (GTK 3.22)
 
   * Translations update
-  * BlackMATE: fully style noncomposited m-s-d OSD
-  * BlackMATE: support new msd-osd-window-solid style class for non-composited OSD case
-  * BlackMATE: make caja renaming labels more readable
+  * BlackCAFE: fully style noncomposited m-s-d OSD
+  * BlackCAFE: support new msd-osd-window-solid style class for non-composited OSD case
+  * BlackCAFE: make caja renaming labels more readable
   * ContrastHighInverse: Fix Caja rename labels when theme actually applied
   * cursor: add color-picker cursor image
   * GTK+-3.20 submarine themes: improve cafe- and mintmenu
@@ -276,7 +276,7 @@
   * GTK+-3.20 Traditional themes: fix border-radius of dialog-action-area linked single button
   * GTK+-3.20 Submarine themes: fix border-radius of dialog-action-area linked single button
   * GTK+-3.20 Submarine themes: more outline fixes
-  * BlackMATE: Fix disappearing focus of flat buttons
+  * BlackCAFE: Fix disappearing focus of flat buttons
 
 ### 3.22.6 (GTK 3.22)
 
@@ -284,7 +284,7 @@
   * GTK+-3.20 GreenLaguna: enable outlines
   * GTK+-3.20 TG theme: enable outlines and some focus fixes
   * GTK+-3.20 TOK theme: enable outlines and some focus fixes
-  * GTK+-3.20 BlackMATE: enable focus highlights and outlines
+  * GTK+-3.20 BlackCAFE: enable focus highlights and outlines
   * Gtk+-3.20 Submarine themes: enable outlines and some focus fixes
   * GTK+-3.20 Menta themes: enable outlines and some focus fixes
   * GTK+-3.20 submarine themes: use a border for scrolledwindows in preferences dialog windows
@@ -306,7 +306,7 @@
   * GTK+-3.20 BlackMate: start fixing wrong syntax for 3.20
   * GTK+-3.20 Most themes: fix remaining wrong syntax for 3.20
   * Most themes: Specify a monospace font family
-  * GTK3.22  BlackMATE Specify a monospace font family
+  * GTK3.22  BlackCAFE Specify a monospace font family
   * GTK+-3.20 Menta themes: support lightdm-greeter-2.0
   * GTK+-3.20 submarine themes: adjust colors for lightdm style
   * GTK+-3.20 submarine themes: use a dark style for lock-dialog from screensaver
@@ -357,7 +357,7 @@
   * GTK+-3.20 TOK themes: style treeview progressbar
   * GTK+-3.20 submarine themes: style treeview progressbar
   * GTK+-3.20 Menta themes: style treeview progressbars
-  * GTK+-3.20 BlackMATE: fix treeview progressbars
+  * GTK+-3.20 BlackCAFE: fix treeview progressbars
   * GTK+-3.20 TOK themes: style pavu-control
   * GTK+-3.20 GreenLaguna: style pavu-control
   * Gtk+-3.20 Submarine themes: style pavu-control
@@ -369,13 +369,13 @@
 ### 3.22.0 (GTK 3.22)
 
   * Translations update
-  * GTK+-3.22 BlackMATE: Fix font warning
+  * GTK+-3.22 BlackCAFE: Fix font warning
   * GTK+-3.22 TOK themes: fix deprecacted 'one color stop with linear-gradient' and fonts setiings
   * GTK+-3.22 GreenLaguna: fix deprecacted 'one color stop with linear-gradient' and fonts setiings
   * GTK+-3.22 Submarine themes: fix deprecacted 'one color stop with linear-gradient' and fonts setiings
   * GTK+-3.22 Menta themes: fix deprecated one color stop with linear-gradient()
   * GTK+-3.22 Menta themes: fix font deprecations
-  * GTK+-3.22 BlackMATE: fix font, deprecation errors
+  * GTK+-3.22 BlackCAFE: fix font, deprecation errors
 
 ### 3.20.9 (GTK 3.20)
 
@@ -383,27 +383,27 @@
   * GTK+-3.20 most themes: add support for OSD mediakeys windows
   * GTK+-3.20 TOK themes: kill a unwanted border on nemo desktop window
   * GTK+-3.20 TOK themes: use same colors for text selection in atril if window isn't focused
-  * GTK+-3.20 BlackMATE: fix broken text selection in atril
+  * GTK+-3.20 BlackCAFE: fix broken text selection in atril
   * GTK+-3 TOK themes: fix hover fg color in combobox menu
   * GTK+-3.20 most themes: use node 'paper' for GtkPrintUnixDialog
   * GTK+-3.20 most themes: fix text selection in atril
-  * GTK+-3.20 BlackMATE: Fix "paper" widget in print dialogs
+  * GTK+-3.20 BlackCAFE: Fix "paper" widget in print dialogs
   * GTK+-3.20 submarine themes: fixes for atril toolbar, caja and cafe-keyboard-properties
   * GTK+-3.20 Menta themes: fix wrong bg color of notebook in wifi password dialog, nm-applet
   * GTK+-3.20 TOK themes: fix wrong bg color of notebook in wifi password dialog, nm-applet
   * GTK+-3.20 Submarine themes: fix wrong bg color of notebook in wifi password dialog, nm-applet
-  * GTK+-3.20 BlackMATE: fix wrong bg color of notebook in wifi password dialog, nm-applet
-  * GTK+-3.20 BlackMATE: consistant panel menus
-  * GTK+-3.20 BlackMATE: fix panel right-click menu size
+  * GTK+-3.20 BlackCAFE: fix wrong bg color of notebook in wifi password dialog, nm-applet
+  * GTK+-3.20 BlackCAFE: consistant panel menus
+  * GTK+-3.20 BlackCAFE: fix panel right-click menu size
   * Menta themes metacity: increase border size
   * Menta themes metacity: adjust buttons for frame_geometry normal
-  * GTK+-3.20 BlackMATE: fix Firefox scrollbar sliders
+  * GTK+-3.20 BlackCAFE: fix Firefox scrollbar sliders
 
 ### 3.20.8 (GTK 3.20)
 
   * GTK+-3.20 TOK themes: adjust nemo pathbar
   * GTK+-3.20 TOK themes: fix GtkScale API breakage with stable gtk+
-  * BlackMATE: support new MSD OSD style class
+  * BlackCAFE: support new MSD OSD style class
   * GTK+-3.20 most themes: fix bg color of scrolledwindow junction in nemo treeview
   * HighContrast metacity: fix color of of buttons
   * GTK+-3.20 Submarine themes: fix pathbar in nemo
@@ -426,7 +426,7 @@
   * GTK+-3.20 Menta themes: fix GtkScale API breakage with stable gtk+
   * GTK+-3 BlueMenta: add missing scale_trough_border color definition
   * Menta themes metacity: fix button geometry for all windows
-  * BlackMATE :use a text shadow on cafe-panel
+  * BlackCAFE :use a text shadow on cafe-panel
   * GTK+-3.20 Submarine themes: use a text-shadow for cafe-panel
   * GTK+-3.20 Submarine themes: add icon-shadow to GtkExpander and shadows for image and label of clock-applet
   * GTK+-3.20 Menta themes: fix tooltips for WM decoration and firefox
@@ -444,12 +444,12 @@
 
   * Translations update
   * GTK+-3.20 all themes: add settings for yumex-dnf
-  * GTK+-3.20 BlackMATE: fix wrong stackswitcher node
+  * GTK+-3.20 BlackCAFE: fix wrong stackswitcher node
   * GTK+-3.20 Submarine themes: fix scrollbar bg in firefox websites
-  * GTK+-3.20 BlackMATE: add simple support for spinbuttons and OSD spinbuttons
-  * GTK+-3.20 BlackMATE: some more corrections for 3.20
+  * GTK+-3.20 BlackCAFE: add simple support for spinbuttons and OSD spinbuttons
+  * GTK+-3.20 BlackCAFE: some more corrections for 3.20
   * GTK+-3.20 BlackMate: adjust list row syntax for 3.20
-  * GTK+-3.20 BlackMATE: fix OSD settings
+  * GTK+-3.20 BlackCAFE: fix OSD settings
   * GTK+-3.20 Blackcafe: fix headerbar and .titlebar
   * GTK+-3.20 GreenLaguna: fix fg color of firefox tooltips
   * GTK+-3.20 GreenLaguna: style meld and buttons in infobar
@@ -471,7 +471,7 @@
   * GTK+-3.20 Menta themes: adjust scrollbars for firefox
   * GreenLaguna metacity: remove borders from max window
   * Submarine themes metacity: remove borders from max window
-  * BlackMATE metacity: remove borders from max window
+  * BlackCAFE metacity: remove borders from max window
   * Menta themes: add metacity-theme-2.xml file
   * GTK+-3.20 TOK themes: make preview windows in wnckpager more visible
   * GTK+-3.20 GreenLaguna: make preview windows in wnckpager more visible
@@ -484,7 +484,7 @@
 
 ### 3.20.6 (GTK 3.20)
 
-  * GTK+-3.20 BlackMATE: adjust tooltips
+  * GTK+-3.20 BlackCAFE: adjust tooltips
   * GTK+-3.20 TOK themes: adjust tooltips
   * GTK+-3.20 ContrastHighInverse: adjust tooltips
   * GTK+-3.20 GreenLaguna: re-work tooltips
@@ -518,8 +518,8 @@
   * GTK+-3.20 TOK themes: style nemo-preferences dialog
   * GTK+-3.20 TOK themes: add stack-switcher support
   * GTK+-3.20 TOK themes: some corrections for scrolledwindow and primary-toolbar button
-  * GTK+-3.20 BlackMATE: Correct bg of active treeview cells
-  * GTK+-3.20 BlackMATE: match stacksidebar to placessidebar
+  * GTK+-3.20 BlackCAFE: Correct bg of active treeview cells
+  * GTK+-3.20 BlackCAFE: match stacksidebar to placessidebar
   * GTK+-3.20 TOK themes: some improvements for filechooser dialog window
   * GTK+-3.18 TOK themes: fix button jummping in spinbuttons of color selection
   * GTK+-3.20 TOK themes: remove the scrollbar color from scrolledwindow
@@ -610,7 +610,7 @@
 ### 3.20.0 (GTK 3.20)
 
   * port BlueMenta to gtk+-3.20
-  * port BlackMATE to gtk+-3.20
+  * port BlackCAFE to gtk+-3.20
   * port GreenSubmarine to gtk+-3.20
 
 ### 1.12.2 (GTK 3.18)
@@ -638,7 +638,7 @@
   * Gtk+-3.18 most themes: workaround for broken first/last-child logic with
     linked buttons in pathbar with gtk+-3.18
   * GTK3: Menta themes: fix cafe-panel separator background
-  * GTK3: BlackMATE, GreenLaguna: fix Nautilus desktop window background transparency
+  * GTK3: BlackCAFE, GreenLaguna: fix Nautilus desktop window background transparency
 
 ### 1.12.1 (GTK 3.18)
 
@@ -689,8 +689,8 @@
   * add new style classes settings for ContrastHigh themes
   * restore progressbars for traditional themes
   * improvements for traditional themes
-  * BlackMATE: re-work caja styling a bit
-  * improvements for BlackMATE theme
+  * BlackCAFE: re-work caja styling a bit
+  * improvements for BlackCAFE theme
   * improvements for Greenlaguna theme
   * submarine themes: don't use dark colors for math calculators
   * improvements for submarine themes
@@ -748,7 +748,7 @@
 ### 1.9.0
   * BlueMenta: Add GTK 3.12 support
   * Menta: Add GTK 3.12 support
-  * BlackMATE: Add GTK 3.12 support
+  * BlackCAFE: Add GTK 3.12 support
   * GreenLaguna: Add GTK 3.12 support
 
 ### 1.8.0

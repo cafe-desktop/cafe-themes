@@ -1,5 +1,5 @@
 # SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR MATE Desktop Environment team
+# Copyright (C) YEAR CAFE Desktop Environment team
 # This file is distributed under the same license as the cafe-themes package.
 # 
 # Translators:
@@ -9,12 +9,12 @@
 # Yannig Marchegay (Kokoyaya) <yannig@marchegay.org>, 2006-2008, 2010
 msgid ""
 msgstr ""
-"Project-Id-Version: MATE Desktop Environment\n"
+"Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
 "POT-Creation-Date: 2019-11-20 18:49+0100\n"
 "PO-Revision-Date: 2020-02-10 21:02+0000\n"
 "Last-Translator: Quentin\n"
-"Language-Team: Occitan (post 1500) (http://www.transifex.com/cafe/MATE/language/oc/)\n"
+"Language-Team: Occitan (post 1500) (http://www.transifex.com/cafe/CAFE/language/oc/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,14 +22,14 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: cursor-themes/cafe-black/index.theme.in:3
-msgid "MATE (Black)"
-msgstr "MATE (negre)"
+msgid "CAFE (Black)"
+msgstr "CAFE (negre)"
 
-#: desktop-themes/BlackMATE/index.theme.in:4
-msgid "BlackMATE"
-msgstr "BlackMATE"
+#: desktop-themes/BlackCAFE/index.theme.in:4
+msgid "BlackCAFE"
+msgstr "BlackCAFE"
 
-#: desktop-themes/BlackMATE/index.theme.in:5
+#: desktop-themes/BlackCAFE/index.theme.in:5
 msgid "A clean dark theme"
 msgstr "Tèma net e escur"
 

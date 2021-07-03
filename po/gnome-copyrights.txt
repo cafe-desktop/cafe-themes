@@ -248,7 +248,7 @@
 
 ========== en_CA.po ==========
 # Canadian English translation of cafe-themes
-# Copyright (C) Adam Weinberger and the MATE Foundation
+# Copyright (C) Adam Weinberger and the CAFE Foundation
 # This file is distributed under the same licence as the cafe-themes package.
 # Adam Weinberger <adamw@gnome.org>, 2004.
 #
@@ -269,7 +269,7 @@
 
 ========== es.po ==========
 # translation of cafe-themes.HEAD.po to Español
-# Copyright © 2002 The MATE-Software Foundation
+# Copyright © 2002 The CAFE-Software Foundation
 # This file is distributed under the same license as the cafe-themes package.
 #
 # Pablo Gonzalo del Campo <pablodc@bigfoot.com>, 2002,2003.
@@ -285,7 +285,7 @@
 # Estonian translation of cafe-themes.
 #
 # Copyright (C) 2003, 2004-2006 Free Software Foundation, Inc.
-# Copyright (C) 2007, 2008, The MATE Project.
+# Copyright (C) 2007, 2008, The CAFE Project.
 # This file is distributed under the same license as the cafe-themes package.
 #
 # Tõivo Leedjärv <toivo@linux.ee>, 2003.
@@ -369,7 +369,7 @@
 ========== gl.po ==========
 # translation of gl.po to Galego
 # This file is distributed under the same license as the cafe-themes package.
-# Copyright (C) 2002 The MATE-Software Foundation
+# Copyright (C) 2002 The CAFE-Software Foundation
 #
 # Ignacio Casal Quinteiro <adorador_del_heavy@hotmail.com>, 2004.
 # Ignacio Casal Quinteiro <nacho.resa@gmail.com>, 2005, 2006.
@@ -568,7 +568,7 @@
 
 
 ========== mg.po ==========
-# MALAGASY TRANSLATION OF MATE-THEMES.
+# MALAGASY TRANSLATION OF CAFE-THEMES.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
 # Thierry Randrianiriana <randrianiriana@gmail.com>, 2006.
@@ -689,7 +689,7 @@
 ========== nn.po ==========
 # translation of cafe-themes.po to Norwegian Nynorsk
 # This file is distributed under the same license as the cafe-themes package.
-# Copyright (C) 2004, 2008, The MATE foundation
+# Copyright (C) 2004, 2008, The CAFE foundation
 # Åsmund Skjæveland, 2004.
 # Eskild Hustvedt, <eskildh@gnome.org>, 2008
 # Torstein Adolf Winterseth <kvikende@yahoo.no>, 2010.
@@ -965,8 +965,8 @@
 
 
 ========== vi.po ==========
-# Vietnamese Translation for MATE Themes.
-# Copyright © 2009 MATE i18n Project for Vietnamese.
+# Vietnamese Translation for CAFE Themes.
+# Copyright © 2009 CAFE i18n Project for Vietnamese.
 # T.M.Thanh <tmthanh@yahoo.com>, 2002.
 # Nguyen Thai Ngoc Duy <pclouds@vnlinux.org>, 2004.
 #  Phạm Thành Long <lngt@ngonngu.net>, 2007.

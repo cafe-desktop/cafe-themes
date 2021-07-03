@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=BlackMATE
+Name=BlackCAFE
 Comment=A clean dark theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=BlackMATE
-MetacityTheme=BlackMATE
+GtkTheme=BlackCAFE
+MetacityTheme=BlackCAFE
 IconTheme=cafe
 CursorTheme=cafe
 CursorSize=24

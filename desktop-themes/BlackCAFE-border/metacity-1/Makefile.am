@@ -1,4 +1,4 @@
-THEME_NAME=BlackMATE-border
+THEME_NAME=BlackCAFE-border
 
 themedir = $(datadir)/themes/$(THEME_NAME)/metacity-1
 
