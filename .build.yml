@@ -4,11 +4,14 @@
 requires:
   archlinux:
     # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/cafe-themes
+    - autoconf
+    - automake
     - gcc
     - git
-    - make
     - gtk2
     - intltool
+    - make
+    - pkgconf
     - which
 
   debian:
