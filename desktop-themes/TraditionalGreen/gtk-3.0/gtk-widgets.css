@@ -855,7 +855,7 @@ frame {
 box > frame, /* cafe-tweak */
 statusbar > frame, /* caja, etc. */
 statusbar > widget > frame, /* pluma */
-GvcMixerDialog frame { /* Mate Mixer dialog */
+GvcMixerDialog frame { /* Cafe Mixer dialog */
     border-style: none;
 }
 

@@ -75,7 +75,7 @@
   * all themes: xrandr-applet menu styling
   * Submarine/GreenLaguna: fix bg of foo-scroll-area
   * Menta themes: fix background size for windows-control icons
-  * all themes: Mate Panel: Fix align with CheckBoxes in applet popup menu
+  * all themes: Cafe Panel: Fix align with CheckBoxes in applet popup menu
   * Menta themes: use icons with best resolution
   * HighContrast: use HC icon-theme
   * Fix more HighContrast themes visibility with metacity
@@ -145,7 +145,7 @@
   * Add index.theme file for gtk+ High Contrast theme
   * Gtk+-3.20 Most themes: setup border for clockmap in clock applet
   * Gtk+-3.20 Submarine themes: some fixes for clock applet
-  * Gtk+-3.20 BlackMate: some panel clock fixes
+  * Gtk+-3.20 BlackCafe: some panel clock fixes
   * TOK/TG: caja: solid color to the notebook header border
   * Gtk+-3.20 Menta themes: use a hardcoded bg color for tooltips
   * BlackCAFE: CSD apps-match noncomposited headerbar to square window border
@@ -303,7 +303,7 @@
 
   * Translations update
   * GTK+-3.22 submarine themes: setup dconf-editor
-  * GTK+-3.20 BlackMate: start fixing wrong syntax for 3.20
+  * GTK+-3.20 BlackCafe: start fixing wrong syntax for 3.20
   * GTK+-3.20 Most themes: fix remaining wrong syntax for 3.20
   * Most themes: Specify a monospace font family
   * GTK3.22  BlackCAFE Specify a monospace font family
@@ -327,7 +327,7 @@
   * metacity Menta themes: draw a thin black border line for maximize windows
   * Gtk+-3.20 GreenLaguna: fix disabled menuitems not grayed out
   * Gtk+-3.20 Submarine themes: use a dark style for lightdm
-  * GTK 3.22 BlackMate: fix disabled menu items not grayed out
+  * GTK 3.22 BlackCafe: fix disabled menu items not grayed out
   * GTK+-3.20 Green-Submarine: fix panel styling
 
 ### 3.22.2 (GTK 3.22)
@@ -414,7 +414,7 @@
   * GTK+-3-20 Green-Submarine: darken menuitem arrow hover color
   * GTK+-3-20 Green-Submarine: some color correction for panel applets
   * GTK+-3.20 Submarine themes: fix hover fg color of panel menubar
-  * GTK+-3.20 BlackMate: a few adjustments for caja + clean up of cafe-applications
+  * GTK+-3.20 BlackCafe: a few adjustments for caja + clean up of cafe-applications
     caja combobox views
     sidebar scrollbar button
     drop old selectors from nautilus
@@ -448,7 +448,7 @@
   * GTK+-3.20 Submarine themes: fix scrollbar bg in firefox websites
   * GTK+-3.20 BlackCAFE: add simple support for spinbuttons and OSD spinbuttons
   * GTK+-3.20 BlackCAFE: some more corrections for 3.20
-  * GTK+-3.20 BlackMate: adjust list row syntax for 3.20
+  * GTK+-3.20 BlackCafe: adjust list row syntax for 3.20
   * GTK+-3.20 BlackCAFE: fix OSD settings
   * GTK+-3.20 Blackcafe: fix headerbar and .titlebar
   * GTK+-3.20 GreenLaguna: fix fg color of firefox tooltips
@@ -480,7 +480,7 @@
   * GTK+-3.20 GreenLaguna: style printdialog
   * GTK+-3.20 Menta themes: style printdialog
   * GTK+-3.20 Submarine themes: style printdialog notebook + fix fg color of combobox cellview
-  * GTK+-3.20 BlackMate: apply window-control theme to gedit
+  * GTK+-3.20 BlackCafe: apply window-control theme to gedit
 
 ### 3.20.6 (GTK 3.20)
 
@@ -492,21 +492,21 @@
   * GTK+-3.20 TOK themes: adjustments for headerbars, placesidebar and placesview
   * GTK+-3.20 Submarine themes: adjust headerbars
   * GTK+-3.20 Menta themes: adjust headerbar settings for gedit
-  * GTK+-3.20 BlackMate: Fix Gedit headerbar buttons
-  * GTK+-3.20 BlackMate: fix incorrect headerbar selector
-  * GTK+-3.20 BlackMate: more Firefox fixes
-  * GTK+-3.20 BlackMate: Fix check and radio buttons in Firefox GTK3 website content
+  * GTK+-3.20 BlackCafe: Fix Gedit headerbar buttons
+  * GTK+-3.20 BlackCafe: fix incorrect headerbar selector
+  * GTK+-3.20 BlackCafe: more Firefox fixes
+  * GTK+-3.20 BlackCafe: Fix check and radio buttons in Firefox GTK3 website content
   * GTK+-3.20 TOK themes: fix check and radio buttons for firefox
   * GTK+-3.20 GreenLaguna: fix check and radio boxes for firefox
-  * GTK+-3.20 BlackMate: fix check and radio boxes in firefox
+  * GTK+-3.20 BlackCafe: fix check and radio boxes in firefox
   * GTK+-3.20 Menta themes: fix for check and radio boxes in firefox
-  * GTK+-3.20 BlackMate: use origin border-radius for trough and progress
-  * GTK+-3.20 BlackMate: don't set insensitive colors as a general setting
-  * GTK+-3.20 BlackMate little adjustement for scrollbars
-  * GTK+-3.20 BlackMate: re-work menus
-  * GTK+-3.20 BlackMate: fix some general parameter
-  * GTK+-3.20 BlackMate: use a padding for menubar menuitem from cafe-panel
-  * GTK+-3.20 BlackMate: fix fg color of text selection in firefox
+  * GTK+-3.20 BlackCafe: use origin border-radius for trough and progress
+  * GTK+-3.20 BlackCafe: don't set insensitive colors as a general setting
+  * GTK+-3.20 BlackCafe little adjustement for scrollbars
+  * GTK+-3.20 BlackCafe: re-work menus
+  * GTK+-3.20 BlackCafe: fix some general parameter
+  * GTK+-3.20 BlackCafe: use a padding for menubar menuitem from cafe-panel
+  * GTK+-3.20 BlackCafe: fix fg color of text selection in firefox
   * GTK+-3.20 Submarine themes: more adjustments for gtk+-3.20
   * GTK+-3.20 Menta themes: more adjustments for gtk+-3.20
   * GTK+-3.20 TOK themes: rework menus and fix issue with arrows on firefox menus
@@ -533,7 +533,7 @@
   * GTK+-3.20 Menta themes: correct some fg colors in gnome-weather-pages
   * GTK+-3.20 Menta themes: fix fg color of flat buttons in rhythmbox
   * Fix Changelog generation
-  * GTK+-3.20 BlackMate: style lock-screen
+  * GTK+-3.20 BlackCafe: style lock-screen
   * GTK+-3-20 traditional themes: style lock-screen
   * GTK+-3.20 TOK themes: adjust linked buttons for rhythmbox and nemo
   * GTK+-3.20 TOK themes: OSD and inline-bar fixes for parole and gnome-weather
@@ -547,11 +547,11 @@
     and cleanup gnome-applications
   * GTK+-3.20 submarine themes: fix button color in meld toolbar + toolbar cleanup
   * GTK+-3.20 Menta themes: reduce border-radius of panel buttons
-  * GTK+-3.20 BlackMate: Fix non-composited CSD windows
-  * GTK+-3.20 BlackMate: adjust window-controls settings
-  * GTK+-3.20 BlackMate: use Mate logo as spinner animation
+  * GTK+-3.20 BlackCafe: Fix non-composited CSD windows
+  * GTK+-3.20 BlackCafe: adjust window-controls settings
+  * GTK+-3.20 BlackCafe: use Cafe logo as spinner animation
   * GTK+-3.20 Submarine themes: simplify linked path-bar
-  * GTK 3.20 BlackMate: correct for recent cafe-panel changes
+  * GTK 3.20 BlackCafe: correct for recent cafe-panel changes
   * ship a HighContrast metacity-theme-1.xml
   * drop ContrastHigh theme, gtk+ ship that already
 
@@ -618,10 +618,10 @@
   * GTK3 GreenLaguna: fix padding osd-toolbar volume button
   * GTK3 submarine themes: fix padding osd-toolbar volume button
   * Gtk+-3.14/16 submarine themes: fix padding of .app-notification .button:hover
-  * GTK3 BlackMate: fix padding osd-toolbar volume button
-  * GTK3 BlackMate: fix padding of .app-notification .button:hover
+  * GTK3 BlackCafe: fix padding osd-toolbar volume button
+  * GTK3 BlackCafe: fix padding of .app-notification .button:hover
   * GTK3 submarine themes: re-work caja styling
-  * GTK3 BlackMate: adjust notebook tabs
+  * GTK3 BlackCafe: adjust notebook tabs
   * GTK3 GreenLaguna: adjust notebook tabs
   * GTK3 submarine themes: reduce hight of notebook tabs
   * GTK3 submarine themes: adjust notebook tabs in pluma text area
@@ -675,7 +675,7 @@
   * osd-scale popup
   * all gtk3
   * fix padding-area of icons in na-tray
-  * full transparent panel for BlackMate and GreenLaguna
+  * full transparent panel for BlackCafe and GreenLaguna
   * improvements for all themes
   * details see git log
 
@@ -709,7 +709,7 @@
   * improvements for menta themes GTK+-3.16
   * re-work of GreenLaguna GTK3
   * improvements for traditional themes GTK+-3.16
-  * improvements for BlackMate GTK+-3.16
+  * improvements for BlackCafe GTK+-3.16
   * more styling for cafe GTK3 applications
   * add a whitlist for window-controls menu-close button for csd apps
   * use cafe logo for spinner animation
@@ -728,17 +728,17 @@
 ### 1.9.3
   * TraditionalOKTest is installable with normal configure flags
   * add transition effect to buttons and menuitems for Menta themes GTK3
-  * add transition effect to buttons and menuitems for BlackMate and GreenLaguna GTK3
-  * add support for CSD applications in BlackMate and GreenLaguna
+  * add transition effect to buttons and menuitems for BlackCafe and GreenLaguna GTK3
+  * add support for CSD applications in BlackCafe and GreenLaguna
   * improve handling of CSD applications in other themes
-  * add support for popovers in GreenLaguna, BlackMate, ContrastHigh and ContrastHighInverse themes
+  * add support for popovers in GreenLaguna, BlackCafe, ContrastHigh and ContrastHighInverse themes
   * improve popovers support in Traditional themes
   * serveral other improvements
 
 ### 1.9.2
   * add ContrastHighInververse GTK3 part
   * more adjustments for GTK3-3.14 in main themes
-  * several improvements in BlackMate, GreenLaguna and Shiny themes GTK2
+  * several improvements in BlackCafe, GreenLaguna and Shiny themes GTK2
 
 ### 1.9.1
   * bump version to reflect GTK3 suported version

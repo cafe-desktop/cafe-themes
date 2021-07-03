@@ -231,7 +231,7 @@
 }
 
 /****************
- * Mate-Panel   *
+ * Cafe-Panel   *
  ****************/
 
 /* let's started */
@@ -333,11 +333,11 @@ PanelToplevel.vertical.right > grid {
 }
 
 /*
-MatePanelApplet {
+CafePanelApplet {
     border-width: 0;
 }
 
-MatePanelAppletFrameDBus PanelSeparator,
+CafePanelAppletFrameDBus PanelSeparator,
 PanelSeparator {
     border-width: 0;
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -360,7 +360,7 @@ GdictApplet .entry:focus {
 }
 
 /* the grid left from wnckpager and wncktasklist */
-MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
+CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -gtk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
@@ -417,7 +417,7 @@ MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
 	outline-width: 2px;
 }
 
-/* Mate menu button normal */
+/* Cafe menu button normal */
 /* makes the arrow visible, nothing more works */
 .cafe-panel-menu-bar menu menuitem button {
     background-image: none;
@@ -557,7 +557,7 @@ dictionary */
 
 #clock-applet-button,
 .cafe-panel-menu-bar.menubar,
-MatePanelApplet > menubar {
+CafePanelApplet > menubar {
     font-style: normal;
     font-weight: normal;
 }
@@ -567,18 +567,18 @@ MatePanelApplet > menubar {
 }
 
 /* Weird, this sets the border color of the clockmap */
-#MatePanelPopupWindow > frame > box > box > box > widget {
+#CafePanelPopupWindow > frame > box > box > box > widget {
     color: @less_dark_color;
 }
 
 /*fix oversize calendar window locations icons and jump */
-#MatePanelPopupWindow > frame > box > box > box > box > widget image,
-#MatePanelPopupWindow > frame > box > box > box > box > widget label {
+#CafePanelPopupWindow > frame > box > box > box > box > widget image,
+#CafePanelPopupWindow > frame > box > box > box > box > widget label {
     padding: 0px;
 }
 
 /* for buttons the 3px padding from gtk-widgets.css is OK */
-#MatePanelPopupWindow > frame > box > box > box > box > widget button > label {
+#CafePanelPopupWindow > frame > box > box > box > box > widget button > label {
     padding: 3px;
 }
 
@@ -710,7 +710,7 @@ pluma-print-preview.vertical toolbar.horizontal button.flat.text-button {
 }
 
 /***********************
- * Mate-Control-Center *
+ * Cafe-Control-Center *
  ***********************/
 
 /* background */
@@ -783,7 +783,7 @@ pluma-print-preview.vertical toolbar.horizontal button.flat.text-button {
 }
 
 /****************
- * Mate-settings-daemon *
+ * Cafe-settings-daemon *
  ****************/
 
 /*For cafe-settings-daemon noncomposited osd windows*/

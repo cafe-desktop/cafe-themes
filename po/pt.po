@@ -7,7 +7,7 @@
 # Duarte Loreto <happyguy_pt@hotmail.com>, 2003, 2004, 2005, 2006, 2007, 2008, 2009
 # Hugo Carvalho <hugokarvalho@hotmail.com>, 2018
 # José Vieira <jvieira33@sapo.pt>, 2017
-# Pedro Mateus <pedro@linuxgamecast.com>, 2016
+# Pedro Cafeus <pedro@linuxgamecast.com>, 2016
 # Sérgio Marques <smarquespt@gmail.com>, 2012
 msgid ""
 msgstr ""

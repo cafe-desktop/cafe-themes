@@ -145,7 +145,7 @@ PanelSeparator {
     text-shadow: none;
 }
 
-MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
+CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -gtk-scaled(url("img/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
@@ -298,16 +298,16 @@ PanelApplet.wnck-applet .wnck-pager {
 }
 
 /* calendar window */
-#MatePanelPopupWindow {
+#CafePanelPopupWindow {
 	border-radius: 3px;
 }
 
-#MatePanelPopupWindow expander {
+#CafePanelPopupWindow expander {
 	border-style: none;
 }
 
 /* Weird, this sets the border color of the clockmap */
-#MatePanelPopupWindow > frame > box > box > box > widget {
+#CafePanelPopupWindow > frame > box > box > box > widget {
     color: @border_color;
 }
 

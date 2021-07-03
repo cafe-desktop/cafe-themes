@@ -1,5 +1,5 @@
 #########################################
-#	BlackMate			#
+#	BlackCafe			#
 #					#
 # Created by Wolfgang Ulbrich		#
 # (aka Nice&Gently aka raveit65)				#
@@ -606,7 +606,7 @@ widget "gtk-tooltip"				style "murrine-tooltips"
 class "Panel"					style "misc-panel"
 class "*Separator*"				style "misc-sep"
 # syncronize panel menus
-widget_class "*MatePanelAppletFrameDBus*" style "applet"
+widget_class "*CafePanelAppletFrameDBus*" style "applet"
 widget "*PanelApplet*"				style "applet"
 # This is suitable for dark panels:
 widget_class "*PanelWidget*"			style "misc-panel"

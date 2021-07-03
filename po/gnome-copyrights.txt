@@ -240,7 +240,7 @@
 
 ========== en@shaw.po ==========
 # Shavian translation for cafe-themes.
-# Copyright (C) 2009 The Mate Foundation.
+# Copyright (C) 2009 The Cafe Foundation.
 # Thomas Thurman <tthurman@gnome.org>, 2009.
 
 
@@ -281,7 +281,7 @@
 
 
 ========== et.po ==========
-# Mate teemade eesti keele tõlge.
+# Cafe teemade eesti keele tõlge.
 # Estonian translation of cafe-themes.
 #
 # Copyright (C) 2003, 2004-2006 Free Software Foundation, Inc.
@@ -318,7 +318,7 @@
 
 
 ========== fi.po ==========
-# Mate-themes Finnish Translation.
+# Cafe-themes Finnish Translation.
 # Suomennos: http://cafe.fi/
 # Copyright (C) 2003-2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the cafe-themes package.
@@ -404,7 +404,7 @@
 
 ========== hi.po ==========
 # translation of cafe-themes.HEAD.po to Hindi
-# Mate Themes portable object (po) file
+# Cafe Themes portable object (po) file
 # Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE cafe-themes.
 #
@@ -525,7 +525,7 @@
 
 
 ========== li.po ==========
-# Limburgish translation of Mate-themes
+# Limburgish translation of Cafe-themes
 # Mathieu van Woerkom <mathieu@brabants.org>, 2003
 
 
@@ -533,7 +533,7 @@
 
 ========== lt.po ==========
 # translation of lt.po to Lithuanian
-# Lithuanian translation of Mate-Themes.
+# Lithuanian translation of Cafe-Themes.
 # Copyright (C) 2003-2005, 2006, 2007 Free Software Foundation, Inc.
 # This file is distributed under the same license as the cafe-themes package.
 #
@@ -547,8 +547,8 @@
 
 ========== lv.po ==========
 # translation of lv.po to Latvian
-# Latvian translation for Mate Themes.
-# Copyright © 2006 Mate i18n Project for Latvian.
+# Latvian translation for Cafe Themes.
+# Copyright © 2006 Cafe i18n Project for Latvian.
 #
 # Artis Trops <hornet@navigator.lv>, 2002.
 # Raivis Dejus <orvils@gmail.com>, 2006, 2009.
@@ -672,7 +672,7 @@
 
 
 ========== nl.po ==========
-# Dutch translation for Mate themes
+# Dutch translation for Cafe themes
 #
 # This file is distributed under the same license as the cafe-themes package.
 #
@@ -840,7 +840,7 @@
 # Andraz Tori <andraz.tori1@guest.arnes.si>, 2006.
 # Matjaž Horvat <m@owca.info>, 2006.
 # Matic Žgur <mr.zgur@gmail.com>, 2007.
-# Matej Urbančič <cafeju@svn.gnome.org> 2008 - 2010.
+# Cafej Urbančič <cafeju@svn.gnome.org> 2008 - 2010.
 #
 
 
@@ -897,7 +897,7 @@
 
 ========== ta.po ==========
 # translation of cafe-themes.HEAD.ta.po to Tamil
-# Tamil Translation of Mate-themes.
+# Tamil Translation of Cafe-themes.
 # Copyright (C) 2004 zhakanini
 # This file is distributed under the same license as the PACKAGE package.
 #
@@ -979,7 +979,7 @@
 ========== wa.po ==========
 # Translation into the walloon language.
 #
-# Si vos voloz donner on côp di spale pol ratournaedje di Mate (ou des
+# Si vos voloz donner on côp di spale pol ratournaedje di Cafe (ou des
 # ôtes libes programes) sicrijhoz-mu a l' adresse emile
 # <pablo@walon.org>; nos avans co bråmint di l' ovraedje a fé.
 #
