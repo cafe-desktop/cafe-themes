@@ -68,7 +68,7 @@ widget_class	"*Caja*Places*Sidebar*"	style "caja-sidebar"
 widget_class	"*Caja*View*"		style "caja-view"
 widget		"*Caja*Splitter"		style "caja-handle"
 widget_class	"*Caja*Statusbar*"		style "caja-statusbar"
-# For Elementay Caja
+# For Eleminty Caja
 widget_class	"*Caja*GtkToolbar*"		style "murrine-togglebutton"
 
 widget "*.caja-extra-view-widget" 		style : highest "caja-location"

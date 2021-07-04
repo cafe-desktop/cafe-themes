@@ -893,7 +893,7 @@
     <button function="unstick" state="pressed"><draw_ops></draw_ops></button>
 </frame_style>
 
-<!-- placeholder for unimplementated styles-->
+<!-- placeholder for unimplemintted styles-->
 <frame_style name="blank" geometry="normal">
     <button function="close" state="normal"><draw_ops></draw_ops></button>
     <button function="close" state="pressed"><draw_ops></draw_ops></button>

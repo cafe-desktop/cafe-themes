@@ -7,7 +7,7 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=TraditionalGreen
 MetacityTheme=TraditionalGreen
-IconTheme=menta
+IconTheme=mint
 CursorTheme=cafe
 CursorSize=24
 ButtonLayout=:minimize,maximize,close

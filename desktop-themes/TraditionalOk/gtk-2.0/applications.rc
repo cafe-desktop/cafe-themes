@@ -29,7 +29,7 @@ widget_class "*<GtkCList>" style "fg_is_text_color_workaround"
 # Caja when renaming files, and maybe other places.
 widget_class "*<EelEditableLabel>" style "fg_is_text_color_workaround"
 
-# See the documentation of the style.
+# See the documinttion of the style.
 widget_class "EShellWindow.GtkVBox.BonoboDock.BonoboDockBand.BonoboDockItem*" style "evo_new_button_workaround"
 
 ##########################################################################
