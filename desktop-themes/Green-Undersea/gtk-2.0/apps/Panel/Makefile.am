@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Green-Submarine/gtk-2.0/apps/Panel
+themedir = $(datadir)/themes/Green-Undersea/gtk-2.0/apps/Panel
 
 theme_DATA = \
 	arrow-blank.png \

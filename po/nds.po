@@ -39,11 +39,11 @@ msgstr ""
 msgid "A clean light theme with blue elements"
 msgstr "Een schones, lichtes Thema mit blauen Dingen"
 
-#: desktop-themes/Blue-Submarine/index.theme.in:4
-msgid "Blue-Submarine"
+#: desktop-themes/Blue-Undersea/index.theme.in:4
+msgid "Blue-Undersea"
 msgstr ""
 
-#: desktop-themes/Blue-Submarine/index.theme.in:5
+#: desktop-themes/Blue-Undersea/index.theme.in:5
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Een normaal-blaues Thema mit dunkern Menüs un Balkens"
 
@@ -71,11 +71,11 @@ msgstr ""
 msgid "A clean light green theme"
 msgstr "Een schones, licht-grönes Thema"
 
-#: desktop-themes/Green-Submarine/index.theme.in:4
-msgid "Green-Submarine"
+#: desktop-themes/Green-Undersea/index.theme.in:4
+msgid "Green-Undersea"
 msgstr ""
 
-#: desktop-themes/Green-Submarine/index.theme.in:5
+#: desktop-themes/Green-Undersea/index.theme.in:5
 msgid "A medium green theme with dark menus and panel"
 msgstr "Een normaal-grönes Thema mit dunkern Menüs un Balkens"
 

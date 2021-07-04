@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/Blue-Submarine/gtk-3.0/assets
+themedir = $(datadir)/themes/Blue-Undersea/gtk-3.0/assets
 
 theme_DATA = \
 	checkbox-checked-insensitive.png \

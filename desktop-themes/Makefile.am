@@ -3,13 +3,13 @@ SUBDIRS = \
 	BlackCAFE-border \
 	BlueMenta \
 	BlueMenta-border \
-	Blue-Submarine \
-	Blue-Submarine-border \
+	Blue-Undersea \
+	Blue-Undersea-border \
 	ContrastBig \
 	GreenLaguna \
 	GreenLaguna-border \
-	Green-Submarine \
-	Green-Submarine-border \
+	Green-Undersea \
+	Green-Undersea-border \
 	HighContrastInverse \
 	Menta \
 	Menta-border \
