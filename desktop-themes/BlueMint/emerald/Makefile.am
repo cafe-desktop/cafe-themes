@@ -1,7 +1,7 @@
-themedir = $(datadir)/themes/BlueMenta/emerald
+themedir = $(datadir)/themes/BlueMint/emerald
 
 theme_DATA = \
-	Menta.emerald \
+	Mint.emerald \
 	README
 
 EXTRA_DIST = $(theme_DATA)

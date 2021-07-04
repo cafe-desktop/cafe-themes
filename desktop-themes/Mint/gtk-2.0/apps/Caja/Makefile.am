@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0/apps/Caja
+themedir = $(datadir)/themes/Mint/gtk-2.0/apps/Caja
 
 theme_DATA = \
 	breadcrumb_active.png \

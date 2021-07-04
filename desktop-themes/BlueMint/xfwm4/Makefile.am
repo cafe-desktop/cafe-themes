@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/xfwm4
+themedir = $(datadir)/themes/BlueMint/xfwm4
 
 theme_DATA = \
 	bottom-active.png \

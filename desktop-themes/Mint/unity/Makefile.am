@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/unity
+themedir = $(datadir)/themes/Mint/unity
 
 theme_DATA = \
 	close_focused_normal.png \

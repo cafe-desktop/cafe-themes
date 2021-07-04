@@ -37,11 +37,11 @@ msgstr "ZwartCAFE"
 msgid "A clean dark theme"
 msgstr "Een strak donker thema"
 
-#: desktop-themes/BlueMenta/index.theme.in:4
-msgid "BlueMenta"
+#: desktop-themes/BlueMint/index.theme.in:4
+msgid "BlueMint"
 msgstr "BlauwMint"
 
-#: desktop-themes/BlueMenta/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
 msgstr "Een strak licht thema met blauwe elementen"
 
@@ -85,11 +85,11 @@ msgstr "Groen-Onderzeeër"
 msgid "A medium green theme with dark menus and panel"
 msgstr "Een middelgroen thema met donkere menu's en paneel"
 
-#: desktop-themes/Menta/index.theme.in:4
-msgid "Menta"
-msgstr "Menta"
+#: desktop-themes/Mint/index.theme.in:4
+msgid "Mint"
+msgstr "Mint"
 
-#: desktop-themes/Menta/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
 msgstr "Een strak licht thema met groene elementen"
 

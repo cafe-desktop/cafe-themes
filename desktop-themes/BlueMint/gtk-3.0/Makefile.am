@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/gtk-3.0
+themedir = $(datadir)/themes/BlueMint/gtk-3.0
 
 theme_DATA = \
 	gnome-applications.css \

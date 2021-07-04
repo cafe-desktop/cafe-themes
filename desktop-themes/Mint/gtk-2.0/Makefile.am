@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0
+themedir = $(datadir)/themes/Mint/gtk-2.0
 
 theme_DATA = gtkrc
 

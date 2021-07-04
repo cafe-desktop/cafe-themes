@@ -35,11 +35,11 @@ msgstr ""
 msgid "A clean dark theme"
 msgstr "一款简洁的暗色主题"
 
-#: desktop-themes/BlueMenta/index.theme.in:4
-msgid "BlueMenta"
+#: desktop-themes/BlueMint/index.theme.in:4
+msgid "BlueMint"
 msgstr ""
 
-#: desktop-themes/BlueMenta/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
 msgstr "一款以蓝色为基调的浅色主题"
 
@@ -83,11 +83,11 @@ msgstr ""
 msgid "A medium green theme with dark menus and panel"
 msgstr "绿色混合主题，菜单和面板是暗色的"
 
-#: desktop-themes/Menta/index.theme.in:4
-msgid "Menta"
+#: desktop-themes/Mint/index.theme.in:4
+msgid "Mint"
 msgstr ""
 
-#: desktop-themes/Menta/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
 msgstr "一款以绿色为基调的浅色主题"
 

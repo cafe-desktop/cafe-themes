@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0/apps
+themedir = $(datadir)/themes/Mint/gtk-2.0/apps
 
 theme_DATA = \
 	chromium.rc \

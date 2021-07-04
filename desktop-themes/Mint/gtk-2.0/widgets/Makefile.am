@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0/widgets
+themedir = $(datadir)/themes/Mint/gtk-2.0/widgets
 
 theme_DATA = \
 	panel.rc \

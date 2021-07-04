@@ -33,11 +33,11 @@ msgstr ""
 msgid "A clean dark theme"
 msgstr "Một chủ đề tối đơn giản"
 
-#: desktop-themes/BlueMenta/index.theme.in:4
-msgid "BlueMenta"
+#: desktop-themes/BlueMint/index.theme.in:4
+msgid "BlueMint"
 msgstr ""
 
-#: desktop-themes/BlueMenta/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
 msgstr "Một chủ đề sáng đơn giản với các phần tử xanh dương."
 
@@ -81,11 +81,11 @@ msgstr ""
 msgid "A medium green theme with dark menus and panel"
 msgstr "Một chủ đề xanh lá trung bình với menu và bảng tối"
 
-#: desktop-themes/Menta/index.theme.in:4
-msgid "Menta"
+#: desktop-themes/Mint/index.theme.in:4
+msgid "Mint"
 msgstr ""
 
-#: desktop-themes/Menta/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
 msgstr "Một chủ đề sáng đơn giản với các phần tử xanh lá"
 

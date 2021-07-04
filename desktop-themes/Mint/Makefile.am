@@ -1,4 +1,4 @@
-THEME_NAME=Menta
+THEME_NAME=Mint
 THEME_IN_FILES=index.theme.in
 
 themedir = $(datadir)/themes/$(THEME_NAME)

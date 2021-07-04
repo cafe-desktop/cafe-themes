@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/gtk-2.0/widgets
+themedir = $(datadir)/themes/BlueMint/gtk-2.0/widgets
 
 theme_DATA = \
 	panel.rc

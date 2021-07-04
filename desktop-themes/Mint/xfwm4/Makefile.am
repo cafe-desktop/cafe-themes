@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/xfwm4
+themedir = $(datadir)/themes/Mint/xfwm4
 
 theme_DATA = \
 	bottom-active.png \

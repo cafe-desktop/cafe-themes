@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/gtk-2.0/widgets/Others
+themedir = $(datadir)/themes/BlueMint/gtk-2.0/widgets/Others
 
 theme_DATA = \
 	close.png \

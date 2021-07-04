@@ -1,4 +1,4 @@
-The Menta theme comes with 3 different panel.rc files in
+The Mint theme comes with 3 different panel.rc files in
 gtk-2.0/widgets folder.
 
 -- panel.rc for light grey  panel background (default)
@@ -73,12 +73,12 @@ All the application developers out there. Keep doing what you're doing and liste
 Anyone else I may have forgotten. :-)
 
 ##############################
-#      ABOUT Menta THEME      #
+#      ABOUT Mint THEME      #
 ##############################
 
-The Menta theme was created by Wolfgang Ulbrich.
+The Mint theme was created by Wolfgang Ulbrich.
 The theme is released under the GPL licence. See the COPYING file for more information.
 
-Menta was inspired by the Zukitwo gtk theme by lassekongo83.
+Mint was inspired by the Zukitwo gtk theme by lassekongo83.
 
 

@@ -30,11 +30,11 @@ msgstr ""
 msgid "A clean dark theme"
 msgstr "Таза, қараңғы тем"
 
-#: desktop-themes/BlueMenta/index.theme.in:4
-msgid "BlueMenta"
+#: desktop-themes/BlueMint/index.theme.in:4
+msgid "BlueMint"
 msgstr ""
 
-#: desktop-themes/BlueMenta/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
 msgstr "Көгілдір элементтері бар таза, ақшыл тема"
 
@@ -78,11 +78,11 @@ msgstr ""
 msgid "A medium green theme with dark menus and panel"
 msgstr "Қараңғы мәзірлер және панелі бар орташа жасыл тема"
 
-#: desktop-themes/Menta/index.theme.in:4
-msgid "Menta"
+#: desktop-themes/Mint/index.theme.in:4
+msgid "Mint"
 msgstr ""
 
-#: desktop-themes/Menta/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
 msgstr "Жасыл элементтері бар таза, ақшыл тема"
 

@@ -1,8 +1,8 @@
 SUBDIRS = \
 	BlackCAFE \
 	BlackCAFE-border \
-	BlueMenta \
-	BlueMenta-border \
+	BlueMint \
+	BlueMint-border \
 	Blue-Undersea \
 	Blue-Undersea-border \
 	ContrastBig \
@@ -11,8 +11,8 @@ SUBDIRS = \
 	Green-Undersea \
 	Green-Undersea-border \
 	HighContrastInverse \
-	Menta \
-	Menta-border \
+	Mint \
+	Mint-border \
 	TraditionalGreen \
 	TraditionalOk
 

@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/metacity-1
+themedir = $(datadir)/themes/Mint/metacity-1
 
 theme_DATA = \
 	close_focused_normal.svg \
