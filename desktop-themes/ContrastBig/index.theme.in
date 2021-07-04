@@ -5,9 +5,9 @@ Comment=High contrast theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=HighContrast
-IconTheme=HighContrast
-MetacityTheme=HighContrast
+GtkTheme=BigContrast
+IconTheme=BigContrast
+MetacityTheme=BigContrast
 CursorTheme=Adwaita
 CursorSize=24
 

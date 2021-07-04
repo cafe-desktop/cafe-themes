@@ -1,4 +1,4 @@
-THEME_NAME=HighContrastInverse
+THEME_NAME=BigContrastInverse
 THEME_IN_FILES=index.theme.in
 
 themedir = $(datadir)/themes/$(THEME_NAME)

@@ -57,11 +57,11 @@ msgstr "고대비"
 msgid "High contrast theme"
 msgstr "고대비 테마"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "고대비 역상"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "검은 바탕에 흰 글씨와 아이콘"
 

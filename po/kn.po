@@ -54,11 +54,11 @@ msgstr "ಹೆಚ್ಚು ವೈದೃಶ್ಯ(ಕಾಂಟ್ರಾಸ್ಟ�
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "ಹೆಚ್ಚು ವೈದೃಶ್ಯದ (ಕಾಂಟ್ರಾಸ್ಟಿನ) ವಿಲೋಮ"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "ಕಪ್ಪು ಪಠ್ಯದ ಹಾಗು ಚಿಹ್ನೆಗಳ ಮೇಲೆ ಬಿಳಿ"
 

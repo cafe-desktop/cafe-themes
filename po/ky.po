@@ -56,11 +56,11 @@ msgstr "Жогору карама-каршы"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Жогорку негативдүү контрастуулук"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Карадагы ак түстүү текст жана белгилер"
 

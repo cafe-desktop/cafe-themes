@@ -57,11 +57,11 @@ msgstr "Độ tương phản cao"
 msgid "High contrast theme"
 msgstr "Chủ đề tương phản cao"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Độ tương phản cao ngược lại"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Biểu tượng và chữ trắng nền đen"
 

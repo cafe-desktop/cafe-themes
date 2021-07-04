@@ -58,11 +58,11 @@ msgstr "ઊંચો તફાવત"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "ઊલટો ઊંચો તફાવત"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "કાળા પર સફેદ લખાણ અને ચિહ્નો"
 

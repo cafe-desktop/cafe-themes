@@ -54,11 +54,11 @@ msgstr "Yüksək Kontrast"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Tərs Yüksək Kontrast"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Qara üstündə ağ mətn və timsallar"
 

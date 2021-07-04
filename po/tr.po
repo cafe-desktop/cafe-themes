@@ -60,11 +60,11 @@ msgstr "Yüksek Zıtlık"
 msgid "High contrast theme"
 msgstr "Yüksek zıtlık teması"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Tersine Yüksek Zıtlık"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Beyaz üzerine siyah metin ve simgeler"
 

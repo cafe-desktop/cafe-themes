@@ -53,11 +53,11 @@ msgstr "ཁྱད་པར་ཆེ་བ།"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "ཁྱད་པར་ཆེ་བ་ རྒྱབ་འགལ།"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "ཚིག་ཡིག་དང་ངོས་དཔར་གནག་པོའི་གུ་དཀརཔོ།"
 

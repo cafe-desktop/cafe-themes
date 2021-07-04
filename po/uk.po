@@ -58,11 +58,11 @@ msgstr "Висококонтрастна"
 msgid "High contrast theme"
 msgstr "Висококонтрастна тема"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Висококонтрастна негативна"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Білі текст та піктограми на чорному"
 

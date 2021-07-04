@@ -57,11 +57,11 @@ msgstr "ハイ・コントラスト"
 msgid "High contrast theme"
 msgstr "高コントラストのテーマ"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "高コントラストの反転"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "黒地に白色のテキストとアイコン"
 

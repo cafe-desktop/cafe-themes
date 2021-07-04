@@ -56,11 +56,11 @@ msgstr "अधिक विरोध"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "अधिक विरोध प्रतिलोम"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "काला पृष्ठभूमि पर सफ़ेद अक्षर और प्रतिमा"
 

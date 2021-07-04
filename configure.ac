@@ -103,11 +103,11 @@ desktop-themes/Green-Undersea/gtk-3.0/assets/Makefile
 desktop-themes/Green-Undersea/metacity-1/Makefile
 desktop-themes/Green-Undersea-border/Makefile
 desktop-themes/Green-Undersea-border/metacity-1/Makefile
-desktop-themes/HighContrastInverse/Makefile
-desktop-themes/HighContrastInverse/gtk-2.0/Makefile
-desktop-themes/HighContrastInverse/gtk-2.0/gtkrc
-desktop-themes/HighContrastInverse/metacity-1/Makefile
-desktop-themes/HighContrastInverse/pixmaps/Makefile
+desktop-themes/BigContrastInverse/Makefile
+desktop-themes/BigContrastInverse/gtk-2.0/Makefile
+desktop-themes/BigContrastInverse/gtk-2.0/gtkrc
+desktop-themes/BigContrastInverse/metacity-1/Makefile
+desktop-themes/BigContrastInverse/pixmaps/Makefile
 desktop-themes/Mint/Makefile
 desktop-themes/Mint/cinnamon/Makefile
 desktop-themes/Mint/emerald/Makefile

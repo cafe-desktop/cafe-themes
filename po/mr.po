@@ -57,11 +57,11 @@ msgstr "उच्च विरोधाभास"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "उलटी उच्च विरोधाभास "
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "काळ्यावर पांढरी अक्षरे आणि चिन्हे"
 

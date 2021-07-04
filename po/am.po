@@ -55,11 +55,11 @@ msgstr "ከፍተኛ ልዩነት"
 msgid "High contrast theme"
 msgstr "ከፍተኛ ማነፃፀሪያ ገጽታ"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "ከፍተኛ የመገልበጥ ልዩነት"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "ነጭ በጥቁር ጽሑፍ እና ቁልፎች"
 
