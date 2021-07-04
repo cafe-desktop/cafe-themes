@@ -50,27 +50,27 @@
   * Menta metacity: synchronize frame_geometry
   * BlackCAFE: fix invisible checkboxes in Firefox content when userChrome.css is used
   * Trad. and Menta themes: fix menu accelerator
-  * submarine: fix font-color headerbar button.default
+  * undersea: fix font-color headerbar button.default
   * Trad. and GreenLaguna: fix lightdm-gtk panel
 
 ### 3.22.18 (GTK 3.22)
 
   * Translations update
   * Menta/Submarine: fix backdrop/focus state with gnome-disk-utility
-  * submarine: reduce button radius
-  * submarine: fix headerbar backdrop state button jumping
+  * undersea: reduce button radius
+  * undersea: fix headerbar backdrop state button jumping
   * some themes: drop styling for eom sidebar buttons
-  * submarine: give emoji-picker popup a nicer look
-  * submarine: few fixes for buttons in titlebar and popovers
-  * submarine: fix font color in lightdm-settings
+  * undersea: give emoji-picker popup a nicer look
+  * undersea: few fixes for buttons in titlebar and popovers
+  * undersea: fix font color in lightdm-settings
   * highcontrast: Use normal titlebar size for utility windows
   * all themes: add a thiny border to the panel
-  * submarine: fix borders in filechooser placessidebar
+  * undersea: fix borders in filechooser placessidebar
 
 ### 3.22.17 (GTK 3.22)
 
   * Translations update
-  * submarine: drop double border of scrollbar sliders
+  * undersea: drop double border of scrollbar sliders
   * Submarine: some border fixes for caja notebook
   * all themes: xrandr-applet menu styling
   * Submarine/GreenLaguna: fix bg of foo-scroll-area
@@ -105,12 +105,12 @@
 
   * Translations update
   * Submarine themes: remove a box-shadow at engrampa toolbar
-  * submarine themes: remove padding from caja-sidebar treeview
+  * undersea themes: remove padding from caja-sidebar treeview
   * all themes caja: remove right-border from scrolledwindow.frame
   * Menta metacity themes: remove left/right-border for maximised windows
   * BlackCAFE: write the border on scrollbar trough
   * all themes: remove right-border from scrolledwindow.frame
-  * submarine themes: fix fg color of button.suggested-action in headerbars
+  * undersea themes: fix fg color of button.suggested-action in headerbars
   * BlackCAFE: Workaround for Yelp/Lireoffice/Firefox scrollbar issue
   * Revert "Gtk+-3.20 all themes: fix redraw issue with yelp"
 
@@ -118,15 +118,15 @@
 
   * Translations update
   * TOK/TG: sliders: keep the original size
-  * Gtk+-3.20 submarine: reduce border radius for treeview.selected/hover in sidebars
-  * Gtk+-3.20 submarine: set font color for spinbutton entry
-  * Gtk+-3.20 submarine themes: fix a jumpin button in headerbar of gitg
-  * Gtk+-3.20 submarine themes: setup dnd for caja-icon-view
+  * Gtk+-3.20 undersea: reduce border radius for treeview.selected/hover in sidebars
+  * Gtk+-3.20 undersea: set font color for spinbutton entry
+  * Gtk+-3.20 undersea themes: fix a jumpin button in headerbar of gitg
+  * Gtk+-3.20 undersea themes: setup dnd for caja-icon-view
   * Gtk+-3.20 T. themes: fix double border in cafe-volume-control notebook
   * Gtk+-3.20 Submarine themes: fix focus state of pluma-statusbar-button
   * Gtk+-3.20 Most themes: style menuitem accelerator hover
   * All themes: change syntax for loading panel-grid image for cafe-1.20
-  * Gtk+-3.20 submarine themes: set top borderradius for .titlebar > headerbar
+  * Gtk+-3.20 undersea themes: set top borderradius for .titlebar > headerbar
   * Gtk+-3.20 Most Themes: fix padding of primary/secondary image in GtkEntry
   * Gtk+-3.20 TRAD themes: fix color of grey-out arrows in menus
   * TOK/TG: add menuitem radio mixed
@@ -141,7 +141,7 @@
   * Gtk+-3.20 GreenLaguna: some menu fixes
   * Gtk+-3.20 Menta themes: add transition effect for menu arrows
   * Gtk+-3.20 Menta themes: drop settings for firefox menus
-  * Gtk+-3.20 submarine themes: drop transition effect from labels
+  * Gtk+-3.20 undersea themes: drop transition effect from labels
   * Add index.theme file for gtk+ High Contrast theme
   * Gtk+-3.20 Most themes: setup border for clockmap in clock applet
   * Gtk+-3.20 Submarine themes: some fixes for clock applet
@@ -167,7 +167,7 @@
   * Restore Polish translation credits from GNOME
   * cursor: add color-picker to make file
   * Gtk+-3.20 Submarine themes: improve pluma sidebar
-  * Gtk+-3.20 submarine themes: fix fg color in pluma error dialogs
+  * Gtk+-3.20 undersea themes: fix fg color in pluma error dialogs
 
 ### 3.22.11 (GTK 3.22)
 
@@ -177,13 +177,13 @@
   * BlackCAFE: make caja renaming labels more readable
   * ContrastBigInverse: Fix Caja rename labels when theme actually applied
   * cursor: add color-picker cursor image
-  * GTK+-3.20 submarine themes: improve cafe- and mintmenu
+  * GTK+-3.20 undersea themes: improve cafe- and mintmenu
   * Gtk+-3.20 menta themes: fixes for cafe- and mint-menu
   * Gtk+-3.20 Traditional themes: improve some dialog windows
   * Traditional themes: don't draw a bg for cafe-indicator-applet
   * Gtk+-3.20 most themes: fix bg color in list-view of caja inactive-pane
   * Gtk+-3.20 all themes: add new css name cafekbd-keyboard-drawing
-  * metacity submarine themes: fix innerborder if metacity or compiz WM is used
+  * metacity undersea themes: fix innerborder if metacity or compiz WM is used
   * TOK/TG: xfce4-terminal: gradient color to the notebook header border
   * TOK/TG: make padding in notebook tabs 2 pixels bigger
 
@@ -197,7 +197,7 @@
   * Gtk+-3.20 Menta themes: don't make any different between backdrop and normal state
   * Gtk+-3.20 most themes: cafe-panel hide button modification
   * TOK/TG: caja: set gradient color to the notebook header border
-  * Gtk+-3.20 submarine themes: cafe-panel hide button modifications
+  * Gtk+-3.20 undersea themes: cafe-panel hide button modifications
   * TOK/TG: Fixes borders in xfce4-terminal tabs and probably more applications
   * Gtk+-3.20 all themes: improvements for cafe-menu
   * Gtk+-3.20 all themes: better way to style keyboard layouts
@@ -215,7 +215,7 @@
   * Fix distcheck
   * Gtk+-3.20 ContrastBigInverse: add missing assets to avoid a runtime warning
   * Menta themes: eliminate wrong border-color for lockscreen
-  * Gtk+-3.20 submarine: eliminate wrong border-color for lockscreen
+  * Gtk+-3.20 undersea: eliminate wrong border-color for lockscreen
   * GreenLaguna: correct notebook tab borders in cafe-terminal
   * Submarine themes: correct notebook tab borders in cafe-terminal
   * Gtk+-3.20 Menta themes: correct notebook header borders in cafe-terminal
@@ -239,22 +239,22 @@
   * Submarine metacity: increase border size
   * Gtk+-3.20 Submarine: set color for dim-labels at list rows
   * Traditional themes: set more border colors in checked notebook tabs
-  * Gtk+-3.20 submarine themes set a padding on statusbars
+  * Gtk+-3.20 undersea themes set a padding on statusbars
   * Gtk+-3.20: fix jumping button in cafe-font-viewer toolbar
-  * Gtk+-3.20 submarine themes: improve headerbars and popover menus
-  * Gtk+-3.20 submarine themes: set a padding for gedit statusbar
+  * Gtk+-3.20 undersea themes: improve headerbars and popover menus
+  * Gtk+-3.20 undersea themes: set a padding for gedit statusbar
   * Gtk+-3.20 Menta themes: add missing border-image for button.fat:checked in filezilla and atril
   * Gtk+-3.20 Menta themes: some notebook improvements
   * Fixed URL colors for Firefox search suggestions
   * Gtk+-3.20 Menta themes: re-work borders for frames and other improvements (mega commit)
   * Traditional themes: make padding in notebook tabs smaller
-  * Gtk+-3.20 submarine themes: several improvements
+  * Gtk+-3.20 undersea themes: several improvements
   * Gtk+-3.22 Submarine themes: some notebook improvements
   * Gtk+-3.22 Submarine themes: re-work borders for frames
   * Gtk+-3.20 Submarine themes: fix previous commit for rubberband
-  * Gtk+-3.20 submarine themes: fix rubberband for cafe-screenshot
+  * Gtk+-3.20 undersea themes: fix rubberband for cafe-screenshot
   * TOK theme: fix a typo
-  * Gtk+-3.20 submarine themes: fix toolbar label color
+  * Gtk+-3.20 undersea themes: fix toolbar label color
   * Traditional themes: use gradient color on active tabs
   * Gtk+-2.0 Greenlaguna: use hardcoded hex colors in gtkrc
   * Gtk+-2.0 most themes: use a oneliner for color definitions in gtkrc
@@ -287,7 +287,7 @@
   * GTK+-3.20 BlackCAFE: enable focus highlights and outlines
   * Gtk+-3.20 Submarine themes: enable outlines and some focus fixes
   * GTK+-3.20 Menta themes: enable outlines and some focus fixes
-  * GTK+-3.20 submarine themes: use a border for scrolledwindows in preferences dialog windows
+  * GTK+-3.20 undersea themes: use a border for scrolledwindows in preferences dialog windows
 
 ### 3.22.5 (GTK 3.22)
 
@@ -302,14 +302,14 @@
 ### 3.22.4 (GTK 3.22)
 
   * Translations update
-  * GTK+-3.22 submarine themes: setup dconf-editor
+  * GTK+-3.22 undersea themes: setup dconf-editor
   * GTK+-3.20 BlackCafe: start fixing wrong syntax for 3.20
   * GTK+-3.20 Most themes: fix remaining wrong syntax for 3.20
   * Most themes: Specify a monospace font family
   * GTK3.22  BlackCAFE Specify a monospace font family
   * GTK+-3.20 Menta themes: support lightdm-greeter-2.0
-  * GTK+-3.20 submarine themes: adjust colors for lightdm style
-  * GTK+-3.20 submarine themes: use a dark style for lock-dialog from screensaver
+  * GTK+-3.20 undersea themes: adjust colors for lightdm style
+  * GTK+-3.20 undersea themes: use a dark style for lock-dialog from screensaver
   * Most themes: gray out images in disabled buttons and menuitems
   * GTK+-3.20 Submarine themes: a few adjustments for cafe-menu
   * Gtk+-3.20 TOK themes: cafe-panel, adjust padding for main menu
@@ -350,12 +350,12 @@
   * GTK+-3.20 GreenLaguna: remove notebook border color for pavu-control
   * GTK+-3.20 Submarine themes: remove notebook border color for pavu-control
   * GTK+-3.20 Menta themes: remove notebook border color for pavu-control
-  * Gtk+-3.20 submarine themes: change pathbar settings in caja to follow latest changes in master
+  * Gtk+-3.20 undersea themes: change pathbar settings in caja to follow latest changes in master
   * Gtk+-3.20 Menta themes: change pathbar settings in caja to follow latest changes in master
   * GTK+-3.20 most themes: fix fg color of treeview.trough if selected
   * GTK+-3.20 GreenLaguna: style treeview progressbar
   * GTK+-3.20 TOK themes: style treeview progressbar
-  * GTK+-3.20 submarine themes: style treeview progressbar
+  * GTK+-3.20 undersea themes: style treeview progressbar
   * GTK+-3.20 Menta themes: style treeview progressbars
   * GTK+-3.20 BlackCAFE: fix treeview progressbars
   * GTK+-3.20 TOK themes: style pavu-control
@@ -388,7 +388,7 @@
   * GTK+-3.20 most themes: use node 'paper' for GtkPrintUnixDialog
   * GTK+-3.20 most themes: fix text selection in atril
   * GTK+-3.20 BlackCAFE: Fix "paper" widget in print dialogs
-  * GTK+-3.20 submarine themes: fixes for atril toolbar, caja and cafe-keyboard-properties
+  * GTK+-3.20 undersea themes: fixes for atril toolbar, caja and cafe-keyboard-properties
   * GTK+-3.20 Menta themes: fix wrong bg color of notebook in wifi password dialog, nm-applet
   * GTK+-3.20 TOK themes: fix wrong bg color of notebook in wifi password dialog, nm-applet
   * GTK+-3.20 Submarine themes: fix wrong bg color of notebook in wifi password dialog, nm-applet
@@ -438,7 +438,7 @@
   * Gtk+-3.20 most themes: fix some menu separators
   * GTK+-3.20 GreenLaguna: add setting for better controling icon size in na-tray-applet
   * GTK+-3.20 menta themes: add setting for better controling icon size in na-tray-applet
-  * GTK+-3.20 submarine themes: fix settings for na-tray-applet
+  * GTK+-3.20 undersea themes: fix settings for na-tray-applet
 
 ### 3.20.7 (GTK 3.20)
 
@@ -488,7 +488,7 @@
   * GTK+-3.20 TOK themes: adjust tooltips
   * GTK+-3.20 ContrastBigInverse: adjust tooltips
   * GTK+-3.20 GreenLaguna: re-work tooltips
-  * GTK+-3.20 submarine themes: re-work tooltip settings, fixes firefox tooltips
+  * GTK+-3.20 undersea themes: re-work tooltip settings, fixes firefox tooltips
   * GTK+-3.20 TOK themes: adjustments for headerbars, placesidebar and placesview
   * GTK+-3.20 Submarine themes: adjust headerbars
   * GTK+-3.20 Menta themes: adjust headerbar settings for gedit
@@ -541,11 +541,11 @@
   * GTK+-3.20 Menta themes: fix fg color of flat buttons in rhythmbox
   * Gtk+-3.20 ContrastBigInverse: fix notebook bg color of the look-screen
   * GTK+-3.20 Menta themes: style cafe-screensaver lock-screen
-  * GTK+-3.20 submarine themes: style cafe-screensaver lock-screen
-  * GTK+-3.20 submarine themes: fix jumping buttons in parole-mediaplayer inline-toolbar
-  * GTK+-3.20 submarine themes: adjust OSD, gnome-weather, rhythmbox
+  * GTK+-3.20 undersea themes: style cafe-screensaver lock-screen
+  * GTK+-3.20 undersea themes: fix jumping buttons in parole-mediaplayer inline-toolbar
+  * GTK+-3.20 undersea themes: adjust OSD, gnome-weather, rhythmbox
     and cleanup gnome-applications
-  * GTK+-3.20 submarine themes: fix button color in meld toolbar + toolbar cleanup
+  * GTK+-3.20 undersea themes: fix button color in meld toolbar + toolbar cleanup
   * GTK+-3.20 Menta themes: reduce border-radius of panel buttons
   * GTK+-3.20 BlackCafe: Fix non-composited CSD windows
   * GTK+-3.20 BlackCafe: adjust window-controls settings
@@ -616,19 +616,19 @@
 ### 1.12.2 (GTK 3.18)
 
   * GTK3 GreenLaguna: fix padding osd-toolbar volume button
-  * GTK3 submarine themes: fix padding osd-toolbar volume button
-  * Gtk+-3.14/16 submarine themes: fix padding of .app-notification .button:hover
+  * GTK3 undersea themes: fix padding osd-toolbar volume button
+  * Gtk+-3.14/16 undersea themes: fix padding of .app-notification .button:hover
   * GTK3 BlackCafe: fix padding osd-toolbar volume button
   * GTK3 BlackCafe: fix padding of .app-notification .button:hover
-  * GTK3 submarine themes: re-work caja styling
+  * GTK3 undersea themes: re-work caja styling
   * GTK3 BlackCafe: adjust notebook tabs
   * GTK3 GreenLaguna: adjust notebook tabs
-  * GTK3 submarine themes: reduce hight of notebook tabs
-  * GTK3 submarine themes: adjust notebook tabs in pluma text area
-  * GTK3 submarine themes: change border color in GtkNotebook
-  * GTK3: submarine themes: fix padding for GtkToggleButton.button:hover
+  * GTK3 undersea themes: reduce hight of notebook tabs
+  * GTK3 undersea themes: adjust notebook tabs in pluma text area
+  * GTK3 undersea themes: change border color in GtkNotebook
+  * GTK3: undersea themes: fix padding for GtkToggleButton.button:hover
   * GTK3 black-cafe, green-laguna: button size fix for gnome-mplayer
-  * GTK3: submarine themes: adjustments for some media players + vitual-manager
+  * GTK3: undersea themes: adjustments for some media players + vitual-manager
   * Gtk+-3.18 menta themes: improve previous GtkFileChooser pathbar commit
   * Gtk3 menta themes: adjust nemo toolbar again
   * Gtk+-3.18 most themes: workaround for broken first/last-child logic with
@@ -655,16 +655,16 @@
 ### 1.11.1 (GTK 3.18)
   * GTK+-3.18 most themes: fix bg of GtkGrid in GtkAboutDialog
   * Gtk+-3.18 all themes: fix sidebar list-rows in GtkFileChooserWidget
-  * Gtk+-3.18 green-submarine theme: fix some typos
+  * Gtk+-3.18 green-undersea theme: fix some typos
 
 ### 1.11.0 (GTK 3.18)
   * more adjustments for gtk+-3.18
-  * GTK3 submarine themes: add styling for gnome-weather
+  * GTK3 undersea themes: add styling for gnome-weather
   * GTK3 Submarine themes: adjust osd toolbar
   * GTK3 Submarine themes: adjust popover scales
   * GTK3 Submarine themes: style background of emblem page in properties-dialog
   * GTK3 Submarine themes: re-work cleanup button state logic
-  * Gtk+-3.18 submarine themes: adjust osd
+  * Gtk+-3.18 undersea themes: adjust osd
   * Gtk3 Contrast High themes: support real OSD
   * GTK3 ContrastBig themes: adjust GtkScale and GtkProgressbar
   * GTK3: ContrastBig themes: style dconf-editor
@@ -692,8 +692,8 @@
   * BlackCAFE: re-work caja styling a bit
   * improvements for BlackCAFE theme
   * improvements for Greenlaguna theme
-  * submarine themes: don't use dark colors for math calculators
-  * improvements for submarine themes
+  * undersea themes: don't use dark colors for math calculators
+  * improvements for undersea themes
   * improvements for menta themes
   * for more details see git log!
 
