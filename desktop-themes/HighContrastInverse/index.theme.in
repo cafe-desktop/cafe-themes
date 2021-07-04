@@ -6,7 +6,7 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=HighContrastInverse
-IconTheme=ContrastHigh
+IconTheme=ContrastBig
 MetacityTheme=HighContrastInverse
 CursorTheme=cafe
 CursorSize=24

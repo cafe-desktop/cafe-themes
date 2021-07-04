@@ -1,6 +1,6 @@
 NULL=
 
-themedir = $(datadir)/icons/ContrastHigh
+themedir = $(datadir)/icons/ContrastBig
 size = 22x22
 context = emotes
 

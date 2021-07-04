@@ -34,7 +34,7 @@
   * GreenLaguna: add metacity-theme-3.xml version back
   * include GtkStock icons directly in HCI
   * all themes: adjustments for headerbars
-  * Update cafe-desktop icon for ContrastHigh theme
+  * Update cafe-desktop icon for ContrastBig theme
   * Remove unused icons
   * Menta: metacity-3, rounded corners for modal-dialogs
   * Menta: improve GtkSwitch
@@ -175,7 +175,7 @@
   * BlackCAFE: fully style noncomposited m-s-d OSD
   * BlackCAFE: support new msd-osd-window-solid style class for non-composited OSD case
   * BlackCAFE: make caja renaming labels more readable
-  * ContrastHighInverse: Fix Caja rename labels when theme actually applied
+  * ContrastBigInverse: Fix Caja rename labels when theme actually applied
   * cursor: add color-picker cursor image
   * GTK+-3.20 submarine themes: improve cafe- and mintmenu
   * Gtk+-3.20 menta themes: fixes for cafe- and mint-menu
@@ -213,7 +213,7 @@
 
   * TOK/TG: cafe-terminal: use border in header tab instead notebook
   * Fix distcheck
-  * Gtk+-3.20 ContrastHighInverse: add missing assets to avoid a runtime warning
+  * Gtk+-3.20 ContrastBigInverse: add missing assets to avoid a runtime warning
   * Menta themes: eliminate wrong border-color for lockscreen
   * Gtk+-3.20 submarine: eliminate wrong border-color for lockscreen
   * GreenLaguna: correct notebook tab borders in cafe-terminal
@@ -322,7 +322,7 @@
 
   * Translations update
   * Gtk+-3.22 Submarine themes: add lightdm-greeter-2.0.0 settings
-  * Gtk+-3.22 ContrastHighInverse: fix deprecations
+  * Gtk+-3.22 ContrastBigInverse: fix deprecations
   * metacity Menta themes: darken title fg color for unfocused windows
   * metacity Menta themes: draw a thin black border line for maximize windows
   * Gtk+-3.20 GreenLaguna: fix disabled menuitems not grayed out
@@ -486,7 +486,7 @@
 
   * GTK+-3.20 BlackCAFE: adjust tooltips
   * GTK+-3.20 TOK themes: adjust tooltips
-  * GTK+-3.20 ContrastHighInverse: adjust tooltips
+  * GTK+-3.20 ContrastBigInverse: adjust tooltips
   * GTK+-3.20 GreenLaguna: re-work tooltips
   * GTK+-3.20 submarine themes: re-work tooltip settings, fixes firefox tooltips
   * GTK+-3.20 TOK themes: adjustments for headerbars, placesidebar and placesview
@@ -539,7 +539,7 @@
   * GTK+-3.20 TOK themes: OSD and inline-bar fixes for parole and gnome-weather
   * GTK+-3.20 Menta themes: correct some fg colors in gnome-weather-pages
   * GTK+-3.20 Menta themes: fix fg color of flat buttons in rhythmbox
-  * Gtk+-3.20 ContrastHighInverse: fix notebook bg color of the look-screen
+  * Gtk+-3.20 ContrastBigInverse: fix notebook bg color of the look-screen
   * GTK+-3.20 Menta themes: style cafe-screensaver lock-screen
   * GTK+-3.20 submarine themes: style cafe-screensaver lock-screen
   * GTK+-3.20 submarine themes: fix jumping buttons in parole-mediaplayer inline-toolbar
@@ -553,7 +553,7 @@
   * GTK+-3.20 Submarine themes: simplify linked path-bar
   * GTK 3.20 BlackCafe: correct for recent cafe-panel changes
   * ship a HighContrast metacity-theme-1.xml
-  * drop ContrastHigh theme, gtk+ ship that already
+  * drop ContrastBig theme, gtk+ ship that already
 
 
 ### 3.20.4 (GTK 3.20)
@@ -666,8 +666,8 @@
   * GTK3 Submarine themes: re-work cleanup button state logic
   * Gtk+-3.18 submarine themes: adjust osd
   * Gtk3 Contrast High themes: support real OSD
-  * GTK3 ContrastHigh themes: adjust GtkScale and GtkProgressbar
-  * GTK3: ContrastHigh themes: style dconf-editor
+  * GTK3 ContrastBig themes: adjust GtkScale and GtkProgressbar
+  * GTK3: ContrastBig themes: style dconf-editor
 
 ### 1.10.5 (GTK 3.18)
   * more adjustments for gtk+-3.18
@@ -686,7 +686,7 @@
   * adjust link_color and add styling for hyperlinks
   * all themes: style bg of toolbar editor
   * style dialog windows
-  * add new style classes settings for ContrastHigh themes
+  * add new style classes settings for ContrastBig themes
   * restore progressbars for traditional themes
   * improvements for traditional themes
   * BlackCAFE: re-work caja styling a bit
@@ -722,7 +722,7 @@
   * disable spinner animation to avoid high cpu load
   * enable window shadows for csd applications
   * re-work of GreenLaguna
-  * re-work of ContrastHigh themes
+  * re-work of ContrastBig themes
   * many more adjustments....
 
 ### 1.9.3
@@ -731,12 +731,12 @@
   * add transition effect to buttons and menuitems for BlackCafe and GreenLaguna GTK3
   * add support for CSD applications in BlackCafe and GreenLaguna
   * improve handling of CSD applications in other themes
-  * add support for popovers in GreenLaguna, BlackCafe, ContrastHigh and ContrastHighInverse themes
+  * add support for popovers in GreenLaguna, BlackCafe, ContrastBig and ContrastBigInverse themes
   * improve popovers support in Traditional themes
   * serveral other improvements
 
 ### 1.9.2
-  * add ContrastHighInververse GTK3 part
+  * add ContrastBigInververse GTK3 part
   * more adjustments for GTK3-3.14 in main themes
   * several improvements in BlackCafe, GreenLaguna and Shiny themes GTK2
 

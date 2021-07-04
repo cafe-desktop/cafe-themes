@@ -53,11 +53,11 @@ msgstr "Blauw-Onderzeeër"
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Een middelblauw thema met donkere menu's en paneel"
 
-#: desktop-themes/ContrastHigh/index.theme.in:4
+#: desktop-themes/ContrastBig/index.theme.in:4
 msgid "High Contrast"
 msgstr "Hoog contrast"
 
-#: desktop-themes/ContrastHigh/index.theme.in:5
+#: desktop-themes/ContrastBig/index.theme.in:5
 msgid "High contrast theme"
 msgstr "Hoog-contrast-thema"
 

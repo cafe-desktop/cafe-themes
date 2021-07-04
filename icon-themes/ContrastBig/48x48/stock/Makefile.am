@@ -1,6 +1,6 @@
 NULL=
 
-themedir = $(datadir)/icons/ContrastHigh
+themedir = $(datadir)/icons/ContrastBig
 size = 48x48
 context = stock
 

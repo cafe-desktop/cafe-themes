@@ -1,4 +1,4 @@
-indexthemedir =	$(datadir)/icons/ContrastHigh/
+indexthemedir =	$(datadir)/icons/ContrastBig/
 
 SUBDIRS = \
 	16x16 \
