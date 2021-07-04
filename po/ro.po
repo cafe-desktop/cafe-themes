@@ -59,11 +59,11 @@ msgstr "Contrast puternic"
 msgid "High contrast theme"
 msgstr "Temă contrast puternic"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Contrast puternic și culori inversate"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Text și pictograme alb-pe-negru"
 

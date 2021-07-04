@@ -5,8 +5,8 @@ Comment=White-on-black text and icons
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=HighContrastInverse
+GtkTheme=BigContrastInverse
 IconTheme=ContrastBig
-MetacityTheme=HighContrastInverse
+MetacityTheme=BigContrastInverse
 CursorTheme=cafe
 CursorSize=24

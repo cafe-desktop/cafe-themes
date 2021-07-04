@@ -57,11 +57,11 @@ msgstr "Contrast alt"
 msgid "High contrast theme"
 msgstr "Tema de contrast alt"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Contrast alt invertit"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Text i icones en blanc sobre negre"
 

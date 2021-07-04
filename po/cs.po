@@ -61,11 +61,11 @@ msgstr "Vysoký kontrast"
 msgid "High contrast theme"
 msgstr "Motiv s vysokým kontrastem"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Inverzní vysoký kontrast"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Text a ikony bíle na černém"
 

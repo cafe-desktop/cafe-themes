@@ -61,11 +61,11 @@ msgstr "Hoog contrast"
 msgid "High contrast theme"
 msgstr "Hoog-contrast-thema"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Hoog contrast negatief"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Wit-op-zwart tekst en pictogrammen"
 

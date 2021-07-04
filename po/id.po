@@ -60,11 +60,11 @@ msgstr "Kontras Tinggi"
 msgid "High contrast theme"
 msgstr "Tema dengan kontras tinggi"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Kontras Tinggi Terbalik"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Teks dan ikon berwarna putih-diatas-hitam"
 

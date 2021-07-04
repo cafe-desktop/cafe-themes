@@ -54,11 +54,11 @@ msgstr "მაღალი კონტრასტი"
 msgid "High contrast theme"
 msgstr "მაღალ კონტრასტიანი თემა"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "მაღალი ინვერსიული კონტრასტი"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "ტექსტი თეთრით შავზე  და ხატულები"
 

@@ -54,11 +54,11 @@ msgstr "গাঢ় তাৰতম্য"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "বিপৰীত গাঢ় তাৰতম্য"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "ক'লাৰ ওপৰত বগা অক্ষৰ আৰু আইকন"
 

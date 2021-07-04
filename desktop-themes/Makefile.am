@@ -10,7 +10,7 @@ SUBDIRS = \
 	GreenLagoon-border \
 	Green-Undersea \
 	Green-Undersea-border \
-	HighContrastInverse \
+	BigContrastInverse \
 	Mint \
 	Mint-border \
 	TraditionalGreen \

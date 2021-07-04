@@ -55,11 +55,11 @@ msgstr "ਵੱਧ ਭਿੰਨਤਾ"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "ਵੱਧ ਭਿੰਨਤਾ ਉਲਟ"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "ਕਾਲੇ ਉੱਤੇ ਚਿੱਟਾ ਪਾਠ ਅਤੇ ਆਈਕਾਨ"
 

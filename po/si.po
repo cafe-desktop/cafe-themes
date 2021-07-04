@@ -54,11 +54,11 @@ msgstr "උච්ච ප්‍රභේදනය"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "උච්ච ප්‍රතිලෝම සහිත ප්‍රභේදනය"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "සුදු වර්ණය මත විශාල කළු පහැති අකුරු සහ සංකේත"
 

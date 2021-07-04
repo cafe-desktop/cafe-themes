@@ -57,11 +57,11 @@ msgstr "Kontrast i theksuar"
 msgid "High contrast theme"
 msgstr "Temë me kontrast të lartë"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "Kontrast i theksuar i invertuar"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "Teksti dhe ikonat në të bardhë mbi të zezë"
 

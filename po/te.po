@@ -54,11 +54,11 @@ msgstr "అధిక కాంట్రాస్టు"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "అధిక కాంట్రాస్టు విలోమము"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "నలుపు-పైన-తెలుపు పాఠ్యము మరియు ప్రతిమలు"
 

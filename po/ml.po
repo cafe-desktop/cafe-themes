@@ -57,11 +57,11 @@ msgstr "മിഴിവുറ്റ"
 msgid "High contrast theme"
 msgstr ""
 
-#: desktop-themes/HighContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "High Contrast Inverse"
 msgstr "കൂടുതല്‍ മിഴിവോട് കൂടി സ്ക്രീന്‍ പശ്ചാത്തലം തിരിച്ചിട്ടു കാണുക"
 
-#: desktop-themes/HighContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
 msgstr "കറുത്ത പ്രതലത്തില്‍ രൂപങ്ങളും അക്ഷരങ്ങളും വെളുത്ത നിറത്തില്‍"
 

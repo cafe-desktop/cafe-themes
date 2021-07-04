@@ -77,14 +77,14 @@
   * Mint themes: fix background size for windows-control icons
   * all themes: Cafe Panel: Fix align with CheckBoxes in applet popup menu
   * Mint themes: use icons with best resolution
-  * HighContrast: use HC icon-theme
-  * Fix more HighContrast themes visibility with metacity
-  * HighContrast: Rework colors
+  * BigContrast: use HC icon-theme
+  * Fix more BigContrast themes visibility with metacity
+  * BigContrast: Rework colors
   * TOK: "menu > menuitem" instead "menu menuitem"
   * Update default cursor size
   * TOK/TG: Fix: checkboxes and radio buttons are little and blurry
-  * Fix HighContrast themes visibility with metacity
-  * use HighContrastInverse theme from gtk+
+  * Fix BigContrast themes visibility with metacity
+  * use BigContrastInverse theme from gtk+
 
 ### 3.22.16 (GTK 3.22)
 
@@ -405,7 +405,7 @@
   * GTK+-3.20 TOK themes: fix GtkScale API breakage with stable gtk+
   * BlackCAFE: support new MSD OSD style class
   * GTK+-3.20 most themes: fix bg color of scrolledwindow junction in nemo treeview
-  * HighContrast metacity: fix color of of buttons
+  * BigContrast metacity: fix color of of buttons
   * GTK+-3.20 Undersea themes: fix pathbar in nemo
   * GTK+-3.20 GreenLagoon: adjust OSD spinbutton
   * GTK+-3.20 GreenLagoon: fix GtkScale API breakage with stable gtk+
@@ -552,7 +552,7 @@
   * GTK+-3.20 BlackCafe: use Cafe logo as spinner animation
   * GTK+-3.20 Undersea themes: simplify linked path-bar
   * GTK 3.20 BlackCafe: correct for recent cafe-panel changes
-  * ship a HighContrast metacity-theme-1.xml
+  * ship a BigContrast metacity-theme-1.xml
   * drop ContrastBig theme, gtk+ ship that already
 
 
