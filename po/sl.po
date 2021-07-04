@@ -64,11 +64,11 @@ msgstr "Obrnjen visok kontrast"
 msgid "White-on-black text and icons"
 msgstr "Besedilo in ikone belo na črnem"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Čista svetlo zelena tema"
 

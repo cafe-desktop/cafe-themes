@@ -65,11 +65,11 @@ msgstr "Kontrast i theksuar i invertuar"
 msgid "White-on-black text and icons"
 msgstr "Teksti dhe ikonat në të bardhë mbi të zezë"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Një temë jeshile e pastër e dritës"
 

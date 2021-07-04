@@ -1,4 +1,4 @@
-THEME_NAME=GreenLaguna
+THEME_NAME=GreenLagoon
 THEME_IN_FILES=index.theme.in
 
 themedir = $(datadir)/themes/$(THEME_NAME)

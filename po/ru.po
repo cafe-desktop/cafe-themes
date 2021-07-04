@@ -68,11 +68,11 @@ msgstr "Высококонтрастная негативная"
 msgid "White-on-black text and icons"
 msgstr "Текст и значки белые на чёрном"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Светло-зелёная тема"
 

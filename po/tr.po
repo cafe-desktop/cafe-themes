@@ -68,11 +68,11 @@ msgstr "Tersine Yüksek Zıtlık"
 msgid "White-on-black text and icons"
 msgstr "Beyaz üzerine siyah metin ve simgeler"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Arı, parlak yeşil bir tema"
 

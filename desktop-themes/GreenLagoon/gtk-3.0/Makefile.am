@@ -1,4 +1,4 @@
-THEME_NAME=GreenLaguna
+THEME_NAME=GreenLagoon
 
 themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0
 

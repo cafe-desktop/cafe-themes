@@ -62,11 +62,11 @@ msgstr "ಹೆಚ್ಚು ವೈದೃಶ್ಯದ (ಕಾಂಟ್ರಾಸ್
 msgid "White-on-black text and icons"
 msgstr "ಕಪ್ಪು ಪಠ್ಯದ ಹಾಗು ಚಿಹ್ನೆಗಳ ಮೇಲೆ ಬಿಳಿ"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 

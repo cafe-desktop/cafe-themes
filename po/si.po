@@ -62,11 +62,11 @@ msgstr "උච්ච ප්‍රතිලෝම සහිත ප්‍රභේ
 msgid "White-on-black text and icons"
 msgstr "සුදු වර්ණය මත විශාල කළු පහැති අකුරු සහ සංකේත"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 

@@ -6,8 +6,8 @@ SUBDIRS = \
 	Blue-Undersea \
 	Blue-Undersea-border \
 	ContrastBig \
-	GreenLaguna \
-	GreenLaguna-border \
+	GreenLagoon \
+	GreenLagoon-border \
 	Green-Undersea \
 	Green-Undersea-border \
 	HighContrastInverse \

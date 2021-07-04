@@ -1,4 +1,4 @@
-THEME_NAME=GreenLaguna-border
+THEME_NAME=GreenLagoon-border
 
 themedir = $(datadir)/themes/$(THEME_NAME)/metacity-1
 

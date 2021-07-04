@@ -61,11 +61,11 @@ msgstr "ཁྱད་པར་ཆེ་བ་ རྒྱབ་འགལ།"
 msgid "White-on-black text and icons"
 msgstr "ཚིག་ཡིག་དང་ངོས་དཔར་གནག་པོའི་གུ་དཀརཔོ།"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 
