@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/Blue-Submarine/gtk-3.0
+themedir = $(datadir)/themes/Blue-Undersea/gtk-3.0
 
 theme_DATA = \
 	gnome-applications.css \

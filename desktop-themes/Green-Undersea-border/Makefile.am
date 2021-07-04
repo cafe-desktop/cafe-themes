@@ -1,4 +1,4 @@
-THEME_NAME=Green-Submarine-border
+THEME_NAME=Green-Undersea-border
 
 themedir = $(datadir)/themes/$(THEME_NAME)
 

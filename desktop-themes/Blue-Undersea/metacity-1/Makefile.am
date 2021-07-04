@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Blue-Submarine/metacity-1
+themedir = $(datadir)/themes/Blue-Undersea/metacity-1
 
 theme_DATA = \
 	icon_close.png \

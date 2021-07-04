@@ -45,11 +45,11 @@ msgstr "BlauwMint"
 msgid "A clean light theme with blue elements"
 msgstr "Een strak licht thema met blauwe elementen"
 
-#: desktop-themes/Blue-Submarine/index.theme.in:4
-msgid "Blue-Submarine"
+#: desktop-themes/Blue-Undersea/index.theme.in:4
+msgid "Blue-Undersea"
 msgstr "Blauw-Onderzeeër"
 
-#: desktop-themes/Blue-Submarine/index.theme.in:5
+#: desktop-themes/Blue-Undersea/index.theme.in:5
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Een middelblauw thema met donkere menu's en paneel"
 
@@ -77,11 +77,11 @@ msgstr "GroenLaguna"
 msgid "A clean light green theme"
 msgstr "Een strak lichtgroen thema"
 
-#: desktop-themes/Green-Submarine/index.theme.in:4
-msgid "Green-Submarine"
+#: desktop-themes/Green-Undersea/index.theme.in:4
+msgid "Green-Undersea"
 msgstr "Groen-Onderzeeër"
 
-#: desktop-themes/Green-Submarine/index.theme.in:5
+#: desktop-themes/Green-Undersea/index.theme.in:5
 msgid "A medium green theme with dark menus and panel"
 msgstr "Een middelgroen thema met donkere menu's en paneel"
 

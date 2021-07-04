@@ -1,4 +1,4 @@
-THEME_NAME=Green-Submarine
+THEME_NAME=Green-Undersea
 THEME_IN_FILES=index.theme.in
 
 themedir = $(datadir)/themes/$(THEME_NAME)

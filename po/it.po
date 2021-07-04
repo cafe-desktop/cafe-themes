@@ -45,11 +45,11 @@ msgstr "BlueMenta"
 msgid "A clean light theme with blue elements"
 msgstr "Un tema chiaro pulito con elementi blu"
 
-#: desktop-themes/Blue-Submarine/index.theme.in:4
-msgid "Blue-Submarine"
+#: desktop-themes/Blue-Undersea/index.theme.in:4
+msgid "Blue-Undersea"
 msgstr "Blu-Sottomarino"
 
-#: desktop-themes/Blue-Submarine/index.theme.in:5
+#: desktop-themes/Blue-Undersea/index.theme.in:5
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Un tema con un blu di media intensità e menù e pannelli di colore nero"
 
@@ -77,11 +77,11 @@ msgstr "LagunaVerde"
 msgid "A clean light green theme"
 msgstr "Un tema verde chiaro pulito"
 
-#: desktop-themes/Green-Submarine/index.theme.in:4
-msgid "Green-Submarine"
+#: desktop-themes/Green-Undersea/index.theme.in:4
+msgid "Green-Undersea"
 msgstr "Verde-Sottomarino"
 
-#: desktop-themes/Green-Submarine/index.theme.in:5
+#: desktop-themes/Green-Undersea/index.theme.in:5
 msgid "A medium green theme with dark menus and panel"
 msgstr "Un tema con un verde di media intensità e menù e pannelli di colore nero"
 

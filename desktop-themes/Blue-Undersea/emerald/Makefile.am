@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Blue-Submarine/emerald
+themedir = $(datadir)/themes/Blue-Undersea/emerald
 
 theme_DATA = blue-undersea.emerald
 

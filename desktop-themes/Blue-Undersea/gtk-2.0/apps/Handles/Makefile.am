@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Blue-Submarine/gtk-2.0/apps/Handles
+themedir = $(datadir)/themes/Blue-Undersea/gtk-2.0/apps/Handles
 
 theme_DATA = \
 	handle-caja.png \

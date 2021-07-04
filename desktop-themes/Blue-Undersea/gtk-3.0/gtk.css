@@ -23,7 +23,7 @@
 @define-color menu_fg_color shade(@theme_fg_dark_color, 1.00);
 @define-color menu_shadow_color @theme_shadow_color;
 
-/**********************[Blue-Submarine]***********************/
+/**********************[Blue-Undersea]***********************/
 @define-color bg_dark_color #1F2427;
 @define-color fg_dark_color #CACACC;
 @define-color theme_bg_dark_color @bg_dark_color;
