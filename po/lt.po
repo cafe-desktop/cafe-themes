@@ -40,7 +40,7 @@ msgstr ""
 
 #: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
-msgstr "Tvarkinga šviesi tema su mėlynos spalvos elementais"
+msgstr "Tvarkinga šviesi tema su mėlynos spalvos elemintis"
 
 #: desktop-themes/Blue-Undersea/index.theme.in:4
 msgid "Blue-Undersea"
@@ -88,7 +88,7 @@ msgstr ""
 
 #: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
-msgstr "Tvarkinga šviesi tema su žalios temos elementais"
+msgstr "Tvarkinga šviesi tema su žalios temos elemintis"
 
 #: desktop-themes/TraditionalGreen/index.theme.in:4
 msgid "TraditionalGreen"

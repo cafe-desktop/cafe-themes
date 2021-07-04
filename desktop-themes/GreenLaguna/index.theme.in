@@ -7,6 +7,6 @@ Encoding=UTF-8
 [X-GNOME-Metatheme]
 GtkTheme=GreenLaguna
 MetacityTheme=GreenLaguna
-IconTheme=menta
+IconTheme=mint
 CursorTheme=cafe
 CursorSize=24

@@ -29,7 +29,7 @@
   * Undersea: add metacity themes with huge borders
   * Mint: add selectable metacity theme with borders
   * Change url project's website
-  * GreenUndersea: use menta icon theme
+  * GreenUndersea: use mint icon theme
   * BlackCAFE: provide enough border to resize windows with recent changes elsewhere
   * GreenLaguna: add metacity-theme-3.xml version back
   * include GtkStock icons directly in HCI
@@ -39,7 +39,7 @@
   * Mint: metacity-3, rounded corners for modal-dialogs
   * Mint: improve GtkSwitch
   * Mint: improve metacity-theme-3
-  * menta: GtkSwich, disable on/off characters
+  * mint: GtkSwich, disable on/off characters
   * Rename gnome-power-manager.png to cafe-power-manager.png
 
 ### 3.22.19 (GTK 3.22)
@@ -178,7 +178,7 @@
   * ContrastBigInverse: Fix Caja rename labels when theme actually applied
   * cursor: add color-picker cursor image
   * GTK+-3.20 undersea themes: improve cafe- and mintmenu
-  * Gtk+-3.20 menta themes: fixes for cafe- and mint-menu
+  * Gtk+-3.20 mint themes: fixes for cafe- and mint-menu
   * Gtk+-3.20 Traditional themes: improve some dialog windows
   * Traditional themes: don't draw a bg for cafe-indicator-applet
   * Gtk+-3.20 most themes: fix bg color in list-view of caja inactive-pane
@@ -189,7 +189,7 @@
 
 ### 3.22.10 (GTK 3.22)
 
-  * menta-fix "{{" typo breaking gtk-widgets.css file
+  * mint-fix "{{" typo breaking gtk-widgets.css file
   * All themes: Fix: print dialog paper depictions not appearing correctly
 
 ### 3.22.9 (GTK 3.22)
@@ -437,7 +437,7 @@
   * GTK+-3.20 Undersea and Grenlaguna themes: fix node for vte-terminal
   * Gtk+-3.20 most themes: fix some menu separators
   * GTK+-3.20 GreenLaguna: add setting for better controling icon size in na-tray-applet
-  * GTK+-3.20 menta themes: add setting for better controling icon size in na-tray-applet
+  * GTK+-3.20 mint themes: add setting for better controling icon size in na-tray-applet
   * GTK+-3.20 undersea themes: fix settings for na-tray-applet
 
 ### 3.20.7 (GTK 3.20)
@@ -629,8 +629,8 @@
   * GTK3: undersea themes: fix padding for GtkToggleButton.button:hover
   * GTK3 black-cafe, green-laguna: button size fix for gnome-mplayer
   * GTK3: undersea themes: adjustments for some media players + vitual-manager
-  * Gtk+-3.18 menta themes: improve previous GtkFileChooser pathbar commit
-  * Gtk3 menta themes: adjust nemo toolbar again
+  * Gtk+-3.18 mint themes: improve previous GtkFileChooser pathbar commit
+  * Gtk3 mint themes: adjust nemo toolbar again
   * Gtk+-3.18 most themes: workaround for broken first/last-child logic with
     linked buttons in GtkFileChooser pathbar
   * GTK3 Mint themes: use a border-image for nemo statusbar buttons
@@ -694,7 +694,7 @@
   * improvements for Greenlaguna theme
   * undersea themes: don't use dark colors for math calculators
   * improvements for undersea themes
-  * improvements for menta themes
+  * improvements for mint themes
   * for more details see git log!
 
 ### 1.10.3 (GTK 3.16)
@@ -706,7 +706,7 @@
   * style parole mediaplayer (gtk3 version)
 
 ### 1.10.1
-  * improvements for menta themes GTK+-3.16
+  * improvements for mint themes GTK+-3.16
   * re-work of GreenLaguna GTK3
   * improvements for traditional themes GTK+-3.16
   * improvements for BlackCafe GTK+-3.16

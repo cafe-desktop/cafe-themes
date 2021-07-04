@@ -45,7 +45,7 @@ msgstr ""
 
 #: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
-msgstr "Czysty lekki motyw z niebieskimi elementami"
+msgstr "Czysty lekki motyw z niebieskimi elemintmi"
 
 #: desktop-themes/Blue-Undersea/index.theme.in:4
 msgid "Blue-Undersea"
@@ -93,7 +93,7 @@ msgstr ""
 
 #: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
-msgstr "Czysty lekki motyw z zielonymi elementami"
+msgstr "Czysty lekki motyw z zielonymi elemintmi"
 
 #: desktop-themes/TraditionalGreen/index.theme.in:4
 msgid "TraditionalGreen"
