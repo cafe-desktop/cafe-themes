@@ -47,11 +47,11 @@ msgstr "Blue-Submarine"
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Et mellem blå tema med mørke menuer og paneler"
 
-#: desktop-themes/ContrastHigh/index.theme.in:4
+#: desktop-themes/ContrastBig/index.theme.in:4
 msgid "High Contrast"
 msgstr "Højkontrast"
 
-#: desktop-themes/ContrastHigh/index.theme.in:5
+#: desktop-themes/ContrastBig/index.theme.in:5
 msgid "High contrast theme"
 msgstr "Tema med høj kontrast"
 

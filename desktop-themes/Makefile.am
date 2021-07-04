@@ -5,7 +5,7 @@ SUBDIRS = \
 	BlueMenta-border \
 	Blue-Submarine \
 	Blue-Submarine-border \
-	ContrastHigh \
+	ContrastBig \
 	GreenLaguna \
 	GreenLaguna-border \
 	Green-Submarine \

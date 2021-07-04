@@ -49,11 +49,11 @@ msgstr ""
 msgid "A medium blue theme with dark menus and panel"
 msgstr "어두운 메뉴와 패널 있는 중간 파랑 테마"
 
-#: desktop-themes/ContrastHigh/index.theme.in:4
+#: desktop-themes/ContrastBig/index.theme.in:4
 msgid "High Contrast"
 msgstr "고대비"
 
-#: desktop-themes/ContrastHigh/index.theme.in:5
+#: desktop-themes/ContrastBig/index.theme.in:5
 msgid "High contrast theme"
 msgstr "고대비 테마"
 
