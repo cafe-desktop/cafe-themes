@@ -64,11 +64,11 @@ msgstr "Beza Jelas Tinggi Menyongsang"
 msgid "White-on-black text and icons"
 msgstr "Teks dan ikon putih-atas-hitam"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
-msgstr "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
+msgstr "GreenLagoon"
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Tema hijau cerah yang kemas"
 

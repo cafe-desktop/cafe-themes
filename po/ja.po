@@ -65,11 +65,11 @@ msgstr "高コントラストの反転"
 msgid "White-on-black text and icons"
 msgstr "黒地に白色のテキストとアイコン"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "明るい緑のテーマ"
 

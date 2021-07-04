@@ -67,11 +67,11 @@ msgstr "高对比反色"
 msgid "White-on-black text and icons"
 msgstr "黑底白字和图标"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "一款简洁的的绿色主题"
 

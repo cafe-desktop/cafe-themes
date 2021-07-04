@@ -69,11 +69,11 @@ msgstr "Contrasto elevato inverso"
 msgid "White-on-black text and icons"
 msgstr "Bianco su nero per testo e icone"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
-msgstr "LagunaVerde"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
+msgstr "LagoonVerde"
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Un tema verde chiaro pulito"
 

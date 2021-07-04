@@ -67,11 +67,11 @@ msgstr "Nagy kontraszt és inverz"
 msgid "White-on-black text and icons"
 msgstr "Fekete alapon fehér szöveg és ikonok"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr "Zöld lagúna"
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Egy tiszta világoszöld téma"
 

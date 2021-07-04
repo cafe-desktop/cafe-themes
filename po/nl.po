@@ -69,11 +69,11 @@ msgstr "Hoog contrast negatief"
 msgid "White-on-black text and icons"
 msgstr "Wit-op-zwart tekst en pictogrammen"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
-msgstr "GroenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
+msgstr "GroenLagoon"
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Een strak lichtgroen thema"
 

@@ -64,11 +64,11 @@ msgstr "Contraste altu invertíu"
 msgid "White-on-black text and icons"
 msgstr "Testos ya iconos en blancu sobro prietu"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 

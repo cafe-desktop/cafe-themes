@@ -66,11 +66,11 @@ msgstr "Kontrastinga ir inversinė"
 msgid "White-on-black text and icons"
 msgstr "Baltas tekstas ir piktogramos juodame fone"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Tvarkinga šviesiai žalia tema"
 

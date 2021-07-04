@@ -64,11 +64,11 @@ msgstr "سایه‌روشن زیاد وارونه"
 msgid "White-on-black text and icons"
 msgstr "متن و شکل‌های سفید روی زمینه‌ی سیاه"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 

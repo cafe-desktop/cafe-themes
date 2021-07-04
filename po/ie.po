@@ -62,11 +62,11 @@ msgstr "Alt contraste inverset"
 msgid "White-on-black text and icons"
 msgstr "Blanc sur nigri textu e icones"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr "Un nett lucid verdi tema"
 

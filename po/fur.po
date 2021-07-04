@@ -61,11 +61,11 @@ msgstr "Contrast elevât contrari"
 msgid "White-on-black text and icons"
 msgstr "Blanc su neri par test e iconis"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 

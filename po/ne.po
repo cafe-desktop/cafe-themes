@@ -63,11 +63,11 @@ msgstr "उच्च व्यतिरेक विपरीत"
 msgid "White-on-black text and icons"
 msgstr "कालोमा सेतो पाठ र प्रतिमा"
 
-#: desktop-themes/GreenLaguna/index.theme.in:4
-msgid "GreenLaguna"
+#: desktop-themes/GreenLagoon/index.theme.in:4
+msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLaguna/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:5
 msgid "A clean light green theme"
 msgstr ""
 
