@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/gtk-2.0/widgets/Panel
+themedir = $(datadir)/themes/BlueMint/gtk-2.0/widgets/Panel
 
 theme_DATA = \
 	arrow-blank.png \

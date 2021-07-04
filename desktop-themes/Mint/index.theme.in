@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Menta
+Name=Mint
 Comment=A clean light theme with green elements
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Menta
-MetacityTheme=Menta
+GtkTheme=Mint
+MetacityTheme=Mint
 IconTheme=menta
 CursorTheme=cafe-black
 

@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0/widgets/Panel
+themedir = $(datadir)/themes/Mint/gtk-2.0/widgets/Panel
 
 theme_DATA = \
 	arrow-blank.png \

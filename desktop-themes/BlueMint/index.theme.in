@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=BlueMenta
+Name=BlueMint
 Comment=A clean light theme with blue elements
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=BlueMenta
-MetacityTheme=BlueMenta
+GtkTheme=BlueMint
+MetacityTheme=BlueMint
 IconTheme=cafe
 CursorTheme=cafe-black
 

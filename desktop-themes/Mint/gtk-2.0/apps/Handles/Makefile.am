@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0/apps/Handles
+themedir = $(datadir)/themes/Mint/gtk-2.0/apps/Handles
 
 theme_DATA = \
 	resize_grip.png \

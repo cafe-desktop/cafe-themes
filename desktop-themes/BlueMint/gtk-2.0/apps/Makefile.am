@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/gtk-2.0/apps
+themedir = $(datadir)/themes/BlueMint/gtk-2.0/apps
 
 theme_DATA = \
 	chromium.rc \

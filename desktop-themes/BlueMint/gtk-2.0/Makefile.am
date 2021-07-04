@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMenta/gtk-2.0
+themedir = $(datadir)/themes/BlueMint/gtk-2.0
 
 theme_DATA = gtkrc
 

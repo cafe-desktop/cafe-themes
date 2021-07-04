@@ -1,4 +1,4 @@
-THEME_NAME=Menta-border
+THEME_NAME=Mint-border
 
 themedir = $(datadir)/themes/$(THEME_NAME)
 

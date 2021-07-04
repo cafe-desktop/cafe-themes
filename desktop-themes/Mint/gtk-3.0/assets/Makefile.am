@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/Menta/gtk-3.0/assets
+themedir = $(datadir)/themes/Mint/gtk-3.0/assets
 
 theme_DATA = \
 	check-active-ins.png \

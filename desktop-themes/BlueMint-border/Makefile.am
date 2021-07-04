@@ -1,4 +1,4 @@
-THEME_NAME=BlueMenta-border
+THEME_NAME=BlueMint-border
 
 themedir = $(datadir)/themes/$(THEME_NAME)
 

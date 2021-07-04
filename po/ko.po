@@ -33,11 +33,11 @@ msgstr ""
 msgid "A clean dark theme"
 msgstr "맑은 어두운 테마"
 
-#: desktop-themes/BlueMenta/index.theme.in:4
-msgid "BlueMenta"
+#: desktop-themes/BlueMint/index.theme.in:4
+msgid "BlueMint"
 msgstr ""
 
-#: desktop-themes/BlueMenta/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:5
 msgid "A clean light theme with blue elements"
 msgstr "맑은 파랑 있는 가벼운 테마"
 
@@ -81,11 +81,11 @@ msgstr ""
 msgid "A medium green theme with dark menus and panel"
 msgstr "어두운 메뉴와 패널 있는 중간 녹색 테마"
 
-#: desktop-themes/Menta/index.theme.in:4
-msgid "Menta"
+#: desktop-themes/Mint/index.theme.in:4
+msgid "Mint"
 msgstr ""
 
-#: desktop-themes/Menta/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:5
 msgid "A clean light theme with green elements"
 msgstr "녹색 있는 맑은 가벼움 테마"
 

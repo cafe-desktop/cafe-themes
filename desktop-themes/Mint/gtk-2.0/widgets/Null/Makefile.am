@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Menta/gtk-2.0/widgets/Null
+themedir = $(datadir)/themes/Mint/gtk-2.0/widgets/Null
 
 theme_DATA = \
 	null.png

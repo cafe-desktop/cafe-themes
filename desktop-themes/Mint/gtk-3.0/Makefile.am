@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/Menta/gtk-3.0
+themedir = $(datadir)/themes/Mint/gtk-3.0
 
 theme_DATA = \
 	gnome-applications.css \
