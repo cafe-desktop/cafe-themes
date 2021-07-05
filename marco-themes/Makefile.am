@@ -1,5 +1,5 @@
 THEMES = \
-	Shiny \
+	Sparkly \
 	BigContrast
 
 THEME_DIR=$(datadir)/themes
