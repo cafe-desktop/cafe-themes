@@ -91,18 +91,18 @@ msgstr "Mint"
 msgid "A clean light theme with green elements"
 msgstr "Ett rent ljust tema med gröna element"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:4
-msgid "TraditionalGreen"
-msgstr "TraditionalGreen"
+#: desktop-themes/ClassicGreen/index.theme.in:4
+msgid "ClassicGreen"
+msgstr "ClassicGreen"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:5
 msgid "Green port of Clearlooks-Phenix"
 msgstr "Grön portering av Clearlooks-Phenix"
 
-#: desktop-themes/TraditionalOk/index.theme.in:4
-msgid "TraditionalOk"
-msgstr "TraditionalOk"
+#: desktop-themes/ClassicOk/index.theme.in:4
+msgid "ClassicOk"
+msgstr "ClassicOk"
 
-#: desktop-themes/TraditionalOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Portering av Clearlooks-Phenix"

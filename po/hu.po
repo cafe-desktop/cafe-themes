@@ -91,18 +91,18 @@ msgstr "Mint"
 msgid "A clean light theme with green elements"
 msgstr "Egy tiszta világos téma, zöld elemekkel"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:4
-msgid "TraditionalGreen"
+#: desktop-themes/ClassicGreen/index.theme.in:4
+msgid "ClassicGreen"
 msgstr "Hagyományos zöld"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:5
 msgid "Green port of Clearlooks-Phenix"
 msgstr "A Clearlooks-Phenix asztaltéma zöld színű változata"
 
-#: desktop-themes/TraditionalOk/index.theme.in:4
-msgid "TraditionalOk"
-msgstr "TraditionalOk"
+#: desktop-themes/ClassicOk/index.theme.in:4
+msgid "ClassicOk"
+msgstr "ClassicOk"
 
-#: desktop-themes/TraditionalOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "A Clearlooks-Phenix asztaltéma egyik változata"

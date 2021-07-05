@@ -89,18 +89,18 @@ msgstr ""
 msgid "A clean light theme with green elements"
 msgstr "녹색 있는 맑은 가벼움 테마"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:4
-msgid "TraditionalGreen"
+#: desktop-themes/ClassicGreen/index.theme.in:4
+msgid "ClassicGreen"
 msgstr ""
 
-#: desktop-themes/TraditionalGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:5
 msgid "Green port of Clearlooks-Phenix"
 msgstr "클리어룩스-피닉스 녹색 계열"
 
-#: desktop-themes/TraditionalOk/index.theme.in:4
-msgid "TraditionalOk"
-msgstr "TraditionalOk"
+#: desktop-themes/ClassicOk/index.theme.in:4
+msgid "ClassicOk"
+msgstr "ClassicOk"
 
-#: desktop-themes/TraditionalOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "클리어룩스-피닉스 계열"

@@ -98,7 +98,7 @@
   * Most themes: don't write a background for vala-panel-appmenu
   * Undersea themes: drop light borders from multiload-applet
   * HCI: add missing settings for multimedia OSD
-  * Traditional themes: fix osd progressbar color
+  * Classic themes: fix osd progressbar color
   * Mint themes: fix osd progressbar color
 
 ### 3.22.15 (GTK 3.22)
@@ -179,8 +179,8 @@
   * cursor: add color-picker cursor image
   * GTK+-3.20 undersea themes: improve cafe- and mintmenu
   * Gtk+-3.20 mint themes: fixes for cafe- and mint-menu
-  * Gtk+-3.20 Traditional themes: improve some dialog windows
-  * Traditional themes: don't draw a bg for cafe-indicator-applet
+  * Gtk+-3.20 Classic themes: improve some dialog windows
+  * Classic themes: don't draw a bg for cafe-indicator-applet
   * Gtk+-3.20 most themes: fix bg color in list-view of caja inactive-pane
   * Gtk+-3.20 all themes: add new css name cafekbd-keyboard-drawing
   * metacity undersea themes: fix innerborder if metacity or compiz WM is used
@@ -202,12 +202,12 @@
   * Gtk+-3.20 all themes: improvements for cafe-menu
   * Gtk+-3.20 all themes: better way to style keyboard layouts
   * TOK/TG: cafe-terminal: set gradient color to the notebook header border
-  * Gtk+-3.20 Traditional: set color to the notebook header border in cafe-terminal
+  * Gtk+-3.20 Classic: set color to the notebook header border in cafe-terminal
   * Gtk+-3.20 Mint themes: sort cafe-applications.css
   * Mint themes: set color to the notebook header border
   * TOK/TG: New colors in panel grid
   * Gtk+-3.20 all themes: style cafe-keyboard-layout-viewer
-  * Traditional themes - use applet handles from Mint
+  * Classic themes - use applet handles from Mint
 
 ### 3.22.8 (GTK 3.22)
 
@@ -220,12 +220,12 @@
   * Undersea themes: correct notebook tab borders in cafe-terminal
   * Gtk+-3.20 Mint themes: correct notebook header borders in cafe-terminal
   * GreenUndersea: fix a typo
-  * Traditional themes: drop some lines in cafe-terminal for a better look
+  * Classic themes: drop some lines in cafe-terminal for a better look
   * Translations update
   * Gtk+-3.20 Most themes: don't use a border for terminal notebook
-  * Traditional themes: print dialog improvements
-  * Traditional themes: set notebook borders for pavu-control (better fix)
-  * Traditional themes: set notebook borders for pavu-control
+  * Classic themes: print dialog improvements
+  * Classic themes: set notebook borders for pavu-control (better fix)
+  * Classic themes: set notebook borders for pavu-control
   * Gtk+-3.20 GreenLagoon: style scrollbar junction
   * Gtk+-3.20: add an annoying wildcard for firefox
   * Gtk+-3.20 GreenLagoon: some border fixes for caja sidebar
@@ -233,12 +233,12 @@
   * Gtk+-3.20 GreenLagoon: change border-color for scrollbars
   * GTK+-3.20 GreenLagoon: change insensitive_bg_color
   * Gtk+-3.20 GreenLagoon: improve notebooks
-  * Traditional themes: drop the two useless lines in the notebooks
+  * Classic themes: drop the two useless lines in the notebooks
   * Gtk+-3.20 GreenLagoon: re-work  borders of frame and other improvements
   * GreenLagoon metacity: increase border size
   * Undersea metacity: increase border size
   * Gtk+-3.20 Undersea: set color for dim-labels at list rows
-  * Traditional themes: set more border colors in checked notebook tabs
+  * Classic themes: set more border colors in checked notebook tabs
   * Gtk+-3.20 undersea themes set a padding on statusbars
   * Gtk+-3.20: fix jumping button in cafe-font-viewer toolbar
   * Gtk+-3.20 undersea themes: improve headerbars and popover menus
@@ -247,7 +247,7 @@
   * Gtk+-3.20 Mint themes: some notebook improvements
   * Fixed URL colors for Firefox search suggestions
   * Gtk+-3.20 Mint themes: re-work borders for frames and other improvements (mega commit)
-  * Traditional themes: make padding in notebook tabs smaller
+  * Classic themes: make padding in notebook tabs smaller
   * Gtk+-3.20 undersea themes: several improvements
   * Gtk+-3.22 Undersea themes: some notebook improvements
   * Gtk+-3.22 Undersea themes: re-work borders for frames
@@ -255,13 +255,13 @@
   * Gtk+-3.20 undersea themes: fix rubberband for cafe-screenshot
   * TOK theme: fix a typo
   * Gtk+-3.20 undersea themes: fix toolbar label color
-  * Traditional themes: use gradient color on active tabs
+  * Classic themes: use gradient color on active tabs
   * Gtk+-2.0 Greenlaguna: use hardcoded hex colors in gtkrc
   * Gtk+-2.0 most themes: use a oneliner for color definitions in gtkrc
-  * Traditional themes: add a border-image for some applets
-  * Gtk+-3.20 Traditional themes: use a border for the whole GtkInfobar
-  * Gtk+-3.20 Traditional themes: workaround, fix some borders in firefox
-  * Gtk+-3.20 Traditional themes: fix jumping combobox button
+  * Classic themes: add a border-image for some applets
+  * Gtk+-3.20 Classic themes: use a border for the whole GtkInfobar
+  * Gtk+-3.20 Classic themes: workaround, fix some borders in firefox
+  * Gtk+-3.20 Classic themes: fix jumping combobox button
   * Gtk+-3.20 most themes: fix sidebar of GtkAssistant
   * Gtk+-3.20 Undersea themes: fix sidebar of GtkAssistant
   * Gtk+-3 all themes: don't set NaTrayApplet-icon-size
@@ -271,9 +271,9 @@
   * GTK+-3.20 Undersea themes: increase systray margins by 1 pixel to avoid deformed icons
   * GTK+-3.20 Mint themes: increase systray margins by 1 pixel to avoid deformed icons
   * GTK+-3.20 Mint themes: use normal font weighting for panel main menu labels
-  * GTK+-3.22 Traditional themes: fix panel applet slider
-  * GTK+-3.20 Traditional themes: rework GtkNotebook
-  * GTK+-3.20 Traditional themes: fix border-radius of dialog-action-area linked single button
+  * GTK+-3.22 Classic themes: fix panel applet slider
+  * GTK+-3.20 Classic themes: rework GtkNotebook
+  * GTK+-3.20 Classic themes: fix border-radius of dialog-action-area linked single button
   * GTK+-3.20 Undersea themes: fix border-radius of dialog-action-area linked single button
   * GTK+-3.20 Undersea themes: more outline fixes
   * BlackCAFE: Fix disappearing focus of flat buttons
@@ -296,7 +296,7 @@
   * gtk+-3 GreenLagoon: style m-s-d osd in non compositor case
   * gtk+-3 Mint themes: style m-s-d osd in non compositor case
   * Undersea themes: style m-s-d osd in non compositor case
-  * GTK+-3.20 Traditional Green: remove borders from css node frame
+  * GTK+-3.20 Classic Green: remove borders from css node frame
   * GTK+-3.20 TOK themes: remove borders from css node frame
 
 ### 3.22.4 (GTK 3.22)
@@ -591,15 +591,15 @@
 ### 3.20.3 (GTK 3.20)
 
   * GTK3: fix Scrollbars, Spinbutton and Notebooks in Mint themes,
-  * Undersea themes and Traditional themes.
+  * Undersea themes and Classic themes.
   * more improvements
   * language update
 
 ### 3.20.2 (GTK 3.20)
 
   * port Mint to gtk+-3.20
-  * port TraditionalOK to gtk+-3.20
-  * port TraditionalGreen to gtk+-3.20
+  * port ClassicOK to gtk+-3.20
+  * port ClassicGreen to gtk+-3.20
   * more adjustments for Blue-Undersea for gtk+-3.20
   * sync Green-Undersea with Blue-Undersea
 
@@ -726,13 +726,13 @@
   * many more adjustments....
 
 ### 1.9.3
-  * TraditionalOKTest is installable with normal configure flags
+  * ClassicOKTest is installable with normal configure flags
   * add transition effect to buttons and menuitems for Mint themes GTK3
   * add transition effect to buttons and menuitems for BlackCafe and GreenLagoon GTK3
   * add support for CSD applications in BlackCafe and GreenLagoon
   * improve handling of CSD applications in other themes
   * add support for popovers in GreenLagoon, BlackCafe, ContrastBig and ContrastBigInverse themes
-  * improve popovers support in Traditional themes
+  * improve popovers support in Classic themes
   * serveral other improvements
 
 ### 1.9.2

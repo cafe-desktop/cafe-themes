@@ -13,6 +13,6 @@ SUBDIRS = \
 	BigContrastInverse \
 	Mint \
 	Mint-border \
-	TraditionalGreen \
-	TraditionalOk
+	ClassicGreen \
+	ClassicOk
 

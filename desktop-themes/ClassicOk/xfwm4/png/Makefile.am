@@ -1,4 +1,4 @@
-THEME_NAME=TraditionalOk
+THEME_NAME=ClassicOk
 
 themedir = $(datadir)/themes/$(THEME_NAME)/xfwm4/png
 

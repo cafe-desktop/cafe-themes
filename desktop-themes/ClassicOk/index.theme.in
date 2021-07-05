@@ -1,12 +1,12 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=TraditionalOk
+Name=ClassicOk
 Comment=Port of Clearlooks-Phenix
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=TraditionalOk
-MetacityTheme=TraditionalOk
+GtkTheme=ClassicOk
+MetacityTheme=ClassicOk
 IconTheme=cafe
 CursorTheme=cafe
 CursorSize=24
