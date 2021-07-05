@@ -1,4 +1,4 @@
-THEME_NAME=TraditionalGreen
+THEME_NAME=ClassicGreen
 
 themedir = $(datadir)/themes/$(THEME_NAME)/gtk-2.0
 

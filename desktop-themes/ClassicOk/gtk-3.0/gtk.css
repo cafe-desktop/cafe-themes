@@ -29,8 +29,8 @@
 /* Core colors are only used in the current file, as bases for other
    color declarations. */
 
-@define-color core_color_a #a4c2e8; /* Core color for blue widgets in TraditionalOK. */
-@define-color core_color_b #edeceb; /* Core color for gray widgets in TraditionalOK. */
+@define-color core_color_a #a4c2e8; /* Core color for blue widgets in ClassicOK. */
+@define-color core_color_b #edeceb; /* Core color for gray widgets in ClassicOK. */
 
 /********************************************
  * End of configuration for color variants. *

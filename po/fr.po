@@ -92,18 +92,18 @@ msgstr ""
 msgid "A clean light theme with green elements"
 msgstr "Thème clair et propre avec des éléments verts"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:4
-msgid "TraditionalGreen"
+#: desktop-themes/ClassicGreen/index.theme.in:4
+msgid "ClassicGreen"
 msgstr ""
 
-#: desktop-themes/TraditionalGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:5
 msgid "Green port of Clearlooks-Phenix"
 msgstr "Adaptation verte de Clearlooks-Phenix"
 
-#: desktop-themes/TraditionalOk/index.theme.in:4
-msgid "TraditionalOk"
-msgstr "TraditionalOk"
+#: desktop-themes/ClassicOk/index.theme.in:4
+msgid "ClassicOk"
+msgstr "ClassicOk"
 
-#: desktop-themes/TraditionalOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Adaptation de Clearlooks-Phenix"

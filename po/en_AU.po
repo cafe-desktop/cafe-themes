@@ -88,18 +88,18 @@ msgstr ""
 msgid "A clean light theme with green elements"
 msgstr "A clean light theme with green elements"
 
-#: desktop-themes/TraditionalGreen/index.theme.in:4
-msgid "TraditionalGreen"
+#: desktop-themes/ClassicGreen/index.theme.in:4
+msgid "ClassicGreen"
 msgstr ""
 
-#: desktop-themes/TraditionalGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:5
 msgid "Green port of Clearlooks-Phenix"
 msgstr "Green port of Clearlooks-Phenix"
 
-#: desktop-themes/TraditionalOk/index.theme.in:4
-msgid "TraditionalOk"
-msgstr "TraditionalOk"
+#: desktop-themes/ClassicOk/index.theme.in:4
+msgid "ClassicOk"
+msgstr "ClassicOk"
 
-#: desktop-themes/TraditionalOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Port of Clearlooks-Phenix"

@@ -1,4 +1,4 @@
-THEME_NAME=TraditionalGreen
+THEME_NAME=ClassicGreen
 THEME_IN_FILES=index.theme.in
 
 themedir = $(datadir)/themes/$(THEME_NAME)
