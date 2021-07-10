@@ -140,6 +140,8 @@ desktop-themes/ClassicOk/Makefile
 desktop-themes/ClassicOk/gtk-2.0/Makefile
 desktop-themes/ClassicOk/gtk-3.0/Makefile
 desktop-themes/ClassicOk/gtk-3.0/img/Makefile
+desktop-themes/ClassicOk/ctk-3.0/Makefile
+desktop-themes/ClassicOk/ctk-3.0/img/Makefile
 desktop-themes/ClassicOk/metacity-1/Makefile
 desktop-themes/ClassicOk/openbox-3/Makefile
 desktop-themes/ClassicOk/xfwm4/Makefile
