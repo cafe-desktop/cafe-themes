@@ -420,7 +420,7 @@
  ***********/
 
 @define-color sidebar_bg_color @theme_base_color;
-@define-color gtkassistant_sidebar_border_color @border_color;
+@define-color ctkassistant_sidebar_border_color @border_color;
 
 /**************
  * spinbutton *
@@ -506,8 +506,8 @@
  * imports *
  ***********/
 
-@import url("gtk-widgets-img.css");
-@import url("gtk-widgets.css");
+@import url("ctk-widgets-img.css");
+@import url("ctk-widgets.css");
 @import url("applications.css");
 @import url("other-applications.css");
 @import url("cafe-applications.css");
