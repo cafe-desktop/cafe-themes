@@ -12,8 +12,8 @@
     outline-style: dashed;
     outline-offset: -3px;
     outline-width: 1px;
-    -gtk-outline-radius: 2px;
-    -gtk-icon-style: regular; /* disable symbolic icons */
+    -ctk-outline-radius: 2px;
+    -ctk-icon-style: regular; /* disable symbolic icons */
 }
 
 /***************
@@ -106,14 +106,14 @@ tooltip.background.solid-csd decoration,
 /* This is could be CPU-intensive */
 
 @keyframes spin {
-    to { -gtk-icon-transform: rotate(1turn); }
+    to { -ctk-icon-transform: rotate(1turn); }
 }
 
 spinner {
     background: none;
     background-color: transparent;
     opacity: 0;
-    -gtk-icon-source: -gtk-icontheme("process-working-symbolic");
+    -ctk-icon-source: -ctk-icontheme("process-working-symbolic");
 }
 
 spinner:checked {
@@ -266,12 +266,12 @@ paned > separator.wide:backdrop {
 
 /* displays at end of mouse scrolling */
 overshoot.top {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center top, 0,
                                     center top, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(137, 158, 179, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     center top, 0,
                                     center top, 0.6,
                                     from(rgba(56, 73, 87, 0.17)),
@@ -285,7 +285,7 @@ overshoot.top {
 }
 
 overshoot.top:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center top, 0,
                                     center top, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -299,12 +299,12 @@ overshoot.top:backdrop {
 }
 
 overshoot.bottom {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center bottom, 0,
                                     center bottom, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(137, 158, 179, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     center bottom, 0,
                                     center bottom, 0.6,
                                     from(rgba(56, 73, 87, 0.17)),
@@ -318,7 +318,7 @@ overshoot.bottom {
 }
 
 overshoot.bottom:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center bottom, 0,
                                     center bottom, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -332,12 +332,12 @@ overshoot.bottom:backdrop {
 }
 
 overshoot.left {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     left center, 0,
                                     left center, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(137, 158, 179, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     left center, 0,
                                     left center, 0.6,
                                     from(rgba(56, 73, 87, 0.07)),
@@ -351,7 +351,7 @@ overshoot.left {
 }
 
 overshoot.left:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     left center, 0,
                                     left center, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -365,12 +365,12 @@ overshoot.left:backdrop {
 }
 
 overshoot.right {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     right center, 0,
                                     right center, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(137, 158, 179, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     right center, 0,
                                     right center, 0.6,
                                     from(rgba(56, 73, 87, 0.07)),
@@ -384,7 +384,7 @@ overshoot.right {
 }
 
 overshoot.right:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     right center, 0,
                                     right center, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -658,7 +658,7 @@ row trough {
 
 row:selected progressbar trough,
 row:selected:focus progressbar trough {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top, left bottom,
                       from (mix (@trough_gradient_a, @theme_selected_bg_color, 0.25)),
                       to (mix (@trough_gradient_b, @theme_selected_bg_color, 0.25)));
@@ -667,7 +667,7 @@ row:selected:focus progressbar trough {
 treeview.view.trough,
 treeview.view.trough:hover,
 treeview.view.trough:selected {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top, left bottom,
                       from (mix (@trough_gradient_a, @theme_selected_bg_color, 0.25)),
                       to (mix (@trough_gradient_b, @theme_selected_bg_color, 0.25)));
@@ -947,7 +947,7 @@ button.flat {
     background-image: none;
     box-shadow: inset 0 1px rgba(255,255,255,0), 0 1px rgba(255,255,255,0);
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border-image: none;
 }
 
@@ -1440,7 +1440,7 @@ toolbar combobox button.combo:focus,
 toolbar.primary-toolbar combobox button.combo,
 .titlebar .titlebutton:hover,
 colorchooser #add-color-button {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@button_gradient_a),
@@ -1657,7 +1657,7 @@ stackswitcher  > button:dir(ltr).text-button.radio:checked:hover:active:last-chi
 
 stackswitcher  > button:dir(ltr).text-button.radio,
 stackswitcher  > button:dir(ltr).text-button.radio:focus  {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@button_gradient_a),
@@ -1904,31 +1904,31 @@ notebook header tab:checked {
 }
 
 notebook header.top tab:checked {
-    -gtk-outline-top-left-radius: 4px;
-    -gtk-outline-top-right-radius: 4px;
-    -gtk-outline-bottom-left-radius: 0px;
-    -gtk-outline-bottom-right-radius: 0px;
+    -ctk-outline-top-left-radius: 4px;
+    -ctk-outline-top-right-radius: 4px;
+    -ctk-outline-bottom-left-radius: 0px;
+    -ctk-outline-bottom-right-radius: 0px;
 }
 
 notebook header.bottom tab:checked {
-    -gtk-outline-top-left-radius: 0px;
-    -gtk-outline-top-right-radius: 0px;
-    -gtk-outline-bottom-left-radius: 4px;
-    -gtk-outline-bottom-right-radius: 4px;
+    -ctk-outline-top-left-radius: 0px;
+    -ctk-outline-top-right-radius: 0px;
+    -ctk-outline-bottom-left-radius: 4px;
+    -ctk-outline-bottom-right-radius: 4px;
 }
 
 notebook header.left tab:checked {
-    -gtk-outline-top-left-radius: 4px;
-    -gtk-outline-top-right-radius: 0px;
-    -gtk-outline-bottom-left-radius: 4px;
-    -gtk-outline-bottom-right-radius: 0px;
+    -ctk-outline-top-left-radius: 4px;
+    -ctk-outline-top-right-radius: 0px;
+    -ctk-outline-bottom-left-radius: 4px;
+    -ctk-outline-bottom-right-radius: 0px;
 }
 
 notebook header.right tab:checked {
-    -gtk-outline-top-left-radius: 0px;
-    -gtk-outline-top-right-radius: 4px;
-    -gtk-outline-bottom-left-radius: 0px;
-    -gtk-outline-bottom-right-radius: 4px;
+    -ctk-outline-top-left-radius: 0px;
+    -ctk-outline-top-right-radius: 4px;
+    -ctk-outline-bottom-left-radius: 0px;
+    -ctk-outline-bottom-right-radius: 4px;
 }
 
 /* close button styling */
@@ -1952,25 +1952,25 @@ notebook button.flat.small-button:hover{
 
 notebook header.top tabs arrow.up,
 notebook header.bottom tabs arrow.up {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
     color: @theme_fg_color;
 }
 
 notebook header.top tabs arrow.down,
 notebook header.bottom tabs arrow.down {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
     color: @theme_fg_color;
 }
 
 notebook header.left tabs arrow.up,
 notebook header.right tabs arrow.up {
-    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-up-symbolic");
     color: @theme_fg_color;
 }
 
 notebook header.left tabs arrow.down,
 notebook header.right tabs arrow.down {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
     color: @theme_fg_color;
 }
 
@@ -2004,7 +2004,7 @@ combobox {
 }
 
 combobox arrow {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
     color: @theme_fg_color;
     min-height: 16px;
     min-width: 16px;
@@ -2216,7 +2216,7 @@ scrollbar.horizontal trough {
     border-radius: 0px;
     border-width: 0px 1px 0px 1px;
     border-image: none;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       color-stop (0, @scrollbar_trough_gradient_a),
@@ -2228,7 +2228,7 @@ scrollbar.vertical trough {
     border-radius: 0px;
     border-width: 1px 0px 1px 0px;
     border-image: none;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       right top,
                       color-stop (0, @scrollbar_trough_gradient_a),
@@ -2252,22 +2252,22 @@ scrollbar.horizontal .button {
 
 scrollbar.vertical button.up,
 scrollbar.vertical .button.up {
-    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-up-symbolic");
 }
 
 scrollbar.vertical button.down,
 scrollbar.vertical .button.down {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
 }
 
 scrollbar.horizontal button.up,
 scrollbar.horizontal .button.up {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
 }
 
 scrollbar.horizontal button.down,
 scrollbar.horizontal .button.down {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 scrollbar button,
@@ -2299,7 +2299,7 @@ scrollbar .button:disabled {
 
 scrollbar.horizontal button,
 scrollbar.horizontal .button {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@scrollbar_button_gradient_a),
@@ -2308,7 +2308,7 @@ scrollbar.horizontal .button {
 
 scrollbar.horizontal button:hover,
 scrollbar.horizontal .button:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left bottom,
                       left top,
                       from (@scrollbar_button_hover_gradient_a),
@@ -2317,7 +2317,7 @@ scrollbar.horizontal .button:hover {
 
 scrollbar.horizontal button:hover:active,
 scrollbar.horizontal .button:hover:active {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@scrollbar_button_active_gradient_a),
@@ -2326,7 +2326,7 @@ scrollbar.horizontal .button:hover:active {
 
 scrollbar.vertical button,
 scrollbar.vertical .button {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@scrollbar_button_gradient_a),
@@ -2335,7 +2335,7 @@ scrollbar.vertical .button {
 
 scrollbar.vertical button:hover,
 scrollbar.vertical .button:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@scrollbar_button_hover_gradient_d),
@@ -2344,7 +2344,7 @@ scrollbar.vertical .button:hover {
 
 scrollbar.vertical button:hover:active,
 scrollbar.vertical .button:hover:active {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       right top,
                       from (@scrollbar_button_active_gradient_a),
@@ -2439,7 +2439,7 @@ menubar,
     border-style: none;
     padding: 1px;
     -GtkWidget-window-dragging: true;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_gradient_a),
@@ -2469,7 +2469,7 @@ menuitem button.flat:active {
     border-color: @menubar_menuitem_hover_border_color;
     border-radius: 3px 3px 0 0;
     color: @menubar_menuitem_hover_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_menuitem_hover_gradient_a),
@@ -2526,7 +2526,7 @@ combobox menuitem:hover,
 menu menuitem:hover,
 .menu menuitem:hover {
     color: @menubar_menuitem_hover_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_menuitem_hover_gradient_a),
@@ -2574,22 +2574,22 @@ menuitem arrow {
 
 menu menuitem arrow:dir(ltr),
 .menu menuitem arrow:dir(ltr) {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 menu menuitem arrow:dir(rtl),
 .menu menuitem arrow:dir(rtl) {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic-rtl");
 }
 
 menu arrow.top,
 .menu arrow.top {
-    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-up-symbolic");
 }
 
 menu arrow.bottom,
 .menu arrow.bottom {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
 }
 
 menu arrow:hover,
@@ -2600,7 +2600,7 @@ menu arrow:hover,
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
    state from previous menu level, as GtkArrow itself don't support states.
-   thanks gtk+ devs for this madness */
+   thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem:hover menu > menuitem > arrow.right,
@@ -2650,7 +2650,7 @@ menu > menuitem:hover menu > menuitem:hover menu > menuitem:hover menu > menuite
 menu > menuitem:disabled > arrow,
 .menu > menuitem:disabled > arrow {
     color: mix (@menu_fg_color, @menu_bg_color, 0.6);
-   -gtk-icon-shadow: none;
+   -ctk-icon-shadow: none;
 }
 
 /* scroll arrows */
@@ -2684,7 +2684,7 @@ menu > arrow.bottom,
 menu > arrow:hover,
 .menu > arrow:hover {
     color: @menubar_menuitem_hover_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_menuitem_hover_gradient_a),
@@ -2696,7 +2696,7 @@ menu > arrow:hover,
 menu > arrow:disabled,
 .menu > arrow:disabled {
     color: mix (@menu_fg_color, @menu_bg_color, 0.6);
-   -gtk-icon-shadow: none;
+   -ctk-icon-shadow: none;
     background-color: transparent;
     background-image: none;
 }
@@ -2706,7 +2706,7 @@ menu separator,
 menuitem separator {
     color: @menu_separator_color;
     min-height: 1px;
-    border-image: -gtk-gradient (linear,
+    border-image: -ctk-gradient (linear,
                                  left top, right top,
                                  from (alpha (#000, 0.00)),
                                  color-stop (0.25, alpha (#000, 0.03)),
@@ -2858,7 +2858,7 @@ toolbar.primary-toolbar:disabled {
 
 /* progressbars on primary toolbar entries are special */
 toolbar.primary-toolbar entry progress {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top, left bottom,
                       from (@trough_gradient_a),
                       to (@trough_gradient_b));
@@ -2926,7 +2926,7 @@ dialog filechooser placessidebar.sidebar.frame viewport.frame list row.activatab
 dialog filechooser placessidebar.sidebar.frame viewport.frame list row.activatable.sidebar-row:selected:hover {
     border-style: none;
     color: @theme_selected_fg_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_menuitem_hover_gradient_a),
@@ -3034,7 +3034,7 @@ overlay.osd {
                                       @osd_button_bg_c);
     color: @osd_button_fg;
     text-shadow: 0 -1px @osd_button_shadow;
-    -gtk-icon-shadow: 0 -1px @osd_button_shadow;
+    -ctk-icon-shadow: 0 -1px @osd_button_shadow;
 }
 
 button.osd {
@@ -3094,7 +3094,7 @@ button.osd:checked:disabled,
 .osd button:checked:disabled {
     color: @osd_button_fg_insensitive;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
 }
 
 button.osd:hover,
@@ -3400,7 +3400,7 @@ assistant .sidebar {
     border-width: 1px;
     border-radius: 2px;
     border-style: solid;
-    border-color: @gtkassistant_sidebar_border_color;
+    border-color: @ctkassistant_sidebar_border_color;
     color: mix (@theme_fg_color, @theme_bg_color, 0.40);
     background-color: @sidebar_bg_color;
 }
@@ -3420,7 +3420,7 @@ switch:checked {
 
 switch:checked,
 switch:backdrop:checked {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top, left bottom,
                       from (@switch_trough_active_gradient_a),
                       to (@switch_trough_active_gradient_b));
@@ -3561,7 +3561,7 @@ treeview header button:disabled,
 treeview header button:hover,
 treeview header button:focus:hover {
     background-color: @theme_base_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@column_header_button_gradient_a),
@@ -3633,7 +3633,7 @@ row:selected:focus,
 row:selected:hover,
 row:selected:focus:hover,
 .cell:selected:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_menuitem_hover_gradient_a),
@@ -3643,7 +3643,7 @@ row:selected:focus:hover,
 row:hover,
 row:hover:focus,
 .cell:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (shade(@menubar_menuitem_hover_gradient_a, 1.2)),
@@ -3671,16 +3671,16 @@ expander {
 }
 
 treeview.view.expander {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
     color: @theme_fg_color;
 }
 
 treeview.view.expander:dir(rtl) {
-     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+     -ctk-icon-source: -ctk-icontheme("pan-end-symbolic-rtl");
 }
 
 treeview.view.expander:checked {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
  }
 
 treeview.view.expander:hover {
@@ -3693,11 +3693,11 @@ treeview.view.expander:selected:hover {
 }
 
 expander arrow {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 expander arrow:dir(rtl) {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic-rtl");
 }
 
 expander arrow:hover {
@@ -3705,10 +3705,10 @@ expander arrow:hover {
 }
 
 expander arrow:checked {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
 }
 
-/* why this weird padding, possible issue with gtk+-3.18 ? */
+/* why this weird padding, possible issue with ctk+-3.18 ? */
 expander arrow {
     min-width: 16px;
     min-height: 16px;
@@ -3754,7 +3754,7 @@ calendar.view {
 
 calendar.header {
     border-radius: 3px 3px 0px 0px;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (shade (@theme_bg_color, 1.04)),
@@ -4011,7 +4011,7 @@ popover.background {
                                       shade(@theme_bg_color, 0.85));
     box-shadow: 0 1px 5px @wm_shadow;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
 }
 
 popover > list,
@@ -4041,7 +4041,7 @@ popover separator {
     color: alpha(@theme_fg_color,0.1);
     text-shadow: none;
     background-color: transparent;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border: 0;
 }
 
@@ -4063,7 +4063,7 @@ popover separator {
 
 .popover.osd button {
     text-shadow: 0 -1px @osd_text_shadow;
-    -gtk-icon-shadow: 0 -1px @osd_text_shadow;
+    -ctk-icon-shadow: 0 -1px @osd_text_shadow;
 }
 
 .popover.osd button:checked {
@@ -4089,11 +4089,11 @@ modelbutton.flat,
 }
 
 modelbutton.flat arrow.left {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
 }
 
 modelbutton.flat arrow.right {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 modelbutton.flat:checked,
@@ -4137,7 +4137,7 @@ popover separator {
     color: alpha(@theme_text_color,0.4);
     text-shadow: none;
     background-color: transparent;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border: 0;
 }
 
@@ -4234,7 +4234,7 @@ calendar.header .app-notification button.titlebutton,
     background-clip: padding-box;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
     text-shadow: none;
-    -gtk-icon-shadow: 0 1px black;
+    -ctk-icon-shadow: 0 1px black;
     outline-color: rgba(238, 238, 236, 0.3);
     border-radius: 3px;
     padding: 0 0px 2px 0px;
@@ -4254,7 +4254,7 @@ headerbar .app-notification.frame button.titlebutton,
 .titlebar .app-notification.frame button.titlebutton,
 .app-notification.frame calendar.header button.titlebutton,
 calendar.header .app-notification.frame button.titlebutton {
-    -gtk-icon-shadow: 0 1px black;
+    -ctk-icon-shadow: 0 1px black;
     text-shadow: 0 1px black;
 }
 
@@ -4268,7 +4268,7 @@ calendar.header .app-notification.frame button.titlebutton {
     background-clip: padding-box;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
     text-shadow: none;
-    -gtk-icon-shadow: 0 1px black;
+    -ctk-icon-shadow: 0 1px black;
     outline-color: rgba(238, 238, 236, 0.3);
     border-radius: 3px;
 }
@@ -4285,7 +4285,7 @@ calendar.header .app-notification.frame button.titlebutton {
     background-clip: padding-box;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     outline-color: rgba(238, 238, 236, 0.3);
     border-radius: 3px;
 }
@@ -4302,7 +4302,7 @@ calendar.header .app-notification.frame button.titlebutton {
     background-clip: padding-box;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border-radius: 3px;
     padding: 0px;
 }
@@ -4317,7 +4317,7 @@ calendar.header .app-notification.frame button.titlebutton {
     background-clip: padding-box;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border-radius: 3px;
     padding: 0px;
 }

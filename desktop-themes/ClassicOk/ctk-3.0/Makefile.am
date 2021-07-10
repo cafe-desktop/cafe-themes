@@ -1,12 +1,12 @@
 THEME_NAME=ClassicOk
 
-themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0
+themedir = $(datadir)/themes/$(THEME_NAME)/ctk-3.0
 
 theme_DATA = \
 	applications.css \
-	gtk.css \
-	gtk-widgets.css \
-	gtk-widgets-img.css \
+	ctk.css \
+	ctk-widgets.css \
+	ctk-widgets-img.css \
 	cafe-applications.css \
 	other-applications.css \
 	settings.ini
