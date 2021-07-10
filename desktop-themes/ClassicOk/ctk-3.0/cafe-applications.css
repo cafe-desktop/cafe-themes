@@ -152,7 +152,7 @@ CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
 }
 
 /* outlines */
-window.background, /* selector where outlines are writen on GtkTrayIcon */
+window.background, /* selector where outlines are writen on CtkTrayIcon */
 .cafe-panel-menu-bar menubar,
 .cafe-panel-menu-bar PanelApplet,
 .cafe-panel-menu-bar button,
@@ -526,7 +526,7 @@ EggToolbarEditor.vertical scrolledwindow {
     border-style: solid;
     border-width: 1px 1px 0px 1px;
     border-color: darker (@theme_bg_color);
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
     padding-left: 4px;
     padding-right: 4px;
 }
