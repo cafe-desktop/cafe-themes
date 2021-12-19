@@ -874,6 +874,10 @@ scrolledwindow.frame {
     padding: 0;
 }
 
+.maximized scrolledwindow.frame {
+    border-right-width: 0px;
+}
+
 #pathbarbox,
 filechooser scrolledwindow,
 scrolledwindow viewport {
