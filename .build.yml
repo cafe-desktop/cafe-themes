@@ -67,6 +67,11 @@ before_scripts:
   -     make install
   - fi
 
+build_scripts:
+  - mkdir html-report
+  - ./autogen.sh
+  - make
+
 after_scripts:
   - make distcheck
 
