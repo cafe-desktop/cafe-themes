@@ -612,6 +612,10 @@ window.background.cafe-terminal > box.vertical > notebook > header.top tab:check
     border-width: 1px;
 }
 
+window.background.cafe-terminal > box.vertical > notebook > stack > box > box > scrollbar {
+    border-width: 1px;
+}
+
 /***********************
  * cafe-volume-control *
  ***********************/
