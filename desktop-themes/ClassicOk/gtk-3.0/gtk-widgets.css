@@ -874,7 +874,7 @@ scrolledwindow.frame {
     padding: 0;
 }
 
-.maximized scrolledwindow.frame {
+.maximized scrolledwindow {
     border-right-width: 0px;
 }
 
