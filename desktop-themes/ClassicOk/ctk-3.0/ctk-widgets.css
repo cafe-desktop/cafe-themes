@@ -874,12 +874,20 @@ scrolledwindow.frame {
     padding: 0;
 }
 
-.maximized scrolledwindow {
-    border-right-width: 0px;
+.maximized notebook > stack > box > scrolledwindow  {
+    border-right-width: 1px;
 }
 
-.maximized scrolledwindow scrollbar {
+.maximized notebook > stack > scrolledwindow  {
     border-right-width: 1px;
+}
+
+.maximized paned > box > stack > evsidebarthumbnails > scrolledwindow  {
+    border-right-width: 1px;
+}
+
+.maximized scrolledwindow {
+    border-right-width: 0px;
 }
 
 #pathbarbox,
