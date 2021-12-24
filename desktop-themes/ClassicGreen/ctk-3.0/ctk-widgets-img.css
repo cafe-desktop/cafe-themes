@@ -3,7 +3,7 @@
  **********/
 
 /*************
- * GtkSwitch *
+ * CtkSwitch *
  *************/
 
 switch slider {
@@ -210,7 +210,7 @@ radio row:selected:focus:indeterminate:disabled {
 }
 
 /*********************
- * GtkScale's slider *
+ * CtkScale's slider *
  *********************/
  
 scale slider,
