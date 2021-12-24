@@ -135,6 +135,8 @@ desktop-themes/ClassicGreen/Makefile
 desktop-themes/ClassicGreen/gtk-2.0/Makefile
 desktop-themes/ClassicGreen/gtk-3.0/Makefile
 desktop-themes/ClassicGreen/gtk-3.0/img/Makefile
+desktop-themes/ClassicGreen/ctk-3.0/Makefile
+desktop-themes/ClassicGreen/ctk-3.0/img/Makefile
 desktop-themes/ClassicGreen/metacity-1/Makefile
 desktop-themes/ClassicOk/Makefile
 desktop-themes/ClassicOk/gtk-2.0/Makefile
