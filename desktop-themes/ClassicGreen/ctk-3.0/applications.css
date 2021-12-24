@@ -93,7 +93,7 @@ UnityPanelWidget,
     border-width: 1px 1px 0px;
     border-color: @menubar_menuitem_hover_border_color;
     border-radius: 3px 3px 0 0;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@menubar_menuitem_hover_gradient_a),

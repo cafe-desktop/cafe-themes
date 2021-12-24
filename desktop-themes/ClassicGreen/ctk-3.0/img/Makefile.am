@@ -1,6 +1,6 @@
 THEME_NAME=ClassicGreen
 
-themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0/img
+themedir = $(datadir)/themes/$(THEME_NAME)/ctk-3.0/img
 
 theme_DATA = \
 	border-error.svg \

@@ -58,7 +58,7 @@
    box-shadow: none;
    border-radius: 3px;
    text-shadow: none;
-   background-image: -gtk-gradient(linear,
+   background-image: -ctk-gradient(linear,
                                    left top, left bottom,
                                    from       (shade(@theme_base_color, 0.86)),
                                    color-stop (0.15, shade(@theme_base_color, 0.96)),
@@ -146,7 +146,7 @@ PanelSeparator {
 }
 
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
-    background-image: -gtk-scaled(url("img/panel-grid.svg"));
+    background-image: -ctk-scaled(url("img/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: left;
@@ -168,7 +168,7 @@ PanelApplet.wnck-applet .wnck-pager {
 }
 
 .cafe-panel-menu-bar button {
-    -gtk-outline-radius: 3px;
+    -ctk-outline-radius: 3px;
     box-shadow: none;
     border-image: none;
 }
@@ -193,7 +193,7 @@ PanelApplet.wnck-applet .wnck-pager {
     border-color: @border_color;
     color: @theme_fg_color;
     background-color: transparent;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
                       from (@button_gradient_a),
@@ -241,7 +241,7 @@ PanelApplet.wnck-applet .wnck-pager {
     border-image: none;
 }
 
-/* 1.18 changings for gtk+-3.22 warning fixes*/
+/* 1.18 changings for ctk+-3.22 warning fixes*/
 .cafe-panel-menu-bar #PanelApplet #drive-button,
 .cafe-panel-menu-bar #PanelApplet #drive-button:hover,
 .cafe-panel-menu-bar #PanelApplet #charpick-applet-button,
