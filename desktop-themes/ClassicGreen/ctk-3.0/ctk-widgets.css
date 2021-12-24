@@ -1,12 +1,12 @@
 * {
     padding: 0;
     background-clip: padding-box;
-    -GtkToolButton-icon-spacing: 4;
-    -GtkTextView-error-underline-color: @error_color;
-    -GtkScrolledWindow-scrollbar-spacing: 0;
-    -GtkToolItemGroup-expander-size: 11;
-    -GtkIMHtml-hyperlink-color: @link_color;
-    -GtkHTML-link-color: @link_color;
+    -CtkToolButton-icon-spacing: 4;
+    -CtkTextView-error-underline-color: @error_color;
+    -CtkScrolledWindow-scrollbar-spacing: 0;
+    -CtkToolItemGroup-expander-size: 11;
+    -CtkIMHtml-hyperlink-color: @link_color;
+    -CtkHTML-link-color: @link_color;
     -WnckTasklist-fade-overlay-rect: 0;
     outline-color: @focus_border_color;
     outline-style: dashed;
@@ -680,7 +680,7 @@ treeview.view.trough:selected {
 }
 
 /************
- * GtkScale *
+ * CtkScale *
  ************/
 
 scale.vertical {
@@ -889,7 +889,7 @@ scrolledwindow viewport {
 }
 
 /* avoid double borders when a viewport is
- * packed into a GtkScrolledWindow */
+ * packed into a CtkScrolledWindow */
 scrolledwindow viewport.frame {
     border-style: none;
 }
@@ -1034,7 +1034,7 @@ button:active:disabled image,
 }
 
 /* We may want a background for focused buttons, but in the meantime let's remove it too */
-GtkMenuToolButton *,
+CtkMenuToolButton *,
 toolbar.primary-toolbar button,
 toolbar.primary-toolbar button:disabled {
     background-image: none;
@@ -1304,7 +1304,7 @@ button separator {
 }
 
 /*****************
- * GtkSpinButton *
+ * CtkSpinButton *
  *****************/
 
 spinbutton,
@@ -2031,8 +2031,8 @@ combobox button.combo:disabled {
 
 combobox separator {
     /* always disable separators */
-    -GtkWidget-horizontal-separator: 0;
-    -GtkWidget-vertical-separator: 0;
+    -CtkWidget-horizontal-separator: 0;
+    -CtkWidget-vertical-separator: 0;
 }
 
 combobox > .linked > entry.combo,
@@ -2193,8 +2193,8 @@ scrollbar {
     background-image: none;
     border-style: solid;
     border-color: @scrollbar_trough_border_color;
-    -GtkScrollbar-has-backward-stepper: true;
-    -GtkScrollbar-has-forward-stepper: true;
+    -CtkScrollbar-has-backward-stepper: true;
+    -CtkScrollbar-has-forward-stepper: true;
     box-shadow: none;
     border-image: none;
 }
@@ -2446,7 +2446,7 @@ menubar,
 .menubar {
     border-style: none;
     padding: 1px;
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
     background-image: -ctk-gradient (linear,
                       left top,
                       left bottom,
@@ -2597,7 +2597,7 @@ menu arrow.bottom,
 }
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
-   state from previous menu level, as GtkArrow itself don't support states.
+   state from previous menu level, as CtkArrow itself don't support states.
    thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
@@ -2825,7 +2825,7 @@ toolbar:disabled {
 
 toolbar menubar {
     border-style: none;
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
     padding-left: 4px;
     padding-right: 4px;
 }
@@ -2843,8 +2843,8 @@ toolbar.primary-toolbar {
     border-style: solid;
     border-top-color: @toolbar_border_top_color;
     border-bottom-color: @toolbar_border_bottom_color;
-    -GtkWidget-window-dragging: true;
-    -GtkToolbar-button-relief: normal;
+    -CtkWidget-window-dragging: true;
+    -CtkToolbar-button-relief: normal;
 }
 
 toolbar.primary-toolbar:disabled {
@@ -2875,7 +2875,7 @@ toolbar.inline-toolbar {
     border-width: 1px;
     border-radius: 0;
     border-style: solid;
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
     padding: 2px;
 }
 
@@ -3154,7 +3154,7 @@ toolbar.osd {
                                       @osd_toolbar_bg_b 63%,
                                       @osd_toolbar_bg_c);
     background-color: transparent;
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
 }
 
 toolbar.osd .flat.button.image-button {
@@ -3394,7 +3394,7 @@ progressbar .osd {
 }
 
 /****************
- * GtkAssistant *
+ * CtkAssistant *
  ****************/
 
 assistant .sidebar .highlight {
@@ -3413,7 +3413,7 @@ assistant .sidebar {
 }
 
 /*************
- * GtkSwitch *
+ * CtkSwitch *
  *************/
 
 switch {
@@ -3456,7 +3456,7 @@ switch slider:disabled {
 }
 
 /**************************
- * GtkIconview GtkViewport*
+ * CtkIconview CtkViewport*
  **************************/
 
 iconview,
@@ -3538,12 +3538,12 @@ label selection:backdrop:disabled {
 }
 
 /***************
- * GtkTreeview *
+ * CtkTreeview *
  ***************/
 
 treeview {
-    -GtkTreeView-vertical-separator: 0;
-    -GtkTreeView-expander-size: 13;
+    -CtkTreeView-vertical-separator: 0;
+    -CtkTreeView-expander-size: 13;
     outline-color: alpha(currentColor, 0.6);
 }
 
@@ -4168,11 +4168,11 @@ popover button.default.text-button.suggested-action:hover {
 }
 
 /************
- * GtkStack *
+ * CtkStack *
  ************/
 
 stacksidebar.sidebar separator.horizontal {
-/*    -GtkWidget-separator-height: 0px; */
+/*    -CtkWidget-separator-height: 0px; */
 }
 
 stacksidebar.sidebar viewport.frame {
@@ -4359,7 +4359,7 @@ dialog > .vertical.dialog-vbox > scrolledwindow.frame > viewport.view > box.vert
     background-color: transparent;
 }
 
-/* credits in GtkAbout windows */
+/* credits in CtkAbout windows */
 dialog .dialog-vbox scrolledwindow.frame > viewport.view.frame {
     background-color: shade (@theme_bg_color, 1.04);
 }
@@ -4393,7 +4393,7 @@ printdialog.background paper {
 }
 
 /******************
- * GtkAboutDialog *
+ * CtkAboutDialog *
  ******************/
 
 dialog.background dialog-vbox.vertical .vertical {
