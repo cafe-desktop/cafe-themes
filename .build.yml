@@ -2,44 +2,9 @@
 # THE FOLLOWING LINES IS USED BY docker-build
 ##########################################################
 requires:
-  archlinux:
-    # Useful URL: https://git.archlinux.org/svntogit/community.git/tree/cafe-themes
-    - autoconf
-    - automake
-    - gcc
-    - git
-    - gtk2
-    - intltool
-    - make
-    - pkgconf
-    - which
-
   debian:
     # Useful URL: https://github.com/cafe-desktop/debian-packages
     # Useful URL: https://salsa.debian.org/debian-cafe-team/cafe-themes
-    - git
-    - icon-naming-utils
-    - intltool
-    - libgtk2.0-dev
-    - libxml-parser-perl
-    - make
-    - pkg-config
-
-  fedora:
-    # Useful URL: https://src.fedoraproject.org/cgit/rpms/cafe-themes.git
-    - autoconf
-    - automake
-    - gcc
-    - gdk-pixbuf2-devel
-    - gettext-devel
-    - git
-    - gtk2-devel
-    - make
-    - redhat-rpm-config
-    - which
-    - xz
-
-  ubuntu:
     - git
     - icon-naming-utils
     - intltool
