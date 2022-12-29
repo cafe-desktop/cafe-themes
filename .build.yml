@@ -13,9 +13,6 @@ requires:
     - make
     - pkg-config
 
-variables:
-  - CFLAGS="-Wall -Werror=format-security"
-
 before_scripts:
   # Install cafe-common from master branch
   - if [ ! -e cafe-common-master ]; then
