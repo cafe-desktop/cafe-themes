@@ -14,20 +14,7 @@ requires:
     - pkg-config
 
 before_scripts:
-  # Install cafe-common from master branch
-  - if [ ! -e cafe-common-master ]; then
-  -     cd ${START_DIR}
-  -     git clone --depth 1  https://github.com/cafe-desktop/cafe-common.git -b master cafe-common-master
-  -     cd cafe-common-master
-  -     ./autogen.sh
-  -     if [ ${DISTRO_NAME} == "debian" -o ${DISTRO_NAME} == "ubuntu" ];then
-  -         ./configure --prefix=/usr --libdir=/usr/lib/x86_64-linux-gnu --libexecdir=/usr/lib/x86_64-linux-gnu
-  -     else
-  -         ./configure --prefix=/usr
-  -     fi
-  -     make
-  -     make install
-  - fi
+  - ./install-from-git https://github.com/cafe-desktop/cafe-common master
 
 build_scripts:
   - mkdir html-report
