@@ -412,7 +412,7 @@ view:selected:focus,
     color: @theme_selected_fg_color;
 }
 
-/* ie. pluma open dialog */
+/* ie. lapiz open dialog */
 .view row:hover {
     background-image:  linear-gradient(to bottom,
                                       @theme_bg_color,
@@ -1050,7 +1050,7 @@ notebook header tab .active-page label {
     color: @theme_fg_color;
 }
 
-/* notebooks, view, header and tabs in caja and pluma view */
+/* notebooks, view, header and tabs in caja and lapiz view */
 paned.horizontal notebook {
     border-style: none;
     border-color: @notebook_border;

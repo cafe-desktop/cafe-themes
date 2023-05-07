@@ -854,7 +854,7 @@ frame {
 /* maybe we should add more here */
 box > frame, /* cafe-tweak */
 statusbar > frame, /* caja, etc. */
-statusbar > widget > frame, /* pluma */
+statusbar > widget > frame, /* lapiz */
 GvcMixerDialog frame { /* Cafe Mixer dialog */
     border-style: none;
 }
@@ -1759,7 +1759,7 @@ dialog.background.solid-csd > box.vertical.dialog-vbox > notebook {
     background-color: @notebook_bg_color;
 }
 
-/* view areas, ie. pluma-, caja-tabs */
+/* view areas, ie. lapiz-, caja-tabs */
 paned.horizontal notebook {
     border-style: none;
 }
@@ -1808,7 +1808,7 @@ notebook header.right {
     box-shadow: inset  1px  0px 0 0 @border_color;
 }
 
-/* tabs in view areas, ie. pluma-, caja-tabs */
+/* tabs in view areas, ie. lapiz-, caja-tabs */
 paned.horizontal notebook header.top tab {
     padding: 4px 2px 4px 2px;
     border-width: 1px 1px 0px 1px;

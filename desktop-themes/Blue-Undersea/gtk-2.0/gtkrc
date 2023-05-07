@@ -1098,5 +1098,5 @@ include "apps/terminal.rc"
 include "apps/gmusicbrowser.rc"
 include "apps/caja.rc"		# Caja styling
 include "apps/panel.rc"		# Cafe-panel styling
-include "apps/pluma.rc"		# Pluma styling
+include "apps/lapiz.rc"		# Pluma styling
 include "apps/pcmanfm.rc"	# PCManFM styling

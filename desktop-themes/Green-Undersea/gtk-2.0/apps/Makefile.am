@@ -6,7 +6,7 @@ theme_DATA = \
 	gmusicbrowser.rc \
 	panel.rc \
 	pcmanfm.rc \
-	pluma.rc \
+	lapiz.rc \
 	terminal.rc \
 	thunar.rc
 

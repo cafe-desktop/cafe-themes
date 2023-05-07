@@ -342,7 +342,7 @@ entry, .entry {
 }
 /*hide carot when window is not selected*/
 /*do NOT use .view to avoid creating caja desktop flashes*/
-/*works in gedit, pluma, etc*/
+/*works in gedit, lapiz, etc*/
 
 view:backdrop, entry:backdrop, .entry:backdrop {
 	caret-color:transparent;
@@ -849,7 +849,7 @@ notebook tab:checked {
 	                                  @less_dark_color);
 }
 
-/*Keep pluma (etc) tabs from jumping when saving */
+/*Keep lapiz (etc) tabs from jumping when saving */
 notebook header tab image,
 notebook header tab spinner{
 	padding: 0px;

@@ -706,33 +706,33 @@ na-tray-applet widget box widget {
  * Pluma *
  ****************/
 
-/* pluma line numbers */
-.pluma-window textview {
+/* lapiz line numbers */
+.lapiz-window textview {
     background-color: shade (@theme_bg_color, 1.07);
 }
 
 /* notebook in view */
-.pluma-window paned.horizontal notebook box.vertical {
+.lapiz-window paned.horizontal notebook box.vertical {
     border-radius: 0px;
     border-width: 0px
 }
 
 /* Pluma status bar */
-.pluma-window statusbar.horizontal frame {
+.lapiz-window statusbar.horizontal frame {
     border-style: none;
 }
 
-.pluma-window statusbar.horizontal frame button.flat.toggle {
+.lapiz-window statusbar.horizontal frame button.flat.toggle {
     border-image: url("borders/button.png") 3 3 4 3 / 3px 3px 4px 3px stretch;
     padding: 0px;
 }
 
-.pluma-window statusbar.horizontal frame button.flat.toggle:focus {
+.lapiz-window statusbar.horizontal frame button.flat.toggle:focus {
 	border-image: url("borders/button-focus.png") 3 4 4 4 / 3px 4px 4px 4px stretch;
 }
 
 /* Printpreview */
-.pluma-print-preview toolbar.horizontal {
+.lapiz-print-preview toolbar.horizontal {
     background-image: linear-gradient(to bottom,
                                       shade (@theme_bg_color, 1.0),
                                       shade (@theme_bg_color, 0.96));
@@ -745,20 +745,20 @@ na-tray-applet widget box widget {
     padding: 0px;
 }
 
-.pluma-print-preview toolbar.horizontal entry {
+.lapiz-print-preview toolbar.horizontal entry {
     padding: 4px 6px;
 }
 
-.pluma-print-preview toolbar.horizontal button.flat.image-button {
+.lapiz-print-preview toolbar.horizontal button.flat.image-button {
     padding: 0px;
 }
 
-.pluma-print-preview toolbar.horizontal button.flat.text-button {
+.lapiz-print-preview toolbar.horizontal button.flat.text-button {
     padding: 0px 16px;
     border-radius: 2px;
 }
 
-.pluma-print-preview toolbar.horizontal toolbutton button.flat.text-button {
+.lapiz-print-preview toolbar.horizontal toolbutton button.flat.text-button {
     color: @theme_fg_color;
     border-image: url("borders/button.png") 3 3 4 3 / 3px 3px 4px 3px stretch;
     background-image: linear-gradient(to bottom,
@@ -766,19 +766,19 @@ na-tray-applet widget box widget {
                                       @button_gradient_color_b);
 }
 
-.pluma-print-preview toolbar.horizontal toolbutton button.flat.text-button:hover {
+.lapiz-print-preview toolbar.horizontal toolbutton button.flat.text-button:hover {
     color: @internal_element_prelight;
     background-image: linear-gradient(to bottom,
                                       @button_hover_gradient_color_a,
                                       @button_hover_gradient_color_b);
 }
 
-.pluma-print-preview scrolledwindow {
+.lapiz-print-preview scrolledwindow {
     background-color: @theme_base_color;
 }
 
 /* sidebar file-browser */
-.pluma-window paned.horizontal box.vertical {
+.lapiz-window paned.horizontal box.vertical {
     border-radius: 4px 4px 0px 0px;
     border-width: 1px 0px 0px 0px;
     border-style: solid;
@@ -786,15 +786,15 @@ na-tray-applet widget box widget {
     box-shadow: none;
 }
 
-.pluma-window paned.horizontal box.vertical notebook.frame box.vertical {
+.lapiz-window paned.horizontal box.vertical notebook.frame box.vertical {
     background-color: @theme_bg_color;
 }
 
-.pluma-window paned.horizontal box.vertical box.horizontal button.flat {
+.lapiz-window paned.horizontal box.vertical box.horizontal button.flat {
     padding: 0px ;
 }
 
-.pluma-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal {
+.lapiz-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal {
     background-image: linear-gradient(to bottom,
                                       shade (@theme_bg_color, 1.0),
                                       shade (@theme_bg_color, 0.96));
@@ -807,17 +807,17 @@ na-tray-applet widget box widget {
     padding: 4px 0px;
 }
 
-.pluma-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal button.flat,
-.pluma-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal button.flat.menu-button {
+.lapiz-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal button.flat,
+.lapiz-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal button.flat.menu-button {
     padding: 4px 2px ;
 }
 
-.pluma-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal button.flat.image-button {
+.lapiz-window paned.horizontal box.vertical notebook.frame box.vertical toolbar.horizontal button.flat.image-button {
     padding: 4px 3px ;
 }
 
 /* color of of expander arrow */
-.pluma-window paned.horizontal box.vertical notebook.frame box.vertical expander:hover {
+.lapiz-window paned.horizontal box.vertical notebook.frame box.vertical expander:hover {
     color: @theme_fg_color;
 }
 
@@ -1061,11 +1061,11 @@ cafekbd-keyboard-drawing,
 
 /* fix for some maximized windows 
    https://github.com/cafe-desktop/cafe-desktop/issues/291
-   FIXME Sadly pluma ignore doesn't show the maximised style class */
+   FIXME Sadly lapiz ignore doesn't show the maximised style class */
 
 window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal > scrolledwindow.frame,
 window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
-window.background.pluma-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
+window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.maximized.caja-navigation-window notebook.caja-notebook scrolledwindow.frame {
     border-right-width: 0px;

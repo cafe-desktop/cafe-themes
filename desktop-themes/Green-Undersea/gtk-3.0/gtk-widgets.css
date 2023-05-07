@@ -3591,7 +3591,7 @@ notebook header tab .active-page label {
     color: @theme_fg_color;
 }
 
-/* tabs and header in view areas, ie. pluma-, caja-tabs */
+/* tabs and header in view areas, ie. lapiz-, caja-tabs */
 paned.horizontal > box.vertical notebook > header.top,
 paned.horizontal > paned.vertical notebook > header.top {
     border-style: solid;

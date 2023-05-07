@@ -123,7 +123,7 @@
   * Gtk+-3.20 undersea themes: fix a jumpin button in headerbar of gitg
   * Gtk+-3.20 undersea themes: setup dnd for caja-icon-view
   * Gtk+-3.20 T. themes: fix double border in cafe-volume-control notebook
-  * Gtk+-3.20 Undersea themes: fix focus state of pluma-statusbar-button
+  * Gtk+-3.20 Undersea themes: fix focus state of lapiz-statusbar-button
   * Gtk+-3.20 Most themes: style menuitem accelerator hover
   * All themes: change syntax for loading panel-grid image for cafe-1.20
   * Gtk+-3.20 undersea themes: set top borderradius for .titlebar > headerbar
@@ -166,8 +166,8 @@
   * TOK/TG: Remove gradient from notebook header
   * Restore Polish translation credits from GNOME
   * cursor: add color-picker to make file
-  * Gtk+-3.20 Undersea themes: improve pluma sidebar
-  * Gtk+-3.20 undersea themes: fix fg color in pluma error dialogs
+  * Gtk+-3.20 Undersea themes: improve lapiz sidebar
+  * Gtk+-3.20 undersea themes: fix fg color in lapiz error dialogs
 
 ### 3.22.11 (GTK 3.22)
 
@@ -583,7 +583,7 @@
   * GTK+-3.20 Undersea themes: adjust GtkColorScale
   * GTK+-3.20 Undersea themes: adjust combobox, rows, treeviews,
     inline-toolbar and nautilus pathbar
-  * GTK+-3.20 Undersea themes: adjust caja and pluma
+  * GTK+-3.20 Undersea themes: adjust caja and lapiz
   * GTK+-3.20 Undersea themes: adjust notebooks
   * GTk+-3.20 most themes: fix text bg of credits in GtkAbout windows
   * GTK+-3.20 all themes:update wnckpager to follow latest cafe-panel changes
@@ -624,7 +624,7 @@
   * GTK3 BlackCafe: adjust notebook tabs
   * GTK3 GreenLagoon: adjust notebook tabs
   * GTK3 undersea themes: reduce hight of notebook tabs
-  * GTK3 undersea themes: adjust notebook tabs in pluma text area
+  * GTK3 undersea themes: adjust notebook tabs in lapiz text area
   * GTK3 undersea themes: change border color in GtkNotebook
   * GTK3: undersea themes: fix padding for GtkToggleButton.button:hover
   * GTK3 black-cafe, green-laguna: button size fix for gnome-mplayer

@@ -677,34 +677,34 @@ na-tray-applet {
  * Pluma *
  *********/
 
-#pluma-status-combo-button * {
+#lapiz-status-combo-button * {
 	padding : 0px;
 }
 
 /* Printpreview */
 /* text view */
-pluma-print-preview.vertical scrolledwindow widget {
+lapiz-print-preview.vertical scrolledwindow widget {
     background-color: #D9D9D9;
 }
 
-pluma-print-preview.vertical toolbar.horizontal {
+lapiz-print-preview.vertical toolbar.horizontal {
 	background-image: linear-gradient(to bottom,
 	                                  @toolbar_gradient_base,
 	                                  @toolbar_gradient_bottom);
     padding: 0px;
 }
 
-pluma-print-preview.vertical toolbar.horizontal toolItem .horizontal .entry {
+lapiz-print-preview.vertical toolbar.horizontal toolItem .horizontal .entry {
     padding: 4px 6px;
 }
 
-pluma-print-preview.vertical toolbar.horizontal button.image-button,
-pluma-print-preview.vertical toolbar.horizontal button.flat.image-button {
+lapiz-print-preview.vertical toolbar.horizontal button.image-button,
+lapiz-print-preview.vertical toolbar.horizontal button.flat.image-button {
     padding: 0px;
 }
 
-pluma-print-preview.vertical toolbar.horizontal button.text-button,
-pluma-print-preview.vertical toolbar.horizontal button.flat.text-button {
+lapiz-print-preview.vertical toolbar.horizontal button.text-button,
+lapiz-print-preview.vertical toolbar.horizontal button.flat.text-button {
     padding: 0px 4px;
     border-radius: 2px;
 }
@@ -819,11 +819,11 @@ cafekbd-keyboard-drawing,
 
 /* fix for some maximized windows 
    https://github.com/cafe-desktop/cafe-desktop/issues/291
-   FIXME Sadly pluma ignore doesn't show the maximised style class */
+   FIXME Sadly lapiz ignore doesn't show the maximised style class */
 
 window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal > scrolledwindow.frame,
 window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
-window.background.pluma-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
+window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.maximized.caja-navigation-window notebook.caja-notebook scrolledwindow.frame {
     border-right-width: 0px;

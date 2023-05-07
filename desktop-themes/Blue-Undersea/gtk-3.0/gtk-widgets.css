@@ -3122,7 +3122,7 @@ toolbar.inline-toolbar button:checked {
     -gtk-icon-shadow: 1px 1px @theme_selected_shadow_color;
 }
 
-/* eg. pluma preferences */
+/* eg. lapiz preferences */
 notebook toolbar.horizontal.inline-toolbar {
     border-width: 0 1px 1px 1px;
 }
@@ -3591,7 +3591,7 @@ notebook header tab .active-page label {
     color: @theme_fg_color;
 }
 
-/* tabs and header in view areas, ie. pluma-, caja-tabs */
+/* tabs and header in view areas, ie. lapiz-, caja-tabs */
 paned.horizontal > box.vertical notebook > header.top,
 paned.horizontal > paned.vertical notebook > header.top {
     border-style: solid;
