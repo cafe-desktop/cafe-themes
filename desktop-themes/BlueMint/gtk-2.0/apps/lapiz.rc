@@ -17,8 +17,8 @@ style "lapiz-notebook" = "murrine-notebook-bg" {
 	ythickness = 1 # Height of tabs and notebook borders.
 }
 
-widget_class "*Pluma*.<GtkFrame>*"		style "lapiz-frame"
-widget_class "*Pluma*.<GtkScrolledWindow>"	style "murrine-thin"
-widget_class "*Pluma*.<GtkNotebook>"		style "lapiz-notebook"
-widget_class "*Pluma*.<GtkArrow>*"		style:highest "murrine-default"
-widget_class "*Pluma*.<GtkStatusbar>*"		style "lapiz-statusbar"
+widget_class "*Lapiz*.<GtkFrame>*"		style "lapiz-frame"
+widget_class "*Lapiz*.<GtkScrolledWindow>"	style "murrine-thin"
+widget_class "*Lapiz*.<GtkNotebook>"		style "lapiz-notebook"
+widget_class "*Lapiz*.<GtkArrow>*"		style:highest "murrine-default"
+widget_class "*Lapiz*.<GtkStatusbar>*"		style "lapiz-statusbar"

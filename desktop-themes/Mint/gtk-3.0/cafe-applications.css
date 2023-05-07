@@ -703,7 +703,7 @@ na-tray-applet widget box widget {
 }
 
 /****************
- * Pluma *
+ * Lapiz *
  ****************/
 
 /* lapiz line numbers */
@@ -717,7 +717,7 @@ na-tray-applet widget box widget {
     border-width: 0px
 }
 
-/* Pluma status bar */
+/* Lapiz status bar */
 .lapiz-window statusbar.horizontal frame {
     border-style: none;
 }

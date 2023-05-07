@@ -1054,7 +1054,7 @@ vte-terminal {
 }
 
 /****************
- * Pluma        *
+ * Lapiz        *
  ****************/
 
 /* lapiz line numbers */
@@ -1067,7 +1067,7 @@ vte-terminal {
     border-radius: 0px;
 }
 
-/* Pluma status bar */
+/* Lapiz status bar */
 .lapiz-window statusbar.horizontal frame button.flat.toggle {
     border-style: none;
     border-image: none;
