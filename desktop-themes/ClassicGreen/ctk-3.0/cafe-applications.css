@@ -488,10 +488,6 @@ na-tray-applet {
     border-style: solid;
 }
 
-.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook > stack > box.vertical > scrolledwindow > scrollbar.vertical {
-    border-width: 0px 1px 0px 0px;
-}
-
 /*********
  * Atril *
  *********/
