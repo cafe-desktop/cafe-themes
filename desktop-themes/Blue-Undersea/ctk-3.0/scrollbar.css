@@ -6,10 +6,10 @@ scrollbar {
     background-image: none;
     border-style: solid;
     border-color: shade(@button_border, 1.13);
-    -GtkScrollbar-has-backward-stepper: true;
-    -GtkScrollbar-has-forward-stepper: true;
-    -GtkScrollbar-activate-slider: 1;
-    -GtkScrolledWindow-scrollbar-spacing: 0;
+    -CtkScrollbar-has-backward-stepper: true;
+    -CtkScrollbar-has-forward-stepper: true;
+    -CtkScrollbar-activate-slider: 1;
+    -CtkScrolledWindow-scrollbar-spacing: 0;
 }
 
 /* broken firefox ignore background of trough */

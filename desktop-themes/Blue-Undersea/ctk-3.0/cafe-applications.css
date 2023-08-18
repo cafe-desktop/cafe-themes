@@ -490,7 +490,7 @@ CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
 }
 
 /* outlines */
-window.background, /* selector where outlines are writen on GtkTrayIcon */
+window.background, /* selector where outlines are writen on CtkTrayIcon */
 .cafe-panel-menu-bar menubar,
 .cafe-panel-menu-bar button,
 .cafe-panel-menu-bar PanelApplet {
@@ -1112,8 +1112,8 @@ vte-terminal {
     border-color: transparent;
     padding: 3px;
     box-shadow: none;
-    -GtkWidget-window-dragging: true;
-    -GtkToolbar-button-relief: normal;
+    -CtkWidget-window-dragging: true;
+    -CtkToolbar-button-relief: normal;
     color: @theme_fg_dark_color;
 }
 
