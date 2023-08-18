@@ -13,6 +13,7 @@ SUBDIRS =		\
 	emerald     \
 	gtk-2.0		\
 	gtk-3.0		\
+	ctk-3.0		\
 	metacity-1
 
 DISTCLEANFILES = index.theme

@@ -79,6 +79,8 @@ desktop-themes/Blue-Undersea/gtk-2.0/apps/Panel/Makefile
 desktop-themes/Blue-Undersea/gtk-2.0/assets/Makefile
 desktop-themes/Blue-Undersea/gtk-3.0/Makefile
 desktop-themes/Blue-Undersea/gtk-3.0/assets/Makefile
+desktop-themes/Blue-Undersea/ctk-3.0/Makefile
+desktop-themes/Blue-Undersea/ctk-3.0/assets/Makefile
 desktop-themes/Blue-Undersea/metacity-1/Makefile
 desktop-themes/Blue-Undersea-border/Makefile
 desktop-themes/Blue-Undersea-border/metacity-1/Makefile
