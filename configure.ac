@@ -38,6 +38,9 @@ desktop-themes/BlackCAFE/gtk-2.0/Styles/Makefile
 desktop-themes/BlackCAFE/gtk-3.0/Makefile
 desktop-themes/BlackCAFE/gtk-3.0/assets/Makefile
 desktop-themes/BlackCAFE/gtk-3.0/window-controls/Makefile
+desktop-themes/BlackCAFE/ctk-3.0/Makefile
+desktop-themes/BlackCAFE/ctk-3.0/assets/Makefile
+desktop-themes/BlackCAFE/ctk-3.0/window-controls/Makefile
 desktop-themes/BlackCAFE/metacity-1/Makefile
 desktop-themes/BlackCAFE/cinnamon/Makefile
 desktop-themes/BlackCAFE/unity/Makefile
