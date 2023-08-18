@@ -252,7 +252,7 @@
  ***********/
 @define-color osd_popover_bg alpha(@osd_base, 0.90);
 
-/* GTKHeaderBar colours */
+/* CTKHeaderBar colours */
 @define-color borders_headerbar @theme_bg_dark_color;
 @define-color unfocused_borders_headerbar @theme_bg_dark_color;
 @define-color theme_unfocused_bg_color @theme_bg_dark_color;
