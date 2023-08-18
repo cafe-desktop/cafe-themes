@@ -59,12 +59,12 @@
 
 /* pathbar */
 .nemo-window toolbar.primary-toolbar widget.raised.linked > button:first-child widget {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
     color: @menu_fg_dark_color;
 }
 
 .nemo-window toolbar.primary-toolbar widget.raised.linked > button:last-child widget {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
     color: @menu_fg_dark_color;
 }
 
@@ -76,7 +76,7 @@
 .nemo-window toolbar.primary-toolbar widget.raised.linked > button:hover:first-child widget,
 .nemo-window toolbar.primary-toolbar widget.raised.linked > button:hover:last-child widget {
     color: shade (@theme_selected_bg_color, 1.2);
-   -gtk-icon-shadow:  0px  1px shade (@menu_fg_dark_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@menu_fg_dark_color, 1.0),
                       1px  0px shade (@menu_fg_dark_color, 1.0),
                      -1px  0px shade (@menu_fg_dark_color, 1.0),
                       0px -1px shade (@menu_fg_dark_color, 1.0);
@@ -185,7 +185,7 @@
 .nemo-properties-dialog box.vertical.dialog-vbox toolbar.horizontal.primary-toolbar stackswitcher.horizontal.linked.stack-switcher button.text-button.radio:hover,
 .nemo-properties-dialog box.vertical.dialog-vbox toolbar.horizontal.primary-toolbar stackswitcher.horizontal.linked.stack-switcher button.text-button.radio:checked,
 .nemo-properties-dialog box.vertical.dialog-vbox toolbar.horizontal.primary-toolbar stackswitcher.horizontal.linked.stack-switcher button.text-button.radio:checked:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -254,7 +254,7 @@
 
 toolbar.cs-header {
     background-color: transparent;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@button_base, 1.00)),
                                      to (shade(@button_base, 0.93)));
@@ -364,7 +364,7 @@ window.background box.vertical notebook box.horizontal box.vertical notebook {
 
 .meld-notebook-toolbar > toolbutton > button.flat,
 .meld-notebook-toolbar > toolitem > filechooserbutton > button.file {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (@button_gradient1),
                                      color-stop (0.50, @button_gradient3),
@@ -385,7 +385,7 @@ window.background box.vertical notebook box.horizontal box.vertical notebook {
 
 .meld-notebook-toolbar > toolbutton > button.flat:hover,
 .meld-notebook-toolbar > toolitem > filechooserbutton > button.file:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@button_gradient1, 1.03)),
                                      to   (shade(@button_gradient4, 1.01)));
@@ -396,7 +396,7 @@ window.background box.vertical notebook box.horizontal box.vertical notebook {
 }
 
 .meld-notebook-toolbar > toolitem > filechooserbutton > button.file:focus {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (@button_gradient1),
                                      color-stop (0.50, @button_gradient3),
@@ -448,7 +448,7 @@ window.background box.vertical notebook box.horizontal box.vertical notebook {
  *************/
 
 window.background.yumex-dnf-window > box.vertical > box.horizontal {
-   background-image: -gtk-gradient (linear,
+   background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@theme_bg_dark_color, 1.00)),
                                      to   (shade(@theme_bg_dark_color, 0.95)));
@@ -461,7 +461,7 @@ window.background.yumex-dnf-window > box.vertical > box.horizontal button,
 window.background.yumex-dnf-window > box.vertical > box.horizontal stackswitcher.linked.stack-switcher > button.text-button.radio {
     background-image: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     color: @theme_fg_dark_color;
     border-width: 1px;
     border-radius: 5px;
@@ -479,7 +479,7 @@ window.background.yumex-dnf-window > box.vertical > box.horizontal stackswitcher
 window.background.yumex-dnf-window > box.vertical > box.horizontal stackswitcher.linked.stack-switcher > button.text-button.radio:checked:hover,
 window.background.yumex-dnf-window > box.vertical > box.horizontal stackswitcher.linked.stack-switcher > button.text-button.radio:checked:hover:active {
     color: shade (@theme_selected_bg_color, 1.6);
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -519,7 +519,7 @@ window.background.yumex-dnf-window > box.vertical > box.horizontal button:disabl
     border-color: @theme_button_border_dark;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
 }
 
 /* info sidebar */
@@ -530,7 +530,7 @@ window.background.yumex-dnf-window > box.vertical > box.vertical > box.horizonta
 }
 
 window.background.yumex-dnf-window > box.vertical > box.vertical > box.horizontal > paned.vertical > box.horizontal > box.vertical list.sidebar row.activatable:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@button_gradient1, 1.03)),
                                      color-stop (0.50, shade(@button_gradient3, 1.03)),
@@ -542,7 +542,7 @@ window.background.yumex-dnf-window > box.vertical > box.vertical > box.horizonta
 }
 
 window.background.yumex-dnf-window > box.vertical > box.vertical > box.horizontal > paned.vertical > box.horizontal > box.vertical list.sidebar row.activatable:hover:active {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade (@theme_bg_color, 1.20)),
                                      color-stop (0.50, shade (@theme_bg_color, 1.00)),
@@ -640,10 +640,10 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
  ***********/
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background,
+.lightdm-ctk-greeter #login_window.background,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter,
-#login_window.background.lightdm-gtk-greeter box.vertical {
+#login_window.background.lightdm-ctk-greeter,
+#login_window.background.lightdm-ctk-greeter box.vertical {
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
@@ -652,36 +652,36 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame,
-.lightdm-gtk-greeter #login_window.background #buttonbox_frame,
+.lightdm-ctk-greeter #login_window.background #content_frame,
+.lightdm-ctk-greeter #login_window.background #buttonbox_frame,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame,
-#login_window.background.lightdm-gtk-greeter #buttonbox_frame {
+#login_window.background.lightdm-ctk-greeter #content_frame,
+#login_window.background.lightdm-ctk-greeter #buttonbox_frame {
     border-radius: 0px;
     border-style: none;
     border-width: 0px;
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #user_image_border,
+.lightdm-ctk-greeter #login_window.background #user_image_border,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #user_image_border {
+#login_window.background.lightdm-ctk-greeter #user_image_border {
     border-style: solid;
     border-width: 1px;
     border-color: shade(@theme_dark_dialog_bg_color, 1.4);
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo,
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:focus,
-.lightdm-gtk-greeter #login_window.background #buttonbox_frame button,
-.lightdm-gtk-greeter #login_window.background #buttonbox_frame button:focus,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:focus,
+.lightdm-ctk-greeter #login_window.background #buttonbox_frame button,
+.lightdm-ctk-greeter #login_window.background #buttonbox_frame button:focus,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo,
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo:focus,
-#login_window.background.lightdm-gtk-greeter #buttonbox_frame button,
-#login_window.background.lightdm-gtk-greeter #buttonbox_frame button:focus {
-    background-image: -gtk-gradient (linear,
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo,
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo:focus,
+#login_window.background.lightdm-ctk-greeter #buttonbox_frame button,
+#login_window.background.lightdm-ctk-greeter #buttonbox_frame button:focus {
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -690,35 +690,35 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo cellview,
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:focus cellview,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo cellview,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:focus cellview,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo cellview,
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo:focus cellview {
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo cellview,
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo:focus cellview {
     color: @menu_fg_dark_color;
     text-shadow: none;
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo arrow,
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:focus arrow,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo arrow,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:focus arrow,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo arrow,
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo:focus arrow {
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo arrow,
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo:focus arrow {
     color: @menu_fg_dark_color;
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:hover,
-.lightdm-gtk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:hover:active,
-.lightdm-gtk-greeter #login_window.background #buttonbox_frame button:hover,
-.lightdm-gtk-greeter #login_window.background #buttonbox_frame button:hover:active,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:hover,
+.lightdm-ctk-greeter #login_window.background #content_frame #user_combobox .linked button.combo:hover:active,
+.lightdm-ctk-greeter #login_window.background #buttonbox_frame button:hover,
+.lightdm-ctk-greeter #login_window.background #buttonbox_frame button:hover:active,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo:hover,
-#login_window.background.lightdm-gtk-greeter #content_frame #user_combobox .linked button.combo:hover:active,
-#login_window.background.lightdm-gtk-greeter #buttonbox_frame button:hover,
-#login_window.background.lightdm-gtk-greeter #buttonbox_frame button:hover:active {
-    background-image: -gtk-gradient (linear,
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo:hover,
+#login_window.background.lightdm-ctk-greeter #content_frame #user_combobox .linked button.combo:hover:active,
+#login_window.background.lightdm-ctk-greeter #buttonbox_frame button:hover,
+#login_window.background.lightdm-ctk-greeter #buttonbox_frame button:hover:active {
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -729,13 +729,13 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame #prompt_entry,
-.lightdm-gtk-greeter #login_window.background #content_frame #prompt_entry:focus,
+.lightdm-ctk-greeter #login_window.background #content_frame #prompt_entry,
+.lightdm-ctk-greeter #login_window.background #content_frame #prompt_entry:focus,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame #prompt_entry,
-#login_window.background.lightdm-gtk-greeter #content_frame #prompt_entry:focus {
+#login_window.background.lightdm-ctk-greeter #content_frame #prompt_entry,
+#login_window.background.lightdm-ctk-greeter #content_frame #prompt_entry:focus {
     background-color: transparent;
-    background-image: -gtk-gradient(linear,
+    background-image: -ctk-gradient(linear,
                                     left top, left bottom,
                                     from       (shade(@theme_dark_dialog_bg_color, 1.16)),
                                     color-stop (0.15, shade(@theme_dark_dialog_bg_color, 1.26)),
@@ -751,21 +751,21 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #content_frame #prompt_entry selection,
-.lightdm-gtk-greeter #login_window.background #content_frame #prompt_entry selection:focus,
+.lightdm-ctk-greeter #login_window.background #content_frame #prompt_entry selection,
+.lightdm-ctk-greeter #login_window.background #content_frame #prompt_entry selection:focus,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #content_frame #prompt_entry selection,
-#login_window.background.lightdm-gtk-greeter #content_frame #prompt_entry selection:focus {
+#login_window.background.lightdm-ctk-greeter #content_frame #prompt_entry selection,
+#login_window.background.lightdm-ctk-greeter #content_frame #prompt_entry selection:focus {
     background-color: shade(@menu_fg_dark_color, 0.4);
     color: shade (@menu_fg_dark_color, 1.2);
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #restart_dialog,
-.lightdm-gtk-greeter #shutdown_dialog,
+.lightdm-ctk-greeter #restart_dialog,
+.lightdm-ctk-greeter #shutdown_dialog,
 /* 1.8.5 */
-#restart_dialog.lightdm-gtk-greeter,
-#shutdown_dialog.lightdm-gtk-greeter {
+#restart_dialog.lightdm-ctk-greeter,
+#shutdown_dialog.lightdm-ctk-greeter {
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
@@ -774,22 +774,22 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #restart_dialog box.vertical,
-.lightdm-gtk-greeter #shutdown_dialog box.vertical,
+.lightdm-ctk-greeter #restart_dialog box.vertical,
+.lightdm-ctk-greeter #shutdown_dialog box.vertical,
 /* 1.8.5 */
-#restart_dialog.lightdm-gtk-greeter .dialog-vbox,
-#shutdown_dialog.lightdm-gtk-greeter .dialog-vbox {
+#restart_dialog.lightdm-ctk-greeter .dialog-vbox,
+#shutdown_dialog.lightdm-ctk-greeter .dialog-vbox {
     background-color: transparent;
     color: shade (@menu_fg_dark_color, 1.0);
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #restart_dialog button,
-.lightdm-gtk-greeter #shutdown_dialog button,
+.lightdm-ctk-greeter #restart_dialog button,
+.lightdm-ctk-greeter #shutdown_dialog button,
 /* 1.8.5 */
-#restart_dialog.lightdm-gtk-greeter .linked button,
-#shutdown_dialog.lightdm-gtk-greeter .linked button {
-    background-image: -gtk-gradient (linear,
+#restart_dialog.lightdm-ctk-greeter .linked button,
+#shutdown_dialog.lightdm-ctk-greeter .linked button {
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -799,20 +799,20 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #restart_dialog button:hover,
-.lightdm-gtk-greeter #shutdown_dialog button:hover,
-.lightdm-gtk-greeter #restart_dialog button:hover:active,
-.lightdm-gtk-greeter #shutdown_dialog button:hover:active,
+.lightdm-ctk-greeter #restart_dialog button:hover,
+.lightdm-ctk-greeter #shutdown_dialog button:hover,
+.lightdm-ctk-greeter #restart_dialog button:hover:active,
+.lightdm-ctk-greeter #shutdown_dialog button:hover:active,
 /* 1.8.5 */
-#restart_dialog.lightdm-gtk-greeter .linked button:hover:first-child,
-#shutdown_dialog.lightdm-gtk-greeter .linked button:hover:first-child,
-#restart_dialog.lightdm-gtk-greeter .linked button:hover:active:first-child,
-#shutdown_dialog.lightdm-gtk-greeter .linked button:hover:active:first-child,
-#restart_dialog.lightdm-gtk-greeter .linked button:hover:last-child,
-#shutdown_dialog.lightdm-gtk-greeter .linked button:hover:last-child,
-#restart_dialog.lightdm-gtk-greeter .linked button:hover:active:last-child,
-#shutdown_dialog.lightdm-gtk-greeter .linked button:hover:active:last-child {
-    background-image: -gtk-gradient (linear,
+#restart_dialog.lightdm-ctk-greeter .linked button:hover:first-child,
+#shutdown_dialog.lightdm-ctk-greeter .linked button:hover:first-child,
+#restart_dialog.lightdm-ctk-greeter .linked button:hover:active:first-child,
+#shutdown_dialog.lightdm-ctk-greeter .linked button:hover:active:first-child,
+#restart_dialog.lightdm-ctk-greeter .linked button:hover:last-child,
+#shutdown_dialog.lightdm-ctk-greeter .linked button:hover:last-child,
+#restart_dialog.lightdm-ctk-greeter .linked button:hover:active:last-child,
+#shutdown_dialog.lightdm-ctk-greeter .linked button:hover:active:last-child {
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -823,22 +823,22 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #panel_window.background menubar,
+.lightdm-ctk-greeter #panel_window.background menubar,
 /* 1.8.5 */
-#panel_window.background.menubar.lightdm-gtk-greeter {
+#panel_window.background.menubar.lightdm-ctk-greeter {
     background-color: @theme_dark_dialog_bg_color;
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #panel_window.background menubar label,
+.lightdm-ctk-greeter #panel_window.background menubar label,
 /* 1.8.5 */
-#panel_window.background.menubar.lightdm-gtk-greeter label {
+#panel_window.background.menubar.lightdm-ctk-greeter label {
     color: @fg_dark_color;
 }
 
 /* the weird panel */
 /* 2.0 */
-.lightdm-gtk-greeter #panel_window.background menubar separator {
+.lightdm-ctk-greeter #panel_window.background menubar separator {
     border-style: none;
     border-width: 0px;
 }
@@ -857,7 +857,7 @@ popover.emoji-picker > box.vertical > box.horizontal > button.flat.emoji-section
 popover.emoji-picker > box.vertical > box.horizontal > button.flat.emoji-section:focus:hover,
 popover.emoji-picker > box.vertical > box.horizontal > button.flat.emoji-section:focus:hover:active {
     border-radius: 3px;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
