@@ -1,4 +1,4 @@
-/* FIXME, this does not work anymore with >= gtk+-3.20 */
+/* FIXME, this does not work anymore with >= ctk+-3.20 */
 
 /****************
  * Applications *
@@ -213,7 +213,7 @@ ContactsWindow .button {
 }
 
 ContactsWindow .button:hover {
-	background-image: -gtk-gradient (radial,
+	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
 					from (shade(@button_gradient_color_a, 1.5)),

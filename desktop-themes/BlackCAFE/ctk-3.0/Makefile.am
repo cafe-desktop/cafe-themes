@@ -1,15 +1,15 @@
 THEME_NAME=BlackCAFE
 
-themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0
+themedir = $(datadir)/themes/$(THEME_NAME)/ctk-3.0
 
 theme_DATA = \
 	gnome-applications.css \
-	gtk.css \
-	gtk-dark.css \
-	gtk-main.css \
-	gtk-main-dark.css \
-	gtk-widgets.css \
-	gtk-widgets-assets-dark.css \
+	ctk.css \
+	ctk-dark.css \
+	ctk-main.css \
+	ctk-main-dark.css \
+	ctk-widgets.css \
+	ctk-widgets-assets-dark.css \
 	cafe-applications.css \
 	other-applications.css \
 	settings.ini \

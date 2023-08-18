@@ -175,8 +175,8 @@
 /* inactive-pane caja */
 @define-color inactive-pane_bg_color #606060;
 
-@import url("gtk-widgets.css");
-@import url("gtk-widgets-assets-dark.css");
+@import url("ctk-widgets.css");
+@import url("ctk-widgets-assets-dark.css");
 @import url("unity.css");
 @import url("gnome-applications.css");
 @import url("other-applications.css");
