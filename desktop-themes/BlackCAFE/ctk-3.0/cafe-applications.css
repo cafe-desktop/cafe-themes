@@ -591,7 +591,7 @@ CafePanelApplet > menubar {
 	padding-right: 4px;
 }
 
-/*WnckPager is unnamed in GTK inspector so try this*/
+/*WnckPager is unnamed in CTK inspector so try this*/
 PanelApplet.wnck-applet .wnck-pager {
     background-image: none;
     border-color: transparent;

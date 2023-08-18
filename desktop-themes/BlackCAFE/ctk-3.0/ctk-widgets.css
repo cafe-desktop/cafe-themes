@@ -687,7 +687,7 @@ frame.action-bar {
 	border-width: 1px 0 0;
 }
 
-/* disable for GTK3-3.16 , issue with caja list-view frame*/
+/* disable for CTK3-3.16 , issue with caja list-view frame*/
 
 scrolledwindow.frame {
 /*	background-color: transparent; */
@@ -3082,7 +3082,7 @@ dialog.background.solid-csd > headerbar.titlebar  {
     border-radius: 0;
 }
 
-/* this is the default titlebar that is added by GTK
+/* this is the default titlebar that is added by CTK
  * when client-side decorations are in use and the application
  * did not set a custom titlebar.
  */
