@@ -25,7 +25,7 @@ MathWindow .frame {
 	padding: 0px;
 }
 
-MathWindow GtkScrolledWindow GtkViewport.frame {
+MathWindow CtkScrolledWindow CtkViewport.frame {
 	border-style: solid;
 	border-width: 2px;
 	border-radius: 3px;
@@ -43,17 +43,17 @@ ContactsListPane.frame * {
 	background-color: @less_dark_color;
 }
 
-ContactsListPane.frame GtkLabel,
-ContactsListPane.frame GtkImage,
-ContactsListPane.frame GtkBox,
-ContactsListPane.frame GtkGrid {
+ContactsListPane.frame CtkLabel,
+ContactsListPane.frame CtkImage,
+ContactsListPane.frame CtkBox,
+ContactsListPane.frame CtkGrid {
 	background-color: transparent;
 }
 
 EmpathyRosterView:hover,
 ContactsView:hover,
-EmpathyRosterView GtkBin:hover,
-ContactsView GtkBin:hover {
+EmpathyRosterView CtkBin:hover,
+ContactsView CtkBin:hover {
 	background-color: shade(@less_dark_color, 1.1);
 }
 
@@ -63,8 +63,8 @@ ContactsView GtkBin:hover {
 
 EmpathyRosterView:selected,
 ContactsView:selected,
-EmpathyRosterView GtkBin:selected,
-ContactsView GtkBin:selected {
+EmpathyRosterView CtkBin:selected,
+ContactsView CtkBin:selected {
 	box-shadow: inset 0 3px alpha(white, 0.04),
 	            inset 0 2px alpha(white, 0.07),
 	            inset 0 1px alpha(white, 0.15);
@@ -77,12 +77,12 @@ ContactsWindow .toolbar {
 	background-image: none;
 }
 
-ContactsListPane.frame GtkToolbar,
-ContactsListPane GtkScrolledWindow {
+ContactsListPane.frame CtkToolbar,
+ContactsListPane CtkScrolledWindow {
 	border-radius: 0px;
 }
 
-ContactsListPane.frame GtkToolbar {
+ContactsListPane.frame CtkToolbar {
 	padding: 4px 4px 10px 4px;
 }
 
@@ -90,12 +90,12 @@ ContactsListPane.frame GtkToolbar {
 
 /* file-roller with folder view
    is more beautiful this way */
-FrWindow GtkPaned {
+FrWindow CtkPaned {
 	background-color: @less_dark_color;
 }
 
 FrWindow .pane-separator,
-NautilusWindow > GtkGrid > .pane-separator {
+NautilusWindow > CtkGrid > .pane-separator {
 	color: shade(@theme_selected_bg_color, 2.0);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -105,21 +105,21 @@ NautilusWindow > GtkGrid > .pane-separator {
 
 FrWindow .pane-separator:hover,
 FrWindow .pane-separator:selected,
-NautilusWindow > GtkGrid > .pane-separator:hover,
-NautilusWindow > GtkGrid > .pane-separator:selected {
+NautilusWindow > CtkGrid > .pane-separator:hover,
+NautilusWindow > CtkGrid > .pane-separator:selected {
 	background-image: url("assets/notebook-pane-separator-grip-hover.svg");
 }
 
 /* is this really needed? */
 FrWindow .pane-separator.vertical,
-NautilusWindow > GtkGrid > .pane-separator.vertical {
+NautilusWindow > CtkGrid > .pane-separator.vertical {
 	background-image: url("assets/notebook-pane-separator-grip-vertical.svg");
 }
 
 FrWindow .pane-separator.vertical:hover,
 FrWindow .pane-separator.vertical:selected,
-NautilusWindow > GtkGrid > .pane-separator.vertical:hover,
-NautilusWindow > GtkGrid > .pane-separator.vertical:selected {
+NautilusWindow > CtkGrid > .pane-separator.vertical:hover,
+NautilusWindow > CtkGrid > .pane-separator.vertical:selected {
 	background-image: url("assets/notebook-pane-separator-grip-vertical-hover.svg");
 }
 
@@ -197,11 +197,11 @@ NautilusWindow .view {
 NautilusWindow * {
 }
 
-NautilusWindow GtkPaned {
+NautilusWindow CtkPaned {
 	background-color: @less_dark_color;
 }
 
-NautilusWindow GtkScrolledWindow.frame {
+NautilusWindow CtkScrolledWindow.frame {
 	border-style: none;
 }
 
@@ -285,7 +285,7 @@ NautilusWindow .scrollbar.button.vertical:disabled {
 	background-image: none;
 }
 
-NautilusWindow GtkStatusbar,
+NautilusWindow CtkStatusbar,
 NautilusWindow .floating-bar{
 	font-style: italic;
 }
@@ -375,7 +375,7 @@ NautilusWindow .notebook NautilusQueryEditor .toolbar {
 }
 
 ContactsWindow .entry,
-ContactsListPane.frame GtkToolbar .entry,
+ContactsListPane.frame CtkToolbar .entry,
 NautilusSearchBar .entry,
 NautilusQueryEditor .toolbar .entry {
 	background-image: linear-gradient(to bottom,
@@ -402,7 +402,7 @@ NautilusQueryEditor .toolbar .entry:focus {
 
 /**** Desktop Drawn ***/
 
-NautilusDesktopWindow GtkPaned {
+NautilusDesktopWindow CtkPaned {
 	background-color: transparent;
 }
 
