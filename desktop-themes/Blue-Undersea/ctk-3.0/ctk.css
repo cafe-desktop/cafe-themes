@@ -154,7 +154,7 @@
 @define-color list_box_bg #fafafa;
 
 /*****************
- * GtkSpinButton *
+ * CtkSpinButton *
  *****************/
 
 @define-color inset_light_color alpha(white, 0.45);

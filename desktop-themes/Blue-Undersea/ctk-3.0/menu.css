@@ -57,7 +57,7 @@ menu button:disabled,
 /* this controls the general appearance of the menubar */
 menubar,
 .menubar {
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
     /* line 3D  (dark) */
     box-shadow: inset  0px -1px @menu_line_dark_color;
     /* line 3D at the buttom of the menu bar */
@@ -197,7 +197,7 @@ menu > arrow.bottom,
 }
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
-   state from previous menu level, as GtkArrow itself don't support states very well.
+   state from previous menu level, as CtkArrow itself don't support states very well.
    thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
