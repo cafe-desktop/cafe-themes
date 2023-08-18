@@ -9,7 +9,7 @@ check,
 .check,
 check row:selected,
 check row:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-unchecked-dark.svg"));
 }
 
 notebook check,
@@ -18,14 +18,14 @@ notebook check row:selected:focus,
 treeview check,
 treeview check row:selected,
 treeview check row:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-unchecked-lessdark.svg"));
 }
 
 check:disabled,
 .check:disabled,
 check row:selected:disabled,
 check row:selected:focus:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-insensitive-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-unchecked-insensitive-dark.svg"));
 }
 
 check:checked,
@@ -34,7 +34,7 @@ check row:selected:checked,
 check row:selected:active,
 check row:selected:focus:checked,
 check row:selected:focus:active {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-checked-dark.svg"));
 }
 
 notebook check:checked,
@@ -47,7 +47,7 @@ notebook check row:selected:active,
 notebook check row:selected:focus:active,
 treeview check row:selected:active,
 treeview check row:selected:focus:active {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-checked-lessdark.svg"));
 }
 
 check:checked:disabled,
@@ -57,14 +57,14 @@ check row:selected:focus:checked:disabled,
 check row:selected:active:disabled,
 check row:selected:focus:active:disabled
 {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-checked-insensitive-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-checked-insensitive-dark.svg"));
 }
 
 check:indeterminate,
 .check:indeterminate,
 check row:selected:indeterminate,
 check row:selected:focus:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-mixed-dark.svg"));
 }
 
 notebook check:indeterminate,
@@ -73,21 +73,21 @@ notebook check row:selected:focus:indeterminate,
 treeview check:indeterminate,
 treeview check row:selected:indeterminate,
 treeview check row:selected:focus:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-mixed-lessdark.svg"));
 }
 
 check:indeterminate:disabled,
 .check:indeterminate:disabled,
 check row:selected:indeterminate:disabled,
 check row:selected:focus:indeterminate:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-mixed-insensitive-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-mixed-insensitive-dark.svg"));
 }
 
 radio,
 .radio,
 radio row:selected,
 radio row:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-unselected-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-unselected-dark.svg"));
 }
 
 notebook radio,
@@ -96,14 +96,14 @@ notebook radio row:selected:focus,
 treeview radio,
 treeview radio row:selected,
 treeview radio row:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-unselected-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-unselected-lessdark.svg"));
 }
 
 radio:disabled,
 .radio:disabled,
 radio row:selected:disabled,
 radio row:selected:focus:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-unselected-insensitive-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-unselected-insensitive-dark.svg"));
 }
 
 radio:checked,
@@ -112,7 +112,7 @@ radio row:selected:checked,
 radio row:selected:active,
 radio row:selected:focus:checked,
 radio row:selected:focus:active {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-selected-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-selected-dark.svg"));
 }
 
 notebook radio:checked,
@@ -125,7 +125,7 @@ notebook  radio row:selected:active,
 notebook  radio row:selected:focus:active,
 treeview radio row:selected:active,
 treeview radio row:selected:focus:active {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-selected-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-selected-lessdark.svg"));
 }
 
 radio:checked:disabled,
@@ -134,14 +134,14 @@ radio row:selected:checked:disabled,
 radio row:selected:focus:checked:disabled,
 radio row:selected:active:disabled,
  adio row:selected:focus:active:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-selected-insensitive-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-selected-insensitive-dark.svg"));
 }
 
 radio:indeterminate,
 .radio:indeterminate,
 radio row:selected:indeterminate,
 radio row:selected:focus:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-mixed-dark.svg"));
 }
 
 notebook radio:indeterminate,
@@ -150,34 +150,34 @@ notebook radio row:selected:focus:indeterminate,
 treeview radio:indeterminate,
 treeview radio row:selected:indeterminate,
 treeview radio row:selected:focus:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-mixed-lessdark.svg"));
 }
 
 radio:indeterminate:disabled,
 .radio:indeterminate:disabled,
 radio row:selected:indeterminate:disabled,
 radio row:selected:focus:indeterminate:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-insensitive-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-mixed-insensitive-dark.svg"));
 }
 
 sidebar radio:checked,
 sidebar radio:checked:focus,
 sidebar radio:checked:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-checked-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-checked-dark.svg"));
 }
 
 sidebar  radio:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-prelight.svg"));
 }
 
 sidebar radio:checked:selected,
 sidebar radio:checked:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-selected-dark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-selected-dark.svg"));
 }
 
 sidebar radio:selected:hover,
 sidebar radio:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-selected-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-selected-prelight.svg"));
 }
 
 /* Now draw menu check and radio items */
@@ -205,72 +205,72 @@ menu menuitem .check:disabled {
 
 menuitem radio,
 menu menuitem .radio {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-unselected-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-unselected-lessdark.svg"));
 }
 
 menuitem radio:checked,
 menu menuitem .radio:checked {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem-checked.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-menuitem-checked.svg"));
 }
 
 menuitem radio:checked:hover,
 menu menuitem .radio:checked:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem-checked-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-menuitem-checked-prelight.svg"));
 }
 
 menuitem radio:checked:disabled,
 menu menuitem .radio:checked:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem-checked-insensitive.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-menuitem-checked-insensitive.svg"));
 }
 
 menuitem radio:indeterminate,
 menu menuitem .radio:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem-mixed.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-menuitem-mixed.svg"));
 }
 
 menuitem radio:indeterminate:hover,
 menu menuitem .radio:indeterminate:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem-mixed-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-menuitem-mixed-prelight.svg"));
 }
 
 menuitem radio:indeterminate:disabled,
 menu menuitem .radio:indeterminate:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem-mixed-insensitive.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-menuitem-mixed-insensitive.svg"));
 }
 
 menuitem check,
 menu menuitem .check {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-unchecked-lessdark.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-unchecked-lessdark.svg"));
 }
 
 menuitem check:checked,
 menu menuitem .check:checked {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-menuitem-checked.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-menuitem-checked.svg"));
 }
 
 menuitem check:checked:hover,
 menu menuitem .check:checked:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-menuitem-checked-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-menuitem-checked-prelight.svg"));
 }
 
 menuitem check:checked:disabled,
 menu menuitem .check:checked:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-menuitem-checked-insensitive.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-menuitem-checked-insensitive.svg"));
 }
 
 menuitem check:indeterminate,
 menu menuitem .check:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-menuitem-mixed.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-menuitem-mixed.svg"));
 }
 
 menuitem check:indeterminate:hover,
 menu menuitem .check:indeterminate:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-menuitem-mixed-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-menuitem-mixed-prelight.svg"));
 }
 
 menuitem check:indeterminate:disabled,
 menu menuitem .check:indeterminate:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/checkbox-menuitem-mixed-insensitive.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/checkbox-menuitem-mixed-insensitive.svg"));
 }
 
 /***********
@@ -460,21 +460,21 @@ notebook tab.right:checked {
  * Scrollbar buttons *
  *********************/
 scrollbar.vertical button.up {
-    -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
-    -gtk-icon-effect: highlight;
+    -ctk-icon-source: -ctk-icontheme("pan-up-symbolic");
+    -ctk-icon-effect: highlight;
 }
 
 scrollbar.vertical button.down {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-    -gtk-icon-effect: highlight;
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
+    -ctk-icon-effect: highlight;
 }
 
 scrollbar.horizontal button.up {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
-    -gtk-icon-effect: highlight;
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
+    -ctk-icon-effect: highlight;
 }
 
 scrollbar.horizontal button.down {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-    -gtk-icon-effect: highlight;
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
+    -ctk-icon-effect: highlight;
 }

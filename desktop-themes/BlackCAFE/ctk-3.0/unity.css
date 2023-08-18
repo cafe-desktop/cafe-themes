@@ -27,7 +27,7 @@ UnityDecoration.top {
 
     background-color: transparent;
     background-clip: border-box;
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (#59595b),
                                      color-stop (0.5, #454547),
                                      to (#3b3b3e));
@@ -40,7 +40,7 @@ UnityDecoration.top:backdrop {
     border: 0px;
     border-bottom-width: 0;
     background-color: transparent;
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (#59595b),
                                      color-stop (0.5, #454547),
                                      to (#3b3b3e));
@@ -62,7 +62,7 @@ UnityDecoration.bottom:backdrop {
 UnityPanelWidget,
 .unity-panel {
     background-color: transparent;
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (#585858),
                                      to (#000000));
 
@@ -76,7 +76,7 @@ UnityPanelWidget,
 .unity-panel.menuitem,
 .unity-panel .menuitem {
     border-width: 1px 1px 0 1px;
-    -gtk-icon-shadow: 0 -1px #000000;
+    -ctk-icon-shadow: 0 -1px #000000;
 }
 
 .unity-panel.menubar:backdrop,

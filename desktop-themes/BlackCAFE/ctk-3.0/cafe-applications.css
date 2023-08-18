@@ -37,7 +37,7 @@
 }
 
 .caja-navigation-window paned>box>box>button:hover {
-	background-image: -gtk-gradient (radial,
+	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
 					from (shade(@button_gradient_color_a, 1.5)),
@@ -340,14 +340,14 @@ CafePanelApplet {
 CafePanelAppletFrameDBus PanelSeparator,
 PanelSeparator {
     border-width: 0;
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 0.96)),
                                      to (shade (@theme_bg_color, 1.05)));
     color: shade (@theme_fg_color, 0.45);
     text-shadow: none;
 }
 */
-/* FIXME, this does not work anymore with >= gtk+-3.20 */
+/* FIXME, this does not work anymore with >= ctk+-3.20 */
 /* dictionary applet */
 GdictApplet .entry,
 GdictApplet .entry:focus {
@@ -361,7 +361,7 @@ GdictApplet .entry:focus {
 
 /* the grid left from wnckpager and wncktasklist */
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
-    background-image: -gtk-scaled(url("assets/panel-grid.svg"));
+    background-image: -ctk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: left;
@@ -425,7 +425,7 @@ CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     color: shade (@menu_fg_color, 1.00);
 }
 
-/* FIXME, this does not work anymore with >= gtk+-3.20 */
+/* FIXME, this does not work anymore with >= ctk+-3.20 */
 /* desktop-applet, clockapplet, drivemount, character-map,
 dictionary */
 .cafe-panel-menu-bar .button,
@@ -463,7 +463,7 @@ dictionary */
     border-image: none;
     border-style: solid;
     border-color: shade(@button_border, 1.1);
-    background-image: -gtk-gradient (radial,
+    background-image: -ctk-gradient (radial,
                       0.5 -2.0, 2.0,
                       0.5 -2.0, 3.0,
                       from (shade(@button_gradient_color_a, 1.5)),
@@ -483,8 +483,8 @@ dictionary */
     text-shadow: none;
     color: @theme_fg_color;
 	background-image: none;
-/* Does NOT march gtk3.16/3.18 results 
-    background-image: -gtk-gradient (radial,
+/* Does NOT march ctk3.16/3.18 results 
+    background-image: -ctk-gradient (radial,
                       0.5 -2.0, 2.0,
                       0.5 -2.0, 3.0,
                       from (shade(@button_gradient_color_a, 1.5)),
@@ -506,7 +506,7 @@ dictionary */
                                       shade(@button_gradient_color_a, 1.5));
 }
 
-/* FIXME, this does not work anymore with >= gtk+-3.20 */
+/* FIXME, this does not work anymore with >= ctk+-3.20 */
 .cafe-panel-menu-bar button .button:hover {
     border-radius: 3px;
     border-image: none;
@@ -577,7 +577,7 @@ CafePanelApplet > menubar {
     padding: 0px;
 }
 
-/* for buttons the 3px padding from gtk-widgets.css is OK */
+/* for buttons the 3px padding from ctk-widgets.css is OK */
 #CafePanelPopupWindow > frame > box > box > box > box > widget button > label {
     padding: 3px;
 }

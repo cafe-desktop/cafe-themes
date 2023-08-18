@@ -18,7 +18,7 @@
 	outline-style: dotted;
 	outline-offset: -3px;
 	outline-width: 2px;
-	-gtk-icon-style: regular; /* no symbolic icons */
+	-ctk-icon-style: regular; /* no symbolic icons */
     text-shadow: none;
 }
 
@@ -35,7 +35,7 @@
 
 .background:backdrop {
 	text-shadow: none;
-	-gtk-icon-shadow: none;
+	-ctk-icon-shadow: none;
 }
 
 *:hover {
@@ -55,7 +55,7 @@
 
 *:selected:backdrop {
 	text-shadow: none;
-	-gtk-icon-shadow: none;
+	-ctk-icon-shadow: none;
 }
 
 *:disabled {
@@ -65,28 +65,28 @@
 	background-color: shade(@theme_bg_color, 0.915);
 }
 
-.gtkstyle-fallback {
+.ctkstyle-fallback {
 	background-color: @theme_bg_color;
 	color: @theme_fg_color;
 }
 
-.gtkstyle-fallback:hover {
+.ctkstyle-fallback:hover {
 	background-color: shade(@theme_bg_color, 1.10);
 	color: @theme_fg_color;
 }
 
-.gtkstyle-fallback:active {
+.ctkstyle-fallback:active {
 	background-color: shade(@theme_bg_color, 0.915);
 	color: @theme_fg_color;
 }
 
-.gtkstyle-fallback:disabled {
+.ctkstyle-fallback:disabled {
 	background-color: @less_dark_color; /*@insensitive_bg_color;*/
 	color: @insensitive_fg_color;
 	border-color: @insensitive_border_color;
  }
 
-.gtkstyle-fallback:selected {
+.ctkstyle-fallback:selected {
 	background-color: @theme_selected_bg_color;
 	color: @theme_selected_fg_color;
 }
@@ -163,7 +163,7 @@ rubberband,
 }
 
 expander {
-    -gtk-icon-style: regular;
+    -ctk-icon-style: regular;
 }
 
 /***********
@@ -174,7 +174,7 @@ sidebar .view,
 stacksidebar,
 stacksidebar .view,
 placessidebar .view{
-    -gtk-icon-style: regular;
+    -ctk-icon-style: regular;
     background-color: shade (@theme_bg_color, 1.08);
 }
 
@@ -185,7 +185,7 @@ placessidebar label   {
 }
 
 placessidebar image   {
-  -gtk-icon-style: regular;
+  -ctk-icon-style: regular;
 }
 
 sidebar frame {
@@ -395,13 +395,13 @@ dnd {
  *********************/
 
 @keyframes spin {
-	to { -gtk-icon-transform: rotate(1turn); }
+	to { -ctk-icon-transform: rotate(1turn); }
 }
 
 spinner {
 	background: none;
 	opacity: 0;
-	-gtk-icon-source: -gtk-icontheme("process-working-symbolic");
+	-ctk-icon-source: -ctk-icontheme("process-working-symbolic");
 }
 
 spinner:checked {
@@ -520,11 +520,11 @@ cursor-handle.bottom {
 
 entry.cursor-handle.top,
 cursor-handle.top {
-	-gtk-icon-source: -gtk-icontheme("selection-start-symbolic");
+	-ctk-icon-source: -ctk-icontheme("selection-start-symbolic");
 }
 entry.cursor-handle.bottom,
 cursor-handle.bottom {
-	-gtk-icon-source: -gtk-icontheme("selection-end-symbolic");
+	-ctk-icon-source: -ctk-icontheme("selection-end-symbolic");
 }
 
 entry image.left {
@@ -691,7 +691,7 @@ frame.action-bar {
 
 scrolledwindow.frame {
 /*	background-color: transparent; */
-    -gtk-icon-style: regular;
+    -ctk-icon-style: regular;
 }
 
 /* no double frames */
@@ -725,7 +725,7 @@ levelbar block.filled {
     border-width: 2px;
     border-style: solid;
     border-color: @button_border_active;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      0.45 top, 0.55 bottom,
                                      from (shade (@button_bg_active, 1.30)),
                                      color-stop (0.40, shade (@button_bg_active, 1.04)),
@@ -912,7 +912,7 @@ notebook tab  button:hover:checked {
 
 notebook viewport,
 notebook iconview,
-/*notebook GtkDrawingArea,*//*no longer recognized by gtk3.20*/
+/*notebook GtkDrawingArea,*//*no longer recognized by ctk3.20*/
 notebook paned,
 notebook GtkEventBox,
 notebook frame {
@@ -927,7 +927,7 @@ notebook  button {
 }
 
 notebook  button:hover {
-	background-image: -gtk-gradient (radial,
+	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
 					from (shade(@button_gradient_color_a, 1.5)),
@@ -1154,7 +1154,7 @@ treeview:selected:focus {
 	                                  shade(@theme_selected_bg_color, 1.5));
 }
 
-/* Rows are no longer recognized in gtk3.20!
+/* Rows are no longer recognized in ctk3.20!
 treeview row:nth-child(odd),
 treeview row:nth-child(odd):hover {
 	background-color: @less_dark_color;
@@ -1431,7 +1431,7 @@ combobox.separator {
     -GtkWidget-vertical-separator: 0;
 }
 
-/* since gtk+-3.18, avoid flat text background */
+/* since ctk+-3.18, avoid flat text background */
 combobox button cellview {
     background-color: transparent;
 }
@@ -1468,7 +1468,7 @@ combobox button cellview:hover {
 }
 
 combobox arrow {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
     color: @menu_controls_color;
     min-height: 16px;
     min-width: 16px;
@@ -1478,7 +1478,7 @@ combobox arrow {
  * Buttons *
  ***********/
 button {
-    -gtk-icon-style: regular;
+    -ctk-icon-style: regular;
     padding: 0px;
     border-radius: 3px;
     border-width: 1px;
@@ -1500,7 +1500,7 @@ button.flat {
     background-image: none;
     box-shadow: inset 0 1px rgba(255,255,255,0), 0 1px rgba(255,255,255,0);
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border-image: none;
 }
 
@@ -1559,7 +1559,7 @@ button:hover {
 	border-image: none;
 	border-style: solid;
 	border-color: shade(@button_border, 1.1);
-	background-image: -gtk-gradient (radial,
+	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
 					from (shade(@button_gradient_color_a, 1.5)),
@@ -1669,7 +1669,7 @@ spinbutton > button:hover {
     border-image: none;
     border-style: solid;
     border-color: shade(@button_border, 1.1);
-    background-image: -gtk-gradient (radial,
+    background-image: -ctk-gradient (radial,
                                      0.5 -2.0, 2.0,
                                      0.5 -2.0, 3.0,
                                      from (shade(@button_gradient_color_a, 1.5)),
@@ -2030,7 +2030,7 @@ menubar,
 
 menubar menuitem,
 .menubar menuitem {
-    -gtk-icon-style: regular;
+    -ctk-icon-style: regular;
     transition: all 300ms ease-out;
     padding: 3px 7px;
     border-width: 0px;
@@ -2144,27 +2144,27 @@ menuitem arrow {
 
 menu menuitem arrow:dir(ltr),
 .menu menuitem arrow:dir(ltr) {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 menu menuitem arrow:dir(rtl),
 .menu menuitem arrow:dir(rtl) {
-        -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+        -ctk-icon-source: -ctk-icontheme("pan-end-symbolic-rtl");
 }
 
 menu > arrow.top,
 .menu > arrow.top {
-      -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+      -ctk-icon-source: -ctk-icontheme("pan-up-symbolic");
 }
 
 menu > arrow.bottom,
 .menu > arrow.bottom {
-      -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+      -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
 }
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
    state from previous menu level, as GtkArrow itself don't support states.
-   thanks gtk+ devs for this madness */
+   thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem:hover menu > menuitem > arrow.right,
@@ -2186,7 +2186,7 @@ menu > menuitem:hover menu > menuitem:hover menu > menuitem:hover menu > menuite
 .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem > arrow.left,
 .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem > arrow.left  {
     color: @theme_fg_color;
-   -gtk-icon-shadow:  0px  1px shade (@theme_main_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@theme_main_color, 1.0),
                       1px  0px shade (@theme_main_color, 1.0),
                      -1px  0px shade (@theme_main_color, 1.0),
                       0px -1px shade (@theme_main_color, 1.0);
@@ -2213,7 +2213,7 @@ menu > menuitem:hover menu > menuitem:hover menu > menuitem:hover menu > menuite
 .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover arrow.left,
 .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover arrow.left {
     color: @theme_main_color;
-   -gtk-icon-shadow:  0px  1px shade (@theme_fg_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@theme_fg_color, 1.0),
                       1px  0px shade (@theme_fg_color, 1.0),
                      -1px  0px shade (@theme_fg_color, 1.0),
                       0px -1px shade (@theme_fg_color, 1.0);
@@ -2240,7 +2240,7 @@ menu > arrow,
                                       @button_hover_gradient_color_a,
                                       @button_hover_gradient_color_b);
     color: @theme_fg_color;
-   -gtk-icon-shadow:  0px  1px shade (@theme_main_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@theme_main_color, 1.0),
                       1px  0px shade (@theme_main_color, 1.0),
                      -1px  0px shade (@theme_main_color, 1.0),
                       0px -1px shade (@theme_main_color, 1.0);
@@ -2253,7 +2253,7 @@ menu > arrow:hover,
                                       shade(@theme_selected_bg_color, 1.2),
                                       shade(@theme_selected_bg_color, 0.3));
     color: @theme_main_color;
-   -gtk-icon-shadow:  0px  1px shade (@theme_fg_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@theme_fg_color, 1.0),
                       1px  0px shade (@theme_fg_color, 1.0),
                      -1px  0px shade (@theme_fg_color, 1.0),
                       0px -1px shade (@theme_fg_color, 1.0);
@@ -2265,7 +2265,7 @@ menu > arrow:disabled,
     background-color: transparent;
     border-style: none;
 	color: @insensitive_fg_color;
-   -gtk-icon-shadow:  none;
+   -ctk-icon-shadow:  none;
 }
 
 menuitem accelerator,
@@ -2360,7 +2360,7 @@ toolbar  button:hover,
     border-style: solid;
     border-color: shade(@button_border, 1.1);
     border-radius: 3px;
-    background-image: -gtk-gradient (radial,
+    background-image: -ctk-gradient (radial,
                       0.5 -2.0, 2.0,
                       0.5 -2.0, 3.0,
                       from (shade(@button_gradient_color_a, 1.5)),
@@ -2392,7 +2392,7 @@ toolbar combobox button:hover,
     border-image: none;
     border-style: solid;
     border-color: shade(@button_border, 1.1);
-    background-image: -gtk-gradient (radial,
+    background-image: -ctk-gradient (radial,
                       0.5 -2.0, 2.0,
                       0.5 -2.0, 3.0,
                       from (shade(@button_gradient_color_a, 1.5)),
@@ -2557,7 +2557,7 @@ button.osd {
 	                                  @osd_button_bg_c);
 	color: @osd_button_fg;
 	text-shadow: none;
-	-gtk-icon-shadow: 0 -1px @osd_button_shadow;
+	-ctk-icon-shadow: 0 -1px @osd_button_shadow;
 }
 
 .osd button,
@@ -2763,7 +2763,7 @@ toolbar.osd separator {
                                       @osd_button_bg_c);
     color: @osd_button_fg;
     text-shadow: none;
-    -gtk-icon-shadow: 0 -1px @osd_button_shadow;
+    -ctk-icon-shadow: 0 -1px @osd_button_shadow;
 }
 
 .osd.popover spinbutton button:hover {
@@ -2879,7 +2879,7 @@ revealer.bottom > box.background.horizontal.osd button {
 	                                  shade(@theme_selected_bg_color, 0.5));
 	box-shadow: 0 1px 5px @wm_shadow;
 	text-shadow: none;
-	-gtk-icon-shadow: none;
+	-ctk-icon-shadow: none;
 }
 
 popover >  list,
@@ -2911,7 +2911,7 @@ popover separator {
 	color: alpha(@theme_fg_color,0.1);
 	text-shadow: none;
 	background-color: transparent;
-	-gtk-icon-shadow: none;
+	-ctk-icon-shadow: none;
 	border: 0;
 }
 
@@ -2930,7 +2930,7 @@ popoverosd  toolbar {
 }
 popoverosd  button {
 	text-shadow: none;
-	-gtk-icon-shadow: 0 -1px @osd_text_shadow;
+	-ctk-icon-shadow: 0 -1px @osd_text_shadow;
 }
 popoverosd  button:active,
 popoverosd  button:checked {
@@ -2982,7 +2982,7 @@ popover .separator {
 	color: alpha(@theme_text_color,0.4);
 	text-shadow: none;
 	background-color: transparent;
-	-gtk-icon-shadow: none;
+	-ctk-icon-shadow: none;
 	border: 0;
 }
 
@@ -3153,7 +3153,7 @@ headerbar button.appmenu, .csd button.titlebutton{
 .titlebar .titlebutton {
     /* fake request for hardcoded icons,
      to avoid usage of regular window-close button*/
-    -gtk-icon-style: requested;
+    -ctk-icon-style: requested;
 	border-width: 0px;
 	border-style: none;
     border-image-source: none;
@@ -3166,7 +3166,7 @@ button.text-button.titlebutton:hover {
 	border-image: none;
 	border-style: solid;
 	border-color: shade(@button_border, 1.1);
-	background-image: -gtk-gradient (radial,
+	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
 					from (shade(@button_gradient_color_a, 1.5)),
@@ -3220,7 +3220,7 @@ headerbar.titlebar  button.image-button.titlebutton:hover:backdrop {
     background: none;
     color: @theme_main_color;
     border-image: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
 }
 
 .background.csd decoration {
@@ -3660,10 +3660,10 @@ expander title:hover {
 
 expander arrow {
 	min-height: 16px;
-	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+	-ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 } 
 	expander arrow:checked {
-    -gtk-icon-source: -gtk-icontheme("pan-down-symbolic"); 
+    -ctk-icon-source: -ctk-icontheme("pan-down-symbolic"); 
 }
 
 /****************
@@ -3751,7 +3751,7 @@ calendar.header .app-notification button.titlebutton,
     background-clip: padding-box;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
     text-shadow: none;
-    -gtk-icon-shadow: 0 1px black;
+    -ctk-icon-shadow: 0 1px black;
     outline-color: rgba(238, 238, 236, 0.3);
     border-radius: 3px;
     padding: 0 0px 2px 0px;
@@ -3771,7 +3771,7 @@ headerbar .app-notification.frame .titlebutton button,
 .titlebar .app-notification.frame .titlebutton button,
 .app-notification.frame calendar.header .titlebutton button,
 calendar.header .app-notification.frame .titlebutton button {
-    -gtk-icon-shadow: 0 1px black;
+    -ctk-icon-shadow: 0 1px black;
     text-shadow: 0 1px black;
 }
 
@@ -3786,7 +3786,7 @@ calendar.header .app-notification.frame .titlebutton button {
     background-clip: padding-box;
     box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
     text-shadow: none;
-    -gtk-icon-shadow: 0 1px black;
+    -ctk-icon-shadow: 0 1px black;
     outline-color: rgba(238, 238, 236, 0.3);
     border-radius: 3px;
     padding: 0 0px 2px 0px;
@@ -3805,7 +3805,7 @@ calendar.header .app-notification.frame .titlebutton button {
     background-clip: padding-box;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     outline-color: rgba(238, 238, 236, 0.3);
     border-radius: 3px;
 }
@@ -3823,7 +3823,7 @@ calendar.header .app-notification.frame .titlebutton button {
     background-clip: padding-box;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border-radius: 3px;
     padding: 0px;
 }
@@ -3839,7 +3839,7 @@ calendar.header .app-notification.frame .titlebutton button {
     background-clip: padding-box;
     box-shadow: none;
     text-shadow: none;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
     border-radius: 3px;
     padding: 0px;
 }
@@ -3994,12 +3994,12 @@ printdialog paper{
 
 /* displays at end of mouse scrolling */
 .overshoot.top {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center top, 0,
                                     center top, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(179, 165, 137, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     center top, 0,
                                     center top, 0.6,
                                     from(rgba(87, 70, 56, 0.17)),
@@ -4013,7 +4013,7 @@ printdialog paper{
 }
 
 .overshoot.top:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center top, 0,
                                     center top, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -4027,12 +4027,12 @@ printdialog paper{
 }
 
 .overshoot.bottom {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center bottom, 0,
                                     center bottom, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(179, 165, 137, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     center bottom, 0,
                                     center bottom, 0.6,
                                     from(rgba(87, 70, 56, 0.17)),
@@ -4046,7 +4046,7 @@ printdialog paper{
 }
 
 .overshoot.bottom:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     center bottom, 0,
                                     center bottom, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -4060,12 +4060,12 @@ printdialog paper{
 }
 
 .overshoot.left {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     left center, 0,
                                     left center, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(179, 165, 137, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     left center, 0,
                                     left center, 0.6,
                                     from(rgba(87, 70, 56, 0.07)),
@@ -4079,7 +4079,7 @@ printdialog paper{
 }
 
 .overshoot.left:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     left center, 0,
                                     left center, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -4093,12 +4093,12 @@ printdialog paper{
 }
 
 .overshoot.right {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     right center, 0,
                                     right center, 0.5,
                                     to(@overshoot_bg_color),
                                     to(rgba(179, 165, 137, 0))),
-                      -gtk-gradient(radial,
+                      -ctk-gradient(radial,
                                     right center, 0,
                                     right center, 0.6,
                                     from(rgba(87, 70, 56, 0.07)),
@@ -4112,7 +4112,7 @@ printdialog paper{
 }
 
 .overshoot.right:backdrop {
-    background-image: -gtk-gradient(radial,
+    background-image: -ctk-gradient(radial,
                                     right center, 0,
                                     right center, 0.5,
                                     to(@overshoot_backdrop_bg_color),
@@ -4199,7 +4199,7 @@ stacksidebar scrolledwindow {
    padding: 0px;
 }
 
-/* using stack here styles also notebootk in gtk3-widget-factory, needs to be reviewed
+/* using stack here styles also notebootk in ctk3-widget-factory, needs to be reviewed
 frame .horizontal stack {
     background-color: @less_dark_color;
     border-radius: 0px 3px 3px 0px;

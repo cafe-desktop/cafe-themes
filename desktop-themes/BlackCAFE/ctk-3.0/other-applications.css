@@ -71,7 +71,7 @@
 }
 
 .nemo-window .button:hover {
-	background-image: -gtk-gradient (radial,
+	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
 					from (shade(@button_gradient_color_a, 1.5)),

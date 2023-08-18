@@ -184,10 +184,10 @@ headerbar .left:dir(rtl) button.close.titlebutton:backdrop:hover {
 
 .titlebar button.close.titlebutton image {
     /* fake request     to avoid usage of regular window-close button*/
-    -gtk-icon-style: requested;
+    -ctk-icon-style: requested;
 }
 
-/* gtk+-3.20 */ 
+/* ctk+-3.20 */ 
 .titlebar button.close.titlebutton image,
 .titlebar button.minimize.titlebutton image,
 .titlebar button.maximize.titlebutton image {
