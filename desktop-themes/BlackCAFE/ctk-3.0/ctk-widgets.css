@@ -2,17 +2,17 @@
 	padding: 0px;
 	background-clip: padding-box;
 	/* Style properties */
-	-GtkToolButton-icon-spacing: 4;
+	-CtkToolButton-icon-spacing: 4;
 	-textview-error-underline-color: @error_color;
 	-paned-handle-size: 5;
-	-GtkScrolledWindow-scrollbar-spacing: 0;
+	-CtkScrolledWindow-scrollbar-spacing: 0;
 	/* this is more stylish with this theme */;
-	-GtkToolItemGroup-expander-size: 12;
+	-CtkToolItemGroup-expander-size: 12;
 	-expander-expander-size: 12;
 	-treeview-expander-size: 13;
 	-treeview-horizontal-separator: 4;
-	-GtkIMHtml-hyperlink-color: @link_color;
-	-GtkHTML-link-color: @link_color;
+	-CtkIMHtml-hyperlink-color: @link_color;
+	-CtkHTML-link-color: @link_color;
 	-WnckTasklist-fade-overlay-rect: 0;
 	outline-color: alpha(@focus_border, 0.6);
 	outline-style: dotted;
@@ -280,7 +280,7 @@ view:selected:focus,
 /* It's better not to have too bright text views. */
 textview text,
 textview.view:disabled,
-GtkHTML { /* For Evolution (not enough; see entries section below) */
+CtkHTML { /* For Evolution (not enough; see entries section below) */
 	background-color: @view_color;
 	color: @theme_main_color;
 }
@@ -496,7 +496,7 @@ entry:active {
 
 /* Correction for Yelp and Evolution */
 textview.entry,
-GtkHTML.entry {
+CtkHTML.entry {
 	background-color: @view_color;
 	color: @theme_main_color;
 }
@@ -904,17 +904,17 @@ notebook tab  button:hover:checked {
 	border-radius: 5px;
 	background-color: transparent;
 	background-image: none;
-	/*-GtkButton-child-displacement-x: 0;
-	-GtkButton-child-displacement-y: 0;*/
+	/*-CtkButton-child-displacement-x: 0;
+	-CtkButton-child-displacement-y: 0;*/
 }
 
 /*** The contents of notebooks ***/
 
 notebook viewport,
 notebook iconview,
-/*notebook GtkDrawingArea,*//*no longer recognized by ctk3.20*/
+/*notebook CtkDrawingArea,*//*no longer recognized by ctk3.20*/
 notebook paned,
-notebook GtkEventBox,
+notebook CtkEventBox,
 notebook frame {
 	background-color: @less_dark_color;
 }
@@ -1263,16 +1263,16 @@ list row scale.horizontal trough {
 }
 
 /************
- * GtkScale *
+ * CtkScale *
  ************/
 
 scale,
 scale:hover, 
 scale:disabled {
 	/* deprecated
-	-GtkScale-slider-length: 16;
-	-GtkRange-slider-width: 20;
-	-GtkRange-trough-border: 0;*/
+	-CtkScale-slider-length: 16;
+	-CtkRange-slider-width: 20;
+	-CtkRange-trough-border: 0;*/
 	background-color:transparent;
 	
 }
@@ -1420,15 +1420,15 @@ scale.vertical progress {
 combobox{
 	/* align with side buttons */
 	padding: 0;
-/*	-GtkComboBox-shadow-type: none; */
+/*	-CtkComboBox-shadow-type: none; */
 	color: @theme_fg_color;
 	text-shadow: none;
 }
 
 combobox.separator {
     /* always disable separators */
-    -GtkWidget-horizontal-separator: 0;
-    -GtkWidget-vertical-separator: 0;
+    -CtkWidget-horizontal-separator: 0;
+    -CtkWidget-vertical-separator: 0;
 }
 
 /* since ctk+-3.18, avoid flat text background */
@@ -1453,12 +1453,12 @@ combobox button:hover {
 	                                  shade(@button_gradient_color_b, 0.7));
 }
 
-GtkComboBox.combobox-entry  button {
+CtkComboBox.combobox-entry  button {
 	padding: 0px;
 }
 
 /* compensation for combo shadow */
-/*GtkTreeMenu  menuitem *,*/
+/*CtkTreeMenu  menuitem *,*/
 combobox menu {
 	text-shadow: none;
 }
@@ -1623,7 +1623,7 @@ button.color {
 /* We don't make them different. */
 
 /*****************
- * GtkSpinButton *
+ * CtkSpinButton *
  *****************/
 
 spinbutton,
@@ -2025,7 +2025,7 @@ menubar,
     border-style: none;
     padding: 0px;
     color: @theme_text_color;
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
 }
 
 menubar menuitem,
@@ -2163,7 +2163,7 @@ menu > arrow.bottom,
 }
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
-   state from previous menu level, as GtkArrow itself don't support states.
+   state from previous menu level, as CtkArrow itself don't support states.
    thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
@@ -2302,8 +2302,8 @@ toolbar {
 	border-width: 0;
 	border-radius: 0px;
 	padding: 1px;
-	-GtkWidget-window-dragging: true;
-	-GtkToolbar-button-relief: normal;
+	-CtkWidget-window-dragging: true;
+	-CtkToolbar-button-relief: normal;
 }
 
 toolbar button.text-button {
@@ -2606,7 +2606,7 @@ button.osd:hover {
 	                                  @osd_button_bg_hover_c);
 }
 
-.osd button.popup:checked,   /* GtkMenuButton */
+.osd button.popup:checked,   /* CtkMenuButton */
 .osd button:checked,
 button.osd:checked,
 .osd button:active:hover,
@@ -2635,7 +2635,7 @@ toolbar.osd {
 	                                  @osd_toolbar_bg_b 63%,
 	                                  @osd_toolbar_bg_c);
 	background-color: transparent;
-	-GtkToolbar-button-relief: normal;
+	-CtkToolbar-button-relief: normal;
 }
 
 toolbar.osd button,
@@ -3004,7 +3004,7 @@ decoration {
 	padding: 0px;
 }
 
-/*Limit CSD shadow extent to deal with any WM  CSD/GtkFrameExtent issues */
+/*Limit CSD shadow extent to deal with any WM  CSD/CtkFrameExtent issues */
 .csd decoration {
 	border-radius: 7px 7px 0px 0px;
 	border-width: 1px;
@@ -3299,7 +3299,7 @@ messagedialog.csd decoration {
 /* Not different from other toolbars. */
 
 /****************
- * GtkAssistant *
+ * CtkAssistant *
  ****************/
 assistant sidebar .highlight {
 	color: @theme_fg_color;
@@ -3327,7 +3327,7 @@ assistant sidebar {
 }
 
 /*************
- * GtkSwitch*
+ * CtkSwitch*
  *************/
 
 switch,
@@ -3517,11 +3517,11 @@ EMailDisplay expander:hover {
 	border-color: @theme_fg_color;
 }
 
-GtkHTML expander label {
+CtkHTML expander label {
 	color: #000000;
 }
 
-GtkHTML:active {
+CtkHTML:active {
 	color: #ffffff;
 }
 
@@ -3611,7 +3611,7 @@ radio:selected:hover {
 }
 
 /*****************
- * GtkCheckbutton *
+ * CtkCheckbutton *
  *****************/
 checkbutton:hover {
 	background-color: alpha(@theme_main_color, 0.09);
@@ -3622,7 +3622,7 @@ checkbutton:selected:hover {
 }
 
 /*****************
- * GtkRadioButton *
+ * CtkRadioButton *
  *****************/
 radiobutton:hover {
 	background-color: alpha(@theme_main_color, 0.09);
@@ -3888,7 +3888,7 @@ calendar.highlight {
 }
 
 /**************
- * GtkInfobar *
+ * CtkInfobar *
  **************/
 infobar {
 	border-width: 0;
@@ -3960,7 +3960,7 @@ dim-label:selected:focus {
 }
 
 /***************************
- * Gtk-file-chooser-dialog *
+ * Ctk-file-chooser-dialog *
  ***************************/
 
 filechooserdialog treeview.view {
@@ -3974,7 +3974,7 @@ filechooserwidget.vertical paned.horizontal {
 
 
 /***************************
- * GtkPrintUnixDialog *
+ * CtkPrintUnixDialog *
  ***************************/
 
 printdialog paper{
@@ -4171,7 +4171,7 @@ printdialog paper{
 }
 
 /****************
- * GtkActionBar *
+ * CtkActionBar *
  ****************/
 
 actionbar .frame.action-bar {
@@ -4187,7 +4187,7 @@ actionbar .frame.action-bar .horizontal stackswitcher.linked  button.image-butto
 }
 
 /************
- * GtkStack *
+ * CtkStack *
  ************/
 
 stacksidebar scrolledwindow {
