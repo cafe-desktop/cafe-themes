@@ -64,6 +64,10 @@ desktop-themes/BlueMint/gtk-3.0/Makefile
 desktop-themes/BlueMint/gtk-3.0/assets/Makefile
 desktop-themes/BlueMint/gtk-3.0/borders/Makefile
 desktop-themes/BlueMint/gtk-3.0/window-controls/Makefile
+desktop-themes/BlueMint/ctk-3.0/Makefile
+desktop-themes/BlueMint/ctk-3.0/assets/Makefile
+desktop-themes/BlueMint/ctk-3.0/borders/Makefile
+desktop-themes/BlueMint/ctk-3.0/window-controls/Makefile
 desktop-themes/BlueMint/metacity-1/Makefile
 desktop-themes/BlueMint/unity/Makefile
 desktop-themes/BlueMint/xfwm4/Makefile
