@@ -3,8 +3,8 @@
  ***********/
 
 .sidebar {
-    -GtkTreeView-horizontal-separator: 6px;
-    -GtkTreeView-vertical-separator: 1px;
+    -CtkTreeView-horizontal-separator: 6px;
+    -CtkTreeView-vertical-separator: 1px;
 }
 
 .sidebar,

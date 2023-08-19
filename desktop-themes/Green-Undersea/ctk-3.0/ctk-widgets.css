@@ -7,18 +7,18 @@
 * {
     padding: 0;
     background-clip: padding-box;
-    -GtkDialog-button-spacing: 4; /* ie. logout dialog */
-    -GtkDialog-action-area-border: 10; /* ie. logout dialog */
-    -GtkHTML-link-color: @link_color;
-    -GtkIMHtml-hyperlink-color: @link_color;
-    -GtkScrollbar-activate-slider: 1;
-    -GtkScrolledWindow-scrollbar-spacing: 0;
-    -GtkTextView-error-underline-color: @error_color;
-    -GtkToolButton-icon-spacing: 4;
-    -GtkToolItemGroup-expander-size: 6;
-    -GtkTreeView-expander-size: 12; /* arrow size in list/tree views */
-    -GtkTreeView-horizontal-separator: 4;
-    -GtkTreeView-vertical-separator: 4;
+    -CtkDialog-button-spacing: 4; /* ie. logout dialog */
+    -CtkDialog-action-area-border: 10; /* ie. logout dialog */
+    -CtkHTML-link-color: @link_color;
+    -CtkIMHtml-hyperlink-color: @link_color;
+    -CtkScrollbar-activate-slider: 1;
+    -CtkScrolledWindow-scrollbar-spacing: 0;
+    -CtkTextView-error-underline-color: @error_color;
+    -CtkToolButton-icon-spacing: 4;
+    -CtkToolItemGroup-expander-size: 6;
+    -CtkTreeView-expander-size: 12; /* arrow size in list/tree views */
+    -CtkTreeView-horizontal-separator: 4;
+    -CtkTreeView-vertical-separator: 4;
     -WnckTasklist-fade-overlay-rect: 0;
     /* Highlight drag-drop destination */
     outline-color: alpha(@theme_selected_bg_color, 0.3);
@@ -118,7 +118,7 @@ window {
 }
 
 /*********
- * GtkLabel *
+ * CtkLabel *
  *********/
 /*
 label,
@@ -679,7 +679,7 @@ levelbar block.empty:backdrop {
 }
 
 /************
- * GtkScale *
+ * CtkScale *
  ************/
 
 scale.vertical {
@@ -2108,8 +2108,8 @@ combobox cellview {
 
 combobox separator {
     /* always disable separators */
-    -GtkWidget-horizontal-separator: 0;
-    -GtkWidget-vertical-separator: 0;
+    -CtkWidget-horizontal-separator: 0;
+    -CtkWidget-vertical-separator: 0;
 }
 
 combobox entry.combo,
@@ -2616,7 +2616,7 @@ toolbar menubar {
     border-color: shade (@theme_bg_dark_color, 0.72);
     color: @theme_fg_dark_color;
     box-shadow: none;
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
 }
 
 /********************
@@ -2639,8 +2639,8 @@ toolbar.primary-toolbar {
     border-color: @primay-toolbar-border;
     padding: 3px;
     box-shadow: none;
-    -GtkWidget-window-dragging: true;
-    -GtkToolbar-button-relief: normal;
+    -CtkWidget-window-dragging: true;
+    -CtkToolbar-button-relief: normal;
     color: @theme_fg_dark_color;
 }
 
@@ -2835,7 +2835,7 @@ toolbar button.raised {
     /* outer */
     border-color: transparent;
     /* border and inset */
-/*    -GtkWidget-focus-line-width: 0; */
+/*    -CtkWidget-focus-line-width: 0; */
     color: shade(@theme_fg_dark_color, 1.00);
 }
 
@@ -3031,7 +3031,7 @@ toolbar.primary-toolbar entry.progressbar {
  ****************************/
 
 toolbar.inline-toolbar {
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
     padding: 0px;
     background-color: alpha(@button_base, 0.0);
     border-style: none;
@@ -3276,7 +3276,7 @@ stackswitcher > button.needs-attention:checked > image {
 }
 
 /****************
- * GtkActionBar *
+ * CtkActionBar *
  ****************/
 
 actionbar revealer .horizontal.linked.stack-switcher button.image-button.radio {
@@ -3296,7 +3296,7 @@ actionbar revealer .horizontal button.image-button.popup.toggle {
 }
 
 /*****************
- * GtkSpinButton *
+ * CtkSpinButton *
  *****************/
 
 spinbutton,
@@ -4001,7 +4001,7 @@ radiobutton.text-button {
 }
 
 /****************
- * GtkAssistant *
+ * CtkAssistant *
  ****************/
 
 assistant .sidebar {
@@ -4853,7 +4853,7 @@ menuitem calendar {
 }
 
 /**************
- * GtkInfoBar *
+ * CtkInfoBar *
  **************/
 
 infobar {
@@ -4957,9 +4957,9 @@ infobar.horizontal.info .horizontal button.flat.raised.close:checked {
 
 .prompt,
 messagedialog {
-    -GtkDialog-content-area-border: 0;
-    -GtkDialog-action-area-border: 12;
-    -GtkDialog-button-spacing: 0;
+    -CtkDialog-content-area-border: 0;
+    -CtkDialog-action-area-border: 12;
+    -CtkDialog-button-spacing: 0;
     margin: 0;
     padding: 0;
 }
@@ -4969,7 +4969,7 @@ dialog notebook.frame > stack > scrolledwindow.frame {
     border-style: none;
 }
 
-/* credits in GtkAbout windows */
+/* credits in CtkAbout windows */
 dialog .dialog-vbox scrolledwindow.frame > viewport.view.frame {
     background-color: shade (@theme_bg_color, 1.10);
 }
@@ -5309,7 +5309,7 @@ toolbar.osd {
                                       alpha(shade(@theme_selected_bg_color, 1.2), 0.7),
                                       alpha(shade(@theme_selected_bg_color, 0.95), 0.7));
     background-color: alpha(shade(@theme_selected_bg_color, 1.0), 0.4);
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
 }
 
 toolbar.osd button,
@@ -6770,7 +6770,7 @@ undershoot.right {
 }
 
 /************
- * GtkStack *
+ * CtkStack *
  ************/
 
 stack > .horizontal > .vertical > frame > border {
@@ -7024,7 +7024,7 @@ printdialog.background paper {
 }
 
 /******************
- * GtkFileChooser *
+ * CtkFileChooser *
  ******************/
 
 filechooser.vertical paned > separator {
