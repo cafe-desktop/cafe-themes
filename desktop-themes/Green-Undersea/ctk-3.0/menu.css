@@ -10,7 +10,7 @@
 menu,
 .menu {
     background-color: @menu_bg_dark_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 1.03)),
                                      to   (shade(@menu_bg_dark_color, 0.97)));
@@ -35,7 +35,7 @@ menu button,
 menu button:hover,
 .menu button:hover {
     background-color: shade (@menu_bg_dark_color, 1.07);
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (@menu_bg_dark_color),
                                      to (shade(@menu_bg_dark_color, 0.96)));
@@ -86,7 +86,7 @@ menubar > menuitem:hover,
     border-radius: 4px;
     color: shade (@theme_selected_bg_color, 1.2);
     text-shadow: none;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -112,7 +112,7 @@ menu > menuitem:hover,
 .menu > menuitem:active,
 .menu > menuitem:hover {
     background-color: shade (@theme_bg_dark_color, 1.2);
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -159,12 +159,12 @@ menuitem:active:disabled image,
 }
 
 /* combobox menus */
-combobox #gtk-combobox-popup-menu menuitem cellview {
+combobox #ctk-combobox-popup-menu menuitem cellview {
     text-shadow: none;
     color: @menu_fg_dark_color;
 }
 
-combobox #gtk-combobox-popup-menu menuitem:hover cellview {
+combobox #ctk-combobox-popup-menu menuitem:hover cellview {
     text-shadow: none;
     color: shade (@theme_selected_bg_color, 1.6);
 }
@@ -178,27 +178,27 @@ menuitem > arrow {
 
 menu > menuitem > arrow:dir(ltr),
 .menu > menuitem > arrow:dir(ltr) {
-	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+	-ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 menu > menuitem > arrow:dir(rtl),
 .menu > menuitem > arrow:dir(rtl) {
-        -gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+        -ctk-icon-source: -ctk-icontheme("pan-end-symbolic-rtl");
 }
 
 menu > arrow.top,
 .menu > arrow.top {
-      -gtk-icon-source: -gtk-icontheme("pan-up-symbolic");
+      -ctk-icon-source: -ctk-icontheme("pan-up-symbolic");
 }
 
 menu > arrow.bottom,
 .menu > arrow.bottom {
-      -gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+      -ctk-icon-source: -ctk-icontheme("pan-down-symbolic");
 }
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
    state from previous menu level, as GtkArrow itself don't support states very well.
-   thanks gtk+ devs for this madness */
+   thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem:hover menu > menuitem > arrow.right,
@@ -243,7 +243,7 @@ menu > menuitem:hover menu > menuitem:hover menu > menuitem:hover menu > menuite
 .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover arrow.left,
 .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover .menu > menuitem:hover arrow.left {
     color: shade (@theme_selected_bg_color, 0.8);
-   -gtk-icon-shadow:  0px  1px shade (@menu_fg_dark_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@menu_fg_dark_color, 1.0),
                       1px  0px shade (@menu_fg_dark_color, 1.0),
                      -1px  0px shade (@menu_fg_dark_color, 1.0),
                       0px -1px shade (@menu_fg_dark_color, 1.0);
@@ -253,7 +253,7 @@ menu > menuitem:disabled > arrow,
 .menu > menuitem:disabled > arrow {
     background-color: @menu_bg_dark_color;
     color: mix (@menu_fg_dark_color, @menu_bg_dark_color, 0.4);
-   -gtk-icon-shadow: none;
+   -ctk-icon-shadow: none;
 }
 
 /* scroll arrows */
@@ -285,12 +285,12 @@ menu > arrow.bottom,
 menu > arrow:hover,
 .menu > arrow:hover {
     color: shade (@theme_selected_bg_color, 0.8);
-   -gtk-icon-shadow:  0px  1px shade (@menu_fg_dark_color, 1.0),
+   -ctk-icon-shadow:  0px  1px shade (@menu_fg_dark_color, 1.0),
                       1px  0px shade (@menu_fg_dark_color, 1.0),
                      -1px  0px shade (@menu_fg_dark_color, 1.0),
                       0px -1px shade (@menu_fg_dark_color, 1.0);
     background-color: shade (@theme_bg_dark_color, 1.2);
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -308,7 +308,7 @@ menu > arrow:hover,
 menu > arrow:disabled,
 .menu > arrow:disabled {
     color: mix (@menu_fg_color, @menu_bg_color, 0.6);
-   -gtk-icon-shadow: none;
+   -ctk-icon-shadow: none;
     background-color: transparent;
     border-color: transparent;
 }
@@ -318,7 +318,7 @@ menu separator,
 menuitem separator {
     min-height: 1px;
     background-color: shade(@menu_fg_dark_color, 0.3);
-    border-image: -gtk-gradient (linear,
+    border-image: -ctk-gradient (linear,
                                  left top, right top,
                                  from (alpha (#000, 0.00)),
                                  color-stop (0.25, alpha (#000, 0.03)),
@@ -402,7 +402,7 @@ button.popup:selected,
 .linked button.popup:selected,
 toolbar .linked.raised button.popup:selected {
 	text-shadow: none;
-	-gtk-icon-shadow: none;
+	-ctk-icon-shadow: none;
 	box-shadow: none;
 }
 
