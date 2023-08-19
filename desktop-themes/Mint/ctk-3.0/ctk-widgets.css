@@ -1,16 +1,16 @@
 * {
 	padding: 0;
 	background-clip: padding-box;
-	-GtkDialog-button-spacing: 4;
-	-GtkDialog-action-area-border: 10; /* buttons cafe-appearance-properties */
-	-GtkScrolledWindow-scrollbar-spacing: 0;
-	-GtkTextView-error-underline-color: @error_color;
-	-GtkToolButton-icon-spacing: 4;
-	-GtkToolItemGroup-expander-size: 11;
-	-GtkTreeView-expander-size: 11;
-	-GtkTreeView-horizontal-separator: 0;
-	-GtkIMHtml-hyperlink-color: @link_color;
-	-GtkHTML-link-color: @link_color;
+	-CtkDialog-button-spacing: 4;
+	-CtkDialog-action-area-border: 10; /* buttons cafe-appearance-properties */
+	-CtkScrolledWindow-scrollbar-spacing: 0;
+	-CtkTextView-error-underline-color: @error_color;
+	-CtkToolButton-icon-spacing: 4;
+	-CtkToolItemGroup-expander-size: 11;
+	-CtkTreeView-expander-size: 11;
+	-CtkTreeView-horizontal-separator: 0;
+	-CtkIMHtml-hyperlink-color: @link_color;
+	-CtkHTML-link-color: @link_color;
 	-WnckTasklist-fade-overlay-rect: 0;
 	outline-color: alpha(currentColor, 0.3);
 	outline-style: dashed;
@@ -550,7 +550,7 @@ entry:active {
 }
 
 /*****************
- * GtkSpinButton *
+ * CtkSpinButton *
  *****************/
 
 spinbutton {
@@ -1057,7 +1057,7 @@ levelbar:backdrop block.filled.low {
 }
 
 /************
- * GtkScale *
+ * CtkScale *
  ************/
 
 scale value,
@@ -1279,7 +1279,7 @@ scrolledwindow.frame {
 }
 
 /* avoid double borders when a viewport is 
- * packed into a GtkScrolledWindow, + avoid double borders in general */
+ * packed into a CtkScrolledWindow, + avoid double borders in general */
 scrolledwindow > viewport.frame,
 frame > box > stack > scrolledwindow {
 	border-style: none;
@@ -1825,7 +1825,7 @@ toolbar.inline-toolbar toolbutton > button:disabled:only-child {
 	border-radius: 4px;
 }
 
-/* Special-case GtkMenuToolButton, since it's a GtkToolButton, but it
+/* Special-case CtkMenuToolButton, since it's a CtkToolButton, but it
  * has a box inside to pack the button and the actual menu */
 toolbar.inline-toolbar toolbutton button:first-child,
 toolbar.inline-toolbar toolbutton button:checked:first-child,
@@ -2538,8 +2538,8 @@ combobox:disabled {
 }
 
 combobox separator {
-	-GtkWidget-horizontal-separator: 0;
-	-GtkWidget-vertical-separator: 0;
+	-CtkWidget-horizontal-separator: 0;
+	-CtkWidget-vertical-separator: 0;
 }
 
 combobox > entry.combo:focus {
@@ -2708,8 +2708,8 @@ button.font separator,
 filechooserbutton button.file separator,
 filechooser separator {
 	/* always disable separators */
-	-GtkWidget-horizontal-separator: 0;
-	-GtkWidget-vertical-separator: 0;
+	-CtkWidget-horizontal-separator: 0;
+	-CtkWidget-vertical-separator: 0;
     min-height: 0px;
     min-width: 0px;
     background-color: transparent;
@@ -2731,8 +2731,8 @@ scrollbar {
 	background-image: none;
 	border-style: solid;
 	border-color: shade (@theme_bg_color, 0.94);
-	-GtkScrollbar-has-backward-stepper: true;
-	-GtkScrollbar-has-forward-stepper: true;
+	-CtkScrollbar-has-backward-stepper: true;
+	-CtkScrollbar-has-forward-stepper: true;
 }
 
 scrollbar.vertical {
@@ -3072,7 +3072,7 @@ menubar,
                                       @theme_bg_color,
                                       shade (@theme_bg_color, 0.96));
     border-width: 0;
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
 	text-shadow: none;
 }
 
@@ -3174,7 +3174,7 @@ menu > arrow.bottom,
 }
 
 /* settings for 4 menu level, this is needed to override the menuitem:hover
-   state from previous menu level, as GtkArrow itself don't support states.
+   state from previous menu level, as CtkArrow itself don't support states.
    thanks ctk+ devs for this madness */
 menu > menuitem > arrow.right,
 menu > menuitem:hover menu > menuitem > arrow.right,
@@ -3482,7 +3482,7 @@ toolbar:disabled {
  ********************/
 
 toolbar menubar {
-	-GtkToolbar-button-relief: normal;
+	-CtkToolbar-button-relief: normal;
 	padding: 3px;
 }
 
@@ -3526,14 +3526,14 @@ actionbar .subtitle {
 
 messagedialog,
 .prompt {
-	-GtkDialog-content-area-border: 0;
-	-GtkDialog-action-area-border: 12;
-	-GtkDialog-button-spacing: 1;
+	-CtkDialog-content-area-border: 0;
+	-CtkDialog-action-area-border: 12;
+	-CtkDialog-button-spacing: 1;
 	margin: 0;
 	padding: 0;
 }
 
-/* credits in GtkAbout windows */
+/* credits in CtkAbout windows */
 dialog .dialog-vbox scrolledwindow.frame > viewport.view.frame {
     background-color: shade (@theme_bg_color, 1.14);
 }
@@ -3740,8 +3740,8 @@ toolbar.primary-toolbar {
 	border-style: solid;
 	border-width: 0 0 1px 0;
 	border-color: alpha(@borders, 0.4);
-	-GtkWidget-window-dragging: true;
-	-GtkToolbar-button-relief: normal;
+	-CtkWidget-window-dragging: true;
+	-CtkToolbar-button-relief: normal;
 	text-shadow: 0 1px @button_text_shadow;
 	padding-top: 3px;
 	padding-bottom: 3px;
@@ -3749,7 +3749,7 @@ toolbar.primary-toolbar {
 }
 
 toolbar.primary-toolbar separator {
-	-GtkWidget-window-dragging: true;
+	-CtkWidget-window-dragging: true;
 }
 
 toolbar.primary-toolbar:disabled {
@@ -3785,7 +3785,7 @@ toolbar.inline-toolbar {
 	border-width: 1px;
 	border-style: solid;
 	border-color: @borders;
-	-GtkToolbar-button-relief: normal;
+	-CtkToolbar-button-relief: normal;
 	padding: 2px;
 }
 
@@ -4031,7 +4031,7 @@ toolbar.osd {
 	                                  alpha(shade(@theme_selected_bg_color, 1.0), 0.6),
 	                                  alpha(shade(@theme_selected_bg_color, 0.65), 0.6));
 	background-color: transparent;
-	-GtkToolbar-button-relief: normal;
+	-CtkToolbar-button-relief: normal;
 }
 
 toolbar.osd button {
@@ -4502,7 +4502,7 @@ toolbar.selection-mode button.selection-menu menuitem {
 }
 
 /****************
- * GtkAssistant *
+ * CtkAssistant *
  ****************/
 
 assistant .sidebar {
@@ -4523,7 +4523,7 @@ assistant .sidebar label.highlight { /* ie. caja-actions import dialog */
 }
 
 /*************
- * GtkSwitch *
+ * CtkSwitch *
  *************/
 
 switch {
@@ -4620,7 +4620,7 @@ calendar.header .path-bar button.titlebutton image {
  ***********************/
 
 treeview.view {
-	-GtkTreeView-vertical-separator: 0;
+	-CtkTreeView-vertical-separator: 0;
 	outline-color: alpha(currentColor, 0.6);
 }
 
@@ -5271,7 +5271,7 @@ calendar:selected:backdrop {
 }
 
 /**************
- * GtkInfoBar *
+ * CtkInfoBar *
  **************/
 
 infobar {

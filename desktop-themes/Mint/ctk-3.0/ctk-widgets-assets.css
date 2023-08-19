@@ -132,7 +132,7 @@ radio:indeterminate:disabled {
 }
 
 /*************
- * GtkSwitch *
+ * CtkSwitch *
  *************/
 
 switch {
@@ -156,7 +156,7 @@ switch:checked:disabled {
 }
 
 /*********************
- * GtkScale's slider *
+ * CtkScale's slider *
  *********************/
 
 scale.horizontal contents:only-child > trough > slider,

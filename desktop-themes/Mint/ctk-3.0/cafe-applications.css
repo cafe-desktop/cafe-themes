@@ -424,7 +424,7 @@ CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
 }
 
 /* outlines */
-window.background, /* selector where outlines are writen on GtkTrayIcon */
+window.background, /* selector where outlines are writen on CtkTrayIcon */
 .cafe-panel-menu-bar menubar,
 .cafe-panel-menu-bar button,
 .cafe-panel-menu-bar PanelApplet {
@@ -468,7 +468,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
     border-width: 0px;
     border-radius: 0px;
     text-shadow: none;
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
     padding: 4px 4px 4px 4px;
 }
 
@@ -740,7 +740,7 @@ na-tray-applet widget box widget {
     border-style: solid;
     border-width: 0 0 1px 0;
     border-color: alpha(@borders, 0.4);
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
     box-shadow: inset 0 1px 0 0 alpha(@borders, 0.4);
     padding: 0px;
 }
@@ -802,7 +802,7 @@ na-tray-applet widget box widget {
     border-style: solid;
     border-width: 0 0 1px 0;
     border-color: alpha(@borders, 0.4);
-    -GtkWidget-window-dragging: true;
+    -CtkWidget-window-dragging: true;
     box-shadow: inset 0 1px 0 0 alpha(@borders, 0.4);
     padding: 4px 0px;
 }
@@ -946,7 +946,7 @@ GvcMixerDialog notebook.frame box.vertical box.horizontal box.horizontal frame b
     border-style: solid;
     border-width: 1px 1px 0px 1px;
     border-color: darker (@theme_bg_color);
-	-GtkToolbar-button-relief: normal;
+	-CtkToolbar-button-relief: normal;
 }
 
 .appearance-window > box.vertical.dialog-vbox > notebook.frame  box.vertical > box.vertical > box.horizontal > box.vertical toolbar {
@@ -954,7 +954,7 @@ GvcMixerDialog notebook.frame box.vertical box.horizontal box.horizontal frame b
     border-width: 1px;
 	border-color: darker (@theme_bg_color);
     background-color: transparent;
-    -GtkToolbar-button-relief: normal;
+    -CtkToolbar-button-relief: normal;
 	padding-top: 3px;
 	padding-bottom: 3px;
 }
