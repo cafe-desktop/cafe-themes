@@ -109,6 +109,8 @@ desktop-themes/Green-Undersea/gtk-2.0/apps/Panel/Makefile
 desktop-themes/Green-Undersea/gtk-2.0/assets/Makefile
 desktop-themes/Green-Undersea/gtk-3.0/Makefile
 desktop-themes/Green-Undersea/gtk-3.0/assets/Makefile
+desktop-themes/Green-Undersea/ctk-3.0/Makefile
+desktop-themes/Green-Undersea/ctk-3.0/assets/Makefile
 desktop-themes/Green-Undersea/metacity-1/Makefile
 desktop-themes/Green-Undersea-border/Makefile
 desktop-themes/Green-Undersea-border/metacity-1/Makefile
