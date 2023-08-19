@@ -1,6 +1,6 @@
 THEME_NAME=GreenLagoon
 
-themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0/assets
+themedir = $(datadir)/themes/$(THEME_NAME)/ctk-3.0/assets
 
 theme_DATA = \
 	button-active-border.svg \

@@ -64,7 +64,7 @@
 
 /* arrow button */
 .caja-pathbar button:nth-child(odd) widget {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
 }
 
 .caja-pathbar button:nth-child(odd) {
@@ -73,7 +73,7 @@
 }
 
 .caja-pathbar button:nth-child(even) widget {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 .caja-pathbar button:nth-child(even) {
@@ -141,7 +141,7 @@
     border-radius: 3px;
     color: #000000;
     text-shadow: none;
-    background-image: -gtk-gradient(linear,
+    background-image: -ctk-gradient(linear,
                                     left top, left bottom,
                                     from       (shade(rgba(255,255,255,1), 0.86)),
                                     color-stop (0.15, shade(rgba(255,255,255,1), 0.96)),
@@ -274,7 +274,7 @@ CafePanelApplet {
 
 /* the grid left from wnckpager and wncktasklist */
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
-    background-image: -gtk-scaled(url("assets/panel-grid.svg"));
+    background-image: -ctk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: left;
@@ -282,7 +282,7 @@ CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
 
 PanelSeparator {
     border-width: 0;
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (shade (@theme_bg_color, 0.96)),
                                      to (shade (@theme_bg_color, 1.05)));
     color: shade (@theme_selected_bg_color, 1.65);
@@ -567,7 +567,7 @@ vte-terminal {
 .atril-window paned.horizontal > box.vertical > box.horizontal button {
     padding: 3px;
     border-radius: 3px;
-    -gtk-outline-radius: 3px;
+    -ctk-outline-radius: 3px;
 }
 
 /* atril and eom */
