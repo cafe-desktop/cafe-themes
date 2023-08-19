@@ -58,7 +58,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 /* selected item in sidebar */
 .caja-side-pane treeview:selected,
 .caja-side-pane treeview:selected:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top,
                                      left bottom,
                                      from (shade(@sidebar_selected_bg, 0.90)),
@@ -74,7 +74,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 
 /* mouse hover item in sidebar */
 .caja-side-pane treeview:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top,
                                      left bottom,
                                      from (shade(@theme_bg_color, 1.05)),
@@ -93,7 +93,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 .caja-side-pane button.flat,
 .caja-side-pane button.flat.toggle {
     border-style: none;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (@button_gradient1),
                                      to   (@button_gradient4));
@@ -138,7 +138,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 
 .caja-side-pane button.flat:checked:last-child,
 .caja-side-pane button.flat.toggle:checked:first-child {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade (@theme_bg_color, 1.20)),
                                      color-stop (0.50, shade (@theme_bg_color, 1.00)),
@@ -148,7 +148,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 
 .caja-side-pane button.flat:hover:last-child,
 .caja-side-pane button.flat.toggle:hover:first-child {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@button_gradient1, 1.03)),
                                      to   (shade(@button_gradient4, 1.01)));
@@ -309,7 +309,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 
 .caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover,
 .caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:checked {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -344,7 +344,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
    box-shadow: none;
    border-radius: 3px;
    text-shadow: none;
-   background-image: -gtk-gradient(linear,
+   background-image: -ctk-gradient(linear,
                                    left top, left bottom,
                                    from       (shade(@theme_base_color, 0.86)),
                                    color-stop (0.15, shade(@theme_base_color, 0.96)),
@@ -464,7 +464,7 @@ PanelToplevel > grid > button {
 
 PanelToplevel > grid > button:hover,
 PanelToplevel > grid > button:hover:active {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -480,7 +480,7 @@ PanelToplevel > grid > button:hover:active {
 PanelSeparator {
     border-width: 0;
     color: transparent;
-    background-image: -gtk-scaled(url("assets/panel-grid.svg"));
+    background-image: -ctk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: center;
@@ -488,7 +488,7 @@ PanelSeparator {
 
 /* the grid left from wnckpager and wncktasklist */
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
-    background-image: -gtk-scaled(url("assets/panel-grid.svg"));
+    background-image: -ctk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: left;
@@ -627,7 +627,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 #CafePanelPopupWindow frame image {
-    -gtk-icon-shadow: 1px 1px alpha (#000000, 0.8);
+    -ctk-icon-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
 #CafePanelPopupWindow calendar.view {
@@ -636,7 +636,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 
 #CafePanelPopupWindow calendar .header {
     background-color:transparent;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@theme_bg_dark_color, 1.00) ,0.8)),
                                      to   (alpha(shade(@theme_bg_dark_color, 0.95) ,0.8)));
@@ -649,11 +649,11 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 
 #CafePanelPopupWindow calendar.button {
     color: @menu_fg_dark_color;
-    -gtk-icon-shadow: 1px 1px alpha (#000000, 0.8);
+    -ctk-icon-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
 #CafePanelPopupWindow calendar.button:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@menu_bg_dark_color, 2.03), 0.6)),
                                      to   (alpha(shade(@menu_bg_dark_color, 1.17), 0.6)));
@@ -668,7 +668,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 #CafePanelPopupWindow frame button:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@menu_bg_dark_color, 2.03), 0.6)),
                                      to   (alpha(shade(@menu_bg_dark_color, 1.17), 0.6)));
@@ -801,7 +801,7 @@ na-tray-applet > widget > box {
 
 .cafe-panel-applet-slider frame button:hover {
     padding: 4px 0px;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@theme_selected_bg_color, 1.43) ,0.6)),
                                      to   (alpha(shade(@menu_bg_dark_color, 0.57) ,0.6)));
@@ -818,7 +818,7 @@ na-tray-applet > widget > box {
 #mintmenu.background,
 #cafe-menu.background {
     background-color: @menu_bg_dark_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 1.03)),
                                      to   (shade(@menu_bg_dark_color, 0.97)));
@@ -833,7 +833,7 @@ na-tray-applet > widget > box {
 #cafe-menu.background viewport,
 #cafe-menu.background > widget > box > widget > box {
     background-color: @menu_bg_dark_color;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 1.03)),
                                      to   (shade(@menu_bg_dark_color, 0.97)));
@@ -891,7 +891,7 @@ na-tray-applet > widget > box {
 #cafe-menu.background viewport button:not(.flat),
 #cafe-menu.background button:hover,
 #cafe-menu.background button.flat:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (alpha(shade(@menu_bg_dark_color, 2.03), 0.6)),
                                      to   (alpha(shade(@menu_bg_dark_color, 1.17), 0.6)));
@@ -913,7 +913,7 @@ na-tray-applet > widget > box {
     border-width: 1px 0px 0px 0px;
     min-height: 1px;
     background-color: shade(@menu_fg_dark_color, 0.3);
-    border-image: -gtk-gradient (linear,
+    border-image: -ctk-gradient (linear,
                                  left top, right top,
                                  from (alpha (#000, 0.00)),
                                  color-stop (0.25, alpha (#000, 0.03)),
@@ -935,7 +935,7 @@ na-tray-applet > widget > box {
 
 #mintmenu.background scrollbar.vertical slider,
 #cafe-menu.background scrollbar.vertical slider {
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (shade (@menu_bg_dark_color, 1.75)),
                                      to (shade (@menu_bg_dark_color, 1.3)));
     border-color: shade(@menu_fg_dark_color, 0.3);
@@ -945,7 +945,7 @@ na-tray-applet > widget > box {
 #mintmenu.background scrollbar.vertical slider:hover:active,
 #cafe-menu.background scrollbar.vertical slider:hover,
 #cafe-menu.background scrollbar.vertical slider:hover:active {
-    background-image: -gtk-gradient (linear, left top, left bottom,
+    background-image: -ctk-gradient (linear, left top, left bottom,
                                      from (shade (@menu_bg_dark_color, 1.3)),
                                      to (shade (@menu_bg_dark_color, 1.75)));
     border-color: shade(@menu_fg_dark_color, 0.3);
@@ -979,7 +979,7 @@ na-tray-applet > widget > box {
 #mintmenu.background entry,
 #cafe-menu.background entry {
     background-color: transparent;
-    background-image: -gtk-gradient(linear,
+    background-image: -ctk-gradient(linear,
                                     left top, left bottom,
                                     from       (shade(@menu_bg_dark_color, 1.16)),
                                     color-stop (0.15, shade(@menu_bg_dark_color, 1.26)),
@@ -1071,7 +1071,7 @@ vte-terminal {
 .lapiz-window statusbar.horizontal frame button.flat.toggle {
     border-style: none;
     border-image: none;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@nautilus_cluebar_color, 1.08)),
                                      color-stop (0.45, shade(@nautilus_cluebar_color, 1.00)),
@@ -1090,7 +1090,7 @@ vte-terminal {
 }
 
 .lapiz-window statusbar.horizontal frame button.flat.toggle:hover {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@button_gradient1, 1.03)),
                                      color-stop (0.48, shade(@button_gradient2, 1.03)),
@@ -1111,7 +1111,7 @@ vte-terminal {
 }
 /* Printpreview */
 .lapiz-print-preview toolbar.horizontal {
-   background-image: -gtk-gradient (linear,
+   background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@theme_bg_dark_color, 1.00)),
                                      to   (shade(@theme_bg_dark_color, 0.95)));
@@ -1180,7 +1180,7 @@ vte-terminal {
 
 .lapiz-window > box.vertical > paned.horizontal > box.vertical > notebook.frame > stack > box.vertical > toolbar.horizontal button:hover {
     border-style:none;
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
                                      to   (shade(@menu_bg_dark_color, 1.17)));
@@ -1209,7 +1209,7 @@ vte-terminal {
     border-color: transparent;
     border-width: 1px;
     padding: 1px;
-    -gtk-icon-shadow: none;
+    -ctk-icon-shadow: none;
 }
 
 /***********************
@@ -1222,7 +1222,7 @@ vte-terminal {
     padding: 4px;
     outline-style: solid;
     outline-color: shade(@theme_selected_bg_color, 0.93);
-    -gtk-outline-radius: 5px;
+    -ctk-outline-radius: 5px;
     outline-offset: -2px;
 }
 
@@ -1339,7 +1339,7 @@ GvcMixerDialog notebook.frame box.vertical box.horizontal box.horizontal frame b
 .lock-dialog entry:focus,
 .lock-dialog textview text {
     background-color: transparent;
-    background-image: -gtk-gradient(linear,
+    background-image: -ctk-gradient(linear,
                                     left top, left bottom,
                                     from       (shade(@theme_dark_dialog_bg_color, 1.16)),
                                     color-stop (0.15, shade(@theme_dark_dialog_bg_color, 1.26)),
@@ -1355,7 +1355,7 @@ GvcMixerDialog notebook.frame box.vertical box.horizontal box.horizontal frame b
 }
 
 .lock-dialog button {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@bg_dark_color, 2.03)),
                                      to   (shade(@bg_dark_color, 1.17)));
@@ -1367,7 +1367,7 @@ GvcMixerDialog notebook.frame box.vertical box.horizontal box.horizontal frame b
 .lock-dialog button.default,
 .lock-dialog button:hover:active,
 .lock-dialog button:focus {
-    background-image: -gtk-gradient (linear,
+    background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@bg_dark_color, 2.03)),
                                      to   (shade(@bg_dark_color, 1.17)));

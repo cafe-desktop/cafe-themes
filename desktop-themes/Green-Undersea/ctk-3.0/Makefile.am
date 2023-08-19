@@ -1,10 +1,10 @@
-themedir = $(datadir)/themes/Green-Undersea/gtk-3.0
+themedir = $(datadir)/themes/Green-Undersea/ctk-3.0
 
 theme_DATA = \
 	gnome-applications.css \
-	gtk.css \
-	gtk-widgets-assets.css \
-	gtk-widgets.css \
+	ctk.css \
+	ctk-widgets-assets.css \
+	ctk-widgets.css \
 	cafe-applications.css \
 	menu.css \
 	other-applications.css \
