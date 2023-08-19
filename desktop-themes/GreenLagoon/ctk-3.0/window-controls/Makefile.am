@@ -1,6 +1,6 @@
 THEME_NAME=GreenLagoon
 
-themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0/window-controls
+themedir = $(datadir)/themes/$(THEME_NAME)/ctk-3.0/window-controls
 
 theme_DATA = \
 	button-close-focus.png \

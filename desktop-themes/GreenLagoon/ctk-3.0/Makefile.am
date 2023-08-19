@@ -1,13 +1,13 @@
 THEME_NAME=GreenLagoon
 
-themedir = $(datadir)/themes/$(THEME_NAME)/gtk-3.0
+themedir = $(datadir)/themes/$(THEME_NAME)/ctk-3.0
 
 theme_DATA = \
 	gnome-applications.css \
-	gtk.css \
-	gtk-main.css \
-	gtk-widgets.css \
-	gtk-widgets-assets.css \
+	ctk.css \
+	ctk-main.css \
+	ctk-widgets.css \
+	ctk-widgets-assets.css \
 	cafe-applications.css \
 	other-applications.css \
 	settings.ini \

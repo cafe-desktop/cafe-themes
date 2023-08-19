@@ -25,7 +25,7 @@
 }
 
 /* inactive pane */
-/* bug in gtk+, .view writes no bg color in all browsers */
+/* bug in ctk+, .view writes no bg color in all browsers */
 .nemo-inactive-pane .view,
 .nemo-inactive-pane scrolledwindow,
 .nemo-inactive-pane scrolledwindow treeview {
@@ -122,7 +122,7 @@
 .nemo-window-pane .view .entry:focus,
 .nemo-window-pane .view .entry:active,
 .nemo-window-pane .view .entry:backdrop {
-   background-image: -gtk-gradient(linear,
+   background-image: -ctk-gradient(linear,
                                    left top, left bottom,
                                    from       (shade(@theme_base_color, 0.86)),
                                    color-stop (0.15, shade(@theme_base_color, 0.96)),
@@ -295,10 +295,10 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
  ***********/
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background,
+.lightdm-ctk-greeter #login_window.background,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter,
-#login_window.background.lightdm-gtk-greeter box.vertical {
+#login_window.background.lightdm-ctk-greeter,
+#login_window.background.lightdm-ctk-greeter box.vertical {
 	border-radius: 12px;
     border-style: solid;
     border-width: 1px;
@@ -306,16 +306,16 @@ window.background > box.vertical > notebook overlay > scrolledwindow viewport {
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #login_window.background #user_image_border,
+.lightdm-ctk-greeter #login_window.background #user_image_border,
 /* 1.8.5 */
-#login_window.background.lightdm-gtk-greeter #user_image_border {
+#login_window.background.lightdm-ctk-greeter #user_image_border {
     border-style: solid;
     border-width: 1px;
     border-color: shade(@theme_bg_color, 0.8);
 }
 
 /* 2.0 */
-.lightdm-gtk-greeter #panel_window.background menubar separator {
+.lightdm-ctk-greeter #panel_window.background menubar separator {
     background-color: @theme_bg_color;
     background-image: none;
     color: @theme_fg_color;
