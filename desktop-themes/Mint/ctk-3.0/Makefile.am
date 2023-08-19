@@ -1,16 +1,16 @@
-themedir = $(datadir)/themes/Mint/gtk-3.0
+themedir = $(datadir)/themes/Mint/ctk-3.0
 
 theme_DATA = \
 	gnome-applications.css \
 	cafe-applications.css \
-	gtk.css \
-	gtk-fallback.css \
-	gtk-main.css \
-	gtk-main-common.css \
-	gtk-widgets.css \
-	gtk-widgets-assets.css \
-	gtk-widgets-backgrounds.css \
-	gtk-widgets-borders.css \
+	ctk.css \
+	ctk-fallback.css \
+	ctk-main.css \
+	ctk-main-common.css \
+	ctk-widgets.css \
+	ctk-widgets-assets.css \
+	ctk-widgets-backgrounds.css \
+	ctk-widgets-borders.css \
 	other-applications.css \
 	settings.ini \
 	unity.css \
