@@ -240,11 +240,11 @@
 /* inactive-pane caja */
 @define-color inactive-pane_bg_color #DEDEDE;
 
-@import url("gtk-main-common.css");
-@import url("gtk-widgets-backgrounds.css");
-@import url("gtk-widgets-borders.css");
-@import url("gtk-widgets-assets.css");
-@import url("gtk-widgets.css");
+@import url("ctk-main-common.css");
+@import url("ctk-widgets-backgrounds.css");
+@import url("ctk-widgets-borders.css");
+@import url("ctk-widgets-assets.css");
+@import url("ctk-widgets.css");
 @import url("gnome-applications.css");
 @import url("cafe-applications.css");
 @import url("other-applications.css");

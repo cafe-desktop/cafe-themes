@@ -28,7 +28,7 @@ headerbar > box > separator.vertical {
 	border-width: 0 1px 0 1px;
 	border-style: solid;
 	border-color: transparent;
-	border-image: -gtk-scaled(url("assets/header-separator.png"),url("assets/header-separator@2.png")) 0 1 0 1 / 0 1px 0 1px stretch;
+	border-image: -ctk-scaled(url("assets/header-separator.png"),url("assets/header-separator@2.png")) 0 1 0 1 / 0 1px 0 1px stretch;
 }
 
 /*************************
@@ -41,14 +41,14 @@ headerbar > box > separator.vertical {
 check,
 .check,
 check .view.cell {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-normal.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/check-normal.png"));
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 check:disabled,
 .check {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-normal-ins.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/check-normal-ins.png"));
 }
 
 check row:disabled {
@@ -57,32 +57,32 @@ check row:disabled {
 
 check:checked,
 .view.cell check:checked {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-active.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/check-active.png"));
 }
 
 check:checked:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-active-ins.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/check-active-ins.png"));
 }
 
 check:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-mixed-active.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/check-mixed-active.png"));
 }
 
 check:indeterminate:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/check-mixed-active-ins.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/check-mixed-active-ins.png"));
 }
 
 radio,
 .radio,
 .view.cell radio {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-normal.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-normal.png"));
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 radio:disabled,
 .radio {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-normal-ins.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-normal-ins.png"));
 }
 
 radio row:disabled {
@@ -91,19 +91,19 @@ radio row:disabled {
 
 radio:checked,
 .view.cell radio:checked {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-active.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-active.png"));
 }
 
 radio:checked:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-active-ins.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-active-ins.png"));
 }
 
 radio:indeterminate {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-active.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-mixed-active.png"));
 }
 
 radio:indeterminate:disabled {
-	-gtk-icon-source: -gtk-scaled(url("assets/radio-mixed-active-ins.png"));
+	-ctk-icon-source: -ctk-scaled(url("assets/radio-mixed-active-ins.png"));
 }
 
 .sidebar view radio:active,
@@ -112,23 +112,23 @@ radio:indeterminate:disabled {
 .sidebar view radio:checked,
 .sidebar view radio:checked:focus,
 .sidebar view radio:checked:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-checked.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-checked.svg"));
 }
 
 .sidebar view radio:hover {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-prelight.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-prelight.svg"));
 }
 
 .sidebar view radio:active:selected,
 .sidebar view radio:active:selected:focus,
 .sidebar view radio:checked:selected,
 .sidebar view radio:checked:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-selected.svg"));
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-selected.svg"));
 }
 
 .sidebar view radio:selected:hover,
 .sidebar view radio:selected:focus {
-	-gtk-icon-source: -gtk-scaled(url("assets/sidebar-radio-selected-prelight.svg"));	
+	-ctk-icon-source: -ctk-scaled(url("assets/sidebar-radio-selected-prelight.svg"));	
 }
 
 /*************
@@ -281,12 +281,12 @@ cursor-handle.top {
 
 entry cursor-handle.top,
 cursor-handle.top {
-	-gtk-icon-source: -gtk-icontheme("selection-start-symbolic");
+	-ctk-icon-source: -ctk-icontheme("selection-start-symbolic");
 }
 
 entry cursor-handle.bottom,
 cursor-handle.bottom {
-	-gtk-icon-source: -gtk-icontheme("selection-end-symbolic");
+	-ctk-icon-source: -ctk-icontheme("selection-end-symbolic");
 }
 
 /****************

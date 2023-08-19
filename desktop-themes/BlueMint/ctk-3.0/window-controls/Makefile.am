@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMint/gtk-3.0/window-controls
+themedir = $(datadir)/themes/BlueMint/ctk-3.0/window-controls
 
 theme_DATA = \
 	close_focused_normal.png \
