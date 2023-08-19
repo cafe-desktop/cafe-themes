@@ -18,9 +18,9 @@ headerbar .left:dir(rtl) button.close.titlebutton {
 }
 
 /* Set correct layout with 
-	gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/DecorationLayout': <':minimize,maximize,close'>}" for
+	gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Ctk/DecorationLayout': <':minimize,maximize,close'>}" for
  	buttons on the right or
-	gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Gtk/DecorationLayout': <'close,maximize,minimize:'>}"
+	gsettings set org.gnome.settings-daemon.plugins.xsettings overrides "{'Ctk/DecorationLayout': <'close,maximize,minimize:'>}"
 	for buttons on the left */
 
 /* minimize */
