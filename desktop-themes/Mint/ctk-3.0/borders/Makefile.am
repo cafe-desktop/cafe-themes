@@ -1,5 +1,5 @@
 
-themedir = $(datadir)/themes/Mint/gtk-3.0/borders
+themedir = $(datadir)/themes/Mint/ctk-3.0/borders
 
 theme_DATA = \
 	button.png \

@@ -417,7 +417,7 @@ PanelSeparator {
 
 /* the grid left from na-tray and wncktasklist */
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
-    background-image: -gtk-scaled(url("assets/panel-grid.svg"));
+    background-image: -ctk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
     background-repeat: no-repeat;
     background-position: left;
@@ -449,7 +449,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 /* all applets */
-/* needed for cafe-menu/mintmenu/wnck-tasklist to override a wildcard at line 37 gtk-widgets.css */
+/* needed for cafe-menu/mintmenu/wnck-tasklist to override a wildcard at line 37 ctk-widgets.css */
 #PanelApplet:selected,
 #PanelApplet #tasklist-button * {
     color: shade (@theme_fg_color, 1.00);
@@ -1085,7 +1085,7 @@ window.background.maximized.caja-navigation-window notebook.caja-notebook scroll
     color: shade (@theme_selected_bg_color, 0.35);
 }
 
-/* SushiFontViewer, does not work!, only with gtk3-inspector */
+/* SushiFontViewer, does not work!, only with ctk3-inspector */
 .font-viewer viewport:backdrop > widget.view:backdrop {
     background-color: shade(@backdrop_color, 1.00);
     color: @theme_unfocused_fg_color;

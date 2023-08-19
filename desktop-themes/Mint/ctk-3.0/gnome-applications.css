@@ -86,7 +86,7 @@
 }
 
 .nautilus-window headerbar.titlebar .linked.path-bar> button:first-child widget {
-    -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-start-symbolic");
 }
 
 .nautilus-window headerbar.titlebar .linked.path-bar > button:first-child {
@@ -95,7 +95,7 @@
 }
 
 .nautilus-window headerbar.titlebar .linked.path-bar > button:last-child widget {
-    -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+    -ctk-icon-source: -ctk-icontheme("pan-end-symbolic");
 }
 
 .nautilus-window headerbar.titlebar .linked.path-bar> button:last-child {
