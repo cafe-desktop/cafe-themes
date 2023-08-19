@@ -3449,7 +3449,7 @@ paned.horizontal.titlebar separator,
 	color: transparent;
 }
 
-/* this is the default titlebar that is added by GTK
+/* this is the default titlebar that is added by CTK
  * when client-side decorations are in use and the application
  * did not set a custom titlebar.
  */
