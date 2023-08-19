@@ -177,7 +177,7 @@ headerbar .left:dir(rtl) button.close.titlebutton:backdrop:hover {
 
 .titlebar button.close.titlebutton {
     /* fake request     to avoid usage of regular window-close button*/
-    -gtk-icon-style: requested;
+    -ctk-icon-style: requested;
 }
 
 /* Menu button when fallback kicks in (XFCE, Cinnamon etc.) */
@@ -195,7 +195,7 @@ headerbar .button.popup.titlebutton:active {
 }
 */
 
-/* gtk+-3.20 */
+/* ctk+-3.20 */
 headerbar button.close.titlebutton,
 headerbar button.minimize.titlebutton,
 headerbar button.maximize.titlebutton {

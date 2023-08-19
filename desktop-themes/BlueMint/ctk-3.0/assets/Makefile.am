@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMint/gtk-3.0/assets
+themedir = $(datadir)/themes/BlueMint/ctk-3.0/assets
 
 theme_DATA = \
 	check-active-ins.png \
