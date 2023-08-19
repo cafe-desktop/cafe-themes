@@ -140,6 +140,10 @@ desktop-themes/Mint/gtk-3.0/Makefile
 desktop-themes/Mint/gtk-3.0/assets/Makefile
 desktop-themes/Mint/gtk-3.0/borders/Makefile
 desktop-themes/Mint/gtk-3.0/window-controls/Makefile
+desktop-themes/Mint/ctk-3.0/Makefile
+desktop-themes/Mint/ctk-3.0/assets/Makefile
+desktop-themes/Mint/ctk-3.0/borders/Makefile
+desktop-themes/Mint/ctk-3.0/window-controls/Makefile
 desktop-themes/Mint/metacity-1/Makefile
 desktop-themes/Mint/unity/Makefile
 desktop-themes/Mint/xfwm4/Makefile
