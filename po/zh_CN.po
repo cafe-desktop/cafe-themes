@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR CAFE Desktop Environment team
 # This file is distributed under the same license as the cafe-themes package.
-# 
+#
 # Translators:
 # biqiu-ssw <shenshuaiwen@gmail.com>, 2018
 # Funda Wang <fundawang@linux.net.cn>, 2003
@@ -13,14 +13,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
-"POT-Creation-Date: 2019-11-20 18:49+0100\n"
+"POT-Creation-Date: 2023-08-20 09:53+0200\n"
 "PO-Revision-Date: 2019-11-06 20:08+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Chinese (China) (http://www.transifex.com/cafe/CAFE/language/zh_CN/)\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/cafe/CAFE/language/"
+"zh_CN/)\n"
+"Language: zh_CN\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: zh_CN\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #: cursor-themes/cafe-black/index.theme.in:3
@@ -52,16 +53,16 @@ msgid "A medium blue theme with dark menus and panel"
 msgstr "蓝色混合主题，菜单和面板是暗色的"
 
 #: desktop-themes/ContrastBig/index.theme.in:4
-msgid "High Contrast"
-msgstr "高对比"
+msgid "Big Contrast"
+msgstr ""
 
 #: desktop-themes/ContrastBig/index.theme.in:5
 msgid "High contrast theme"
 msgstr "高对比度主题"
 
 #: desktop-themes/BigContrastInverse/index.theme.in:4
-msgid "High Contrast Inverse"
-msgstr "高对比反色"
+msgid "Big Contrast Inverse"
+msgstr ""
 
 #: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
@@ -106,3 +107,9 @@ msgstr "ClassicOk"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Clearlooks-Phenix 的移植版本"
+
+#~ msgid "High Contrast"
+#~ msgstr "高对比"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "高对比反色"

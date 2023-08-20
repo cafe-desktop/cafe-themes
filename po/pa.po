@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR CAFE Desktop Environment team
 # This file is distributed under the same license as the cafe-themes package.
-# 
+#
 # Translators:
 # A S Alam <aalam@users.sf.net>, 2004, 2005, 2006, 2007, 2009
 # jaswinder singh <jaswindersinghra@yahoo.com>, 2004
@@ -9,14 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
-"POT-Creation-Date: 2019-11-20 18:49+0100\n"
+"POT-Creation-Date: 2023-08-20 09:53+0200\n"
 "PO-Revision-Date: 2019-11-06 20:08+0000\n"
 "Last-Translator: Stefano Karapetsas <stefano@karapetsas.com>\n"
-"Language-Team: Panjabi (Punjabi) (http://www.transifex.com/cafe/CAFE/language/pa/)\n"
+"Language-Team: Panjabi (Punjabi) (http://www.transifex.com/cafe/CAFE/"
+"language/pa/)\n"
+"Language: pa\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: pa\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: cursor-themes/cafe-black/index.theme.in:3
@@ -48,16 +49,16 @@ msgid "A medium blue theme with dark menus and panel"
 msgstr ""
 
 #: desktop-themes/ContrastBig/index.theme.in:4
-msgid "High Contrast"
-msgstr "ਵੱਧ ਭਿੰਨਤਾ"
+msgid "Big Contrast"
+msgstr ""
 
 #: desktop-themes/ContrastBig/index.theme.in:5
 msgid "High contrast theme"
 msgstr ""
 
 #: desktop-themes/BigContrastInverse/index.theme.in:4
-msgid "High Contrast Inverse"
-msgstr "ਵੱਧ ਭਿੰਨਤਾ ਉਲਟ"
+msgid "Big Contrast Inverse"
+msgstr ""
 
 #: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
@@ -102,3 +103,9 @@ msgstr ""
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr ""
+
+#~ msgid "High Contrast"
+#~ msgstr "ਵੱਧ ਭਿੰਨਤਾ"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "ਵੱਧ ਭਿੰਨਤਾ ਉਲਟ"

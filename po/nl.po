@@ -1,7 +1,7 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR CAFE Desktop Environment team
 # This file is distributed under the same license as the cafe-themes package.
-# 
+#
 # Translators:
 # Henrik Goijer <henrikgoijer@home.nl>, 2004
 # Kees Lijkendijk <clkndk@gmail.com>, 2016
@@ -15,14 +15,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
-"POT-Creation-Date: 2019-11-20 18:49+0100\n"
+"POT-Creation-Date: 2023-08-20 09:53+0200\n"
 "PO-Revision-Date: 2019-11-20 11:58+0000\n"
 "Last-Translator: Pjotr <pjotrvertaalt@gmail.com>\n"
 "Language-Team: Dutch (http://www.transifex.com/cafe/CAFE/language/nl/)\n"
+"Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: nl\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: cursor-themes/cafe-black/index.theme.in:3
@@ -54,16 +54,16 @@ msgid "A medium blue theme with dark menus and panel"
 msgstr "Een middelblauw thema met donkere menu's en paneel"
 
 #: desktop-themes/ContrastBig/index.theme.in:4
-msgid "High Contrast"
-msgstr "Hoog contrast"
+msgid "Big Contrast"
+msgstr ""
 
 #: desktop-themes/ContrastBig/index.theme.in:5
 msgid "High contrast theme"
 msgstr "Hoog-contrast-thema"
 
 #: desktop-themes/BigContrastInverse/index.theme.in:4
-msgid "High Contrast Inverse"
-msgstr "Hoog contrast negatief"
+msgid "Big Contrast Inverse"
+msgstr ""
 
 #: desktop-themes/BigContrastInverse/index.theme.in:5
 msgid "White-on-black text and icons"
@@ -108,3 +108,9 @@ msgstr "ClassicOk"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Editie van Clearlooks-Phenix"
+
+#~ msgid "High Contrast"
+#~ msgstr "Hoog contrast"
+
+#~ msgid "High Contrast Inverse"
+#~ msgstr "Hoog contrast negatief"
