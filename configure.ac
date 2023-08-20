@@ -1,6 +1,6 @@
 AC_PREREQ(2.53)
 
-AC_INIT([cafe-themes], [3.22.21], [https://cafe-desktop.org])
+AC_INIT([cafe-themes], [1.25.0], [https://cafe-desktop.org])
 AC_CONFIG_SRCDIR([icon-themes])
 
 AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip check-news])
