@@ -101,9 +101,3 @@ msgstr "Ավանդական"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr ""
-
-#~ msgid "High Contrast"
-#~ msgstr "Բարձր Հակադրություն"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "Բարձր Հակադրություն Հակադարձ"

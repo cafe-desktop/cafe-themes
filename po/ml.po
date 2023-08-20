@@ -104,9 +104,3 @@ msgstr ""
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr ""
-
-#~ msgid "High Contrast"
-#~ msgstr "മിഴിവുറ്റ"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "കൂടുതല്‍ മിഴിവോട് കൂടി സ്ക്രീന്‍ പശ്ചാത്തലം തിരിച്ചിട്ടു കാണുക"

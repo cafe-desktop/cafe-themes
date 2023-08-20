@@ -107,9 +107,3 @@ msgstr "ClassicOk"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Übertragung von Clearlooks-Phenix"
-
-#~ msgid "High Contrast"
-#~ msgstr "Hoher Kontrast"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "Hoher Kontrast, invertiert"

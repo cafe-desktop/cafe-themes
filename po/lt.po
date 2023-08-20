@@ -107,9 +107,3 @@ msgstr "Įprasta „Ok“"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Perkelta Clearlooks-Phenix"
-
-#~ msgid "High Contrast"
-#~ msgstr "Kontrastinga"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "Kontrastinga ir inversinė"

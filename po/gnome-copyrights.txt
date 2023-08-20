@@ -1027,7 +1027,3 @@
 # Copyright (C) 2003-07 Free Software Foundation, Inc.
 # Abel Cheung <abel@oaka.org>, 2003-07.
 #
-
-
-
-

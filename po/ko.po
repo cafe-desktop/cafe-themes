@@ -104,9 +104,3 @@ msgstr "ClassicOk"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "클리어룩스-피닉스 계열"
-
-#~ msgid "High Contrast"
-#~ msgstr "고대비"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "고대비 역상"

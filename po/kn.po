@@ -101,9 +101,3 @@ msgstr ""
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr ""
-
-#~ msgid "High Contrast"
-#~ msgstr "ಹೆಚ್ಚು ವೈದೃಶ್ಯ(ಕಾಂಟ್ರಾಸ್ಟ್‍)"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "ಹೆಚ್ಚು ವೈದೃಶ್ಯದ (ಕಾಂಟ್ರಾಸ್ಟಿನ) ವಿಲೋಮ"

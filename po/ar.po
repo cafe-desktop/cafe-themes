@@ -107,9 +107,3 @@ msgstr "تقليدي جيد"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr ""
-
-#~ msgid "High Contrast"
-#~ msgstr "تباينٌ عالٍ"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "تباينٌ عالٍ معكوس"

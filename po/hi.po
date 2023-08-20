@@ -103,9 +103,3 @@ msgstr "ट्रेडिशनल ओके"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr ""
-
-#~ msgid "High Contrast"
-#~ msgstr "अधिक विरोध"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "अधिक विरोध प्रतिलोम"

@@ -104,9 +104,3 @@ msgstr ""
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Bản phối của Clearlooks-Phenix"
-
-#~ msgid "High Contrast"
-#~ msgstr "Độ tương phản cao"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "Độ tương phản cao ngược lại"

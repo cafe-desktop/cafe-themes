@@ -102,9 +102,3 @@ msgstr "TradizionalaAdos"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Clearlooks-Phenix-en bertsioa"
-
-#~ msgid "High Contrast"
-#~ msgstr "Kontraste handia"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "Alderantzizko kontraste handia"

@@ -103,9 +103,3 @@ msgstr "Традиционална"
 #: desktop-themes/ClassicOk/index.theme.in:5
 msgid "Port of Clearlooks-Phenix"
 msgstr "Изведба Феникса чистог изгледа"
-
-#~ msgid "High Contrast"
-#~ msgstr "Велики контраст"
-
-#~ msgid "High Contrast Inverse"
-#~ msgstr "Обрнути велики контраст"
