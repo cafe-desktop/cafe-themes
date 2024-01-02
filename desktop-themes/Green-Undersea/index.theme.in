@@ -5,6 +5,7 @@ Comment=A medium green theme with dark menus and panel
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=Green-Undersea
 GtkTheme=Green-Undersea
 MetacityTheme=Green-Undersea
 IconTheme=mint

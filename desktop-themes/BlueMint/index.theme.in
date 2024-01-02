@@ -5,6 +5,7 @@ Comment=A clean light theme with blue elements
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=BlueMint
 GtkTheme=BlueMint
 MetacityTheme=BlueMint
 IconTheme=cafe

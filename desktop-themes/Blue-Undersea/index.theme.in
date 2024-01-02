@@ -5,6 +5,7 @@ Comment=A medium blue theme with dark menus and panel
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=Blue-Undersea
 GtkTheme=Blue-Undersea
 MetacityTheme=Blue-Undersea
 IconTheme=cafe

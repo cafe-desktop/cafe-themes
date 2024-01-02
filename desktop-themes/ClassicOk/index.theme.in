@@ -5,6 +5,7 @@ Comment=Port of Clearlooks-Phenix
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=ClassicOk
 GtkTheme=ClassicOk
 MetacityTheme=ClassicOk
 IconTheme=cafe

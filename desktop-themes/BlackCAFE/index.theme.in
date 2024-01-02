@@ -5,6 +5,7 @@ Comment=A clean dark theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=BlackCAFE
 GtkTheme=BlackCAFE
 MetacityTheme=BlackCAFE
 IconTheme=cafe

@@ -5,6 +5,7 @@ Comment=Green port of Clearlooks-Phenix
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=ClassicGreen
 GtkTheme=ClassicGreen
 MetacityTheme=ClassicGreen
 IconTheme=mint

@@ -5,6 +5,7 @@ Comment=High contrast theme
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
+CtkTheme=HighContrast
 GtkTheme=HighContrast
 IconTheme=HighContrast
 MetacityTheme=HighContrast
