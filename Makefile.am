@@ -1,6 +1,6 @@
 SUBDIRS = \
 	po	\
-	marco-themes \
+	croma-themes \
 	icon-themes \
 	desktop-themes \
 	cursor-themes

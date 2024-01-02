@@ -166,7 +166,7 @@ desktop-themes/ClassicOk/metacity-1/Makefile
 desktop-themes/ClassicOk/openbox-3/Makefile
 desktop-themes/ClassicOk/xfwm4/Makefile
 desktop-themes/ClassicOk/xfwm4/png/Makefile
-marco-themes/Makefile
+croma-themes/Makefile
 icon-themes/Makefile
 icon-themes/ContrastBig/Makefile
 icon-themes/ContrastBig/16x16/Makefile

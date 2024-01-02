@@ -55,8 +55,8 @@ pixmap_DATA = \
 	double-click-on.png double-click-off.png double-click-maybe.png \
 	printer-default.png printer-broken.png printer-inkjet.png \
 	printer-personal-laser.png printer-workgroup-laser.png \
-	marco-minimize.png marco-maximize.png \
-	marco-delete.png \
+	croma-minimize.png croma-maximize.png \
+	croma-delete.png \
 	stock_info.png stock_harddisk.png \
 	$(NULL)
 
