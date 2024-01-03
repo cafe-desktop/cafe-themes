@@ -10,13 +10,13 @@
 
 <!-- Colors -->
 
-<constant name="C_border_focused" value="blend/#000000/gtk:bg[NORMAL]/0.75" />
-<constant name="C_border_unfocused" value="blend/#000000/gtk:bg[NORMAL]/0.8" />
-<constant name="C_attach_line" value="blend/#000000/gtk:bg[NORMAL]/0.75" />
-<constant name="C_attached" value="blend/#000000/gtk:bg[NORMAL]/0.75" />
-<constant name="C_title_focused" value="blend/gtk:fg[NORMAL]/gtk:bg[NORMAL]/0.1" />
-<constant name="C_title_focused_hilight" value="gtk:base[NORMAL]" />
-<constant name="C_title_unfocused" value="blend/gtk:text[NORMAL]/gtk:bg[NORMAL]/0.63" />
+<constant name="C_border_focused" value="blend/#000000/ctk:bg[NORMAL]/0.75" />
+<constant name="C_border_unfocused" value="blend/#000000/ctk:bg[NORMAL]/0.8" />
+<constant name="C_attach_line" value="blend/#000000/ctk:bg[NORMAL]/0.75" />
+<constant name="C_attached" value="blend/#000000/ctk:bg[NORMAL]/0.75" />
+<constant name="C_title_focused" value="blend/ctk:fg[NORMAL]/ctk:bg[NORMAL]/0.1" />
+<constant name="C_title_focused_hilight" value="ctk:base[NORMAL]" />
+<constant name="C_title_unfocused" value="blend/ctk:text[NORMAL]/ctk:bg[NORMAL]/0.63" />
 
 <!-- Geometries -->
 
@@ -141,7 +141,7 @@
 	<!-- Window Decorations -->
 
 <draw_ops name="entire_background_focused">
-	<rectangle color="gtk:bg[NORMAL]" x="0" y="0" width="width" height="height" filled="true" />
+	<rectangle color="ctk:bg[NORMAL]" x="0" y="0" width="width" height="height" filled="true" />
 </draw_ops>
 
 <draw_ops name="entire_background_unfocused">
@@ -150,36 +150,36 @@
 
 <draw_ops name="titlebar_fill_focused">
 	<gradient type="vertical" x="0" y="0" width="width" height="height">
-		<color value="gtk:custom(wm_a,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.6)" />
-		<color value="gtk:custom(wm_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_a,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.6)" />
+		<color value="ctk:custom(wm_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_focused_alt"> <!-- gradient for focused dialogs and utility titlebar-->
 	<gradient type="vertical" x="0" y="0" width="width" height="height">
-		<color value="gtk:custom(wm_util,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.3)" />
-		<color value="gtk:custom(wm_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_util,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.3)" />
+		<color value="ctk:custom(wm_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_focused_alt2"> <!-- gradient for attached and modal dialogs titlebar-->
 	<gradient type="vertical" x="0" y="0" width="width" height="title_height">
-		<color value="gtk:custom(wm_util,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.3)" />
-		<color value="gtk:custom(wm_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_util,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.3)" />
+		<color value="ctk:custom(wm_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused_alt2"> <!-- gradient for unfocused attached dialogs titlebar-->
 	<gradient type="vertical" x="0" y="0" width="width" height="title_height">
-		<color value="gtk:custom(wm_unfocus,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.2)" />
-		<color value="gtk:custom(wm_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_unfocus,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.2)" />
+		<color value="ctk:custom(wm_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
 <draw_ops name="titlebar_fill_unfocused">
 	<gradient type="vertical" x="0" y="0" width="width" height="height">
-		<color value="gtk:custom(wm_unfocus,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.2)" />
-		<color value="gtk:custom(wm_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_unfocus,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.2)" />
+		<color value="ctk:custom(wm_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
