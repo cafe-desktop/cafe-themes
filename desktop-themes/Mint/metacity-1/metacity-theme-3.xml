@@ -10,14 +10,14 @@
 
 <!-- meaningfull constants -->
 
-<constant name="C_border_focused" value="blend/#000000/gtk:bg[NORMAL]/0.5" />
-<constant name="C_border_unfocused" value="blend/#000000/gtk:bg[NORMAL]/0.6" />
-<constant name="C_titlebar_focused_hilight" value="gtk:custom(wm_highlight,gtk:base[NORMAL])" />
-<constant name="C_titlebar_unfocused" value="blend/gtk:base[NORMAL]/gtk:bg[NORMAL]/0.4" />
-<constant name="C_title_focused" value="gtk:custom(wm_title,gtk:fg[NORMAL])" />
-<constant name="C_title_focused_hilight" value="gtk:custom(wm_title_highlight,gtk:base[NORMAL])" />
-<constant name="C_title_focused_hilight_dark" value="gtk:custom(wm_title_highlight_dark,gtk:bg[NORMAL])" />
-<constant name="C_title_unfocused" value="gtk:custom(wm_unfocused_title,gtk:fg[INSENSITIVE])" />
+<constant name="C_border_focused" value="blend/#000000/ctk:bg[NORMAL]/0.5" />
+<constant name="C_border_unfocused" value="blend/#000000/ctk:bg[NORMAL]/0.6" />
+<constant name="C_titlebar_focused_hilight" value="ctk:custom(wm_highlight,ctk:base[NORMAL])" />
+<constant name="C_titlebar_unfocused" value="blend/ctk:base[NORMAL]/ctk:bg[NORMAL]/0.4" />
+<constant name="C_title_focused" value="ctk:custom(wm_title,ctk:fg[NORMAL])" />
+<constant name="C_title_focused_hilight" value="ctk:custom(wm_title_highlight,ctk:base[NORMAL])" />
+<constant name="C_title_focused_hilight_dark" value="ctk:custom(wm_title_highlight_dark,ctk:bg[NORMAL])" />
+<constant name="C_title_unfocused" value="ctk:custom(wm_unfocused_title,ctk:fg[INSENSITIVE])" />
 <!-- color of the button icons -->
 <constant name="D_icons_unfocused_offset" value="0" /> <!-- offset of the unfocused icons -->
 <!-- geometries -->
@@ -138,7 +138,7 @@
 	<!-- window decorations -->
 
 <draw_ops name="entire_background_focused">
-	<rectangle color="gtk:bg[NORMAL]" x="0" y="0" width="width" height="height" filled="true" />
+	<rectangle color="ctk:bg[NORMAL]" x="0" y="0" width="width" height="height" filled="true" />
 </draw_ops>
 
 <draw_ops name="entire_background_unfocused">
@@ -147,16 +147,16 @@
 
 <draw_ops name="titlebar_fill_focused">
 	<gradient type="vertical" x="0" y="0" width="width" height="height">
-		<color value="gtk:custom(wm_bg_a,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.4)" />
-		<color value="gtk:custom(wm_bg_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_bg_a,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.4)" />
+		<color value="ctk:custom(wm_bg_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
 
 <draw_ops name="titlebar_fill_unfocused">
 	<gradient type="vertical" x="0" y="0" width="width" height="height">
-		<color value="gtk:custom(wm_bg_a,blend/gtk:bg[NORMAL]/gtk:base[NORMAL]/0.4)" />
-		<color value="gtk:custom(wm_bg_b,gtk:bg[NORMAL])" />
+		<color value="ctk:custom(wm_bg_a,blend/ctk:bg[NORMAL]/ctk:base[NORMAL]/0.4)" />
+		<color value="ctk:custom(wm_bg_b,ctk:bg[NORMAL])" />
 	</gradient>
 </draw_ops>
 
@@ -164,7 +164,7 @@
 	<line x1="0" y1="1" x2="width-1" y2="1" color="C_titlebar_focused_hilight" />
 	<gradient type="vertical" x="1" y="1" width="1" height="height-4">
 		<color value="C_titlebar_focused_hilight" />
-		<color value="blend/gtk:bg[NORMAL]/#000000/0.03" />
+		<color value="blend/ctk:bg[NORMAL]/#000000/0.03" />
 	</gradient>
 </draw_ops>
 
