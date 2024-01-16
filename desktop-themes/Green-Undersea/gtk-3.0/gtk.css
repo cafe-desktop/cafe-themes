@@ -288,7 +288,7 @@
 @define-color overshoot_bg_color alpha (@theme_selected_bg_color, 0.55);
 @define-color overshoot_backdrop_bg_color #C8FA96;
 
-/* inactive-pane caja */
+/* inactive-pane baul */
 @define-color inactive-pane_bg_color #E5E5E5;
 
 @import url("gtk-widgets.css");

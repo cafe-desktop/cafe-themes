@@ -5,59 +5,59 @@
 /**** Window ***/
 
 /* icon and list view */
-.caja-notebook .view,
-.caja-notebook scrolledwindow.frame {
+.baul-notebook .view,
+.baul-notebook scrolledwindow.frame {
     border-style: none;
 }
 
 /* override for previous setting */
-.caja-notebook scrolledwindow.frame .view.dnd {
+.baul-notebook scrolledwindow.frame .view.dnd {
     border-style: solid;
 }
 
 /* list view */
-.caja-notebook treeview.view {
+.baul-notebook treeview.view {
     padding: 0px;
 }
 
-/* inactive-pane caja */
-.caja-notebook .view:disabled {
+/* inactive-pane baul */
+.baul-notebook .view:disabled {
     background-color: @inactive-pane_bg_color;
 }
 
 /* to avoid white pixels from base color */
-.caja-notebook {
+.baul-notebook {
     background-color: @theme_bg_color;
 }
 
-/* caja sidebar */
-.caja-side-pane notebook treeview.view,
-.caja-side-pane notebook textview.view text,
-.caja-side-pane notebook viewport.frame,
-.caja-side-pane notebook widget .vertical {
+/* baul sidebar */
+.baul-side-pane notebook treeview.view,
+.baul-side-pane notebook textview.view text,
+.baul-side-pane notebook viewport.frame,
+.baul-side-pane notebook widget .vertical {
     background-color: shade (@theme_bg_color, 1.08);
 }
 
-.caja-side-pane > notebook {
+.baul-side-pane > notebook {
    border-style: solid;
    border-width: 1px;
    border-color: @notebook_border;
 }
 
-/* .caja-side-pane alone does not work here to override settings in notebook */
-paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
+/* .baul-side-pane alone does not work here to override settings in notebook */
+paned.horizontal > box.vertical.baul-side-pane > notebook scrolledwindow.frame {
    border-style: none;
    border-width: 0px;
 }
 
-.caja-side-pane treeview,
-.caja-side-pane treeview > header > button {
+.baul-side-pane treeview,
+.baul-side-pane treeview > header > button {
     padding: 0px 0px 0px 0px;
 }
 
 /* selected item in sidebar */
-.caja-side-pane treeview:selected,
-.caja-side-pane treeview:selected:hover {
+.baul-side-pane treeview:selected,
+.baul-side-pane treeview:selected:hover {
     background-image: -ctk-gradient (linear,
                                      left top,
                                      left bottom,
@@ -73,7 +73,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /* mouse hover item in sidebar */
-.caja-side-pane treeview:hover {
+.baul-side-pane treeview:hover {
     background-image: -ctk-gradient (linear,
                                      left top,
                                      left bottom,
@@ -90,8 +90,8 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /* Caja places bar */
-.caja-side-pane button.flat,
-.caja-side-pane button.flat.toggle {
+.baul-side-pane button.flat,
+.baul-side-pane button.flat.toggle {
     border-style: none;
     background-image: -ctk-gradient (linear,
                                      left top, left bottom,
@@ -101,15 +101,15 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
     text-shadow: 0px 1px @theme_shadow_color;
 }
 
-.caja-side-pane button.flat {
+.baul-side-pane button.flat {
     padding: 3px;
 }
 
-.caja-side-pane button.flat.toggle {
+.baul-side-pane button.flat.toggle {
     padding: 0px 3px 0px 6px;
 }
 
-.caja-side-pane button.flat.toggle:first-child {
+.baul-side-pane button.flat.toggle:first-child {
     border-radius: 4px 0 0 4px;
     border-width: 1px 0px 1px 1px;
 /* remove left shadow */
@@ -123,7 +123,7 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
                 inset  0px -1px alpha(shade(@button_border, 0.88), 0.90);
 }
 
-.caja-side-pane button.flat:last-child {
+.baul-side-pane button.flat:last-child {
     border-radius: 0 4px 4px 0;
     border-width: 1px 1px 1px 0px;
     box-shadow: inset  0px  2px alpha(#fff, 0.11),
@@ -136,8 +136,8 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
                 inset  0px -1px alpha(shade(@button_border, 0.88), 0.90);
 }
 
-.caja-side-pane button.flat:checked:last-child,
-.caja-side-pane button.flat.toggle:checked:first-child {
+.baul-side-pane button.flat:checked:last-child,
+.baul-side-pane button.flat.toggle:checked:first-child {
     background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade (@theme_bg_color, 1.20)),
@@ -146,38 +146,38 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
                                      to (shade (@theme_bg_color, 0.80)));
 }
 
-.caja-side-pane button.flat:hover:last-child,
-.caja-side-pane button.flat.toggle:hover:first-child {
+.baul-side-pane button.flat:hover:last-child,
+.baul-side-pane button.flat.toggle:hover:first-child {
     background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@button_gradient1, 1.03)),
                                      to   (shade(@button_gradient4, 1.01)));
 }
 
-.caja-side-pane button.flat.toggle:hover:first-child,
-.caja-side-pane button.flat.toggle:checked:first-child {
+.baul-side-pane button.flat.toggle:hover:first-child,
+.baul-side-pane button.flat.toggle:checked:first-child {
     box-shadow: inset  0px  1px shade(@selected_bg_color, 1.05),
                 inset  1px  0px shade(@selected_bg_color, 0.97),
                 inset -1px  0px rgba(255,255,255,0), 0 1px rgba(255,255,255,0),
                 inset  0px -1px shade(@selected_bg_color, 0.93);
 }
 
-.caja-side-pane button.flat:hover:last-child,
-.caja-side-pane button.flat:checked:last-child {
+.baul-side-pane button.flat:hover:last-child,
+.baul-side-pane button.flat:checked:last-child {
     box-shadow: inset  0px  1px shade(@selected_bg_color, 1.05),
                 inset  1px  0px shade(@selected_bg_color, 0.97),
                 inset -1px  0px shade(@selected_bg_color, 0.93),
                 inset  0px -1px shade(@selected_bg_color, 0.93);
 }
 
-.caja-side-pane button.flat.toggle:focus:first-child {
+.baul-side-pane button.flat.toggle:focus:first-child {
     box-shadow: inset  0px  1px shade(rgb(0,204,133), 1.00),
                 inset  1px  0px shade(rgb(0,204,133), 1.00),
                 inset -1px  0px rgba(255,255,255,0), 0 1px rgba(255,255,255,0),
                 inset  0px -1px shade(rgb(0,204,133), 1.00);
 }
 
-.caja-side-pane button.flat:focus:last-child {
+.baul-side-pane button.flat:focus:last-child {
     box-shadow: inset  0px  1px shade(rgb(0,204,133), 1.00),
                 inset  1px  0px shade(rgb(0,204,133), 1.00),
                 inset -1px  0px shade(rgb(0,204,133), 1.00),
@@ -185,59 +185,59 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /* pathpar toggle button */
-.caja-navigation-window button.toggle.image-button,
-.caja-navigation-window button.toggle.image-button:checked {
+.baul-navigation-window button.toggle.image-button,
+.baul-navigation-window button.toggle.image-button:checked {
     padding: 4px 4px;
     border-radius: 5px;
 }
 
 /* pathbar buttons */
-.caja-pathbar button {
+.baul-pathbar button {
     padding: 3px 4px;
 }
 
 /* arrow button */
-.caja-pathbar button.slider-button:focus,
-.caja-pathbar button.slider-button:hover {
+.baul-pathbar button.slider-button:focus,
+.baul-pathbar button.slider-button:hover {
     box-shadow: inset  0px  1px shade(rgb(0,204,133), 1.00),
                 inset  1px  0px shade(rgb(0,204,133), 1.00),
                 inset -1px  0px shade(rgb(0,204,133), 1.00),
                 inset  0px -1px shade(rgb(0,204,133), 1.00);
 }
 
-.caja-pathbar button.slider-button:nth-child(odd) {
+.baul-pathbar button.slider-button:nth-child(odd) {
     border-radius: 5px 0px 0px 5px;
     border-width: 1px 0px 1px 1px;
     margin: 0px -2px 0px 3px;
 }
 
-.caja-pathbar button.slider-button:nth-child(even) {
+.baul-pathbar button.slider-button:nth-child(even) {
     border-radius:  0px 5px 5px 0px;
     border-width: 1px 1px 1px 0px;
     margin: 0px 3px 0px -2px;
 }
 
 /* folder buttons */
-.caja-pathbar button.toggle.text-button:focus,
-.caja-pathbar button.toggle.text-button.image-button:focus,
-.caja-pathbar button.toggle.text-button:hover,
-.caja-pathbar button.toggle.text-button.image-button:hover {
+.baul-pathbar button.toggle.text-button:focus,
+.baul-pathbar button.toggle.text-button.image-button:focus,
+.baul-pathbar button.toggle.text-button:hover,
+.baul-pathbar button.toggle.text-button.image-button:hover {
     box-shadow: inset  0px  1px shade(rgb(0,204,133), 1.00),
                 inset  1px  0px shade(rgb(0,204,133), 1.00),
                 inset -1px  0px shade(rgb(0,204,133), 1.00),
                 inset  0px -1px shade(rgb(0,204,133), 1.00);
 }
 
-.caja-pathbar button.toggle.text-button,
-.caja-pathbar button.toggle.text-button.image-button {
+.baul-pathbar button.toggle.text-button,
+.baul-pathbar button.toggle.text-button.image-button {
     margin: 0px -2px 0px -2px;
     border-width: 1px 0px;
     border-radius: 0px;
     padding: 3px 6px;
 }
 
-.caja-search-bar entry,
-.caja-location-entry {
+.baul-search-bar entry,
+.baul-location-entry {
     padding: 3px;
     border-style: none;
     box-shadow: inset  0px  1px shade (@theme_bg_color, 0.80),
@@ -246,8 +246,8 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
                 inset  0px -1px shade (@theme_bg_color, 0.80);
 }
 
-.caja-search-bar entry:focus,
-.caja-location-entry:focus {
+.baul-search-bar entry:focus,
+.baul-location-entry:focus {
     box-shadow: inset  0px  1px shade(@selected_bg_color, 1.05),
                 inset  1px  0px shade(@selected_bg_color, 0.97),
                 inset -1px  0px shade(@selected_bg_color, 0.93),
@@ -255,45 +255,45 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /* eventbars, ie. search results */
-.caja-notebook box.vertical frame {
+.baul-notebook box.vertical frame {
     background-color: shade (@theme_bg_color, 1.02);
 }
 
 /* needed as this is used for firefox locationbar */
-.caja-notebook box.vertical > frame > border {
+.baul-notebook box.vertical > frame > border {
     border-style: none;
     border-radius: 0px;
 }
 
-.caja-notebook #caja-extra-view-widget {
+.baul-notebook #baul-extra-view-widget {
     background-color: shade (@theme_bg_color, 1.05);
     border-color: @notebook_border;
     border-width: 1px 1px 0px 1px;
     border-style: solid;
 }
 
-.caja-notebook #caja-extra-view-widget button.flat {
+.baul-notebook #baul-extra-view-widget button.flat {
     padding: 4px;
     border-radius: 5px;
 }
 
 /* primary-toolbar */
 /* zoom buttons */
-.caja-navigation-window toolbar.primary-toolbar #Zoom button.flat {
+.baul-navigation-window toolbar.primary-toolbar #Zoom button.flat {
     border-radius: 0px;
     border-style: solid;
     border-width: 1px 0px 1px 0px;
     padding: 0px 4px;
 }
 
-.caja-navigation-window toolbar.primary-toolbar #Zoom button.flat:first-child {
+.baul-navigation-window toolbar.primary-toolbar #Zoom button.flat:first-child {
     border-radius: 5px 0px 0px 5px;
     border-style: solid;
     border-width: 1px 0px 1px 1px;
     padding: 0px 5px;
 }
 
-.caja-navigation-window toolbar.primary-toolbar #Zoom button.flat:last-child {
+.baul-navigation-window toolbar.primary-toolbar #Zoom button.flat:last-child {
     border-radius: 0px  5px 5px 0px;
     border-style: solid;
     border-width: 1px 1px 1px 0px;
@@ -301,14 +301,14 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /* ComboBox views */
-.caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo,
-.caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover,
-.caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover:checked {
+.baul-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo,
+.baul-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover,
+.baul-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover:checked {
     padding: 7px 2px 7px 5px;
 }
 
-.caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover,
-.caja-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:checked {
+.baul-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:hover,
+.baul-navigation-window toolbar.primary-toolbar combobox > .linked > button.combo:checked {
     background-image: -ctk-gradient (linear,
                                      left top, left bottom,
                                      from (shade(@menu_bg_dark_color, 2.03)),
@@ -316,27 +316,27 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
 }
 
 /* navigation buttons */
-.caja-navigation-window toolbar.primary-toolbar #Back button.image-button,
-.caja-navigation-window toolbar.primary-toolbar #Forward button.image-button {
+.baul-navigation-window toolbar.primary-toolbar #Back button.image-button,
+.baul-navigation-window toolbar.primary-toolbar #Forward button.image-button {
     border-radius: 5px 0px 0px 5px;
     border-width: 1px 0px 1px 1px;
 }
 
 /* navigation dropdown-menu buttons */
-.caja-navigation-window toolbar.primary-toolbar toolbutton button.toggle.popup {
+.baul-navigation-window toolbar.primary-toolbar toolbutton button.toggle.popup {
     border-radius: 0px  5px 5px 0px;
     border-width: 1px 1px 1px 0px;
 }
 
-.caja-property-browser scrolledwindow viewport.frame {
+.baul-property-browser scrolledwindow viewport.frame {
     background-color: shade (@theme_bg_color, 1.1);
 }
 
 /* EelEditableLabel (icon labels) */
-.caja-navigation-window .view .entry,
-.caja-navigation-window .view .entry:focus,
-.caja-desktop.view .entry,
-.caja-desktop.view .entry:focus {
+.baul-navigation-window .view .entry,
+.baul-navigation-window .view .entry:focus,
+.baul-desktop.view .entry,
+.baul-desktop.view .entry:focus {
    border-image: none;
    border-style: solid;
    border-width: 1px;
@@ -352,19 +352,19 @@ paned.horizontal > box.vertical.caja-side-pane > notebook scrolledwindow.frame {
                                    to         (shade(@theme_base_color, 1.00)));
 }
 
-.caja-canvas-item {
+.baul-canvas-item {
     border-radius: 4px;
 }
 
 /* desktop mode */
-.caja-desktop.caja-canvas-item {
+.baul-desktop.baul-canvas-item {
     color: white;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
-.caja-desktop.caja-canvas-item:active,
-.caja-desktop.caja-canvas-item:hover,
-.caja-desktop.caja-canvas-item:selected {
+.baul-desktop.baul-canvas-item:active,
+.baul-desktop.baul-canvas-item:hover,
+.baul-desktop.baul-canvas-item:selected {
     text-shadow: none;
 }
 
@@ -1199,7 +1199,7 @@ vte-terminal {
     border-style: none;
 }
 
-#caja-tab-close-button.flat,
+#baul-tab-close-button.flat,
 .lapiz-window notebook button.flat {
     border-image: none;
     background-image: none;
@@ -1470,7 +1470,7 @@ window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal
 window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
-window.background.maximized.caja-navigation-window notebook.caja-notebook scrolledwindow.frame {
+window.background.maximized.baul-navigation-window notebook.baul-notebook scrolledwindow.frame {
     border-right-width: 0px;
 }
 

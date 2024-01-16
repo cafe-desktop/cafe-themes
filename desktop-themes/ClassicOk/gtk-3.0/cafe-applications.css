@@ -2,55 +2,55 @@
  * Caja *
  ************/
 
-/* caja sidebar */
+/* baul sidebar */
 /* all sidebars */
-.caja-side-pane treeview.view,
-.caja-side-pane textview.view text,
-.caja-side-pane viewport.frame,
-.caja-side-pane widget .vertical {
+.baul-side-pane treeview.view,
+.baul-side-pane textview.view text,
+.baul-side-pane viewport.frame,
+.baul-side-pane widget .vertical {
     background-color: shade (@theme_base_color, 1.00);
     color: @theme_fg_color;
 }
 
 /* move whole the frame, to free eject button for overlay scrollbars */
-.caja-side-pane scrolledwindow.frame {
+.baul-side-pane scrolledwindow.frame {
     padding: 0px;
     margin: 0px 0px 0px -8px;
 }
 
-.caja-side-pane scrolledwindow.frame treeview.view {
+.baul-side-pane scrolledwindow.frame treeview.view {
     padding: 3px 0px 3px 0px;
 }
 
 /* better for overlay scrollbars */
 /* to avoid overlap with eject buttons */
-.caja-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator,
-.caja-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator trough,
-.caja-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator slider,
-.caja-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator button {
+.baul-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator,
+.baul-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator trough,
+.baul-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator slider,
+.baul-side-pane scrolledwindow scrollbar.vertical.right.overlay-indicator button {
     min-width: 13px;
 }
 
 /* ComboBox views */
-.caja-navigation-window toolbar.primary-toolbar combobox button.combo {
+.baul-navigation-window toolbar.primary-toolbar combobox button.combo {
     padding: 5px;
     border-image: none;
 }
 
-.caja-navigation-window toolbar.primary-toolbar combobox button.combo:hover {
+.baul-navigation-window toolbar.primary-toolbar combobox button.combo:hover {
     padding: 5px;
     box-shadow: none;
 }
 
-.caja-canvas-item {
+.baul-canvas-item {
     border-radius: 3px;
 }
 
 /* EelEditableLabel (icon labels) */
-.caja-navigation-window .view .entry,
-.caja-navigation-window .view .entry:focus,
-.caja-desktop widget.entry,
-.caja-desktop widget.entry:focus {
+.baul-navigation-window .view .entry,
+.baul-navigation-window .view .entry:focus,
+.baul-desktop widget.entry,
+.baul-desktop widget.entry:focus {
    border-image: none;
    border-style: solid;
    border-width: 1px;
@@ -67,23 +67,23 @@
 }
 
 /* desktop */
-.caja-desktop.caja-canvas-item {
+.baul-desktop.baul-canvas-item {
     color: @theme_base_color;
     text-shadow: 1px 1px alpha (@theme_fg_color, 0.8);
 }
 
-.caja-desktop.caja-canvas-item:active,
-.caja-desktop.caja-canvas-item:hover,
-.caja-desktop.caja-canvas-item:selected {
+.baul-desktop.baul-canvas-item:active,
+.baul-desktop.baul-canvas-item:hover,
+.baul-desktop.baul-canvas-item:selected {
     text-shadow: none;
 }
 
 /* view */
-.caja-navigation-window .view.caja-canvas-item {
+.baul-navigation-window .view.baul-canvas-item {
     color: @theme_fg_color;
 }
 
-.caja-navigation-window .view.caja-canvas-item:selected {
+.baul-navigation-window .view.baul-canvas-item:selected {
     color: @theme_selected_fg_color;
 }
 
@@ -667,7 +667,7 @@ window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal
 window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
-window.background.maximized.caja-navigation-window notebook.caja-notebook scrolledwindow.frame {
+window.background.maximized.baul-navigation-window notebook.baul-notebook scrolledwindow.frame {
     border-right-width: 0px;
 }
 

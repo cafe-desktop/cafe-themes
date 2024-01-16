@@ -853,7 +853,7 @@ frame {
 /* Override the Firefox 49 frame styling where is absolutely shouldn't be applied */
 /* maybe we should add more here */
 box > frame, /* cafe-tweak */
-statusbar > frame, /* caja, etc. */
+statusbar > frame, /* baul, etc. */
 statusbar > widget > frame, /* lapiz */
 GvcMixerDialog frame { /* Cafe Mixer dialog */
     border-style: none;
@@ -1759,7 +1759,7 @@ dialog.background.solid-csd > box.vertical.dialog-vbox > notebook {
     background-color: @notebook_bg_color;
 }
 
-/* view areas, ie. lapiz-, caja-tabs */
+/* view areas, ie. lapiz-, baul-tabs */
 paned.horizontal notebook {
     border-style: none;
 }
@@ -1808,7 +1808,7 @@ notebook header.right {
     box-shadow: inset  1px  0px 0 0 @border_color;
 }
 
-/* tabs in view areas, ie. lapiz-, caja-tabs */
+/* tabs in view areas, ie. lapiz-, baul-tabs */
 paned.horizontal notebook header.top tab {
     padding: 4px 2px 4px 2px;
     border-width: 1px 1px 0px 1px;
@@ -4372,7 +4372,7 @@ dialog scrolledwindow.frame viewport .vertical expander .vertical {
     border-width: 1px;
 }
 
-/* ie. caja fm-properties-window notes tab */
+/* ie. baul fm-properties-window notes tab */
 dialog > .vertical.dialog-vbox > notebook.frame > stack > scrolledwindow,
 dialog > .vertical.dialog-vbox > notebook.frame > stack > scrolledwindow.frame {
     border-style: none;

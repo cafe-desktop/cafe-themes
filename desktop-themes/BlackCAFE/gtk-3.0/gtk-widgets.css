@@ -341,7 +341,7 @@ entry, .entry {
 	caret-color:#ffffff;
 }
 /*hide carot when window is not selected*/
-/*do NOT use .view to avoid creating caja desktop flashes*/
+/*do NOT use .view to avoid creating baul desktop flashes*/
 /*works in gedit, lapiz, etc*/
 
 view:backdrop, entry:backdrop, .entry:backdrop {
@@ -687,7 +687,7 @@ frame.action-bar {
 	border-width: 1px 0 0;
 }
 
-/* disable for GTK3-3.16 , issue with caja list-view frame*/
+/* disable for GTK3-3.16 , issue with baul list-view frame*/
 
 scrolledwindow.frame {
 /*	background-color: transparent; */

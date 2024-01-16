@@ -2,138 +2,138 @@
  * Caja *
  ************/
 
-.caja-side-pane > notebook {
+.baul-side-pane > notebook {
     background-color: shade(@theme_bg_color, 1.02);
     border-color: alpha(@frame_color, 0.6);
     border-width: 1px;
     border-style: solid;
 }
 
-.caja-side-pane > notebook scrolledwindow.frame {
+.baul-side-pane > notebook scrolledwindow.frame {
     background-color: transparent;
 }
 
-.caja-side-pane > notebook scrolledwindow > viewport.frame,
-.caja-side-pane > notebook scrolledwindow.frame treeview.view {
+.baul-side-pane > notebook scrolledwindow > viewport.frame,
+.baul-side-pane > notebook scrolledwindow.frame treeview.view {
     background-color: transparent;
 }
 
-.caja-side-pane  notebook scrolledwindow.frame textview.view {
+.baul-side-pane  notebook scrolledwindow.frame textview.view {
     background-color: transparent;
 }
 
 /* Caja places bar */
 /* close button */
-.caja-side-pane button.flat {
+.baul-side-pane button.flat {
     margin: 0px 1px;
     padding: 0px 2px;
 }
 
 /* places button */
-.caja-side-pane button.flat.toggle,
-.caja-side-pane button.flat.flat.toggle:hover  {
+.baul-side-pane button.flat.toggle,
+.baul-side-pane button.flat.flat.toggle:hover  {
     padding: 0px 5px;
 }
 
-/* caja sidebar */
-.caja-side-pane notebook treeview.view,
-.caja-side-pane notebook textview.view text,
-.caja-side-pane notebook viewport.frame,
-.caja-side-pane notebook widget .vertical {
+/* baul sidebar */
+.baul-side-pane notebook treeview.view,
+.baul-side-pane notebook textview.view text,
+.baul-side-pane notebook viewport.frame,
+.baul-side-pane notebook widget .vertical {
     background-color: shade(@theme_bg_color, 1.02);
 }
 
 /* emblem and info sidebar */
-.caja-side-pane > notebook widget.view > box.vertical,
-.caja-side-pane > notebook box.vertical > scrolledwindow {
+.baul-side-pane > notebook widget.view > box.vertical,
+.baul-side-pane > notebook box.vertical > scrolledwindow {
     border-style: solid;
     border-width: 1px;
     border-color: alpha(@frame_color, 0.6);
 }
 
 /* View toogle button */
-.caja-navigation-window toolbar.horizontal.primary-toolbar combobox button.combo {
+.baul-navigation-window toolbar.horizontal.primary-toolbar combobox button.combo {
         padding: 6px;
 }
 
 /* pathbar */
-.caja-navigation-window .caja-pathbar button,
-.caja-navigation-window button.image-button.toggle {
+.baul-navigation-window .baul-pathbar button,
+.baul-navigation-window button.image-button.toggle {
      padding: 3px 2px;
 }
 
 /* arrow button */
-.caja-pathbar button:nth-child(odd) widget {
+.baul-pathbar button:nth-child(odd) widget {
     -gtk-icon-source: -gtk-icontheme("pan-start-symbolic");
 }
 
-.caja-pathbar button:nth-child(odd) {
+.baul-pathbar button:nth-child(odd) {
     margin: 0px;
     padding: 0px;
 }
 
-.caja-pathbar button:nth-child(even) widget {
+.baul-pathbar button:nth-child(even) widget {
     -gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
 }
 
-.caja-pathbar button:nth-child(even) {
+.baul-pathbar button:nth-child(even) {
     margin: 0px;
     padding: 0px;
 }
 
 /* folder button */
-.caja-pathbar button.toggle {
+.baul-pathbar button.toggle {
     padding: 3px 4px;
     margin: 0px -1px 0px 0px;
 }
 
 /* eventbars, ie. search results */
 /* needed as this is used for firefox locationbar, to avoid double borders */
-.caja-notebook box.vertical > frame > border {
+.baul-notebook box.vertical > frame > border {
     border-style: solid;
     border-width: 1px 1px 0px 1px;
     border-radius: 3px 3px 0px 0px;
 }
 
-.caja-notebook #caja-extra-view-widget {
+.baul-notebook #baul-extra-view-widget {
     background-color: shade (@theme_bg_color, 1.02);
     border-radius: 3px 3px 0px 0px;
 }
 
-.caja-notebook #caja-extra-view-widget button.flat {
+.baul-notebook #baul-extra-view-widget button.flat {
     border-width: 1px;
     border-style: solid;
     padding: 4px;
 }
 
-.caja-canvas-item {
+.baul-canvas-item {
     border-radius: 3px;
 }
 
 /* desktop mode */
-.caja-desktop-window scrolledwindow {
+.baul-desktop-window scrolledwindow {
     border-width: 0px;
 }
 
-.caja-desktop.caja-canvas-item {
+.baul-desktop.baul-canvas-item {
     color: #ffffff;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 }
 
-.caja-desktop.caja-canvas-item:selected,
-.caja-desktop.caja-canvas-item:active,
-.caja-desktop.caja-canvas-item:hover {
+.baul-desktop.baul-canvas-item:selected,
+.baul-desktop.baul-canvas-item:active,
+.baul-desktop.baul-canvas-item:hover {
     text-shadow: none;
 }
 
 /* EelEditableLabel (icon labels) */
-.caja-desktop.view .entry,
-.caja-desktop.view .entry:focus,
-.caja-desktop.view .entry:backdrop,
-.caja-navigation-window .view .entry,
-.caja-navigation-window .view .entry:active,
-.caja-navigation-window .view .entry:focus,
-.caja-navigation-window .view .entry:backdrop {
+.baul-desktop.view .entry,
+.baul-desktop.view .entry:focus,
+.baul-desktop.view .entry:backdrop,
+.baul-navigation-window .view .entry,
+.baul-navigation-window .view .entry:active,
+.baul-navigation-window .view .entry:focus,
+.baul-navigation-window .view .entry:backdrop {
     border-image: none;
     border-style: solid;
     border-width: 1px;
@@ -149,20 +149,20 @@
                                     to         (shade(rgba(255,255,255,1), 1.00)));
 }
 
-.caja-desktop.view .entry:selected,
-.caja-desktop.view .entry:focus:selected,
-.caja-desktop.view .entry:backdrop:selected
-.caja-navigation-window .view .entry:active,
-.caja-navigation-window .view .entry:selected,
-.caja-navigation-window .view .entry:focus:selected,
-.caja-navigation-window .view .entry:backdrop:selected {
+.baul-desktop.view .entry:selected,
+.baul-desktop.view .entry:focus:selected,
+.baul-desktop.view .entry:backdrop:selected
+.baul-navigation-window .view .entry:active,
+.baul-navigation-window .view .entry:selected,
+.baul-navigation-window .view .entry:focus:selected,
+.baul-navigation-window .view .entry:backdrop:selected {
     background-color: @theme_selected_bg_color;
     color: @theme_selected_fg_color;
     text-shadow: none;
 }
 
-/* inactive-pane caja */
-.caja-notebook .view:disabled {
+/* inactive-pane baul */
+.baul-notebook .view:disabled {
     background-color: @inactive-pane_bg_color;
 }
 
@@ -700,7 +700,7 @@ window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal
 window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
-window.background.maximized.caja-navigation-window notebook.caja-notebook scrolledwindow.frame {
+window.background.maximized.baul-navigation-window notebook.baul-notebook scrolledwindow.frame {
     border-right-width: 0px;
 }
 

@@ -2192,7 +2192,7 @@ notebook header tab label:backdrop {
     color: @theme_unfocused_fg_color;
 }
 
-/* notebooks, view, header and tabs in caja and lapiz view */
+/* notebooks, view, header and tabs in baul and lapiz view */
 paned.horizontal notebook {
     border-style: none;
     border-color: @borders;
@@ -2394,7 +2394,7 @@ notebook.frame > header.top > button.circular.flat.image-button.popup.toggle {
     padding: 0px;
 }
 
- /* ie. caja properties-window notes tab */
+ /* ie. baul properties-window notes tab */
 dialog notebook.frame > stack > scrolledwindow.frame {
      border-style: none;
 }
@@ -4516,7 +4516,7 @@ assistant .sidebar {
 	/* shall we make it like sidebars in general? */
 }
 
-assistant .sidebar label.highlight { /* ie. caja-actions import dialog */
+assistant .sidebar label.highlight { /* ie. baul-actions import dialog */
     background-color: transparent;
     color: @theme_fg_color;
     font-weight: bold;

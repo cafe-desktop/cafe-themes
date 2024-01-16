@@ -640,5 +640,5 @@ widget_class "*.<GtkCList>.<GtkButton>"		style "treeview-header"
 widget_class "*.ETable.ECanvas"			style "treeview-header"
 widget_class "*.ETree.ECanvas"			style "treeview-header"
 
-include "Styles/caja.rc"
+include "Styles/baul.rc"
 include "Styles/terminal.rc"

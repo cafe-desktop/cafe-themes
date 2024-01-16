@@ -9,7 +9,7 @@ style "thunar-location" {
 style "thunar-handle" {
 	GtkPaned::handle-size = 1
 	engine "pixmap" {
-		image { function = HANDLE file = "/Handles/handle-caja.png" stretch = TRUE border = { 0, 0, 0, 0 } }
+		image { function = HANDLE file = "/Handles/handle-baul.png" stretch = TRUE border = { 0, 0, 0, 0 } }
 	}
 }
 

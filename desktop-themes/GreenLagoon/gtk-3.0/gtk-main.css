@@ -187,7 +187,7 @@
 
 @define-color content_view_bg #EFF1EF;
 
-/* inactive-pane caja */
+/* inactive-pane baul */
 @define-color inactive-pane_bg_color #D9DCD8;
 
 @import url("gtk-widgets.css");

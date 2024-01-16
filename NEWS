@@ -16,7 +16,7 @@
   * Classic themes: cafe-terminal: scrollbar with border-width 1px
   * Classic themes: Fix the scrollbar in more applications
   * Classic themes: add border-right-width to scrollbar maximized
-  * Classic themes: fix treeview inside scrolledwindow in atril and caja
+  * Classic themes: fix treeview inside scrolledwindow in atril and baul
   * Classic themes: add an alternative fix for scrolledwindow
   * Classic Green: add ctk support
   * rename Pluma -> Lapiz

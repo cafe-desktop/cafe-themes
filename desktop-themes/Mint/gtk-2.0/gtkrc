@@ -753,5 +753,5 @@ widget_class "*MozContainer*"		style "performance-fix" # Firefox (Not sure if th
 ### EXTERNAL FILES ###
 include "apps/chromium.rc"	# Chromium styling
 include "apps/thunar.rc"	# Thunar styling
-include "apps/caja.rc"		# Caja styling
+include "apps/baul.rc"		# Caja styling
 include "apps/lapiz.rc"		# Lapiz styling
