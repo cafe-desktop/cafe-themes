@@ -89,7 +89,7 @@ paned.horizontal > box.vertical.baul-side-pane > notebook scrolledwindow.frame {
     text-shadow: none;
 }
 
-/* Caja places bar */
+/* Baul places bar */
 .baul-side-pane button.flat,
 .baul-side-pane button.flat.toggle {
     border-style: none;

@@ -1,5 +1,5 @@
 /************
- * Caja *
+ * Baul *
  ************/
 
 .baul-side-pane > notebook {
@@ -22,7 +22,7 @@
     background-color: transparent;
 }
 
-/* Caja places bar */
+/* Baul places bar */
 /* close button */
 .baul-side-pane button.flat {
     margin: 0px 1px;

@@ -63,12 +63,12 @@ style "baul-location" {
 
 
 # CAJA
-widget_class	"*Caja*Window*"		style "baul-window-base"
-widget_class	"*Caja*Places*Sidebar*"	style "baul-sidebar"
-widget_class	"*Caja*View*"		style "baul-view"
-widget		"*Caja*Splitter"		style "baul-handle"
-widget_class	"*Caja*Statusbar*"		style "baul-statusbar"
-# For Eleminty Caja
-widget_class	"*Caja*GtkToolbar*"		style "murrine-togglebutton"
+widget_class	"*Baul*Window*"		style "baul-window-base"
+widget_class	"*Baul*Places*Sidebar*"	style "baul-sidebar"
+widget_class	"*Baul*View*"		style "baul-view"
+widget		"*Baul*Splitter"		style "baul-handle"
+widget_class	"*Baul*Statusbar*"		style "baul-statusbar"
+# For Eleminty Baul
+widget_class	"*Baul*GtkToolbar*"		style "murrine-togglebutton"
 
 widget "*.baul-extra-view-widget" 		style : highest "baul-location"

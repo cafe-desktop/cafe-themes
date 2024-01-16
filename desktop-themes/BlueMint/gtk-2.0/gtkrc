@@ -708,7 +708,7 @@ widget "*.gtk-combobox-popup-menu.*" style "menuitem_text_is_fg_color_workaround
 widget_class "*<GtkListItem>*" style "fg_is_text_color_workaround"
 # GtkCList also uses the fg color to draw text on top of the base colors.
 widget_class "*<GtkCList>" style "fg_is_text_color_workaround"
-# Caja when renaming files, and maybe other places.
+# Baul when renaming files, and maybe other places.
 widget_class "*<EelEditableLabel>" style "fg_is_text_color_workaround"
 
 # Thickness for indicator menu items
@@ -748,5 +748,5 @@ widget_class "*MozContainer*"		style "performance-fix" # Firefox (Not sure if th
 ### EXTERNAL FILES ###
 include "apps/chromium.rc"	# Chromium styling
 include "apps/thunar.rc"	# Thunar styling
-include "apps/baul.rc"		# Caja styling
+include "apps/baul.rc"		# Baul styling
 include "apps/lapiz.rc"		# Lapiz styling

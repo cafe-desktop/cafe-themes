@@ -51,8 +51,8 @@ style "default"
   GtkWidget::link-color = "#80ccff"
   GtkWidget::visited-link-color = "#ff80ff"
 
-  # Caja
-  CajaIconContainer::frame_text = 1
+  # Baul
+  BaulIconContainer::frame_text = 1
   
   # Pidgin
   GtkIMHtml::hyperlink-color = "#80ccff"
