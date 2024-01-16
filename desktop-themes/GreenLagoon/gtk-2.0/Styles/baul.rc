@@ -1,5 +1,5 @@
 ##########################################
-# CAJA	
+# BAUL	
 ##########################################
 gtk_color_scheme = "fg_color:#101010\nbg_color:#E9EFE7"
 
@@ -62,7 +62,7 @@ style "baul-location" {
 }
 
 
-# CAJA
+# BAUL
 widget_class	"*Baul*Window*"		style "baul-window-base"
 widget_class	"*Baul*Places*Sidebar*"	style "baul-sidebar"
 widget_class	"*Baul*View*"		style "baul-view"
