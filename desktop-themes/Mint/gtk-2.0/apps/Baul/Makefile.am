@@ -5,7 +5,7 @@ theme_DATA = \
 	breadcrumb_active.png \
 	breadcrumb_normal.png \
 	breadcrumb_prelight.png \
-	caja-toolbar.png \
+	baul-toolbar.png \
 	extra-widget.png \
 	left_slider_normal.png \
 	mode_normal.png \

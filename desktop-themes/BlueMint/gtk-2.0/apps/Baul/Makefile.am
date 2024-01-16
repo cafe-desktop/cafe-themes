@@ -9,7 +9,7 @@ theme_DATA = \
 	mode_normal.png \
 	mode_prelight.png \
 	mode_pressed.png \
-	caja-toolbar.png \
+	baul-toolbar.png \
 	resize-grip.png \
 	right_slider_normal.png \
 	slider.png \

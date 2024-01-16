@@ -237,7 +237,7 @@
 /* csd border */
 @define-color wm_csd_solid_border_color shade (#3c3c3c, 1.2);
 
-/* inactive-pane caja */
+/* inactive-pane baul */
 @define-color inactive-pane_bg_color #DEDEDE;
 
 @import url("ctk-main-common.css");

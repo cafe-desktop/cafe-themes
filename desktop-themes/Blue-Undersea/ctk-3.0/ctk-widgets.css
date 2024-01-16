@@ -130,7 +130,7 @@ label:disabled {
     background-image: url("assets/resize-grip.svg");
 }
 
-/* ie. selection mouse retancle in caja */
+/* ie. selection mouse retancle in baul */
 view.rubberband,
 rubberband,
 .view.rubberband,
@@ -995,7 +995,7 @@ button.flat {
     border-image: none;
 }
 
-/* ie. caja location drop down button */
+/* ie. baul location drop down button */
 button.flat.toggle {
     padding: 5px;
 }
@@ -3591,7 +3591,7 @@ notebook header tab .active-page label {
     color: @theme_fg_color;
 }
 
-/* tabs and header in view areas, ie. lapiz-, caja-tabs */
+/* tabs and header in view areas, ie. lapiz-, baul-tabs */
 paned.horizontal > box.vertical notebook > header.top,
 paned.horizontal > paned.vertical notebook > header.top {
     border-style: solid;
@@ -4011,7 +4011,7 @@ assistant .sidebar {
 }
 
 assistant .sidebar highlight,
-assistant .sidebar label.highlight { /* ie. caja-actions import dialog */
+assistant .sidebar label.highlight { /* ie. baul-actions import dialog */
     color: @theme_text_color;
     font-weight: bold;
 }
@@ -4960,7 +4960,7 @@ messagedialog {
     padding: 0;
 }
 
-/* ie. caja properties-window notes tab */
+/* ie. baul properties-window notes tab */
 dialog notebook.frame > stack > scrolledwindow.frame {
     border-style: none;
 }

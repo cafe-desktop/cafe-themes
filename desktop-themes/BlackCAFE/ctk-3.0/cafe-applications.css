@@ -5,38 +5,38 @@
 
 /**** Caja Navigation Window ***/
 
-.caja-navigation-window scrolledwindow.view {
+.baul-navigation-window scrolledwindow.view {
 	background-color: @less_dark_color;
 	color: @theme_fg_color;
     border-color: transparent;
 	border-style: none;
 }
 
-.caja-navigation-window paned.horizontal {
+.baul-navigation-window paned.horizontal {
     border-color: transparent;
     background-color: @theme_bg_color;
 }
 
-/* ie. inactive-pane caja */
-.caja-notebook .view:disabled {
+/* ie. inactive-pane baul */
+.baul-notebook .view:disabled {
     background-color: @inactive-pane_bg_color;
 }
 
 
-.caja-navigation-window paned>box>box>button {
+.baul-navigation-window paned>box>box>button {
 	border-image: url("assets/button-border-dark1.svg") 3 / 3px stretch;
 	background-image: linear-gradient(to bottom,
 	                                  shade(@less_dark_color, 1.3),
 	                                  shade(@less_dark_color, 0.4));
 }
 /*don't overrride focus borders*/
-.caja-navigation-window paned>box>box>button:focus,
-.caja-navigation-window paned>box>box>button.flat:focus {
+.baul-navigation-window paned>box>box>button:focus,
+.baul-navigation-window paned>box>box>button.flat:focus {
 	border-image: url("assets/button-default-border-dark.svg") 3 / 3px stretch;
 	outline-width: 0px; /*works here but NOT in the general case */
 }
 
-.caja-navigation-window paned>box>box>button:hover {
+.baul-navigation-window paned>box>box>button:hover {
 	background-image: -ctk-gradient (radial,
 					0.5 -2.0, 2.0,
 					0.5 -2.0, 3.0,
@@ -47,9 +47,9 @@
 
 }
 
-.caja-navigation-window paned>box>box>button:hover:checked,
-.caja-navigation-window paned>box>box>button:active,
-.caja-navigation-window paned>box>box>button:hover:active {
+.baul-navigation-window paned>box>box>button:hover:checked,
+.baul-navigation-window paned>box>box>button:active,
+.baul-navigation-window paned>box>box>button:hover:active {
 	background-image: linear-gradient(to bottom,
 	                                  shade(@button_gradient_color_b, 0.7),
 	                                  @theme_bg_color 40%,
@@ -57,8 +57,8 @@
 	border-image: url("assets/button-active-border-dark1.svg") 3 / 3px stretch;
 }
 
-.caja-notebook treeview.view header button,
-.caja-notebook treeview.view header button:hover {
+.baul-notebook treeview.view header button,
+.baul-notebook treeview.view header button:hover {
 	border-image: none;
 	border-width: 0px 0px 1px 1px;
 	border-radius: 0;
@@ -67,33 +67,33 @@
 }
 
 
-.caja-navigation-window toolbar {
+.baul-navigation-window toolbar {
 	background-image: linear-gradient(to bottom,
 	                                  shade(@less_dark_color, 0.4),
 	                                  shade(@less_dark_color, 1.36));
 }
 
-.caja-navigation-window toolbar {
+.baul-navigation-window toolbar {
 	border-radius: 0px;
 }
 
 /* ComboBox views */
-.caja-navigation-window toolbar.primary-toolbar combobox button.combo {
+.baul-navigation-window toolbar.primary-toolbar combobox button.combo {
     padding: 8px 4px;
 }
 
-.caja-navigation-window statusbar>frame>box>label {
+.baul-navigation-window statusbar>frame>box>label {
 	font-style: italic;
 }
 
 /**** Notebook ***/
 
-.caja-inactive-pane notebook {
+.baul-inactive-pane notebook {
 	background-color: shade(@less_dark_color, 1.3);
 	border-color: @less_dark_color;
 }
 
-.caja-inactive-pane notebook header.top tab:active {
+.baul-inactive-pane notebook header.top tab:active {
 	background-image: linear-gradient(to bottom,
 	                                  shade(@less_dark_color, 1.05),
 	                                  shade(@less_dark_color, 1.16) 40%,
@@ -101,47 +101,47 @@
 	                                  shade(@less_dark_color, 1.3));
 }
 
-.caja-navigation-window notebook tab {
+.baul-navigation-window notebook tab {
 	padding: 3px 0px;
 }
 
-.caja-navigation-window .notebook tab .button.flat {
+.baul-navigation-window .notebook tab .button.flat {
     border-image: none;
 }
 
 /* Caja places bar */
  
-.caja-pathbar button.flat {
+.baul-pathbar button.flat {
     border-style: none;
     border-image: url("assets/primary-toolbar-button-active-border-dark.svg") 3 / 3px stretch;
     border-radius: 3px;
     padding: 2px 5px;
 }
 
-.caja-pathbar button.flat:hover {
+.baul-pathbar button.flat:hover {
     border-image: none;
     border-radius: 3px;
     padding: 2px 5px;
 }
 
-/* caja sidebar */
+/* baul sidebar */
 
-.caja-side-pane treeview {
+.baul-side-pane treeview {
 	padding:10px;
 }
 
-.caja-side-pane .cell,
-.caja-side-pane *.cell {
+.baul-side-pane .cell,
+.baul-side-pane *.cell {
 	color: @theme_text_color;
 }
 
-.caja-side-pane .cell:hover,
-.caja-side-pane *.cell:hover {
+.baul-side-pane .cell:hover,
+.baul-side-pane *.cell:hover {
 	color: @theme_text_color;
 }
 
-.caja-side-pane .cell:selected,
-.caja-side-pane *.cell:selected {
+.baul-side-pane .cell:selected,
+.baul-side-pane *.cell:selected {
 	background-image: linear-gradient(to bottom,
 	                                  shade(@less_dark_color, 1.5),
 	                                  shade(@less_dark_color, 0.6));
@@ -149,29 +149,29 @@
 	border-radius: 2px;
 }
 
-.caja-side-pane .cell:selected:focus,
-.caja-side-pane *.cell:selected:focus {
+.baul-side-pane .cell:selected:focus,
+.baul-side-pane *.cell:selected:focus {
 	color: @theme_text_color;
 	background-image: linear-gradient(to top,
 					 shade(@less_dark_color, 1.5),
 					 shade(@less_dark_color, 0.6));
 }
-.caja-side-pane treeview.view {
+.baul-side-pane treeview.view {
     background-color: shade(@theme_bg_color, 1.08);
 }
 
-.caja-side-pane scrolledwindow{
+.baul-side-pane scrolledwindow{
 		border-width: 0px;
 }
 
 /* moved eject button to left better for overlay scrollbars */
-.caja-side-pane treeview.view {
+.baul-side-pane treeview.view {
     padding: 0px 4px 0px 0px;
 	border-width: 0px;
 }
 
-.caja-side-pane scrollbar button,
-.caja-side-pane scrollbar button:hover {
+.baul-side-pane scrollbar button,
+.baul-side-pane scrollbar button:hover {
 	color: @theme_fg_color;
 }
 
@@ -179,48 +179,48 @@
 
 /**** Infos ***/
 
-.caja-navigation-window .question,
-.caja-navigation-window .info {
+.baul-navigation-window .question,
+.baul-navigation-window .info {
 	background-color: transparent;
 }
 
 /* view */
-.caja-navigation-window  .caja-canvas-item {
+.baul-navigation-window  .baul-canvas-item {
     color: @theme_fg_color;
 	border-radius: 4px;
 }
 
-.caja-navigation-window  .caja-canvas-item:active,
-.caja-navigation-window  .caja-canvas-item:selected {
+.baul-navigation-window  .baul-canvas-item:active,
+.baul-navigation-window  .baul-canvas-item:selected {
     color: @theme_selected_fg_color;
 }
 
 /**** Desktop Drawn ***/
 
-.caja-desktop .caja-canvas-item {
+.baul-desktop .baul-canvas-item {
 	color: @theme_fg_color;
     text-shadow: 1px 1px alpha (#000000, 0.8);
 	border-radius: 4px;
 }
 
-.caja-desktop .caja-canvas-item:active {
+.baul-desktop .baul-canvas-item:active {
 	color: @theme_text_color;
 }
 
-.caja-desktop .caja-canvas-item:selected {
+.baul-desktop .baul-canvas-item:selected {
 	color: @theme_selected_fg_color;
 }
 
-.caja-desktop .caja-canvas-item:active,
-.caja-desktop .caja-canvas-item:hover,
-.caja-desktop .caja-canvas-item:selected {
+.baul-desktop .baul-canvas-item:active,
+.baul-desktop .baul-canvas-item:hover,
+.baul-desktop .baul-canvas-item:selected {
 	text-shadow: none;
 }
 
-/*caja file renaming  (eel-editable-label)*/
+/*baul file renaming  (eel-editable-label)*/
 
-.caja-desktop .entry,
-.caja-navigation-window .view .entry{
+.baul-desktop .entry,
+.baul-navigation-window .view .entry{
 	border-radius: 4px;	
 	background-image: linear-gradient(to bottom,
 	                                  shade(@less_dark_color, 0.2),
@@ -825,7 +825,7 @@ window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal
 window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
-window.background.maximized.caja-navigation-window notebook.caja-notebook scrolledwindow.frame {
+window.background.maximized.baul-navigation-window notebook.baul-notebook scrolledwindow.frame {
     border-right-width: 0px;
 }
 

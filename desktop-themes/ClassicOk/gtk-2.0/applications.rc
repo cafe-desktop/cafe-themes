@@ -11,9 +11,9 @@ widget_class "*.<ETable>.<ECanvas>" style "treeview_header"
 # Workaround for the evolution ETree
 widget_class "*.<ETree>.<ECanvas>" style "treeview_header"
 
-# Special case the caja-extra-view-widget
+# Special case the baul-extra-view-widget
 # ToDo: A more generic approach for all applications that have a widget like this.
-widget "*.caja-extra-view-widget" style : highest "caja-location"
+widget "*.baul-extra-view-widget" style : highest "baul-location"
 
 # Work around for http://bugzilla.gnome.org/show_bug.cgi?id=382646
 # Note that this work around assumes that the combobox is _not_ in appears-as-list mode.

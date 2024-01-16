@@ -259,12 +259,12 @@ style "media-icons"
 }
 class "GtkWidget" style "media-icons"
 
-#caja improvements
+#baul improvements
 
-style "caja-location"
+style "baul-location"
 {
 	bg[NORMAL]  = "#000000"
 }
 
-widget "*.caja-extra-view-widget" style : highest "caja-location"
+widget "*.baul-extra-view-widget" style : highest "baul-location"
 

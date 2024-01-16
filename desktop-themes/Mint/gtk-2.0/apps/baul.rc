@@ -1,8 +1,8 @@
 ### This file styles Caja.###
 
-style "caja-window-base" { bg[NORMAL] = @base_color }
+style "baul-window-base" { bg[NORMAL] = @base_color }
 
-style "caja-sidebar" = "murrine-sidebar" {
+style "baul-sidebar" = "murrine-sidebar" {
 	GtkTreeView::horizontal_separator = 15
 	GtkTreeView::vertical_separator = 2
 
@@ -13,12 +13,12 @@ style "caja-sidebar" = "murrine-sidebar" {
 	GtkTreeView::even_row_color = "#DCDCDC"
 }
 
-style "caja-view" {
+style "baul-view" {
 	xthickness = 0
 	ythickness = 0
 }
 
-style "caja-handle" {
+style "baul-handle" {
 	GtkPaned::handle-size = 2
 	
 	engine "pixmap" {
@@ -26,14 +26,14 @@ style "caja-handle" {
 		image {
 			function	= HANDLE
 			recolorable	= TRUE
-			file		= "Handles/handle-caja.png"
+			file		= "Handles/handle-baul.png"
 			stretch		= TRUE
 			border		= { 0, 0, 0, 0 }
 		}
 	}
 }
 
-style "caja-statusbar"
+style "baul-statusbar"
 {
 	xthickness = 0
 	engine "pixmap"
@@ -51,12 +51,12 @@ style "caja-statusbar"
 	}
 }
 
-style "caja-location"
+style "baul-location"
 {
 	bg[NORMAL]  = mix (0.60, shade (1.05, @bg_color), @bg_color)
 }
 
-style "caja-pathbar"
+style "baul-pathbar"
 {	
 	#bg[NORMAL] = @bg_color
 }
@@ -66,19 +66,19 @@ style "caja-pathbar"
 # Order of assignment is important
 #############################################
 
-widget_class "*CajaSidePane.*"                 style "caja-sidebar"
-widget_class "*Caja*Places*Sidebar*"           style "caja-sidebar"
-widget_class "*Caja*Side*.GtkWidget"           style "caja-sidebar"
-widget_class "*Caja*Side*Title*"               style "caja-sidebar"
+widget_class "*CajaSidePane.*"                 style "baul-sidebar"
+widget_class "*Caja*Places*Sidebar*"           style "baul-sidebar"
+widget_class "*Caja*Side*.GtkWidget"           style "baul-sidebar"
+widget_class "*Caja*Side*Title*"               style "baul-sidebar"
 
-#widget "*CajaNavigationWindow"                 style "caja-window-base"
+#widget "*CajaNavigationWindow"                 style "baul-window-base"
 
 widget_class "*Caja*Scrollbar"                 style "murrine-scrollbar"
 widget_class "*CajaSidePane.*Scrollbar"        style:highest "murrine-scrollbar"	
-widget_class "*Caja*Statusbar*"                style "caja-statusbar"
+widget_class "*Caja*Statusbar*"                style "baul-statusbar"
 
-widget "*Caja*Splitter"                        style "caja-handle"
-widget_class "*Caja*View*"                     style "caja-view"
+widget "*Caja*Splitter"                        style "baul-handle"
+widget_class "*Caja*View*"                     style "baul-view"
 widget_class "*Caja*Notebook"                  style "murrine-notebook"
 
 widget_class "*Caja*<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
@@ -86,5 +86,5 @@ widget_class "*Caja*<GtkCTree>.<GtkButton>"    style "murrine-treeview-header"
 widget_class "*Caja*<GtkList>.<GtkButton>"     style "murrine-treeview-header"
 widget_class "*Caja*<GtkCList>.<GtkButton>"    style "murrine-treeview-header"
 
-widget_class "*CajaPathBar*"                   style "caja-pathbar" 
-widget "*.caja-extra-view-widget"              style : highest "caja-location"
+widget_class "*CajaPathBar*"                   style "baul-pathbar" 
+widget "*.baul-extra-view-widget"              style : highest "baul-location"
