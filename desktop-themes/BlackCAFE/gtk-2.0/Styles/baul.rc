@@ -65,9 +65,9 @@ style "baul-scrollbar"
 	}
 }
 
-widget_class	"*Caja*Places*Sidebar*"			style "baul-sidebar"
-widget_class	"*Caja*View*"					style "baul-view"
-widget_class	"*Caja*Statusbar*"				style "baul-statusbar"
+widget_class	"*Baul*Places*Sidebar*"			style "baul-sidebar"
+widget_class	"*Baul*View*"					style "baul-view"
+widget_class	"*Baul*Statusbar*"				style "baul-statusbar"
 widget			"*.baul-extra-view-widget" 		style : highest "baul-location"
-widget			"*Caja*Scrollbar*"				style "baul-scrollbar"
+widget			"*Baul*Scrollbar*"				style "baul-scrollbar"
 

@@ -1,4 +1,4 @@
-### This file styles Caja.###
+### This file styles Baul.###
 
 style "baul-window-base" { bg[NORMAL] = @base_color }
 
@@ -44,7 +44,7 @@ style "baul-statusbar"
 		recolorable		= TRUE
 		state			= NORMAL
 		detail			= "statusbar"
-		overlay_file	= "Caja/resize-grip.png"
+		overlay_file	= "Baul/resize-grip.png"
 		overlay_border	= {0,0,0,0 }
 		overlay_stretch	= FALSE
 	    }
@@ -66,25 +66,25 @@ style "baul-pathbar"
 # Order of assignment is important
 #############################################
 
-widget_class "*CajaSidePane.*"                 style "baul-sidebar"
-widget_class "*Caja*Places*Sidebar*"           style "baul-sidebar"
-widget_class "*Caja*Side*.GtkWidget"           style "baul-sidebar"
-widget_class "*Caja*Side*Title*"               style "baul-sidebar"
+widget_class "*BaulSidePane.*"                 style "baul-sidebar"
+widget_class "*Baul*Places*Sidebar*"           style "baul-sidebar"
+widget_class "*Baul*Side*.GtkWidget"           style "baul-sidebar"
+widget_class "*Baul*Side*Title*"               style "baul-sidebar"
 
-#widget "*CajaNavigationWindow"                 style "baul-window-base"
+#widget "*BaulNavigationWindow"                 style "baul-window-base"
 
-widget_class "*Caja*Scrollbar"                 style "murrine-scrollbar"
-widget_class "*CajaSidePane.*Scrollbar"        style:highest "murrine-scrollbar"	
-widget_class "*Caja*Statusbar*"                style "baul-statusbar"
+widget_class "*Baul*Scrollbar"                 style "murrine-scrollbar"
+widget_class "*BaulSidePane.*Scrollbar"        style:highest "murrine-scrollbar"	
+widget_class "*Baul*Statusbar*"                style "baul-statusbar"
 
-widget "*Caja*Splitter"                        style "baul-handle"
-widget_class "*Caja*View*"                     style "baul-view"
-widget_class "*Caja*Notebook"                  style "murrine-notebook"
+widget "*Baul*Splitter"                        style "baul-handle"
+widget_class "*Baul*View*"                     style "baul-view"
+widget_class "*Baul*Notebook"                  style "murrine-notebook"
 
-widget_class "*Caja*<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
-widget_class "*Caja*<GtkCTree>.<GtkButton>"    style "murrine-treeview-header"
-widget_class "*Caja*<GtkList>.<GtkButton>"     style "murrine-treeview-header"
-widget_class "*Caja*<GtkCList>.<GtkButton>"    style "murrine-treeview-header"
+widget_class "*Baul*<GtkTreeView>.<GtkButton>" style "murrine-treeview-header"
+widget_class "*Baul*<GtkCTree>.<GtkButton>"    style "murrine-treeview-header"
+widget_class "*Baul*<GtkList>.<GtkButton>"     style "murrine-treeview-header"
+widget_class "*Baul*<GtkCList>.<GtkButton>"    style "murrine-treeview-header"
 
-widget_class "*CajaPathBar*"                   style "baul-pathbar" 
+widget_class "*BaulPathBar*"                   style "baul-pathbar" 
 widget "*.baul-extra-view-widget"              style : highest "baul-location"

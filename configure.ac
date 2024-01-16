@@ -51,7 +51,7 @@ desktop-themes/BlueMint/cinnamon/Makefile
 desktop-themes/BlueMint/emerald/Makefile
 desktop-themes/BlueMint/gtk-2.0/Makefile
 desktop-themes/BlueMint/gtk-2.0/apps/Makefile
-desktop-themes/BlueMint/gtk-2.0/apps/Caja/Makefile
+desktop-themes/BlueMint/gtk-2.0/apps/Baul/Makefile
 desktop-themes/BlueMint/gtk-2.0/apps/Handles/Makefile
 desktop-themes/BlueMint/gtk-2.0/apps/Null/Makefile
 desktop-themes/BlueMint/gtk-2.0/apps/Others/Makefile
@@ -127,7 +127,7 @@ desktop-themes/Mint/cinnamon/Makefile
 desktop-themes/Mint/emerald/Makefile
 desktop-themes/Mint/gtk-2.0/Makefile
 desktop-themes/Mint/gtk-2.0/apps/Makefile
-desktop-themes/Mint/gtk-2.0/apps/Caja/Makefile
+desktop-themes/Mint/gtk-2.0/apps/Baul/Makefile
 desktop-themes/Mint/gtk-2.0/apps/Handles/Makefile
 desktop-themes/Mint/gtk-2.0/apps/Null/Makefile
 desktop-themes/Mint/gtk-2.0/apps/Others/Makefile

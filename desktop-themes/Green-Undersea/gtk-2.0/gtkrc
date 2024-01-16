@@ -1101,7 +1101,7 @@ widget_class "*MozContainer*"		style "performance-fix" # Firefox (Not sure if th
 include "apps/thunar.rc"		# thunar especific
 include "apps/terminal.rc"
 include "apps/gmusicbrowser.rc"
-include "apps/baul.rc"		# Caja styling
+include "apps/baul.rc"		# Baul styling
 include "apps/panel.rc"		# Cafe-panel styling
 include "apps/lapiz.rc"		# Lapiz styling
 include "apps/pcmanfm.rc"	# PCManFM styling

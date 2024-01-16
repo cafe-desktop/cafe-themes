@@ -3,7 +3,7 @@
  *********************/
 
 
-/**** Caja Navigation Window ***/
+/**** Baul Navigation Window ***/
 
 .baul-navigation-window scrolledwindow.view {
 	background-color: @less_dark_color;
@@ -109,7 +109,7 @@
     border-image: none;
 }
 
-/* Caja places bar */
+/* Baul places bar */
  
 .baul-pathbar button.flat {
     border-style: none;

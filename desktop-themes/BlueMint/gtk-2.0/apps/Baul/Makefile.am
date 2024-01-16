@@ -1,4 +1,4 @@
-themedir = $(datadir)/themes/BlueMint/gtk-2.0/apps/Caja
+themedir = $(datadir)/themes/BlueMint/gtk-2.0/apps/Baul
 
 theme_DATA = \
 	breadcrumb_active.png \
