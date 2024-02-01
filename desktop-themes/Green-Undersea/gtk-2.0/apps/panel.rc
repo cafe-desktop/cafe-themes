@@ -155,7 +155,7 @@ widget_class "*Applet*Netstatus*"	style "theme-panel"
 widget_class "*Panel*GtkToggleButton"   style:highest "theme-panel-buttons"
 #widget_class "*Panel*GtkButton"        style:highest "theme-panel-buttons"
 
-widget "*WnckPager*"	    	    style "workspace-switcher"
+widget "*VnckPager*"	    	    style "workspace-switcher"
 
 # syncronize panel menus
 widget_class "*CafePanelAppletFrameDBus*" style "applet"

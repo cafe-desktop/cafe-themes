@@ -4,7 +4,7 @@ style "workspace-switcher"
 	bg[PRELIGHT] = shade (1.0, @selected_bg_color)
 }
 
-widget "*WnckPager*"	    	    style "workspace-switcher"
+widget "*VnckPager*"	    	    style "workspace-switcher"
 
 # Workaround for the evolution ETable (bug #527532)
 widget_class "*.<ETable>.<ECanvas>" style "treeview_header"

@@ -7,7 +7,7 @@
     -CtkToolItemGroup-expander-size: 11;
     -CtkIMHtml-hyperlink-color: @link_color;
     -CtkHTML-link-color: @link_color;
-    -WnckTasklist-fade-overlay-rect: 0;
+    -VnckTasklist-fade-overlay-rect: 0;
     outline-color: @focus_border_color;
     outline-style: dashed;
     outline-offset: -3px;

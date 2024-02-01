@@ -11,7 +11,7 @@
 	-GtkTreeView-horizontal-separator: 0;
 	-GtkIMHtml-hyperlink-color: @link_color;
 	-GtkHTML-link-color: @link_color;
-	-WnckTasklist-fade-overlay-rect: 0;
+	-VnckTasklist-fade-overlay-rect: 0;
 	outline-color: alpha(currentColor, 0.3);
 	outline-style: dashed;
 	outline-offset: -3px;

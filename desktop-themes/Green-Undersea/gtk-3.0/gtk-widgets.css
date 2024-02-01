@@ -19,7 +19,7 @@
     -GtkTreeView-expander-size: 12; /* arrow size in list/tree views */
     -GtkTreeView-horizontal-separator: 4;
     -GtkTreeView-vertical-separator: 4;
-    -WnckTasklist-fade-overlay-rect: 0;
+    -VnckTasklist-fade-overlay-rect: 0;
     /* Highlight drag-drop destination */
     outline-color: alpha(@theme_selected_bg_color, 0.3);
     outline-style: dashed;

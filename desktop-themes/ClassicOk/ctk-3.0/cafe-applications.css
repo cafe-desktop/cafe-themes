@@ -318,14 +318,14 @@ PanelApplet.vnck-applet .vnck-pager {
     text-shadow: none;
 }
 
-/* selected WnckPager */
+/* selected VnckPager */
 PanelApplet.vnck-applet .vnck-pager:selected {
     background-image: linear-gradient(to bottom,
         shade (@theme_selected_bg_color, 0.8),
         shade (@theme_selected_bg_color, 1.06));
 }
 
-/* hover of WnckPager */
+/* hover of VnckPager */
 PanelApplet.vnck-applet .vnck-pager:hover {
     background-image: linear-gradient(to bottom,
         shade (@theme_selected_bg_color, 1.86),

@@ -160,7 +160,7 @@ widget_class "*tray*"			style "theme-panel"
 widget_class "*computertemp*"		style "theme-panel"
 widget_class "*Applet*Tomboy*"		style "theme-panel"
 widget_class "*Applet*Netstatus*"	style "theme-panel"
-widget "*WnckPager*"	    	    style "workspace-switcher"
+widget "*VnckPager*"	    	    style "workspace-switcher"
 
 # Fixes for tooltip text in some apps.
 widget_class "*Notif*Beagle*"	style "theme-panel-light"

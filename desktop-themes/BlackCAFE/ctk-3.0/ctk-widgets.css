@@ -13,7 +13,7 @@
 	-treeview-horizontal-separator: 4;
 	-CtkIMHtml-hyperlink-color: @link_color;
 	-CtkHTML-link-color: @link_color;
-	-WnckTasklist-fade-overlay-rect: 0;
+	-VnckTasklist-fade-overlay-rect: 0;
 	outline-color: alpha(@focus_border, 0.6);
 	outline-style: dotted;
 	outline-offset: -3px;

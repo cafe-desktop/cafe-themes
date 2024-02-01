@@ -698,7 +698,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
     text-shadow: none;
 }
 
-/* WnckPager */
+/* VnckPager */
 PanelApplet.vnck-applet .vnck-pager {
     background-image: none;
     border-color: transparent;
@@ -708,14 +708,14 @@ PanelApplet.vnck-applet .vnck-pager {
     outline-color: shade (@theme_selected_bg_color, 1.6);
 }
 
-/* selected WnckPager */
+/* selected VnckPager */
 PanelApplet.vnck-applet .vnck-pager:selected {
     background-image: linear-gradient(to bottom,
                                       @theme_selected_bg_color,
                                       shade (@theme_selected_bg_color, 0.36));
 }
 
-/* hover of WnckPager */
+/* hover of VnckPager */
 PanelApplet.vnck-applet .vnck-pager:hover {
     background-image: linear-gradient(to bottom,
                                       shade (@theme_selected_bg_color, 0.56),

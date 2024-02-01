@@ -19,7 +19,7 @@
     -CtkTreeView-expander-size: 12; /* arrow size in list/tree views */
     -CtkTreeView-horizontal-separator: 4;
     -CtkTreeView-vertical-separator: 4;
-    -WnckTasklist-fade-overlay-rect: 0;
+    -VnckTasklist-fade-overlay-rect: 0;
     /* Highlight drag-drop destination */
     outline-color: alpha(currentColor, 0.3);
     outline-style: dashed;
