@@ -272,7 +272,7 @@ CafePanelApplet {
     border-width: 0;
 }
 
-/* the grid left from wnckpager and wncktasklist */
+/* the grid left from vnckpager and vncktasklist */
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -gtk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
@@ -365,14 +365,14 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 /* set button WnckSelector */
-#window-menu-applet-button wnck-selector menuitem {
+#window-menu-applet-button vnck-selector menuitem {
     border-radius: 3px;
     border-style: solid;
     padding: 4px 5px;
 }
 
 /* set selected button WnckSelector, hover is checked!!  */
-#window-menu-applet-button wnck-selector menuitem:hover {
+#window-menu-applet-button vnck-selector menuitem:hover {
     background-image: linear-gradient(to bottom,
                                       shade(@button_gradient_color_b, 0.7),
                                       @theme_bg_color 50%,
@@ -381,7 +381,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 /* set WnckSelector menu menuitem */
-#window-menu-applet-button wnck-selector menu menuitem {
+#window-menu-applet-button vnck-selector menu menuitem {
     background-image:  none;
     border-style: solid;
     border-width: 1px;
@@ -390,7 +390,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 /* set WnckSelector menu selected menuitem */
-#window-menu-applet-button wnck-selector menu menuitem:hover {
+#window-menu-applet-button vnck-selector menu menuitem:hover {
     background-image:  linear-gradient(to bottom,
                                        shade(@theme_selected_bg_color, 1.6),
                                        shade(@theme_selected_bg_color, 0.6));
@@ -401,7 +401,7 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
     border-image: url("assets/menu-border.svg") 2 / 2px stretch;
 }
 
-.wnck-pager {
+.vnck-pager {
     background-image: none;
     color: shade (@theme_selected_bg_color, 1.15);
     background-color: transparent;
@@ -410,17 +410,17 @@ window.background, /* selector where outlines are writen on GtkTrayIcon */
 }
 
 /* selected WnckPager */
-.wnck-pager:selected {
+.vnck-pager:selected {
     background-image: linear-gradient(to bottom,
-                                      shade (@wnckpager_bg_color, 1.65),
-                                      shade (@wnckpager_bg_color, 0.75));
+                                      shade (@vnckpager_bg_color, 1.65),
+                                      shade (@vnckpager_bg_color, 0.75));
 }
 
 /* prelight of WnckPager */
-.wnck-pager:hover {
+.vnck-pager:hover {
     background-image: linear-gradient(to bottom,
-                                      shade (@wnckpager_bg_color, 0.75),
-                                      shade (@wnckpager_bg_color, 1.65));
+                                      shade (@vnckpager_bg_color, 0.75),
+                                      shade (@vnckpager_bg_color, 1.65));
 }
 
 

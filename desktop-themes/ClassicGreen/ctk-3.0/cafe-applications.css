@@ -159,8 +159,8 @@ window.background, /* selector where outlines are writen on CtkTrayIcon */
 .cafe-panel-menu-bar button,
 #PanelApplet > #clock-applet-button.flat.toggle,
 #PanelApplet > #showdesktop-button,
-#PanelApplet > wnck-tasklist > button,
-PanelApplet.wnck-applet .wnck-pager {
+#PanelApplet > vnck-tasklist > button,
+PanelApplet.vnck-applet .vnck-pager {
     outline-offset: -2px;
     outline-style: solid;
     outline-color: shade (@theme_selected_bg_color, 0.8);
@@ -311,7 +311,7 @@ PanelApplet.wnck-applet .wnck-pager {
     color: @border_color;
 }
 
-PanelApplet.wnck-applet .wnck-pager {
+PanelApplet.vnck-applet .vnck-pager {
     background-image: none;
     color: shade (@theme_selected_bg_color, 1.30);
     background-color: transparent;
@@ -319,14 +319,14 @@ PanelApplet.wnck-applet .wnck-pager {
 }
 
 /* selected WnckPager */
-PanelApplet.wnck-applet .wnck-pager:selected {
+PanelApplet.vnck-applet .vnck-pager:selected {
     background-image: linear-gradient(to bottom,
         shade (@theme_selected_bg_color, 0.8),
         shade (@theme_selected_bg_color, 1.06));
 }
 
 /* hover of WnckPager */
-PanelApplet.wnck-applet .wnck-pager:hover {
+PanelApplet.vnck-applet .vnck-pager:hover {
     background-image: linear-gradient(to bottom,
         shade (@theme_selected_bg_color, 1.86),
         shade (@theme_selected_bg_color, 0.8));

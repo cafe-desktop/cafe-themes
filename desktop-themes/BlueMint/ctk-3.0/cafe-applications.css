@@ -414,7 +414,7 @@ PanelSeparator {
     text-shadow: none;
 }
 
-/* the grid left from na-tray and wncktasklist */
+/* the grid left from na-tray and vncktasklist */
 CafePanelAppletFrameDBus > CafePanelAppletFrameDBus {
     background-image: -ctk-scaled(url("assets/panel-grid.svg"));
     background-color: transparent;
@@ -448,7 +448,7 @@ window.background, /* selector where outlines are writen on CtkTrayIcon */
 }
 
 /* all applets */
-/* needed for cafe-menu/mintmenu/wnck-tasklist to override a wildcard at line 37 ctk-widgets.css */
+/* needed for cafe-menu/mintmenu/vnck-tasklist to override a wildcard at line 37 ctk-widgets.css */
 #PanelApplet:selected,
 #PanelApplet #tasklist-button * {
     color: shade (@theme_fg_color, 1.00);
@@ -505,7 +505,7 @@ window.background, /* selector where outlines are writen on CtkTrayIcon */
 }
 
 /* WnckPager */
-PanelApplet.wnck-applet .wnck-pager {
+PanelApplet.vnck-applet .vnck-pager {
     color: shade (@theme_selected_bg_color, 1.30);
     background-image: none;
     background-color: transparent;
@@ -515,14 +515,14 @@ PanelApplet.wnck-applet .wnck-pager {
 }
 
 /* selected WnckPager */
-PanelApplet.wnck-applet .wnck-pager:selected {
+PanelApplet.vnck-applet .vnck-pager:selected {
     background-image: linear-gradient(to bottom,
                                       @theme_selected_bg_color,
                                       shade (@theme_selected_bg_color, 0.36));
 }
 
 /* prelight of WnckPager */
-PanelApplet.wnck-applet .wnck-pager:hover {
+PanelApplet.vnck-applet .vnck-pager:hover {
     background-image: linear-gradient(to bottom,
                                       shade (@theme_selected_bg_color, 0.56),
                                       @theme_selected_bg_color);
