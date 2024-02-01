@@ -21,3 +21,4 @@ before_scripts:
 
 build_scripts:
   - ./make-scanbuild
+  - ./exit-warning
