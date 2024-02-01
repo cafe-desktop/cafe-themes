@@ -33,7 +33,7 @@ icon_DATA= \
 	display-capplet.png \
 	documents.png \
 	empathy.png \
-	engrampa.png \
+	grapa.png \
 	eog.png \
 	eom.png \
 	evince.png \
