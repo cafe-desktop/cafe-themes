@@ -7,7 +7,8 @@ theme_DATA = \
 	COPYING \
 	index.theme
 
-%.theme: %.theme.in
+SUFFIXES = .theme.in .theme
+.theme.in.theme:
 	$(AM_V_GEN) $(MSGFMT) --desktop --template $< -d $(top_srcdir)/po -o $@
 
 SUBDIRS =		\
