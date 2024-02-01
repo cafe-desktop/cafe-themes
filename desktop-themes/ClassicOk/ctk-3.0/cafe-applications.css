@@ -506,8 +506,7 @@ EggToolbarEditor.vertical scrolledwindow {
 }
 
 /* broken text selection */
-.lector-window scrolledwindow.frame > widget:active,
-.lector-window scrolledwindow.frame > widget:selected {
+.lector-window evview .view {
 	background-color: @theme_selected_bg_color;
 	color: @theme_selected_fg_color;
 }
