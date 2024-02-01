@@ -2164,7 +2164,7 @@ toolbar combobox cellview {
     text-shadow: none;
 }
 
-/* ie. atril */
+/* ie. lector */
 .primary-toolbar toolbar combobox cellview,
 toolbar.primary-toolbar combobox cellview {
     /* color combobox read-only */
@@ -2773,7 +2773,7 @@ toolbar.primary-toolbar button:checked:disabled {
     text-shadow: none;
 }
 
-/* ie. atril */
+/* ie. lector */
 .primary-toolbar toolbar toolitem combobox .linked button.combo {
     padding: 8px 4px;
 }

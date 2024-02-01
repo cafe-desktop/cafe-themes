@@ -14,7 +14,7 @@ icon_DATA= \
 	anaconda.png \
 	applets-screenshooter.png \
 	applications-blender.png \
-	atril.png \
+	lector.png \
 	audiobook.png \
 	ax-applet.png \
 	blender.png \

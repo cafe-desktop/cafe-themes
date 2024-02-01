@@ -544,33 +544,33 @@ vte-terminal {
  * Atril *
  *********/
 
-.atril-window .primary-toolbar toolbar entry {
+.lector-window .primary-toolbar toolbar entry {
     padding: 0px;
 }
 
-.atril-window paned.horizontal > box.vertical > scrolledwindow.frame {
+.lector-window paned.horizontal > box.vertical > scrolledwindow.frame {
     border-width: 0px 1px 1px 1px;
 }
 
 /* broken text selection */
-.atril-window scrolledwindow.frame > widget:selected {
+.lector-window scrolledwindow.frame > widget:selected {
 	background-color: @theme_selected_bg_color;
 	color: @theme_selected_fg_color;
 }
 
-.atril-window scrolledwindow.frame > widget:active {
+.lector-window scrolledwindow.frame > widget:active {
 	background-color: shade(@theme_unfocused_bg_color, 0.94);
 	color: @theme_fg_color;
 }
 
 /* sidebar */
-.atril-window paned.horizontal > box.vertical > box.horizontal button {
+.lector-window paned.horizontal > box.vertical > box.horizontal button {
     padding: 3px;
     border-radius: 3px;
     -gtk-outline-radius: 3px;
 }
 
-/* atril and eom */
+/* lector and eom */
 EggToolbarEditor.vertical scrolledwindow {
     background-color: shade(@base_color, 1.04);
     border-color: alpha(@frame_color, 0.6);
@@ -697,7 +697,7 @@ cafekbd-keyboard-drawing,
    FIXME Sadly lapiz ignore doesn't show the maximised style class */
 
 window.background.maximized.engrampa-window > grid.horizontal > paned.horizontal > scrolledwindow.frame,
-window.background.maximized.atril-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
+window.background.maximized.lector-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.lapiz-window > box.vertical > paned.horizontal > paned.vertical > notebook box.vertical > scrolledwindow.frame,
 window.background.maximized.logview-window > box.vertical > paned.horizontal > box.vertical > scrolledwindow.frame,
 window.background.maximized.baul-navigation-window notebook.baul-notebook scrolledwindow.frame {

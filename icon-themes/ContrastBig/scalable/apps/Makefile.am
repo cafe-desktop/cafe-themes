@@ -10,7 +10,7 @@ icon_DATA= \
 	accessories-calculator.svg \
 	accessories-character-map.svg \
 	accessories-text-editor.svg \
-	atril.svg \
+	lector.svg \
 	help-browser.svg \
 	cafe-desktop.svg \
 	cafe-invest-applet.svg \
