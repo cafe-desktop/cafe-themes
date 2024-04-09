@@ -1,3 +1,21 @@
+### cafe-themes 2.0.0
+
+  * Classic themes:
+    - lapiz: border right width 1px in vertical scrollbar if window isn't maximized
+    - lector: Fix broken text selection
+  * rename marco -> croma
+  * desktop themes: add CtkTheme line to index.theme.in
+  * metacity: rename gtk -> ctk
+  * croma-themes: rename gtk -> ctk
+  * all themes: settings: enable button-images and menu-images
+  * rename caja -> baul
+  * rename atril -> lector
+  * desktop-themes: Fix warnings in Makefiles ('%'-style pattern rules are a GNU make extension)
+  * rename wnck -> vnck
+  * rename engrampa -> grapa
+  * ci: add exit-warning script
+  * po,Makevars: supress progress indicators
+
 ### cafe-themes 1.25.0
 
   * mate-themes 3.22.21 fork
