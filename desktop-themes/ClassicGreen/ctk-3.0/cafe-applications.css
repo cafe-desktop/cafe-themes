@@ -670,3 +670,10 @@ window.background.maximized.baul-navigation-window notebook.baul-notebook scroll
     border-right-width: 0px;
 }
 
+/*******
+ * eoc *
+ *******/
+
+window.background.eoc-window > box > box > box > paned > grid > scrollbar {
+    border-width: 1px;
+}
