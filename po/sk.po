@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
-"POT-Creation-Date: 2023-08-20 09:53+0200\n"
+"POT-Creation-Date: 2025-07-22 17:49+0200\n"
 "PO-Revision-Date: 2019-11-06 20:08+0000\n"
 "Last-Translator: Ján Ďanovský <dagsoftware@yahoo.com>\n"
 "Language-Team: Slovak (http://www.transifex.com/cafe/CAFE/language/sk/)\n"
@@ -24,86 +24,86 @@ msgstr ""
 "Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n "
 ">= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
 
-#: cursor-themes/cafe-black/index.theme.in:3
+#: cursor-themes/cafe-black/index.theme.in:2
 msgid "CAFE (Black)"
 msgstr "CAFE(Čierne)"
 
-#: desktop-themes/BlackCAFE/index.theme.in:4
+#: desktop-themes/BlackCAFE/index.theme.in:3
 msgid "BlackCAFE"
 msgstr ""
 
-#: desktop-themes/BlackCAFE/index.theme.in:5
+#: desktop-themes/BlackCAFE/index.theme.in:4
 msgid "A clean dark theme"
 msgstr "Čistá tmavá téma"
 
-#: desktop-themes/BlueMint/index.theme.in:4
+#: desktop-themes/BlueMint/index.theme.in:3
 msgid "BlueMint"
 msgstr ""
 
-#: desktop-themes/BlueMint/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:4
 msgid "A clean light theme with blue elements"
 msgstr "Čistá svetlá téma s modrými prvkami"
 
-#: desktop-themes/Blue-Undersea/index.theme.in:4
+#: desktop-themes/Blue-Undersea/index.theme.in:3
 msgid "Blue-Undersea"
 msgstr ""
 
-#: desktop-themes/Blue-Undersea/index.theme.in:5
+#: desktop-themes/Blue-Undersea/index.theme.in:4
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Stredne modrá téma s tmavými menu a panelom"
 
-#: desktop-themes/ContrastBig/index.theme.in:4
+#: desktop-themes/ContrastBig/index.theme.in:3
 msgid "Big Contrast"
 msgstr ""
 
-#: desktop-themes/ContrastBig/index.theme.in:5
+#: desktop-themes/ContrastBig/index.theme.in:4
 msgid "High contrast theme"
 msgstr "Téma s vysokým kontrastom"
 
-#: desktop-themes/BigContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:3
 msgid "Big Contrast Inverse"
 msgstr ""
 
-#: desktop-themes/BigContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "White-on-black text and icons"
 msgstr "Text a ikony biele na čiernom"
 
-#: desktop-themes/GreenLagoon/index.theme.in:4
+#: desktop-themes/GreenLagoon/index.theme.in:3
 msgid "GreenLagoon"
 msgstr ""
 
-#: desktop-themes/GreenLagoon/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:4
 msgid "A clean light green theme"
 msgstr "Čistá svetlozelená téma"
 
-#: desktop-themes/Green-Undersea/index.theme.in:4
+#: desktop-themes/Green-Undersea/index.theme.in:3
 msgid "Green-Undersea"
 msgstr ""
 
-#: desktop-themes/Green-Undersea/index.theme.in:5
+#: desktop-themes/Green-Undersea/index.theme.in:4
 msgid "A medium green theme with dark menus and panel"
 msgstr "Stredne zelená téma s tmavými menu a panelom"
 
-#: desktop-themes/Mint/index.theme.in:4
+#: desktop-themes/Mint/index.theme.in:3
 msgid "Mint"
 msgstr ""
 
-#: desktop-themes/Mint/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:4
 msgid "A clean light theme with green elements"
 msgstr "Čistá svetlá téma so zelenými prvkami"
 
-#: desktop-themes/ClassicGreen/index.theme.in:4
+#: desktop-themes/ClassicGreen/index.theme.in:3
 msgid "ClassicGreen"
 msgstr ""
 
-#: desktop-themes/ClassicGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:4
 msgid "Green port of Clearlooks-Phenix"
 msgstr "Port témy Clearlooks-Phenix v zelenej farbe"
 
-#: desktop-themes/ClassicOk/index.theme.in:4
+#: desktop-themes/ClassicOk/index.theme.in:3
 msgid "ClassicOk"
 msgstr "TradičnáOk"
 
-#: desktop-themes/ClassicOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:4
 msgid "Port of Clearlooks-Phenix"
 msgstr "Port témy Clearlooks-Phenix"

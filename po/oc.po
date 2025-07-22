@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CAFE Desktop Environment\n"
 "Report-Msgid-Bugs-To: https://cafe-desktop.org\n"
-"POT-Creation-Date: 2023-08-20 09:53+0200\n"
+"POT-Creation-Date: 2025-07-22 17:49+0200\n"
 "PO-Revision-Date: 2020-02-10 21:02+0000\n"
 "Last-Translator: Quentin\n"
 "Language-Team: Occitan (post 1500) (http://www.transifex.com/cafe/CAFE/"
@@ -22,86 +22,86 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: cursor-themes/cafe-black/index.theme.in:3
+#: cursor-themes/cafe-black/index.theme.in:2
 msgid "CAFE (Black)"
 msgstr "CAFE (negre)"
 
-#: desktop-themes/BlackCAFE/index.theme.in:4
+#: desktop-themes/BlackCAFE/index.theme.in:3
 msgid "BlackCAFE"
 msgstr "BlackCAFE"
 
-#: desktop-themes/BlackCAFE/index.theme.in:5
+#: desktop-themes/BlackCAFE/index.theme.in:4
 msgid "A clean dark theme"
 msgstr "Tèma net e escur"
 
-#: desktop-themes/BlueMint/index.theme.in:4
+#: desktop-themes/BlueMint/index.theme.in:3
 msgid "BlueMint"
 msgstr "BlueMint"
 
-#: desktop-themes/BlueMint/index.theme.in:5
+#: desktop-themes/BlueMint/index.theme.in:4
 msgid "A clean light theme with blue elements"
 msgstr "Tèma net e clar amb d'elements blaus"
 
-#: desktop-themes/Blue-Undersea/index.theme.in:4
+#: desktop-themes/Blue-Undersea/index.theme.in:3
 msgid "Blue-Undersea"
 msgstr "Blue-Undersea"
 
-#: desktop-themes/Blue-Undersea/index.theme.in:5
+#: desktop-themes/Blue-Undersea/index.theme.in:4
 msgid "A medium blue theme with dark menus and panel"
 msgstr "Tèma blau mejan amb de menús e tablèus de bòrd escurs"
 
-#: desktop-themes/ContrastBig/index.theme.in:4
+#: desktop-themes/ContrastBig/index.theme.in:3
 msgid "Big Contrast"
 msgstr ""
 
-#: desktop-themes/ContrastBig/index.theme.in:5
+#: desktop-themes/ContrastBig/index.theme.in:4
 msgid "High contrast theme"
 msgstr "Tèma fòrt contrast"
 
-#: desktop-themes/BigContrastInverse/index.theme.in:4
+#: desktop-themes/BigContrastInverse/index.theme.in:3
 msgid "Big Contrast Inverse"
 msgstr ""
 
-#: desktop-themes/BigContrastInverse/index.theme.in:5
+#: desktop-themes/BigContrastInverse/index.theme.in:4
 msgid "White-on-black text and icons"
 msgstr "Tèxte e icònas blanc sus negre"
 
-#: desktop-themes/GreenLagoon/index.theme.in:4
+#: desktop-themes/GreenLagoon/index.theme.in:3
 msgid "GreenLagoon"
 msgstr "GreenLagoon"
 
-#: desktop-themes/GreenLagoon/index.theme.in:5
+#: desktop-themes/GreenLagoon/index.theme.in:4
 msgid "A clean light green theme"
 msgstr "Tèma amb un verd clar e net"
 
-#: desktop-themes/Green-Undersea/index.theme.in:4
+#: desktop-themes/Green-Undersea/index.theme.in:3
 msgid "Green-Undersea"
 msgstr "Green-Undersea"
 
-#: desktop-themes/Green-Undersea/index.theme.in:5
+#: desktop-themes/Green-Undersea/index.theme.in:4
 msgid "A medium green theme with dark menus and panel"
 msgstr "Tèma verd mejan amb de menús e tablèus de bòrd escurs"
 
-#: desktop-themes/Mint/index.theme.in:4
+#: desktop-themes/Mint/index.theme.in:3
 msgid "Mint"
 msgstr "Mint"
 
-#: desktop-themes/Mint/index.theme.in:5
+#: desktop-themes/Mint/index.theme.in:4
 msgid "A clean light theme with green elements"
 msgstr "Tèma clar e net amb d'elements verds"
 
-#: desktop-themes/ClassicGreen/index.theme.in:4
+#: desktop-themes/ClassicGreen/index.theme.in:3
 msgid "ClassicGreen"
 msgstr "ClassicGreen"
 
-#: desktop-themes/ClassicGreen/index.theme.in:5
+#: desktop-themes/ClassicGreen/index.theme.in:4
 msgid "Green port of Clearlooks-Phenix"
 msgstr "Adaptacion verda de Clearlooks-Phenix"
 
-#: desktop-themes/ClassicOk/index.theme.in:4
+#: desktop-themes/ClassicOk/index.theme.in:3
 msgid "ClassicOk"
 msgstr "ClassicOk"
 
-#: desktop-themes/ClassicOk/index.theme.in:5
+#: desktop-themes/ClassicOk/index.theme.in:4
 msgid "Port of Clearlooks-Phenix"
 msgstr "Adaptacion de Clearlooks-Phenix"
