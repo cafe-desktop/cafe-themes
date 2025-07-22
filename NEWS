@@ -1,3 +1,9 @@
+### cafe-themes 2.0.1
+
+  * ci: add debian sid build
+  * Classic themes: eoc: scrollbars with border-width 1px
+  * update translations
+
 ### cafe-themes 2.0.0
 
   * Classic themes:
