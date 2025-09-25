@@ -15,7 +15,7 @@ requires:
     - libgtk2.0-dev
     - libxml-parser-perl
     - make
-    - pkg-config
+    - pkgconf
 
 before_scripts:
   - ./install-from-git https://github.com/cafe-desktop/cafe-common master
