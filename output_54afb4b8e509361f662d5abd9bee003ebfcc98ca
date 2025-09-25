@@ -1,0 +1,2948 @@
+/usr/bin/cafe-autogen
+[1mchecking for autoreconf >= 2.53...
+(B[m  testing autoreconf... found 2.72
+[1mchecking for pkg-config >= 0.14.0...
+(B[m  testing pkg-config... found 1.8.1
+[1mchecking for cafe-common >= 0.0.1...
+(B[m  testing cafe-doc-common... found 2.0.0
+[1mChecking for required M4 macros...
+(B[m[1mChecking for forbidden M4 macros...
+(B[m[1mProcessing ./configure.ac
+(B[m[1mRunning cafe-doc-common...
+(B[m[1mRunning autoreconf...
+(B[mautoreconf: export WARNINGS=no-portability
+autoreconf: Entering directory '.'
+autoreconf: running: autopoint --force
+Copying file ABOUT-NLS
+Copying file config.rpath
+Creating directory m4
+Copying file m4/codeset.m4
+Copying file m4/extern-inline.m4
+Copying file m4/fcntl-o.m4
+Copying file m4/gettext.m4
+Copying file m4/glibc2.m4
+Copying file m4/glibc21.m4
+Copying file m4/iconv.m4
+Copying file m4/intdiv0.m4
+Copying file m4/intl.m4
+Copying file m4/intldir.m4
+Copying file m4/intlmacosx.m4
+Copying file m4/intmax.m4
+Copying file m4/inttypes-pri.m4
+Copying file m4/inttypes_h.m4
+Copying file m4/lcmessage.m4
+Copying file m4/lib-ld.m4
+Copying file m4/lib-link.m4
+Copying file m4/lib-prefix.m4
+Copying file m4/lock.m4
+Copying file m4/longlong.m4
+Copying file m4/nls.m4
+Copying file m4/po.m4
+Copying file m4/printf-posix.m4
+Copying file m4/progtest.m4
+Copying file m4/size_max.m4
+Copying file m4/stdint_h.m4
+Copying file m4/threadlib.m4
+Copying file m4/uintmax_t.m4
+Copying file m4/visibility.m4
+Copying file m4/wchar_t.m4
+Copying file m4/wint_t.m4
+Copying file m4/xsize.m4
+Copying file po/Makefile.in.in
+Copying file po/Makevars.template
+Copying file po/Rules-quot
+Copying file po/boldquot.sed
+Copying file po/en@boldquot.header
+Copying file po/en@quot.header
+Copying file po/insert-header.sin
+Copying file po/quot.sed
+Copying file po/remove-potcdate.sin
+autoreconf: running: aclocal --force -I m4 ${ACLOCAL_FLAGS}
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: not using Libtool
+autoreconf: configure.ac: not using Intltool
+autoreconf: configure.ac: not using Gtkdoc
+autoreconf: running: /usr/bin/autoconf --force
+autoreconf: configure.ac: not using Autoheader
+autoreconf: running: automake --add-missing --copy --force-missing
+configure.ac:15: installing './compile'
+configure.ac:15: installing './config.guess'
+configure.ac:15: installing './config.sub'
+configure.ac:6: installing './install-sh'
+configure.ac:6: installing './missing'
+Makefile.am: installing './INSTALL'
+autoreconf: Leaving directory '.'
+Skipping configure process.
+scan-build: Using '/usr/lib/llvm-19/bin/clang' for static analysis
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether sleep supports fractional seconds... yes
+checking filesystem timestamp resolution... 0.01
+checking whether build environment is sane... yes
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking xargs -n works... yes
+checking whether UID '0' is supported by ustar format... yes
+checking whether GID '0' is supported by ustar format... yes
+checking how to create a ustar tar archive... gnutar
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.19... yes
+checking for a sed that does not truncate output... /usr/bin/sed
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking whether make supports the include directive... yes (GNU style)
+checking for gcc... /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer accepts -g... yes
+checking for /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer option to enable C11 features... none needed
+checking whether /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer understands -c and -o together... rm: cannot remove 'conftest.plist': Is a directory
+yes
+checking dependency style of /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer... none
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-pc-linux-gnu
+checking for ld used by /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer... /usr/bin/x86_64-linux-gnu-ld
+checking if the linker (/usr/bin/x86_64-linux-gnu-ld) is GNU ld... yes
+checking for shared library run path origin... done
+checking how to run the C preprocessor... /usr/share/clang/scan-build-19/bin/../libexec/ccc-analyzer -E
+checking for egrep -e... /usr/bin/grep -E
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for gtk+-2.0 >= 2.0.0   gdk-pixbuf-2.0 >= 2.0.0 ... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating cursor-themes/Makefile
+config.status: creating cursor-themes/cafe-white/Makefile
+config.status: creating cursor-themes/cafe-white/cursors/Makefile
+config.status: creating cursor-themes/cafe-black/Makefile
+config.status: creating cursor-themes/cafe-black/cursors/Makefile
+config.status: creating desktop-themes/Makefile
+config.status: creating desktop-themes/BlackCAFE/Makefile
+config.status: creating desktop-themes/BlackCAFE/apps/Makefile
+config.status: creating desktop-themes/BlackCAFE/gtk-2.0/Makefile
+config.status: creating desktop-themes/BlackCAFE/gtk-2.0/assets/Makefile
+config.status: creating desktop-themes/BlackCAFE/gtk-2.0/Styles/Makefile
+config.status: creating desktop-themes/BlackCAFE/gtk-3.0/Makefile
+config.status: creating desktop-themes/BlackCAFE/gtk-3.0/assets/Makefile
+config.status: creating desktop-themes/BlackCAFE/gtk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/BlackCAFE/ctk-3.0/Makefile
+config.status: creating desktop-themes/BlackCAFE/ctk-3.0/assets/Makefile
+config.status: creating desktop-themes/BlackCAFE/ctk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/BlackCAFE/metacity-1/Makefile
+config.status: creating desktop-themes/BlackCAFE/cinnamon/Makefile
+config.status: creating desktop-themes/BlackCAFE/unity/Makefile
+config.status: creating desktop-themes/BlackCAFE-border/Makefile
+config.status: creating desktop-themes/BlackCAFE-border/metacity-1/Makefile
+config.status: creating desktop-themes/BlueMint/Makefile
+config.status: creating desktop-themes/BlueMint/cinnamon/Makefile
+config.status: creating desktop-themes/BlueMint/emerald/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/apps/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/apps/Baul/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/apps/Handles/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/apps/Null/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/apps/Others/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/widgets/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/widgets/Null/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/widgets/Others/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/widgets/Panel/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-2.0/widgets/Scale/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-3.0/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-3.0/assets/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-3.0/borders/Makefile
+config.status: creating desktop-themes/BlueMint/gtk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/BlueMint/ctk-3.0/Makefile
+config.status: creating desktop-themes/BlueMint/ctk-3.0/assets/Makefile
+config.status: creating desktop-themes/BlueMint/ctk-3.0/borders/Makefile
+config.status: creating desktop-themes/BlueMint/ctk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/BlueMint/metacity-1/Makefile
+config.status: creating desktop-themes/BlueMint/unity/Makefile
+config.status: creating desktop-themes/BlueMint/xfwm4/Makefile
+config.status: creating desktop-themes/BlueMint-border/Makefile
+config.status: creating desktop-themes/BlueMint-border/metacity-1/Makefile
+config.status: creating desktop-themes/Blue-Undersea/Makefile
+config.status: creating desktop-themes/Blue-Undersea/cinnamon/Makefile
+config.status: creating desktop-themes/Blue-Undersea/emerald/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-2.0/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-2.0/apps/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-2.0/apps/Handles/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-2.0/apps/Panel/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-2.0/assets/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-3.0/Makefile
+config.status: creating desktop-themes/Blue-Undersea/gtk-3.0/assets/Makefile
+config.status: creating desktop-themes/Blue-Undersea/ctk-3.0/Makefile
+config.status: creating desktop-themes/Blue-Undersea/ctk-3.0/assets/Makefile
+config.status: creating desktop-themes/Blue-Undersea/metacity-1/Makefile
+config.status: creating desktop-themes/Blue-Undersea-border/Makefile
+config.status: creating desktop-themes/Blue-Undersea-border/metacity-1/Makefile
+config.status: creating desktop-themes/ContrastBig/Makefile
+config.status: creating desktop-themes/GreenLagoon/Makefile
+config.status: creating desktop-themes/GreenLagoon/gtk-2.0/Makefile
+config.status: creating desktop-themes/GreenLagoon/gtk-2.0/Styles/Makefile
+config.status: creating desktop-themes/GreenLagoon/gtk-3.0/Makefile
+config.status: creating desktop-themes/GreenLagoon/gtk-3.0/assets/Makefile
+config.status: creating desktop-themes/GreenLagoon/gtk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/GreenLagoon/ctk-3.0/Makefile
+config.status: creating desktop-themes/GreenLagoon/ctk-3.0/assets/Makefile
+config.status: creating desktop-themes/GreenLagoon/ctk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/GreenLagoon/metacity-1/Makefile
+config.status: creating desktop-themes/GreenLagoon/unity/Makefile
+config.status: creating desktop-themes/GreenLagoon-border/Makefile
+config.status: creating desktop-themes/GreenLagoon-border/metacity-1/Makefile
+config.status: creating desktop-themes/Green-Undersea/Makefile
+config.status: creating desktop-themes/Green-Undersea/cinnamon/Makefile
+config.status: creating desktop-themes/Green-Undersea/emerald/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-2.0/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-2.0/apps/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-2.0/apps/Handles/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-2.0/apps/Panel/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-2.0/assets/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-3.0/Makefile
+config.status: creating desktop-themes/Green-Undersea/gtk-3.0/assets/Makefile
+config.status: creating desktop-themes/Green-Undersea/ctk-3.0/Makefile
+config.status: creating desktop-themes/Green-Undersea/ctk-3.0/assets/Makefile
+config.status: creating desktop-themes/Green-Undersea/metacity-1/Makefile
+config.status: creating desktop-themes/Green-Undersea-border/Makefile
+config.status: creating desktop-themes/Green-Undersea-border/metacity-1/Makefile
+config.status: creating desktop-themes/BigContrastInverse/Makefile
+config.status: creating desktop-themes/BigContrastInverse/gtk-2.0/Makefile
+config.status: creating desktop-themes/BigContrastInverse/gtk-2.0/gtkrc
+config.status: creating desktop-themes/BigContrastInverse/metacity-1/Makefile
+config.status: creating desktop-themes/BigContrastInverse/pixmaps/Makefile
+config.status: creating desktop-themes/Mint/Makefile
+config.status: creating desktop-themes/Mint/cinnamon/Makefile
+config.status: creating desktop-themes/Mint/emerald/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/apps/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/apps/Baul/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/apps/Handles/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/apps/Null/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/apps/Others/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/widgets/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/widgets/Null/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/widgets/Others/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/widgets/Panel/Makefile
+config.status: creating desktop-themes/Mint/gtk-2.0/widgets/Scale/Makefile
+config.status: creating desktop-themes/Mint/gtk-3.0/Makefile
+config.status: creating desktop-themes/Mint/gtk-3.0/assets/Makefile
+config.status: creating desktop-themes/Mint/gtk-3.0/borders/Makefile
+config.status: creating desktop-themes/Mint/gtk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/Mint/ctk-3.0/Makefile
+config.status: creating desktop-themes/Mint/ctk-3.0/assets/Makefile
+config.status: creating desktop-themes/Mint/ctk-3.0/borders/Makefile
+config.status: creating desktop-themes/Mint/ctk-3.0/window-controls/Makefile
+config.status: creating desktop-themes/Mint/metacity-1/Makefile
+config.status: creating desktop-themes/Mint/unity/Makefile
+config.status: creating desktop-themes/Mint/xfwm4/Makefile
+config.status: creating desktop-themes/Mint-border/Makefile
+config.status: creating desktop-themes/Mint-border/metacity-1/Makefile
+config.status: creating desktop-themes/ClassicGreen/Makefile
+config.status: creating desktop-themes/ClassicGreen/gtk-2.0/Makefile
+config.status: creating desktop-themes/ClassicGreen/gtk-3.0/Makefile
+config.status: creating desktop-themes/ClassicGreen/gtk-3.0/img/Makefile
+config.status: creating desktop-themes/ClassicGreen/ctk-3.0/Makefile
+config.status: creating desktop-themes/ClassicGreen/ctk-3.0/img/Makefile
+config.status: creating desktop-themes/ClassicGreen/metacity-1/Makefile
+config.status: creating desktop-themes/ClassicOk/Makefile
+config.status: creating desktop-themes/ClassicOk/gtk-2.0/Makefile
+config.status: creating desktop-themes/ClassicOk/gtk-3.0/Makefile
+config.status: creating desktop-themes/ClassicOk/gtk-3.0/img/Makefile
+config.status: creating desktop-themes/ClassicOk/ctk-3.0/Makefile
+config.status: creating desktop-themes/ClassicOk/ctk-3.0/img/Makefile
+config.status: creating desktop-themes/ClassicOk/metacity-1/Makefile
+config.status: creating desktop-themes/ClassicOk/openbox-3/Makefile
+config.status: creating desktop-themes/ClassicOk/xfwm4/Makefile
+config.status: creating desktop-themes/ClassicOk/xfwm4/png/Makefile
+config.status: creating croma-themes/Makefile
+config.status: creating icon-themes/Makefile
+config.status: creating icon-themes/ContrastBig/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/actions/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/apps/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/categories/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/devices/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/emotes/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/places/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/status/Makefile
+config.status: creating icon-themes/ContrastBig/16x16/stock/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/actions/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/apps/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/categories/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/devices/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/emotes/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/places/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/status/Makefile
+config.status: creating icon-themes/ContrastBig/22x22/stock/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/actions/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/apps/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/categories/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/devices/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/emotes/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/places/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/status/Makefile
+config.status: creating icon-themes/ContrastBig/24x24/stock/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/actions/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/apps/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/categories/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/devices/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/emotes/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/places/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/status/Makefile
+config.status: creating icon-themes/ContrastBig/32x32/stock/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/actions/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/animations/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/apps/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/categories/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/devices/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/emotes/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/places/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/status/Makefile
+config.status: creating icon-themes/ContrastBig/48x48/stock/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/actions/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/apps/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/categories/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/devices/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/emotes/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/places/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/status/Makefile
+config.status: creating icon-themes/ContrastBig/256x256/stock/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/actions/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/actions-extra/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/apps/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/apps-extra/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/categories/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/devices/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/emblems/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/mimetypes/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/places/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/places-extra/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/status/Makefile
+config.status: creating icon-themes/ContrastBig/scalable/status-extra/Makefile
+config.status: creating po/Makefile.in
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+
+cafe-themes-2.0.1:
+
+	Installation prefix:	/usr
+
+
+scan-build: Analysis run complete.
+scan-build: Removing directory '/tmp/scan-build-2025-09-25-070505-10774-1' because it contains no reports.
+scan-build: No bugs found.
+scan-build: Using '/usr/lib/llvm-19/bin/clang' for static analysis
+Making all in po
+make[1]: Entering directory '/rootdir/po'
+make cafe-themes.pot-update
+make[2]: Entering directory '/rootdir/po'
+sed -e '/^#/d' remove-potcdate.sin > t-remove-potcdate.sed
+mv t-remove-potcdate.sed remove-potcdate.sed
+package_gnu=""; \
+test -n "$package_gnu" || { \
+  if { if (LC_ALL=C find --version) 2>/dev/null | grep GNU >/dev/null; then \
+	 LC_ALL=C find -L .. -maxdepth 1 -type f \
+		       -size -10000000c -exec grep 'GNU cafe-themes' \
+		       /dev/null '{}' ';' 2>/dev/null; \
+       else \
+	 LC_ALL=C grep 'GNU cafe-themes' ../* 2>/dev/null; \
+       fi; \
+     } | grep -v 'libtool:' >/dev/null; then \
+     package_gnu=yes; \
+   else \
+     package_gnu=no; \
+   fi; \
+}; \
+if test "$package_gnu" = "yes"; then \
+  package_prefix='GNU '; \
+else \
+  package_prefix=''; \
+fi; \
+if test -n '' || test 'https://cafe-desktop.org' = '@'PACKAGE_BUGREPORT'@'; then \
+  msgid_bugs_address=''; \
+else \
+  msgid_bugs_address='https://cafe-desktop.org'; \
+fi; \
+case `/usr/bin/xgettext --version | sed 1q | sed -e 's,^[^0-9]*,,'` in \
+  '' | 0.[0-9] | 0.[0-9].* | 0.1[0-5] | 0.1[0-5].* | 0.16 | 0.16.[0-1]*) \
+    /usr/bin/xgettext --default-domain=cafe-themes --directory=.. \
+      --add-comments=TRANSLATORS: --from-code=UTF-8 --language=Desktop --add-comments  \
+      --files-from=./POTFILES.in \
+      --copyright-holder='CAFE Desktop Environment team' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+    ;; \
+  *) \
+    /usr/bin/xgettext --default-domain=cafe-themes --directory=.. \
+      --add-comments=TRANSLATORS: --from-code=UTF-8 --language=Desktop --add-comments  \
+      --files-from=./POTFILES.in \
+      --copyright-holder='CAFE Desktop Environment team' \
+      --package-name="${package_prefix}cafe-themes" \
+      --package-version='2.0.1' \
+      --msgid-bugs-address="$msgid_bugs_address" \
+    ;; \
+esac
+test ! -f cafe-themes.po || { \
+  if test -f ./cafe-themes.pot-header; then \
+    sed -e '1,/^#$/d' < cafe-themes.po > cafe-themes.1po && \
+    cat ./cafe-themes.pot-header cafe-themes.1po > cafe-themes.po; \
+    rm -f cafe-themes.1po; \
+  fi; \
+  if test -f ./cafe-themes.pot; then \
+    sed -f remove-potcdate.sed < ./cafe-themes.pot > cafe-themes.1po && \
+    sed -f remove-potcdate.sed < cafe-themes.po > cafe-themes.2po && \
+    if cmp cafe-themes.1po cafe-themes.2po >/dev/null 2>&1; then \
+      rm -f cafe-themes.1po cafe-themes.2po cafe-themes.po; \
+    else \
+      rm -f cafe-themes.1po cafe-themes.2po ./cafe-themes.pot && \
+      mv cafe-themes.po ./cafe-themes.pot; \
+    fi; \
+  else \
+    mv cafe-themes.po ./cafe-themes.pot; \
+  fi; \
+}
+make[2]: Leaving directory '/rootdir/po'
+test ! -f ./cafe-themes.pot || \
+  test -z "af.gmo am.gmo an.gmo ar.gmo as.gmo ast.gmo az.gmo be.gmo bg.gmo bn.gmo bn_IN.gmo br.gmo bs.gmo ca.gmo ca@valencia.gmo cmn.gmo crh.gmo cs.gmo csb.gmo cv.gmo cy.gmo da.gmo de.gmo de_CH.gmo dz.gmo el.gmo en_AU.gmo en_CA.gmo en_GB.gmo eo.gmo es.gmo es_419.gmo es_AR.gmo es_CL.gmo es_CO.gmo es_CR.gmo es_DO.gmo es_EC.gmo es_ES.gmo es_MX.gmo es_NI.gmo es_PA.gmo es_PE.gmo es_PR.gmo es_SV.gmo es_US.gmo es_UY.gmo es_VE.gmo et.gmo eu.gmo fa.gmo fi.gmo fil.gmo fo.gmo fr.gmo fr_CA.gmo frp.gmo fur.gmo fy.gmo ga.gmo gd.gmo gl.gmo gu.gmo gug_PY.gmo ha.gmo he.gmo hi.gmo hr.gmo hu.gmo hy.gmo ia.gmo id.gmo ie.gmo ig.gmo is.gmo it.gmo ja.gmo jv.gmo ka.gmo kab.gmo kk.gmo km.gmo kn.gmo ko.gmo ks.gmo ku.gmo ku_IQ.gmo ky.gmo la.gmo lb.gmo li.gmo lo.gmo lt.gmo lv.gmo mai.gmo mg.gmo mi.gmo mk.gmo ml.gmo mn.gmo mr.gmo ms.gmo my.gmo nah.gmo nb.gmo nds.gmo ne.gmo nl.gmo nn.gmo nqo.gmo nso.gmo oc.gmo om.gmo or.gmo pa.gmo pl.gmo pms.gmo ps.gmo pt.gmo pt_BR.gmo ro.gmo ru.gmo rw.gmo sc.gmo sco.gmo si.gmo sk.gmo sl.gmo so.gmo sq.gmo sr.gmo sr@latin.gmo sv.gmo sw.gmo ta.gmo te.gmo tg.gmo th.gmo tk.gmo tl.gmo tr.gmo ts.gmo tt.gmo ug.gmo uk.gmo ur.gmo ur_PK.gmo uz.gmo vi.gmo wa.gmo xh.gmo yi.gmo yo.gmo zh_CN.gmo zh-Hans.gmo zh_HK.gmo zh_TW.gmo zu.gmo" || make af.gmo am.gmo an.gmo ar.gmo as.gmo ast.gmo az.gmo be.gmo bg.gmo bn.gmo bn_IN.gmo br.gmo bs.gmo ca.gmo ca@valencia.gmo cmn.gmo crh.gmo cs.gmo csb.gmo cv.gmo cy.gmo da.gmo de.gmo de_CH.gmo dz.gmo el.gmo en_AU.gmo en_CA.gmo en_GB.gmo eo.gmo es.gmo es_419.gmo es_AR.gmo es_CL.gmo es_CO.gmo es_CR.gmo es_DO.gmo es_EC.gmo es_ES.gmo es_MX.gmo es_NI.gmo es_PA.gmo es_PE.gmo es_PR.gmo es_SV.gmo es_US.gmo es_UY.gmo es_VE.gmo et.gmo eu.gmo fa.gmo fi.gmo fil.gmo fo.gmo fr.gmo fr_CA.gmo frp.gmo fur.gmo fy.gmo ga.gmo gd.gmo gl.gmo gu.gmo gug_PY.gmo ha.gmo he.gmo hi.gmo hr.gmo hu.gmo hy.gmo ia.gmo id.gmo ie.gmo ig.gmo is.gmo it.gmo ja.gmo jv.gmo ka.gmo kab.gmo kk.gmo km.gmo kn.gmo ko.gmo ks.gmo ku.gmo ku_IQ.gmo ky.gmo la.gmo lb.gmo li.gmo lo.gmo lt.gmo lv.gmo mai.gmo mg.gmo mi.gmo mk.gmo ml.gmo mn.gmo mr.gmo ms.gmo my.gmo nah.gmo nb.gmo nds.gmo ne.gmo nl.gmo nn.gmo nqo.gmo nso.gmo oc.gmo om.gmo or.gmo pa.gmo pl.gmo pms.gmo ps.gmo pt.gmo pt_BR.gmo ro.gmo ru.gmo rw.gmo sc.gmo sco.gmo si.gmo sk.gmo sl.gmo so.gmo sq.gmo sr.gmo sr@latin.gmo sv.gmo sw.gmo ta.gmo te.gmo tg.gmo th.gmo tk.gmo tl.gmo tr.gmo ts.gmo tt.gmo ug.gmo uk.gmo ur.gmo ur_PK.gmo uz.gmo vi.gmo wa.gmo xh.gmo yi.gmo yo.gmo zh_CN.gmo zh-Hans.gmo zh_HK.gmo zh_TW.gmo zu.gmo
+make[2]: Entering directory '/rootdir/po'
+/usr/bin/msgmerge --update --quiet --lang=af af.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=am am.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=an an.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=as as.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ar ar.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=az az.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ast ast.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=bg bg.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=bn bn.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=be be.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=bn_IN bn_IN.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=bs bs.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=br br.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ca ca.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ca@valencia ca@valencia.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=cmn cmn.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=crh crh.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=cs cs.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=csb csb.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=cy cy.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=cv cv.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=da da.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=de de.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=de_CH de_CH.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=dz dz.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=el el.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=en_AU en_AU.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=en_CA en_CA.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=en_GB en_GB.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es es.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=eo eo.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_AR es_AR.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_419 es_419.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_CL es_CL.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_CO es_CO.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_CR es_CR.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_EC es_EC.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_DO es_DO.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_ES es_ES.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_MX es_MX.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_NI es_NI.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_PA es_PA.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_PE es_PE.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_US es_US.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_PR es_PR.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_SV es_SV.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_UY es_UY.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=es_VE es_VE.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=et et.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=eu eu.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fa fa.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fi fi.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fil fil.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fr fr.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fo fo.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=frp frp.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fr_CA fr_CA.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fur fur.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=fy fy.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ga ga.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=gl gl.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=gd gd.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=gug_PY gug_PY.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=gu gu.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=he he.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=hi hi.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ha ha.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=hu hu.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=hy hy.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=hr hr.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ia ia.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=id id.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ie ie.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ig ig.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=is is.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=it it.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=jv jv.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ja ja.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ka ka.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=kab kab.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=kk kk.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=km km.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ko ko.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=kn kn.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ks ks.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ku ku.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ky ky.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=la la.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=lb lb.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ku_IQ ku_IQ.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=li li.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=lo lo.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=lt lt.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=lv lv.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=mai mai.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=mg mg.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=mi mi.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=mk mk.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ml ml.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=mn mn.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=mr mr.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ms ms.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=my my.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nah nah.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nb nb.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nds nds.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ne ne.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nl nl.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nn nn.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nqo nqo.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=nso nso.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=oc oc.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=om om.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=or or.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=pa pa.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=pl pl.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=pms pms.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ps ps.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=pt pt.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=pt_BR pt_BR.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ro ro.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ru ru.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=rw rw.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sco sco.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sc sc.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=si si.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sk sk.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sl sl.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=so so.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sq sq.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sr@latin sr@latin.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sv sv.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sr sr.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=sw sw.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ta ta.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=te te.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=tg tg.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=tk tk.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=tl tl.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=tr tr.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=th th.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ts ts.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ug ug.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=tt tt.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ur ur.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=uk uk.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=ur_PK ur_PK.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=vi vi.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=uz uz.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=wa wa.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=xh xh.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=yi yi.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=yo yo.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=zh_CN zh_CN.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=zh-Hans zh-Hans.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=zh_HK zh_HK.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=zh_TW zh_TW.po cafe-themes.pot
+/usr/bin/msgmerge --update --quiet --lang=zu zu.po cafe-themes.pot
+rm -f af.gmo && /usr/bin/msgfmt -c --statistics --verbose -o af.gmo af.po
+rm -f am.gmo && /usr/bin/msgfmt -c --statistics --verbose -o am.gmo am.po
+rm -f an.gmo && /usr/bin/msgfmt -c --statistics --verbose -o an.gmo an.po
+am.po: 10 translated messages, 11 untranslated messages.
+an.po: 0 translated messages, 21 untranslated messages.
+af.po: 1 translated message, 20 untranslated messages.
+rm -f ar.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ar.gmo ar.po
+rm -f ast.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ast.gmo ast.po
+ar.po: 8 translated messages, 13 untranslated messages.
+rm -f as.gmo && /usr/bin/msgfmt -c --statistics --verbose -o as.gmo as.po
+ast.po: 2 translated messages, 19 untranslated messages.
+rm -f az.gmo && /usr/bin/msgfmt -c --statistics --verbose -o az.gmo az.po
+as.po: 1 translated message, 20 untranslated messages.
+rm -f bg.gmo && /usr/bin/msgfmt -c --statistics --verbose -o bg.gmo bg.po
+az.po: 1 translated message, 20 untranslated messages.
+rm -f be.gmo && /usr/bin/msgfmt -c --statistics --verbose -o be.gmo be.po
+rm -f bn_IN.gmo && /usr/bin/msgfmt -c --statistics --verbose -o bn_IN.gmo bn_IN.po
+bg.po: 11 translated messages, 10 untranslated messages.
+rm -f bn.gmo && /usr/bin/msgfmt -c --statistics --verbose -o bn.gmo bn.po
+be.po: 10 translated messages, 11 untranslated messages.
+rm -f br.gmo && /usr/bin/msgfmt -c --statistics --verbose -o br.gmo br.po
+bn_IN.po: 1 translated message, 20 untranslated messages.
+rm -f bs.gmo && /usr/bin/msgfmt -c --statistics --verbose -o bs.gmo bs.po
+bn.po: 1 translated message, 20 untranslated messages.
+br.po: 2 translated messages, 19 untranslated messages.
+rm -f ca.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ca.gmo ca.po
+rm -f ca@valencia.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ca@valencia.gmo ca@valencia.po
+bs.po: 5 translated messages, 16 untranslated messages.
+rm -f cmn.gmo && /usr/bin/msgfmt -c --statistics --verbose -o cmn.gmo cmn.po
+ca@valencia.po: 11 translated messages, 10 untranslated messages.
+ca.po: 19 translated messages, 2 untranslated messages.
+cmn.po: 2 translated messages, 19 untranslated messages.
+rm -f crh.gmo && /usr/bin/msgfmt -c --statistics --verbose -o crh.gmo crh.po
+rm -f cs.gmo && /usr/bin/msgfmt -c --statistics --verbose -o cs.gmo cs.po
+rm -f csb.gmo && /usr/bin/msgfmt -c --statistics --verbose -o csb.gmo csb.po
+rm -f cy.gmo && /usr/bin/msgfmt -c --statistics --verbose -o cy.gmo cy.po
+rm -f cv.gmo && /usr/bin/msgfmt -c --statistics --verbose -o cv.gmo cv.po
+cs.po: crh.po: 1 translated message, 20 untranslated messages.
+12 translated messages, 9 untranslated messages.
+cv.po: 0 translated messagescsb.po: 0 translated messages, 21 untranslated messages.
+, 21 untranslated messages.
+cy.po: 1 translated message, 20 untranslated messages.
+rm -f de.gmo && /usr/bin/msgfmt -c --statistics --verbose -o de.gmo de.po
+rm -f da.gmo && /usr/bin/msgfmt -c --statistics --verbose -o da.gmo da.po
+rm -f de_CH.gmo && /usr/bin/msgfmt -c --statistics --verbose -o de_CH.gmo de_CH.po
+de.po: 12 translated messages, 9 untranslated messages.
+da.po: 19 translated messages, 2 untranslated messages.
+rm -f dz.gmo && /usr/bin/msgfmt -c --statistics --verbose -o dz.gmo dz.po
+de_CH.po: 0 translated messages, 21 untranslated messages.
+rm -f el.gmo && /usr/bin/msgfmt -c --statistics --verbose -o el.gmo el.po
+dz.po: 1 translated message, 20 untranslated messages.
+rm -f en_CA.gmo && /usr/bin/msgfmt -c --statistics --verbose -o en_CA.gmo en_CA.po
+el.po: 11 translated messages, 10 untranslated messages.
+rm -f en_AU.gmo && /usr/bin/msgfmt -c --statistics --verbose -o en_AU.gmo en_AU.po
+rm -f en_GB.gmo && /usr/bin/msgfmt -c --statistics --verbose -o en_GB.gmo en_GB.po
+en_CA.po: 1 translated message, 20 untranslated messages.
+rm -f eo.gmo && /usr/bin/msgfmt -c --statistics --verbose -o eo.gmo eo.po
+rm -f es.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es.gmo es.po
+en_GB.po: 12 translated messages, 9 untranslated messages.
+eo.po: 11 translated messages, 10 untranslated messages.
+rm -f es_419.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_419.gmo es_419.po
+es.po: 19 translated messages, 2 untranslated messages.
+en_AU.po: 10 translated messages, 11 untranslated messages.
+es_419.po: 0 translated messages, 21 untranslated messages.
+rm -f es_AR.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_AR.gmo es_AR.po
+rm -f es_CL.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_CL.gmo es_CL.po
+rm -f es_CO.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_CO.gmo es_CO.po
+rm -f es_CR.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_CR.gmo es_CR.po
+es_CL.po: 0 translated messages, 21 untranslated messages.
+rm -f es_DO.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_DO.gmo es_DO.po
+es_CR.po: 0 translated messages, 21 untranslated messages.
+es_DO.po: 0 translated messages, 21 untranslated messages.
+es_CO.po: 10 translated messages, 11 untranslated messages.
+rm -f es_EC.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_EC.gmo es_EC.po
+es_AR.po: 11 translated messages, 10 untranslated messages.
+rm -f es_ES.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_ES.gmo es_ES.po
+es_EC.po: 0 translated messages, 21 untranslated messages.
+rm -f es_NI.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_NI.gmo es_NI.po
+es_ES.po: 11 translated messages, 10 untranslated messages.
+rm -f es_MX.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_MX.gmo es_MX.po
+rm -f es_PA.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_PA.gmo es_PA.po
+es_NI.po: 0 translated messages, 21 untranslated messages.
+es_MX.po: 2 translated messages, 19 untranslated messages.
+rm -f es_PE.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_PE.gmo es_PE.po
+es_PA.po: 0 translated messages, 21 untranslated messages.
+rm -f es_PR.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_PR.gmo es_PR.po
+rm -f es_SV.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_SV.gmo es_SV.po
+es_PE.po: 0 translated messages, 21 untranslated messages.
+rm -f es_US.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_US.gmo es_US.po
+rm -f es_UY.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_UY.gmo es_UY.po
+es_PR.po: 0 translated messages, 21 untranslated messages.
+es_US.po: 0 translated messages, 21 untranslated messages.
+es_SV.po: 0 translated messages, 21 untranslated messages.
+rm -f es_VE.gmo && /usr/bin/msgfmt -c --statistics --verbose -o es_VE.gmo es_VE.po
+es_UY.po: 0 translated messages, 21 untranslated messages.
+es_VE.po: rm -f et.gmo && /usr/bin/msgfmt -c --statistics --verbose -o et.gmo et.po
+rm -f eu.gmo && /usr/bin/msgfmt -c --statistics --verbose -o eu.gmo eu.po
+0 translated messages, 21 untranslated messages.
+rm -f fa.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fa.gmo fa.po
+et.po: 7 translated messages, 14 untranslated messages.
+eu.po: 11 translated messages, 10 untranslated messages.
+rm -f fil.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fil.gmo fil.po
+fa.po: 2 translated messages, 19 untranslated messages.
+rm -f fi.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fi.gmo fi.po
+fil.po: 0 translated messages, 21 untranslated messages.
+rm -f fo.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fo.gmo fo.po
+rm -f fr.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fr.gmo fr.po
+rm -f fr_CA.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fr_CA.gmo fr_CA.po
+fi.po: 12 translated messages, 9 untranslated messages.
+fo.po: 0 translated messages, 21 untranslated messages.
+rm -f frp.gmo && /usr/bin/msgfmt -c --statistics --verbose -o frp.gmo frp.po
+fr.po: fr_CA.po: 0 translated messages, 21 untranslated messages.
+12 translated messages, 9 untranslated messages.
+rm -f fur.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fur.gmo fur.po
+frp.po: 0 translated messages, 21 untranslated messages.
+rm -f fy.gmo && /usr/bin/msgfmt -c --statistics --verbose -o fy.gmo fy.po
+rm -f ga.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ga.gmo ga.po
+fur.po: 1 translated message, 20 untranslated messages.
+rm -f gd.gmo && /usr/bin/msgfmt -c --statistics --verbose -o gd.gmo gd.po
+rm -f gl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o gl.gmo gl.po
+fy.po: 2 translated messages, 19 untranslated messages.
+ga.po: 1 translated message, 20 untranslated messages.
+gd.po: 0 translated messages, 21 untranslated messages.
+rm -f gu.gmo && /usr/bin/msgfmt -c --statistics --verbose -o gu.gmo gu.po
+gl.po: 19 translated messages, 2 untranslated messages.
+rm -f gug_PY.gmo && /usr/bin/msgfmt -c --statistics --verbose -o gug_PY.gmo gug_PY.po
+rm -f ha.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ha.gmo ha.po
+gu.po: 7 translated messages, 14 untranslated messages.
+rm -f he.gmo && /usr/bin/msgfmt -c --statistics --verbose -o he.gmo he.po
+rm -f hi.gmo && /usr/bin/msgfmt -c --statistics --verbose -o hi.gmo hi.po
+gug_PY.po: 0 translated messages, 21 untranslated messages.
+ha.po: 0 translated messages, 21 untranslated messages.
+he.po: 2 translated messages, 19 untranslated messages.
+rm -f hr.gmo && /usr/bin/msgfmt -c --statistics --verbose -o hr.gmo hr.po
+hi.po: 2 translated messages, 19 untranslated messages.
+rm -f hu.gmo && /usr/bin/msgfmt -c --statistics --verbose -o hu.gmo hu.po
+rm -f hy.gmo && /usr/bin/msgfmt -c --statistics --verbose -o hy.gmo hy.po
+hr.po: 10 translated messages, 11 untranslated messages.
+hu.po: 19 translated messages, 2 untranslated messages.
+rm -f ia.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ia.gmo ia.po
+rm -f id.gmo && /usr/bin/msgfmt -c --statistics --verbose -o id.gmo id.po
+hy.po: 2 translated messages, 19 untranslated messages.
+rm -f ie.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ie.gmo ie.po
+id.po: 12 translated messages, 9 untranslated messages.
+rm -f ig.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ig.gmo ig.po
+ia.po: 0 translated messages, 21 untranslated messages.
+ie.po: 11 translated messages, 10 untranslated messages.
+rm -f is.gmo && /usr/bin/msgfmt -c --statistics --verbose -o is.gmo is.po
+ig.po: 0 translated messages, 21 untranslated messages.
+rm -f it.gmo && /usr/bin/msgfmt -c --statistics --verbose -o it.gmo it.po
+rm -f ja.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ja.gmo ja.po
+it.po: 19 translated messages, 2 untranslated messages.
+rm -f jv.gmo && /usr/bin/msgfmt -c --statistics --verbose -o jv.gmo jv.po
+is.po: 2 translated messages, 19 untranslated messages.
+ja.po: rm -f ka.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ka.gmo ka.po
+12 translated messages, 9 untranslated messages.
+jv.po: 0 translated messages, 21 untranslated messages.
+rm -f kab.gmo && /usr/bin/msgfmt -c --statistics --verbose -o kab.gmo kab.po
+ka.po: 5 translated messages, 16 untranslated messages.
+rm -f kk.gmo && /usr/bin/msgfmt -c --statistics --verbose -o kk.gmo kk.po
+rm -f km.gmo && /usr/bin/msgfmt -c --statistics --verbose -o km.gmo km.po
+rm -f kn.gmo && /usr/bin/msgfmt -c --statistics --verbose -o kn.gmo kn.po
+rm -f ko.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ko.gmo ko.po
+kk.po: 9 translated messages, 12 untranslated messages.
+kab.po: 2 translated messages, 19 untranslated messages.
+km.po: 0 translated messages, 21 untranslated messages.
+kn.po: 1 translated message, 20 untranslated messages.
+ko.po: 12 translated messages, 9 untranslated messages.
+rm -f ku.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ku.gmo ku.po
+rm -f ks.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ks.gmo ks.po
+rm -f ku_IQ.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ku_IQ.gmo ku_IQ.po
+ku.po: 0 translated messages, 21 untranslated messages.
+rm -f la.gmo && /usr/bin/msgfmt -c --statistics --verbose -o la.gmo la.po
+ks.po: 0 translated messages, 21 untranslated messages.
+rm -f ky.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ky.gmo ky.po
+ku_IQ.po: 0 translated messages, 21 untranslated messages.
+ky.po: 2 translated messages, 19 untranslated messages.
+la.po: 0 translated messages, 21 untranslated messages.
+rm -f lb.gmo && /usr/bin/msgfmt -c --statistics --verbose -o lb.gmo lb.po
+rm -f li.gmo && /usr/bin/msgfmt -c --statistics --verbose -o li.gmo li.po
+rm -f lo.gmo && /usr/bin/msgfmt -c --statistics --verbose -o lo.gmo lo.po
+li.po: 1 translated message, 20 untranslated messages.
+lb.po: 0 translated messages, 21 untranslated messages.
+rm -f lt.gmo && /usr/bin/msgfmt -c --statistics --verbose -o lt.gmo lt.po
+rm -f lv.gmo && /usr/bin/msgfmt -c --statistics --verbose -o lv.gmo lv.po
+lo.po: 0 translated messages, 21 untranslated messages.
+rm -f mai.gmo && /usr/bin/msgfmt -c --statistics --verbose -o mai.gmo mai.po
+rm -f mg.gmo && /usr/bin/msgfmt -c --statistics --verbose -o mg.gmo mg.po
+rm -f mi.gmo && /usr/bin/msgfmt -c --statistics --verbose -o mi.gmo mi.po
+lt.po: 12 translated messages, 9 untranslated messages.
+lv.po: 2 translated messages, 19 untranslated messages.
+mai.po: 1 translated message, 20 untranslated messages.
+mg.po: 1 translated message, 20 untranslated messages.
+mi.po: 0 translated messages, 21 untranslated messages.
+rm -f mk.gmo && /usr/bin/msgfmt -c --statistics --verbose -o mk.gmo mk.po
+rm -f mr.gmo && /usr/bin/msgfmt -c --statistics --verbose -o mr.gmo mr.po
+rm -f mn.gmo && /usr/bin/msgfmt -c --statistics --verbose -o mn.gmo mn.po
+rm -f ml.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ml.gmo ml.po
+rm -f ms.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ms.gmo ms.po
+mn.po: 1 translated message, 20 untranslated messages.
+mr.po: 2 translated messages, 19 untranslated messages.
+mk.po: 1 translated message, 20 untranslated messages.
+ml.po: 1 translated message, 20 untranslated messages.
+ms.po: 19 translated messages, 2 untranslated messages.
+rm -f my.gmo && /usr/bin/msgfmt -c --statistics --verbose -o my.gmo my.po
+my.po: rm -f nb.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nb.gmo nb.po
+rm -f ne.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ne.gmo ne.po
+rm -f nah.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nah.gmo nah.po
+0 translated messages, 21 untranslated messages.
+rm -f nds.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nds.gmo nds.po
+ne.po: 1 translated message, 20 untranslated messages.
+nah.po: 0 translated messages, 21 untranslated messages.
+rm -f nl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nl.gmo nl.po
+nds.po: 9 translated messages, 12 untranslated messages.
+nb.po: 12 translated messages, 9 untranslated messages.
+nl.po: 19 translated messages, 2 untranslated messages.
+rm -f nn.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nn.gmo nn.po
+rm -f nqo.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nqo.gmo nqo.po
+rm -f nso.gmo && /usr/bin/msgfmt -c --statistics --verbose -o nso.gmo nso.po
+rm -f oc.gmo && /usr/bin/msgfmt -c --statistics --verbose -o oc.gmo oc.po
+nn.po: 1 translated message, 20 untranslated messages.
+nqo.po: 0 translated messages, 21 untranslated messages.
+rm -f om.gmo && /usr/bin/msgfmt -c --statistics --verbose -o om.gmo om.po
+oc.po: 19 translated messages, 2 untranslated messages.
+nso.po: 0 translated messages, 21 untranslated messages.
+rm -f or.gmo && /usr/bin/msgfmt -c --statistics --verbose -o or.gmo or.po
+om.po: 0 translated messages, 21 untranslated messages.
+rm -f pa.gmo && /usr/bin/msgfmt -c --statistics --verbose -o pa.gmo pa.po
+rm -f pl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o pl.gmo pl.po
+or.po: 1 translated message, 20 untranslated messages.
+rm -f pms.gmo && /usr/bin/msgfmt -c --statistics --verbose -o pms.gmo pms.po
+pa.po: pl.po: 13 translated messages, 8 untranslated messages.
+rm -f ps.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ps.gmo ps.po
+1 translated message, 20 untranslated messages.
+pms.po: 0 translated messages, 21 untranslated messages.
+ps.po: 0 translated messages, 21 untranslated messages.
+rm -f pt.gmo && /usr/bin/msgfmt -c --statistics --verbose -o pt.gmo pt.po
+rm -f pt_BR.gmo && /usr/bin/msgfmt -c --statistics --verbose -o pt_BR.gmo pt_BR.po
+rm -f ro.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ro.gmo ro.po
+pt.po: 12 translated messages, 9 untranslated messages.
+rm -f rw.gmo && /usr/bin/msgfmt -c --statistics --verbose -o rw.gmo rw.po
+rm -f ru.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ru.gmo ru.po
+pt_BR.po: 12 translated messages, 9 untranslated messages.
+ro.po: 11 translated messages, 10 untranslated messages.
+rw.po: 0 translated messages, 21 untranslated messages.
+ru.po: 12 translated messages, 9 untranslated messages.
+rm -f sco.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sco.gmo sco.po
+rm -f sc.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sc.gmo sc.po
+rm -f si.gmo && /usr/bin/msgfmt -c --statistics --verbose -o si.gmo si.po
+sc.po: 0 translated messages, 21 untranslated messages.
+rm -f sl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sl.gmo sl.po
+rm -f sk.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sk.gmo sk.po
+sco.po: 0 translated messages, 21 untranslated messages.
+si.po: 1 translated message, 20 untranslated messages.
+sl.po: 10 translated messages, 11 untranslated messages.
+sk.po: 12 translated messages, 9 untranslated messages.
+rm -f so.gmo && /usr/bin/msgfmt -c --statistics --verbose -o so.gmo so.po
+rm -f sq.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sq.gmo sq.po
+rm -f sr.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sr.gmo sr.po
+rm -f sv.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sv.gmo sv.po
+so.po: 0 translated messages, 21 untranslated messages.
+sq.po: 11 translated messagesrm -f sr@latin.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sr@latin.gmo sr@latin.po
+, 10 untranslated messages.
+sr.po: 12 translated messages, 9 untranslated messages.
+sv.po: 19 translated messages, 2 untranslated messages.
+sr@latin.po: 1 translated message, 20 untranslated messages.
+rm -f sw.gmo && /usr/bin/msgfmt -c --statistics --verbose -o sw.gmo sw.po
+rm -f ta.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ta.gmo ta.po
+rm -f te.gmo && /usr/bin/msgfmt -c --statistics --verbose -o te.gmo te.po
+rm -f tg.gmo && /usr/bin/msgfmt -c --statistics --verbose -o tg.gmo tg.po
+sw.po: 0 translated messages, 21 untranslated messages.
+rm -f th.gmo && /usr/bin/msgfmt -c --statistics --verbose -o th.gmo th.po
+ta.po: 1 translated message, 20 untranslated messages.
+te.po: 1 translated message, 20 untranslated messages.
+tg.po: 0 translated messages, 21 untranslated messages.
+th.po: 2 translated messages, 19 untranslated messages.
+rm -f tl.gmo && /usr/bin/msgfmt -c --statistics --verbose -o tl.gmo tl.po
+rm -f tk.gmo && /usr/bin/msgfmt -c --statistics --verbose -o tk.gmo tk.po
+rm -f tr.gmo && /usr/bin/msgfmt -c --statistics --verbose -o tr.gmo tr.po
+rm -f ts.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ts.gmo ts.po
+tr.po: 12 translated messages, 9 untranslated messages.
+tk.po: 0 translated messages, 21 untranslated messages.
+tl.po: 0 translated messages, 21 untranslated messages.
+rm -f tt.gmo && /usr/bin/msgfmt -c --statistics --verbose -o tt.gmo tt.po
+ts.po: 0 translated messages, 21 untranslated messages.
+rm -f ug.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ug.gmo ug.po
+rm -f ur.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ur.gmo ur.po
+rm -f uk.gmo && /usr/bin/msgfmt -c --statistics --verbose -o uk.gmo uk.po
+tt.po: 0 translated messages, 21 untranslated messages.
+ug.po: 1 translated message, 20 untranslated messages.
+rm -f ur_PK.gmo && /usr/bin/msgfmt -c --statistics --verbose -o ur_PK.gmo ur_PK.po
+ur.po: 0 translated messages, 21 untranslated messages.
+uk.po: 19 translated messages, 2 untranslated messages.
+ur_PK.po: 0 translated messages, 21 untranslated messages.
+rm -f vi.gmo && /usr/bin/msgfmt -c --statistics --verbose -o vi.gmo vi.po
+rm -f uz.gmo && /usr/bin/msgfmt -c --statistics --verbose -o uz.gmo uz.po
+rm -f wa.gmo && /usr/bin/msgfmt -c --statistics --verbose -o wa.gmo wa.po
+rm -f xh.gmo && /usr/bin/msgfmt -c --statistics --verbose -o xh.gmo xh.po
+rm -f yi.gmo && /usr/bin/msgfmt -c --statistics --verbose -o yi.gmo yi.po
+vi.po: 10 translated messages, 11 untranslated messages.
+uz.po: 7 translated messages, 14 untranslated messages.
+xh.po: wa.po: 1 translated message, 20 untranslated messages.
+1 translated message, 20 untranslated messages.
+yi.po: 0 translated messages, 21 untranslated messages.
+rm -f yo.gmo && /usr/bin/msgfmt -c --statistics --verbose -o yo.gmo yo.po
+rm -f zh_CN.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zh_CN.gmo zh_CN.po
+rm -f zh-Hans.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zh-Hans.gmo zh-Hans.po
+rm -f zh_TW.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zh_TW.gmo zh_TW.po
+yo.po: 0 translated messages, 21 untranslated messages.
+zh_CN.po: rm -f zh_HK.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zh_HK.gmo zh_HK.po
+12 translated messages, 9 untranslated messages.
+zh-Hans.po: 0 translated messages, 21 untranslated messages.
+zh_TW.po: 19 translated messages, 2 untranslated messages.
+zh_HK.po: 1 translated message, 20 untranslated messages.
+rm -f zu.gmo && /usr/bin/msgfmt -c --statistics --verbose -o zu.gmo zu.po
+zu.po: 0 translated messages, 21 untranslated messages.
+make[2]: Leaving directory '/rootdir/po'
+touch stamp-po
+make[1]: Leaving directory '/rootdir/po'
+Making all in croma-themes
+make[1]: Entering directory '/rootdir/croma-themes'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/rootdir/croma-themes'
+Making all in icon-themes
+make[1]: Entering directory '/rootdir/icon-themes'
+Making all in ContrastBig
+make[2]: Entering directory '/rootdir/icon-themes/ContrastBig'
+Making all in 16x16
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/actions'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/apps'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/emblems'
+Making all in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/emotes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/emotes'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/places'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/status'
+Making all in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/stock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16'
+Making all in 22x22
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/actions'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/apps'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/emblems'
+Making all in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/emotes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/emotes'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/places'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/status'
+Making all in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/stock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22'
+Making all in 24x24
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/actions'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/apps'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/emblems'
+Making all in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/emotes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/emotes'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/places'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/status'
+Making all in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/stock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24'
+Making all in 32x32
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/actions'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/apps'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/emblems'
+Making all in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/emotes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/emotes'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/places'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/status'
+Making all in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/stock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32'
+Making all in 48x48
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/actions'
+Making all in animations
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/animations'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/animations'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/apps'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/emblems'
+Making all in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/emotes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/emotes'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/places'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/status'
+Making all in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/stock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48'
+Making all in 256x256
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/actions'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/apps'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/emblems'
+Making all in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/emotes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/emotes'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/places'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/status'
+Making all in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/stock'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256'
+Making all in scalable
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable'
+Making all in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/actions'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/actions'
+Making all in actions-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/actions-extra'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/actions-extra'
+Making all in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/apps'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/apps'
+Making all in apps-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/apps-extra'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/apps-extra'
+Making all in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/categories'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/categories'
+Making all in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/devices'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/devices'
+Making all in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/emblems'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/emblems'
+Making all in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/mimetypes'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/mimetypes'
+Making all in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/places'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/places'
+Making all in places-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/places-extra'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/places-extra'
+Making all in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/status'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/status'
+Making all in status-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/status-extra'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/status-extra'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable'
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig'
+make[2]: Leaving directory '/rootdir/icon-themes/ContrastBig'
+make[2]: Entering directory '/rootdir/icon-themes'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/rootdir/icon-themes'
+make[1]: Leaving directory '/rootdir/icon-themes'
+Making all in desktop-themes
+make[1]: Entering directory '/rootdir/desktop-themes'
+Making all in BlackCAFE
+make[2]: Entering directory '/rootdir/desktop-themes/BlackCAFE'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/assets'
+Making all in Styles
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/Styles'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/Styles'
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/assets'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/assets'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/metacity-1'
+Making all in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/cinnamon'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/cinnamon'
+Making all in unity
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/unity'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/unity'
+Making all in apps
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/apps'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/apps'
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlackCAFE'
+Making all in BlackCAFE-border
+make[2]: Entering directory '/rootdir/desktop-themes/BlackCAFE-border'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE-border/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE-border'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlackCAFE-border'
+Making all in BlueMint
+make[2]: Entering directory '/rootdir/desktop-themes/BlueMint'
+Making all in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/cinnamon'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/cinnamon'
+Making all in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/emerald'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/emerald'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+Making all in apps
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+Making all in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Handles'
+Making all in Baul
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Baul'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Baul'
+Making all in Null
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Null'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Null'
+Making all in Others
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Others'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Others'
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+Making all in widgets
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+Making all in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Panel'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Panel'
+Making all in Null
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Null'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Null'
+Making all in Others
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Others'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Others'
+Making all in Scale
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Scale'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Scale'
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/assets'
+Making all in borders
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/borders'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/borders'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/assets'
+Making all in borders
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/borders'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/borders'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/metacity-1'
+Making all in unity
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/unity'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/unity'
+Making all in xfwm4
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/xfwm4'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/xfwm4'
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlueMint'
+Making all in BlueMint-border
+make[2]: Entering directory '/rootdir/desktop-themes/BlueMint-border'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint-border/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint-border'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlueMint-border'
+Making all in Blue-Undersea
+make[2]: Entering directory '/rootdir/desktop-themes/Blue-Undersea'
+Making all in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/cinnamon'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/cinnamon'
+Making all in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/emerald'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/emerald'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+Making all in apps
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+Making all in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Handles'
+Making all in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Panel'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Panel'
+make[5]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea'
+make[2]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea'
+Making all in Blue-Undersea-border
+make[2]: Entering directory '/rootdir/desktop-themes/Blue-Undersea-border'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea-border/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea-border'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea-border'
+Making all in ContrastBig
+make[2]: Entering directory '/rootdir/desktop-themes/ContrastBig'
+  GEN      index.theme
+make[2]: Leaving directory '/rootdir/desktop-themes/ContrastBig'
+Making all in GreenLagoon
+make[2]: Entering directory '/rootdir/desktop-themes/GreenLagoon'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+Making all in Styles
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0/Styles'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0/Styles'
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/assets'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/assets'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/metacity-1'
+Making all in unity
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/unity'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/unity'
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon'
+make[2]: Leaving directory '/rootdir/desktop-themes/GreenLagoon'
+Making all in GreenLagoon-border
+make[2]: Entering directory '/rootdir/desktop-themes/GreenLagoon-border'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon-border/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon-border'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/GreenLagoon-border'
+Making all in Green-Undersea
+make[2]: Entering directory '/rootdir/desktop-themes/Green-Undersea'
+Making all in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/cinnamon'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/cinnamon'
+Making all in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/emerald'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/emerald'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+Making all in apps
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+Making all in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Handles'
+Making all in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Panel'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Panel'
+make[5]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea'
+make[2]: Leaving directory '/rootdir/desktop-themes/Green-Undersea'
+Making all in Green-Undersea-border
+make[2]: Entering directory '/rootdir/desktop-themes/Green-Undersea-border'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea-border/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea-border'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/Green-Undersea-border'
+Making all in BigContrastInverse
+make[2]: Entering directory '/rootdir/desktop-themes/BigContrastInverse'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse/gtk-2.0'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse/gtk-2.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse/metacity-1'
+Making all in pixmaps
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse/pixmaps'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse/pixmaps'
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse'
+make[2]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse'
+Making all in Mint
+make[2]: Entering directory '/rootdir/desktop-themes/Mint'
+Making all in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/cinnamon'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/cinnamon'
+Making all in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/emerald'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/emerald'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+Making all in apps
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+Making all in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Handles'
+Making all in Baul
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Baul'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Baul'
+Making all in Null
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Null'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Null'
+Making all in Others
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Others'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Others'
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+Making all in widgets
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+Making all in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Panel'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Panel'
+Making all in Null
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Null'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Null'
+Making all in Others
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Others'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Others'
+Making all in Scale
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Scale'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Scale'
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+make[5]: Nothing to be done for 'all-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0/assets'
+Making all in borders
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0/borders'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0/borders'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+Making all in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0/assets'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0/assets'
+Making all in borders
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0/borders'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0/borders'
+Making all in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/metacity-1'
+Making all in unity
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/unity'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/unity'
+Making all in xfwm4
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/xfwm4'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/xfwm4'
+make[3]: Entering directory '/rootdir/desktop-themes/Mint'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint'
+make[2]: Leaving directory '/rootdir/desktop-themes/Mint'
+Making all in Mint-border
+make[2]: Entering directory '/rootdir/desktop-themes/Mint-border'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Mint-border/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Mint-border'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/Mint-border'
+Making all in ClassicGreen
+make[2]: Entering directory '/rootdir/desktop-themes/ClassicGreen'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-2.0'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+Making all in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0/img'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+Making all in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0/img'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen'
+make[2]: Leaving directory '/rootdir/desktop-themes/ClassicGreen'
+Making all in ClassicOk
+make[2]: Entering directory '/rootdir/desktop-themes/ClassicOk'
+Making all in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-2.0'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-2.0'
+Making all in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+Making all in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0/img'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+Making all in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+Making all in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0/img'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+Making all in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/metacity-1'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/metacity-1'
+Making all in openbox-3
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/openbox-3'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/openbox-3'
+Making all in xfwm4
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+Making all in png
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/xfwm4/png'
+make[4]: Nothing to be done for 'all'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/xfwm4/png'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+make[4]: Nothing to be done for 'all-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk'
+make[2]: Leaving directory '/rootdir/desktop-themes/ClassicOk'
+make[2]: Entering directory '/rootdir/desktop-themes'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/rootdir/desktop-themes'
+make[1]: Leaving directory '/rootdir/desktop-themes'
+Making all in cursor-themes
+make[1]: Entering directory '/rootdir/cursor-themes'
+Making all in cafe-black
+make[2]: Entering directory '/rootdir/cursor-themes/cafe-black'
+Making all in cursors
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-black/cursors'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-black/cursors'
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-black'
+  GEN      index.theme
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-black'
+make[2]: Leaving directory '/rootdir/cursor-themes/cafe-black'
+Making all in cafe-white
+make[2]: Entering directory '/rootdir/cursor-themes/cafe-white'
+Making all in cursors
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-white/cursors'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-white/cursors'
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-white'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-white'
+make[2]: Leaving directory '/rootdir/cursor-themes/cafe-white'
+make[2]: Entering directory '/rootdir/cursor-themes'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/rootdir/cursor-themes'
+make[1]: Leaving directory '/rootdir/cursor-themes'
+make[1]: Entering directory '/rootdir'
+make[1]: Nothing to be done for 'all-am'.
+make[1]: Leaving directory '/rootdir'
+scan-build: Analysis run complete.
+scan-build: Removing directory '/rootdir/html-report/2025-09-25-070512-17003-1' because it contains no reports.
+scan-build: No bugs found.
+Making check in po
+make[1]: Entering directory '/rootdir/po'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/rootdir/po'
+Making check in croma-themes
+make[1]: Entering directory '/rootdir/croma-themes'
+make[1]: Nothing to be done for 'check'.
+make[1]: Leaving directory '/rootdir/croma-themes'
+Making check in icon-themes
+make[1]: Entering directory '/rootdir/icon-themes'
+Making check in ContrastBig
+make[2]: Entering directory '/rootdir/icon-themes/ContrastBig'
+Making check in 16x16
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/actions'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/apps'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/emblems'
+Making check in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/emotes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/emotes'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/places'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/status'
+Making check in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16/stock'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/16x16'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/16x16'
+Making check in 22x22
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/actions'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/apps'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/emblems'
+Making check in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/emotes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/emotes'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/places'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/status'
+Making check in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22/stock'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/22x22'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/22x22'
+Making check in 24x24
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/actions'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/apps'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/emblems'
+Making check in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/emotes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/emotes'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/places'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/status'
+Making check in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24/stock'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/24x24'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/24x24'
+Making check in 32x32
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/actions'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/apps'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/emblems'
+Making check in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/emotes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/emotes'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/places'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/status'
+Making check in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32/stock'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/32x32'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/32x32'
+Making check in 48x48
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/actions'
+Making check in animations
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/animations'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/animations'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/apps'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/emblems'
+Making check in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/emotes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/emotes'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/places'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/status'
+Making check in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48/stock'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/48x48'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/48x48'
+Making check in 256x256
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/actions'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/apps'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/emblems'
+Making check in emotes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/emotes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/emotes'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/places'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/status'
+Making check in stock
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256/stock'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256/stock'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/256x256'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/256x256'
+Making check in scalable
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable'
+Making check in actions
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/actions'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/actions'
+Making check in actions-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/actions-extra'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/actions-extra'
+Making check in apps
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/apps'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/apps'
+Making check in apps-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/apps-extra'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/apps-extra'
+Making check in categories
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/categories'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/categories'
+Making check in devices
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/devices'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/devices'
+Making check in emblems
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/emblems'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/emblems'
+Making check in mimetypes
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/mimetypes'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/mimetypes'
+Making check in places
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/places'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/places'
+Making check in places-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/places-extra'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/places-extra'
+Making check in status
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/status'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/status'
+Making check in status-extra
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable/status-extra'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable/status-extra'
+make[4]: Entering directory '/rootdir/icon-themes/ContrastBig/scalable'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable'
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig/scalable'
+make[3]: Entering directory '/rootdir/icon-themes/ContrastBig'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/icon-themes/ContrastBig'
+make[2]: Leaving directory '/rootdir/icon-themes/ContrastBig'
+make[2]: Entering directory '/rootdir/icon-themes'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/rootdir/icon-themes'
+make[1]: Leaving directory '/rootdir/icon-themes'
+Making check in desktop-themes
+make[1]: Entering directory '/rootdir/desktop-themes'
+Making check in BlackCAFE
+make[2]: Entering directory '/rootdir/desktop-themes/BlackCAFE'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/assets'
+Making check in Styles
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/Styles'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0/Styles'
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/assets'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/assets'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/metacity-1'
+Making check in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/cinnamon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/cinnamon'
+Making check in unity
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/unity'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/unity'
+Making check in apps
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE/apps'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE/apps'
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlackCAFE'
+Making check in BlackCAFE-border
+make[2]: Entering directory '/rootdir/desktop-themes/BlackCAFE-border'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE-border/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/BlackCAFE-border'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlackCAFE-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlackCAFE-border'
+Making check in BlueMint
+make[2]: Entering directory '/rootdir/desktop-themes/BlueMint'
+Making check in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/cinnamon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/cinnamon'
+Making check in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/emerald'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/emerald'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+Making check in apps
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+Making check in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Handles'
+Making check in Baul
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Baul'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Baul'
+Making check in Null
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Null'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Null'
+Making check in Others
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Others'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps/Others'
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/apps'
+Making check in widgets
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+Making check in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Panel'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Panel'
+Making check in Null
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Null'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Null'
+Making check in Others
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Others'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Others'
+Making check in Scale
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Scale'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets/Scale'
+make[5]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0/widgets'
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/assets'
+Making check in borders
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/borders'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/borders'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/assets'
+Making check in borders
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/borders'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/borders'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/metacity-1'
+Making check in unity
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/unity'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/unity'
+Making check in xfwm4
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint/xfwm4'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint/xfwm4'
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlueMint'
+Making check in BlueMint-border
+make[2]: Entering directory '/rootdir/desktop-themes/BlueMint-border'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint-border/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/BlueMint-border'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BlueMint-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/BlueMint-border'
+Making check in Blue-Undersea
+make[2]: Entering directory '/rootdir/desktop-themes/Blue-Undersea'
+Making check in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/cinnamon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/cinnamon'
+Making check in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/emerald'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/emerald'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+Making check in apps
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+Making check in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Handles'
+Making check in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Panel'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps/Panel'
+make[5]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/apps'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea'
+make[2]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea'
+Making check in Blue-Undersea-border
+make[2]: Entering directory '/rootdir/desktop-themes/Blue-Undersea-border'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea-border/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Blue-Undersea-border'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/Blue-Undersea-border'
+Making check in ContrastBig
+make[2]: Entering directory '/rootdir/desktop-themes/ContrastBig'
+make[2]: Nothing to be done for 'check'.
+make[2]: Leaving directory '/rootdir/desktop-themes/ContrastBig'
+Making check in GreenLagoon
+make[2]: Entering directory '/rootdir/desktop-themes/GreenLagoon'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+Making check in Styles
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0/Styles'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0/Styles'
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/assets'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/assets'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/metacity-1'
+Making check in unity
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon/unity'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon/unity'
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon'
+make[2]: Leaving directory '/rootdir/desktop-themes/GreenLagoon'
+Making check in GreenLagoon-border
+make[2]: Entering directory '/rootdir/desktop-themes/GreenLagoon-border'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon-border/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/GreenLagoon-border'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/GreenLagoon-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/GreenLagoon-border'
+Making check in Green-Undersea
+make[2]: Entering directory '/rootdir/desktop-themes/Green-Undersea'
+Making check in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/cinnamon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/cinnamon'
+Making check in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/emerald'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/emerald'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+Making check in apps
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+Making check in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Handles'
+Making check in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Panel'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps/Panel'
+make[5]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/apps'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0/assets'
+make[4]: Entering directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea'
+make[2]: Leaving directory '/rootdir/desktop-themes/Green-Undersea'
+Making check in Green-Undersea-border
+make[2]: Entering directory '/rootdir/desktop-themes/Green-Undersea-border'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea-border/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Green-Undersea-border'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Green-Undersea-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/Green-Undersea-border'
+Making check in BigContrastInverse
+make[2]: Entering directory '/rootdir/desktop-themes/BigContrastInverse'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse/gtk-2.0'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse/gtk-2.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse/metacity-1'
+Making check in pixmaps
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse/pixmaps'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse/pixmaps'
+make[3]: Entering directory '/rootdir/desktop-themes/BigContrastInverse'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse'
+make[2]: Leaving directory '/rootdir/desktop-themes/BigContrastInverse'
+Making check in Mint
+make[2]: Entering directory '/rootdir/desktop-themes/Mint'
+Making check in cinnamon
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/cinnamon'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/cinnamon'
+Making check in emerald
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/emerald'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/emerald'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+Making check in apps
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+Making check in Handles
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Handles'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Handles'
+Making check in Baul
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Baul'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Baul'
+Making check in Null
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Null'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Null'
+Making check in Others
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Others'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps/Others'
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/apps'
+Making check in widgets
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+Making check in Panel
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Panel'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Panel'
+Making check in Null
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Null'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Null'
+Making check in Others
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Others'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Others'
+Making check in Scale
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Scale'
+make[5]: Nothing to be done for 'check'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets/Scale'
+make[5]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+make[5]: Nothing to be done for 'check-am'.
+make[5]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0/widgets'
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0/assets'
+Making check in borders
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0/borders'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0/borders'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+Making check in assets
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0/assets'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0/assets'
+Making check in borders
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0/borders'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0/borders'
+Making check in window-controls
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0/window-controls'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0/window-controls'
+make[4]: Entering directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/metacity-1'
+Making check in unity
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/unity'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/unity'
+Making check in xfwm4
+make[3]: Entering directory '/rootdir/desktop-themes/Mint/xfwm4'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint/xfwm4'
+make[3]: Entering directory '/rootdir/desktop-themes/Mint'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint'
+make[2]: Leaving directory '/rootdir/desktop-themes/Mint'
+Making check in Mint-border
+make[2]: Entering directory '/rootdir/desktop-themes/Mint-border'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/Mint-border/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint-border/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/Mint-border'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/Mint-border'
+make[2]: Leaving directory '/rootdir/desktop-themes/Mint-border'
+Making check in ClassicGreen
+make[2]: Entering directory '/rootdir/desktop-themes/ClassicGreen'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-2.0'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+Making check in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0/img'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+Making check in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0/img'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen/metacity-1'
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicGreen'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicGreen'
+make[2]: Leaving directory '/rootdir/desktop-themes/ClassicGreen'
+Making check in ClassicOk
+make[2]: Entering directory '/rootdir/desktop-themes/ClassicOk'
+Making check in gtk-2.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-2.0'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-2.0'
+Making check in gtk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+Making check in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0/img'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/gtk-3.0'
+Making check in ctk-3.0
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+Making check in img
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0/img'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0/img'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/ctk-3.0'
+Making check in metacity-1
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/metacity-1'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/metacity-1'
+Making check in openbox-3
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/openbox-3'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/openbox-3'
+Making check in xfwm4
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+Making check in png
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/xfwm4/png'
+make[4]: Nothing to be done for 'check'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/xfwm4/png'
+make[4]: Entering directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+make[4]: Nothing to be done for 'check-am'.
+make[4]: Leaving directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk/xfwm4'
+make[3]: Entering directory '/rootdir/desktop-themes/ClassicOk'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/desktop-themes/ClassicOk'
+make[2]: Leaving directory '/rootdir/desktop-themes/ClassicOk'
+make[2]: Entering directory '/rootdir/desktop-themes'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/rootdir/desktop-themes'
+make[1]: Leaving directory '/rootdir/desktop-themes'
+Making check in cursor-themes
+make[1]: Entering directory '/rootdir/cursor-themes'
+Making check in cafe-black
+make[2]: Entering directory '/rootdir/cursor-themes/cafe-black'
+Making check in cursors
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-black/cursors'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-black/cursors'
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-black'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-black'
+make[2]: Leaving directory '/rootdir/cursor-themes/cafe-black'
+Making check in cafe-white
+make[2]: Entering directory '/rootdir/cursor-themes/cafe-white'
+Making check in cursors
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-white/cursors'
+make[3]: Nothing to be done for 'check'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-white/cursors'
+make[3]: Entering directory '/rootdir/cursor-themes/cafe-white'
+make[3]: Nothing to be done for 'check-am'.
+make[3]: Leaving directory '/rootdir/cursor-themes/cafe-white'
+make[2]: Leaving directory '/rootdir/cursor-themes/cafe-white'
+make[2]: Entering directory '/rootdir/cursor-themes'
+make[2]: Nothing to be done for 'check-am'.
+make[2]: Leaving directory '/rootdir/cursor-themes'
+make[1]: Leaving directory '/rootdir/cursor-themes'
+make[1]: Entering directory '/rootdir'
+make[1]: Nothing to be done for 'check-am'.
+make[1]: Leaving directory '/rootdir'
