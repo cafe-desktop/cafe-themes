@@ -8,4 +8,4 @@ before_scripts:
   - ./debrepo-install
 
 build_scripts:
-  - ./build-debs https://github.com/cafe-desktop/debian-packages devel cafe-themes
+  - ./testrepo
