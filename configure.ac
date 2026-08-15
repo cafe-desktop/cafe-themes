@@ -1,14 +1,14 @@
-AC_PREREQ(2.53)
+AC_PREREQ(2.62)
 
 AC_INIT([cafe-themes], [2.0.1], [https://cafe-desktop.org])
 AC_CONFIG_SRCDIR([icon-themes])
 
-AM_INIT_AUTOMAKE([1.9 tar-ustar dist-xz no-dist-gzip check-news])
+AM_INIT_AUTOMAKE([1.11 tar-ustar dist-xz no-dist-gzip check-news])
 
-# Enable silent build rules by default, requires at least
-# Automake-1.11. Disable by either passing --disable-silent-rules to
-# configure or passing V=1 to make
-m4_ifdef([AM_SILENT_RULES], [AM_SILENT_RULES([yes])])
+# Support silent build rules. Disable
+# by either passing --disable-silent-rules to configure or passing V=1
+# to make
+AM_SILENT_RULES([yes])
 
 PKG_PROG_PKG_CONFIG([0.19])
 AM_GNU_GETTEXT_VERSION([0.19.8])
