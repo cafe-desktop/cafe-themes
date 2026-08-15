@@ -1,3 +1,9 @@
+### cafe-themes 2.1.0
+
+  * ci: some improvements
+  * build: require autoconf 2.62 and automake 1.11
+
+
 ### cafe-themes 2.0.1
 
   * ci: add debian sid build
