@@ -3,23 +3,9 @@
 ##########################################################
 requires:
   debian:
-    # Useful URL: https://github.com/cafe-desktop/debian-packages
-    # cafe B-D: cafe-common
-    - aptitude
-    - clang
-    - clang-tools
-    - expect #required for unbuffer
-    - git
-    - icon-naming-utils
-    - intltool
-    - libgtk2.0-dev
-    - libxml-parser-perl
-    - make
-    - pkgconf
 
 before_scripts:
-  - ./install-from-git https://github.com/cafe-desktop/cafe-common master
+  - ./debrepo-install
 
 build_scripts:
-  - ./make-scanbuild
-  - ./exit-warning
+  - ./build-debs https://github.com/cafe-desktop/debian-packages devel cafe-themes
